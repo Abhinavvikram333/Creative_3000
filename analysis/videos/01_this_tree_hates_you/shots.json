@@ -1,0 +1,1172 @@
+[
+ {
+  "shot": 1,
+  "start_frame": 1,
+  "end_frame": 72,
+  "start_time": 0.0,
+  "end_time": 2.4,
+  "duration_s": 2.4,
+  "transition_in": {
+   "type": "none (video opens mid-action)",
+   "frames": [
+    1,
+    1
+   ]
+  },
+  "shot_size": "MS",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Near-static with a gentle drift: tiny pull 1–31 then a slow push-in 31–61 (x1.125 in 1 s) toward Kai as he sits.",
+   "measured": "frames 1-72: zoom x1.0851 (in), content dx +3px (camera pans left), content dy -31px (camera tilts down), roll +0.90 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1-31: x0.9650 +18 +79 615\n  31-61: x1.1252 -32 -136 786\n  61-72: x0.9994 +16 +26 580",
+   "easing": "linear, subtle"
+  },
+  "background_id": "bg01_day_tree_beach",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "P01",
+     "P02",
+     "P03"
+    ],
+    "emotion_ids": [
+     "E01",
+     "E02",
+     "E05",
+     "E03"
+    ],
+    "screen_position": "centre → lower-left",
+    "scale": "head ≈ 25 % frame width"
+   }
+  ],
+  "assets": [
+   "manchineel_tree",
+   "manchineel_apple"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "caption"
+  ],
+  "caption_words": "If you ever sit under this tree, it can kill you.",
+  "lighting": "bright midday, soft painterly light, warm sand bounce",
+  "palette": [
+   "#e3cb96",
+   "#25532f",
+   "#c6af7e",
+   "#66814f",
+   "#d2eaf7",
+   "#8dcfec"
+  ],
+  "notes": "Hook: a calm walk and sit, then an instant 'death' (X eyes + green head) on the word 'kill' (#64)."
+ },
+ {
+  "shot": 2,
+  "start_frame": 73,
+  "end_frame": 184,
+  "start_time": 2.4,
+  "end_time": 6.133,
+  "duration_s": 3.73,
+  "transition_in": {
+   "type": "camera move-through (continuous crane-up/pull-back that morphs from the cartoon plate into an AI-video aerial)",
+   "frames": [
+    73,
+    90
+   ]
+  },
+  "shot_size": "EWS",
+  "camera_angle": "high → bird's-eye",
+  "camera_motion": {
+   "description": "Huge accelerating crane-up + pull-back from the fallen Kai to a top-down aerial of a tiny island; eases out 150–184.",
+   "measured": "frames 73-184: zoom x0.0094 (out), content dx +1532px (camera pans left), content dy +3619px (camera tilts up), roll -5.25 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  73-103: x0.1942 +513 +1511 394\n  103-133: x0.1108 +739 +1547 241\n  133-163: x0.4366 +279 +557 373\n  163-184: x0.9977 +1 +3 373 | frames 90-184: zoom x0.0227 (out), content dx +1253px (camera pans left), content dy +2719px (camera tilts up), roll -3.70 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  90-120: x0.1593 +604 +1403 278\n  120-150: x0.1532 +634 +1256 241\n  150-180: x0.9281 +16 +62 662\n  180-184: x1.0034 -1 -2 373",
+   "easing": "ease-in-out (slow start 73–80, fastest 90–150, settles 150–184)"
+  },
+  "background_id": "bg02_aerial_island",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "P03"
+    ],
+    "emotion_ids": [
+     "E03"
+    ],
+    "screen_position": "centre, shrinking to a speck",
+    "scale": "→ 1 % of frame"
+   }
+  ],
+  "assets": [
+   "manchineel_tree"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "caption"
+  ],
+  "caption_words": "Imagine you're stranded on a beach and it's the only tree in sight.",
+  "lighting": "bright midday, deep blue sea, high-key",
+  "palette": [
+   "#0454a3",
+   "#c7e6f8",
+   "#7bc4ed",
+   "#2a8bca",
+   "#ead89d",
+   "#8fa644"
+  ],
+  "notes": "Establishing world. Looks like an image-to-video generation (soft, slightly grainy, real 3D parallax) rather than a 2D move."
+ },
+ {
+  "shot": 3,
+  "start_frame": 185,
+  "end_frame": 225,
+  "start_time": 6.133,
+  "end_time": 7.5,
+  "duration_s": 1.37,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    182,
+    190
+   ]
+  },
+  "shot_size": "insert",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Slow push-in on the poster (x1.089 over 190–220), then a tiny settle-back.",
+   "measured": "frames 190-225: zoom x0.9748 (out), content dx +15px (camera pans left), content dy -3px (camera tilts down), roll +0.92 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  190-220: x1.0886 -16 -71 600\n  220-225: x0.8955 +31 +68 458",
+   "easing": "linear"
+  },
+  "background_id": "poster on trunk (blurred beach)",
+  "characters": [],
+  "assets": [],
+  "unique_images": [
+   "poster_manchineel"
+  ],
+  "overlays": [
+   "caption"
+  ],
+  "caption_words": "It's called the manchineel.",
+  "lighting": "soft daylight, shallow depth of field",
+  "palette": [
+   "#e1d8c2",
+   "#d0bfa2",
+   "#af977c",
+   "#2e1e24",
+   "#80715d",
+   "#79bbe4"
+  ],
+  "notes": "Unique 'field guide' poster gives the name + Latin name + 'little apple of death'."
+ },
+ {
+  "shot": 4,
+  "start_frame": 226,
+  "end_frame": 457,
+  "start_time": 7.5,
+  "end_time": 15.233,
+  "duration_s": 7.73,
+  "transition_in": {
+   "type": "in-shot reveal: poster rips up and flies off top-left (paper wipe) + fast pull-back",
+   "frames": [
+    226,
+    252
+   ]
+  },
+  "shot_size": "MLS",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Fast pull-back/roll-out from the trunk (226–249: zoom x0.36, roll −27°), ease-out by ~280, then a slow push-in 310–430 (≈ +5 %/s) holding on Kai beside the trunk.",
+   "measured": "frames 226-249: zoom x0.3608 (out), content dx +2px (camera pans left), content dy +706px (camera tilts up), roll -27.42 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  226-249: x0.3608 +2 +706 150 | frames 250-455: zoom x0.9488 (out), content dx -40px (camera pans right), content dy +21px (camera tilts up), roll -3.06 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  250-280: x0.7393 +78 +284 630\n  280-310: x1.0178 +16 +72 686\n  310-340: x1.0418 -60 -136 738\n  340-370: x1.1098 -44 -131 771\n  370-400: x1.0555 -18 -44 750\n  400-430: x1.0254 -9 -20 955\n  430-455: x1.0076 -3 -5 888",
+   "easing": "ease-out on the pull-back, then linear slow push"
+  },
+  "background_id": "bg01_day_tree_beach",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "P04",
+     "P05",
+     "P06",
+     "P07"
+    ],
+    "emotion_ids": [
+     "E02",
+     "E04",
+     "E05",
+     "E06",
+     "E07",
+     "E08",
+     "E09"
+    ],
+    "screen_position": "right third, trunk with X left",
+    "scale": "head ≈ 22–27 % frame width"
+   }
+  ],
+  "assets": [
+   "manchineel_tree",
+   "manchineel_apple",
+   "butterfly"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "red_x_trunk",
+   "caption"
+  ],
+  "caption_words": "It looks completely harmless with little green apples hanging from the branches, but there's a big red X painted on its trunk and you're about to find out why. The first",
+  "lighting": "bright midday",
+  "palette": [
+   "#c2af8c",
+   "#244d2a",
+   "#457940",
+   "#868b5d",
+   "#d4eaf6",
+   "#8ac9e8"
+  ],
+  "notes": "Longest dialogue shot (7.7 s). Face swaps carry the beats: smug → worried on 'red x' (#358) → deadpan (#376) → shocked (#424)."
+ },
+ {
+  "shot": 5,
+  "start_frame": 458,
+  "end_frame": 515,
+  "start_time": 15.233,
+  "end_time": 17.167,
+  "duration_s": 1.93,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    455,
+    462
+   ]
+  },
+  "shot_size": "UI-screen",
+  "camera_angle": "bird's-eye",
+  "camera_motion": {
+   "description": "Locked camera; the UI animates (sweep rotates clockwise ~1 rev/2 s, clouds drift right). Push-through blur at the end.",
+   "measured": "frames 462-512: zoom x1.0047 (none), content dx -2px (camera pans right), content dy +1px (camera tilts up), roll +0.11 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  462-492: x1.0020 -1 +3 383\n  492-512: x1.0027 -1 -2 654",
+   "easing": "none"
+  },
+  "background_id": "radar UI",
+  "characters": [],
+  "assets": [],
+  "unique_images": [],
+  "overlays": [
+   "radar_screen",
+   "severe_storm_pill",
+   "caption"
+  ],
+  "caption_words": "night, a storm rolls in. Naturally,",
+  "lighting": "UI: dark navy, glowing white sweep",
+  "palette": [
+   "#021867",
+   "#08183a",
+   "#2d4773",
+   "#a59fc0",
+   "#717991",
+   "#d1c9e8"
+  ],
+  "notes": "Fake weather-radar app: 'SATELLITE · LIVE' / 'NIGHT 1 · 9:42 PM' header, 'YOU' marker, '⚠ SEVERE STORM' pill pops at #478."
+ },
+ {
+  "shot": 6,
+  "start_frame": 516,
+  "end_frame": 609,
+  "start_time": 17.167,
+  "end_time": 20.3,
+  "duration_s": 3.13,
+  "transition_in": {
+   "type": "dissolve (push-through from the radar)",
+   "frames": [
+    513,
+    519
+   ]
+  },
+  "shot_size": "WS → MLS",
+  "camera_angle": "eye → slight low",
+  "camera_motion": {
+   "description": "Strong push-in and pan right toward the trunk (519–549 x1.56), slows 549–579, then push + tilt up into the canopy 579–607 (x1.37).",
+   "measured": "frames 519-607: zoom x2.2909 (in), content dx -741px (camera pans right), content dy -248px (camera tilts down), roll -23.62 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  519-549: x1.5597 -442 -294 202\n  549-579: x1.0709 -136 +49 279\n  579-607: x1.3716 -163 -4 275",
+   "easing": "ease-in-out per phase"
+  },
+  "background_id": "bg03_storm_night_tree",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "P08",
+     "P09"
+    ],
+    "emotion_ids": [
+     "E06",
+     "E02",
+     "E07"
+    ],
+    "screen_position": "left → centre-bottom",
+    "scale": "tiny (5 %) → head 20 %"
+   }
+  ],
+  "assets": [
+   "manchineel_tree",
+   "sap_drops",
+   "rain"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "lightning_rain",
+   "caption"
+  ],
+  "caption_words": "you run under the tree for cover. Big mistake. You see, every",
+  "lighting": "stormy night, desaturated navy/teal, lightning flash #575–577",
+  "palette": [
+   "#25335c",
+   "#031c22",
+   "#112a33",
+   "#2c4287",
+   "#7d8ad3",
+   "#f5f7f8"
+  ],
+  "notes": ""
+ },
+ {
+  "shot": 7,
+  "start_frame": 610,
+  "end_frame": 722,
+  "start_time": 20.3,
+  "end_time": 24.067,
+  "duration_s": 3.77,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    608,
+    612
+   ]
+  },
+  "shot_size": "insert (macro)",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Locked macro on the leaf; at the end a tilt-down follows the falling drop (702–721: dy −378 px).",
+   "measured": "frames 612-721: zoom x1.0051 (in), content dx +8px (camera pans left), content dy -373px (camera tilts down), roll -0.80 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  612-642: x1.0068 -2 -4 420\n  642-672: x1.0038 +5 -1 628\n  672-702: x0.9870 +14 +10 443\n  702-721: x1.0076 -9 -378 313",
+   "easing": "locked, then ease-in tilt"
+  },
+  "background_id": "night bokeh",
+  "characters": [],
+  "assets": [],
+  "unique_images": [
+   "leaf_xray",
+   "leaf_sap_drop"
+  ],
+  "overlays": [
+   "milky_sap_label",
+   "caption"
+  ],
+  "caption_words": "leaf on this tree is full of a milky sap and the rain carries it straight",
+  "lighting": "night, cool blue bokeh, glossy highlights",
+  "palette": [
+   "#0f2d75",
+   "#17442c",
+   "#041350",
+   "#39724c",
+   "#64987f",
+   "#d2e5f0"
+  ],
+  "notes": "Diagram beat: x-ray scan wipe (631–653), 'MILKY SAP' label (671–704), raindrop picks up sap and falls."
+ },
+ {
+  "shot": 8,
+  "start_frame": 723,
+  "end_frame": 763,
+  "start_time": 24.067,
+  "end_time": 25.433,
+  "duration_s": 1.37,
+  "transition_in": {
+   "type": "dissolve (match on falling drop)",
+   "frames": [
+    722,
+    725
+   ]
+  },
+  "shot_size": "CU → ECU",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Continuous push-in on the head (725–755 x1.46) with a short punch #748–750, tracking to the splat.",
+   "measured": "frames 725-758: zoom x1.6305 (in), content dx -348px (camera pans right), content dy -386px (camera tilts down), roll -9.31 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  725-755: x1.4643 -287 -294 101\n  755-758: x1.1135 -61 -92 212",
+   "easing": "ease-in (accelerating into the zoom-through)"
+  },
+  "background_id": "bg04_night_bokeh",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "P23"
+    ],
+    "emotion_ids": [
+     "E06",
+     "E10",
+     "E07"
+    ],
+    "screen_position": "centre",
+    "scale": "head ≈ 75 % width → fills frame"
+   }
+  ],
+  "assets": [],
+  "unique_images": [],
+  "overlays": [
+   "sap_splat",
+   "sizzle_smoke",
+   "sweat_drop",
+   "caption"
+  ],
+  "caption_words": "onto your skin. Within",
+  "lighting": "night, cool blue",
+  "palette": [
+   "#1c448f",
+   "#2d54a1",
+   "#91a1ed",
+   "#0e2d76",
+   "#0c0b32",
+   "#6b4128"
+  ],
+  "notes": ""
+ },
+ {
+  "shot": 9,
+  "start_frame": 764,
+  "end_frame": 813,
+  "start_time": 25.433,
+  "end_time": 27.1,
+  "duration_s": 1.67,
+  "transition_in": {
+   "type": "zoom-through (cut-away window opens in the splat and scales to full frame)",
+   "frames": [
+    758,
+    770
+   ]
+  },
+  "shot_size": "insert (cross-section)",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Locked (x1.0002).",
+   "measured": "frames 771-812: zoom x1.0002 (none), content dx +0px (camera pans left), content dy -0px (camera tilts down), roll +0.02 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  771-801: x1.0002 -0 -0 759\n  801-812: x1.0001 +0 -0 780",
+   "easing": "none"
+  },
+  "background_id": "skin diagram",
+  "characters": [],
+  "assets": [],
+  "unique_images": [
+   "skin_cross_section"
+  ],
+  "overlays": [
+   "skin_cutaway_window",
+   "caption"
+  ],
+  "caption_words": "minutes, you're covered in blisters.",
+  "lighting": "flat diagram light",
+  "palette": [
+   "#f0959e",
+   "#4d6fa6",
+   "#e6bb7c",
+   "#f6d7d9",
+   "#331e2b",
+   "#c36257"
+  ],
+  "notes": "Medical cross-section with 'INSIDE YOUR SKIN' label; sap tendrils grow 781–792, blister dome inflates 793–805."
+ },
+ {
+  "shot": 10,
+  "start_frame": 814,
+  "end_frame": 859,
+  "start_time": 27.1,
+  "end_time": 28.633,
+  "duration_s": 1.53,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    813,
+    819
+   ]
+  },
+  "shot_size": "MS",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Near-static (x0.994).",
+   "measured": "frames 819-856: zoom x0.9975 (none), content dx -11px (camera pans right), content dy +16px (camera tilts up), roll -0.75 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  819-849: x0.9936 -10 +17 344\n  849-856: x1.0039 -2 -2 703",
+   "easing": "none"
+  },
+  "background_id": "bg05_storm_open_beach",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "P10"
+    ],
+    "emotion_ids": [
+     "E10",
+     "E11",
+     "E07"
+    ],
+    "screen_position": "centre",
+    "scale": "head ≈ 45 % width"
+   }
+  ],
+  "assets": [],
+  "unique_images": [],
+  "overlays": [
+   "blisters",
+   "sizzle_smoke",
+   "lightning_rain",
+   "caption"
+  ],
+  "caption_words": "This sap is so strong, it",
+  "lighting": "stormy night, navy, lightning flash #835–838",
+  "palette": [
+   "#2e3b65",
+   "#142460",
+   "#2e428a",
+   "#8b96e2",
+   "#0f0d2e",
+   "#63433a"
+  ],
+  "notes": ""
+ },
+ {
+  "shot": 11,
+  "start_frame": 860,
+  "end_frame": 904,
+  "start_time": 28.633,
+  "end_time": 30.133,
+  "duration_s": 1.5,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    857,
+    863
+   ]
+  },
+  "shot_size": "CU → WS",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Pull-back + pan left/tilt up revealing the whole car (863–893: zoom x0.53), ease-out 893–902.",
+   "measured": "frames 863-902: zoom x0.4963 (out), content dx +503px (camera pans left), content dy +478px (camera tilts up), roll +6.26 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  863-893: x0.5309 +455 +431 543\n  893-902: x0.9350 +49 +46 889",
+   "easing": "ease-out"
+  },
+  "background_id": "bg06_roadside_tree",
+  "characters": [],
+  "assets": [
+   "red_convertible",
+   "manchineel_tree",
+   "sap_drops"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "caption"
+  ],
+  "caption_words": "can strip the paint off a car.",
+  "lighting": "bright day",
+  "palette": [
+   "#4f4d5a",
+   "#2d562a",
+   "#6f9c4e",
+   "#d5e5e9",
+   "#60c0e2",
+   "#b4211e"
+  ],
+  "notes": "Exaggeration gag: paint bubbles and peels where sap lands."
+ },
+ {
+  "shot": 12,
+  "start_frame": 905,
+  "end_frame": 1059,
+  "start_time": 30.133,
+  "end_time": 35.3,
+  "duration_s": 5.17,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    903,
+    907
+   ]
+  },
+  "shot_size": "MS",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Slow push-in (≈ +3 %/s in the first second, then nearly static).",
+   "measured": "frames 907-1056: zoom x1.0368 (in), content dx -12px (camera pans right), content dy -15px (camera tilts down), roll -0.80 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  907-937: x1.0295 -14 -17 603\n  937-967: x1.0092 +1 -7 525\n  967-997: x0.9976 +4 +2 649\n  997-1027: x0.9904 +2 +10 587\n  1027-1056: x1.0100 -5 -3 609",
+   "easing": "linear"
+  },
+  "background_id": "bg07_sunset_beach",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "P11",
+     "P06",
+     "P12",
+     "P07",
+     "P13"
+    ],
+    "emotion_ids": [
+     "E12",
+     "E13",
+     "E07",
+     "E11",
+     "E14"
+    ],
+    "screen_position": "centre-right",
+    "scale": "head ≈ 25 % width"
+   }
+  ],
+  "assets": [
+   "manchineel_tree",
+   "crab"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "anger_vein",
+   "scent_wisp",
+   "sparkles",
+   "caption"
+  ],
+  "caption_words": "Lesson learned. By the next morning though, you're starving and those little apples smell incredible.",
+  "lighting": "sunset/dawn, pink-magenta sky, warm grade on the character",
+  "palette": [
+   "#e9cd9b",
+   "#db9793",
+   "#88639b",
+   "#fdeece",
+   "#8ca052",
+   "#51662c"
+  ],
+  "notes": "Time-skip shot. Scent wisp gag 1025–1057."
+ },
+ {
+  "shot": 13,
+  "start_frame": 1060,
+  "end_frame": 1221,
+  "start_time": 35.3,
+  "end_time": 40.7,
+  "duration_s": 5.4,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    1057,
+    1062
+   ]
+  },
+  "shot_size": "MCU",
+  "camera_angle": "slight low",
+  "camera_motion": {
+   "description": "Slow push-in (1092–1212 ≈ +3–7 %/s) with a slight drift; Kai sways left→centre.",
+   "measured": "frames 1062-1219: zoom x1.1378 (in), content dx -35px (camera pans right), content dy -77px (camera tilts down), roll -0.07 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1062-1092: x0.9892 +9 +19 609\n  1092-1122: x1.0421 -17 -34 571\n  1122-1152: x1.0315 -9 -17 509\n  1152-1182: x1.0285 +6 -14 254\n  1182-1212: x1.0666 -16 -58 168\n  1212-1219: x0.9753 -9 +26 218",
+   "easing": "linear"
+  },
+  "background_id": "bg08_day_godrays",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "P14"
+    ],
+    "emotion_ids": [
+     "E15",
+     "E02",
+     "E16",
+     "E17",
+     "E06",
+     "E18"
+    ],
+    "screen_position": "centre-left",
+    "scale": "head ≈ 50 % width"
+   }
+  ],
+  "assets": [
+   "manchineel_apple",
+   "apple_bitten"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "light_orbs",
+   "heat_fill_head",
+   "steam_columns",
+   "sweat_drop",
+   "tear_streams",
+   "caption"
+  ],
+  "caption_words": "One bite actually tastes sweet for about a second. Then, your mouth starts burning and it feels like you swallowed",
+  "lighting": "bright day with god rays",
+  "palette": [
+   "#dbc592",
+   "#cddfee",
+   "#7dc8fc",
+   "#3898ed",
+   "#3d3b4f",
+   "#af7b4b"
+  ],
+  "notes": "Sweet→burn reversal; red liquid fill rises in the head 1160–1170, head goes fully red at #1171."
+ },
+ {
+  "shot": 14,
+  "start_frame": 1222,
+  "end_frame": 1295,
+  "start_time": 40.7,
+  "end_time": 43.167,
+  "duration_s": 2.47,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    1220,
+    1224
+   ]
+  },
+  "shot_size": "UI-screen (X-ray)",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Tilt down the skeleton (1224–1284: dy −431 px), slight push.",
+   "measured": "frames 1224-1292: zoom x1.0484 (in), content dx -17px (camera pans right), content dy -431px (camera tilts down), roll -0.04 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1224-1254: x1.0196 -7 -230 490\n  1254-1284: x1.0284 -10 -201 641\n  1284-1292: x0.9999 -0 +0 1204",
+   "easing": "ease-in-out"
+  },
+  "background_id": "x-ray UI",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "xray skeleton"
+    ],
+    "emotion_ids": [],
+    "screen_position": "centre",
+    "scale": "full body"
+   }
+  ],
+  "assets": [],
+  "unique_images": [],
+  "overlays": [
+   "xray_screen",
+   "xray_header",
+   "xray_gut_header",
+   "shake_ticks",
+   "caption"
+  ],
+  "caption_words": "fire. At this point, nature calls.",
+  "lighting": "UI: dark teal, cyan glow",
+  "palette": [
+   "#032842",
+   "#021529",
+   "#dcf2f7",
+   "#296078",
+   "#5e8aa0",
+   "#a2bfd0"
+  ],
+  "notes": "HUD label swaps 'THROAT: ON FIRE' → 'GUT: INCOMING' at #1260; legs cross with shake ticks 1267–1293."
+ },
+ {
+  "shot": 15,
+  "start_frame": 1296,
+  "end_frame": 1474,
+  "start_time": 43.167,
+  "end_time": 49.133,
+  "duration_s": 5.97,
+  "transition_in": {
+   "type": "match-dissolve (skeleton over Kai's position)",
+   "frames": [
+    1293,
+    1299
+   ]
+  },
+  "shot_size": "MS",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Slow push-in + slight rise (peaks 1359–1389 x1.069/s).",
+   "measured": "frames 1299-1472: zoom x1.1672 (in), content dx -64px (camera pans right), content dy -132px (camera tilts down), roll +0.27 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1299-1329: x1.0050 -3 +12 834\n  1329-1359: x1.0236 -10 -7 730\n  1359-1389: x1.0688 -30 -78 676\n  1389-1419: x1.0384 -13 -39 573\n  1419-1449: x1.0172 -6 -16 685\n  1449-1472: x1.0050 -2 -3 902",
+   "easing": "ease-in-out"
+  },
+  "background_id": "bg09_bush_tree_day",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "P15",
+     "P16",
+     "P17"
+    ],
+    "emotion_ids": [
+     "E08",
+     "E19",
+     "E04",
+     "E05",
+     "E02",
+     "E07",
+     "E06",
+     "E10"
+    ],
+    "screen_position": "centre",
+    "scale": "head ≈ 30 % width"
+   }
+  ],
+  "assets": [
+   "bush_and_grass",
+   "leaf_bunch",
+   "manchineel_tree"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "blisters",
+   "sweat_drop",
+   "sizzle_smoke",
+   "caption"
+  ],
+  "caption_words": "The only thing around to use is a handful of big soft leaves. Yeah, same sap, same blisters.",
+  "lighting": "bright day, dappled shade",
+  "palette": [
+   "#d5c48e",
+   "#58863a",
+   "#2a5824",
+   "#89ab59",
+   "#d7eaf2",
+   "#8ed2ea"
+  ],
+  "notes": "Toilet-humour beat, implied (bush hides him)."
+ },
+ {
+  "shot": 16,
+  "start_frame": 1475,
+  "end_frame": 1525,
+  "start_time": 49.133,
+  "end_time": 50.833,
+  "duration_s": 1.7,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    1473,
+    1479
+   ]
+  },
+  "shot_size": "MS",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Pan/track right with Kai (dx −163 px in 1 s), slight push.",
+   "measured": "frames 1479-1523: zoom x1.0529 (in), content dx -171px (camera pans right), content dy +8px (camera tilts up), roll -8.42 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1479-1509: x1.0334 -163 +24 320\n  1509-1523: x1.0188 -8 -16 430",
+   "easing": "linear"
+  },
+  "background_id": "bg10_shallow_lagoon",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "P18",
+     "P19"
+    ],
+    "emotion_ids": [
+     "E19",
+     "E10",
+     "E01"
+    ],
+    "screen_position": "centre-right → centre",
+    "scale": "head ≈ 25 % width"
+   }
+  ],
+  "assets": [],
+  "unique_images": [],
+  "overlays": [
+   "sizzle_smoke",
+   "sweat_drop",
+   "caption"
+  ],
+  "caption_words": "Just in a much worse place.",
+  "lighting": "bright day, turquoise water",
+  "palette": [
+   "#23bfdc",
+   "#d3ebf3",
+   "#7bd4f5",
+   "#336031",
+   "#839b51",
+   "#ddd3a9"
+  ],
+  "notes": ""
+ },
+ {
+  "shot": 17,
+  "start_frame": 1526,
+  "end_frame": 1795,
+  "start_time": 50.833,
+  "end_time": 59.833,
+  "duration_s": 9.0,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    1524,
+    1528
+   ]
+  },
+  "shot_size": "WS → MS",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Long continuous slow push-in (≈ +4–7 %/s every second, x1.47 total) drifting toward Kai and the fire.",
+   "measured": "frames 1528-1792: zoom x1.4722 (in), content dx -154px (camera pans right), content dy -319px (camera tilts down), roll -1.30 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1528-1558: x1.0744 -22 -63 606\n  1558-1588: x1.0600 -15 -54 514\n  1588-1618: x1.0489 -13 -42 479\n  1618-1648: x1.0438 -9 -38 417\n  1648-1678: x1.0472 -10 -44 377\n  1678-1708: x1.0518 -39 -31 345\n  1708-1738: x1.0443 -34 -28 286\n  1738-1768: x1.0223 -8 -18 500\n  1768-1792: x1.0040 -5 -1 232",
+   "easing": "linear (constant)"
+  },
+  "background_id": "bg11_logpile (dusk → night → firelit grades)",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "P20",
+     "P21",
+     "P22"
+    ],
+    "emotion_ids": [
+     "E05",
+     "E20",
+     "E06",
+     "E07",
+     "E02",
+     "E21"
+    ],
+    "screen_position": "left third",
+    "scale": "head 12 % → 25 % width"
+   }
+  ],
+  "assets": [
+   "log_pile",
+   "campfire",
+   "manchineel_tree"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "red_x_marks_logs",
+   "frost_marks",
+   "toxic_smoke_cloud",
+   "caption"
+  ],
+  "caption_words": "When night falls, you're freezing. Fortunately, you have plenty of wood. Unfortunately, it's from the same tree. The second it catches, the smoke turns toxic. It",
+  "lighting": "animated grade: dusk pink → purple → blue night, then warm firelight from #1729, grey smoke 1764+",
+  "palette": [
+   "#29395c",
+   "#172e41",
+   "#384b69",
+   "#2643a0",
+   "#687cd2",
+   "#f4f6f7"
+  ],
+  "notes": "Longest shot (9 s). The grade animation is the 'time-lapse'. Red X's cascade onto the logs 1644–1680."
+ },
+ {
+  "shot": 18,
+  "start_frame": 1796,
+  "end_frame": 1823,
+  "start_time": 59.833,
+  "end_time": 60.767,
+  "duration_s": 0.93,
+  "transition_in": {
+   "type": "dissolve + push",
+   "frames": [
+    1793,
+    1798
+   ]
+  },
+  "shot_size": "CU",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Slow push-in (x1.10 in 0.8 s).",
+   "measured": "frames 1798-1821: zoom x1.1016 (in), content dx -23px (camera pans right), content dy -76px (camera tilts down), roll +0.58 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1798-1821: x1.1016 -23 -76 225",
+   "easing": "linear"
+  },
+  "background_id": "bg12_dark_void",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "P23"
+    ],
+    "emotion_ids": [
+     "E22",
+     "E23"
+    ],
+    "screen_position": "centre",
+    "scale": "head ≈ 70 % width"
+   }
+  ],
+  "assets": [],
+  "unique_images": [],
+  "overlays": [
+   "bloodshot_eyes",
+   "tear_streams",
+   "sweat_drop",
+   "caption"
+  ],
+  "caption_words": "burns your eyes until you can't",
+  "lighting": "near-black navy with warm orange under-glow",
+  "palette": [
+   "#01081c",
+   "#271317",
+   "#d1a79b",
+   "#a08584",
+   "#d55915",
+   "#532e20"
+  ],
+  "notes": ""
+ },
+ {
+  "shot": 19,
+  "start_frame": 1824,
+  "end_frame": 1867,
+  "start_time": 60.767,
+  "end_time": 62.233,
+  "duration_s": 1.47,
+  "transition_in": {
+   "type": "dissolve (face ghosted over the fire)",
+   "frames": [
+    1822,
+    1828
+   ]
+  },
+  "shot_size": "POV",
+  "camera_angle": "POV",
+  "camera_motion": {
+   "description": "Slight pull/drift (x0.949) + progressive Gaussian blur to simulate losing sight.",
+   "measured": "frames 1828-1865: zoom x0.9492 (out), content dx +13px (camera pans left), content dy +36px (camera tilts up), roll +0.19 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1828-1858: x0.9489 +13 +37 18\n  1858-1865: x1.0004 +1 -1 284",
+   "easing": "linear blur ramp"
+  },
+  "background_id": "bg13_pov_campfire",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "POV hands"
+    ],
+    "emotion_ids": [],
+    "screen_position": "bottom corners",
+    "scale": "hands only"
+   }
+  ],
+  "assets": [
+   "campfire",
+   "log_pile"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "red_x_marks_logs",
+   "caption"
+  ],
+  "caption_words": "see a thing. And every",
+  "lighting": "firelit night, smoky",
+  "palette": [
+   "#49323b",
+   "#9c7571",
+   "#605173",
+   "#a65933",
+   "#efa440",
+   "#decbb4"
+  ],
+  "notes": ""
+ },
+ {
+  "shot": 20,
+  "start_frame": 1868,
+  "end_frame": 1949,
+  "start_time": 62.233,
+  "end_time": 64.967,
+  "duration_s": 2.73,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    1866,
+    1870
+   ]
+  },
+  "shot_size": "UI-screen (thermal) / MS",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Near-locked; tiny push then settle (x1.03 / x0.95).",
+   "measured": "frames 1870-1945: zoom x0.9658 (out), content dx +0px (camera pans left), content dy +28px (camera tilts up), roll -0.77 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1870-1900: x1.0322 -17 -30 369\n  1900-1930: x0.9524 +11 +41 343\n  1930-1945: x0.9825 +6 +18 690",
+   "easing": "none"
+  },
+  "background_id": "thermal UI",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "P23"
+    ],
+    "emotion_ids": [
+     "E22",
+     "E23",
+     "E24"
+    ],
+    "screen_position": "centre",
+    "scale": "head ≈ 65 % width"
+   }
+  ],
+  "assets": [],
+  "unique_images": [],
+  "overlays": [
+   "thermal_screen",
+   "thermal_header",
+   "cough_smoke",
+   "tear_streams",
+   "sweat_drop",
+   "caption"
+  ],
+  "caption_words": "breath scorches your lungs. So, if you're ever",
+  "lighting": "UI: dark navy + thermal palette",
+  "palette": [
+   "#130f2f",
+   "#4d2931",
+   "#b9bdec",
+   "#faca44",
+   "#978ec3",
+   "#c8246d"
+  ],
+  "notes": "Scan-line wipe 1868–1876; temperature counter 99 → 451 °F (1883–1902)."
+ },
+ {
+  "shot": 21,
+  "start_frame": 1950,
+  "end_frame": 2043,
+  "start_time": 64.967,
+  "end_time": 68.1,
+  "duration_s": 3.13,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    1946,
+    1953
+   ]
+  },
+  "shot_size": "WS",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Slow push-in ≈ +3 %/s (x1.096 total) with a slight tilt.",
+   "measured": "frames 1953-2043: zoom x1.0963 (in), content dx -14px (camera pans right), content dy -83px (camera tilts down), roll +1.57 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1953-1983: x1.0286 -4 -25 716\n  1983-2013: x1.0388 -6 -34 578\n  2013-2043: x1.0260 -4 -24 664",
+   "easing": "linear"
+  },
+  "background_id": "bg14_final_open_beach",
+  "characters": [
+   {
+    "name": "Kai",
+    "pose_ids": [
+     "P07",
+     "P24"
+    ],
+    "emotion_ids": [
+     "E02",
+     "E01"
+    ],
+    "screen_position": "left-centre",
+    "scale": "head ≈ 10–25 % width"
+   }
+  ],
+  "assets": [
+   "manchineel_apple"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "caption"
+  ],
+  "caption_words": "stranded on a beach, maybe just sit in the sand.",
+  "lighting": "bright day",
+  "palette": [
+   "#f1dba7",
+   "#8acdfb",
+   "#d3eafa",
+   "#3e9eee",
+   "#ccb582",
+   "#797743"
+  ],
+  "notes": "Payoff + button gag: an apple rolls in at #2035."
+ }
+]
