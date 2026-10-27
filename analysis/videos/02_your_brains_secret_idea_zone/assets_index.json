@@ -1,0 +1,909 @@
+[
+ {
+  "id": "Theo",
+  "type": "character",
+  "name": "Theo",
+  "description": "The sleeper: round cream-peach head, brown bowl hair, navy pill body, stick limbs; variants: X-ray, underwater-tinted, lavender-graded.",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    616
+   ],
+   [
+    718,
+    862
+   ],
+   [
+    947,
+    1172
+   ]
+  ],
+  "crop_paths": [
+   "library/characters/Theo/reference/ref_00045.jpg",
+   "library/characters/Theo/reference/ref_00100.jpg",
+   "library/characters/Theo/reference/ref_00400.jpg",
+   "library/characters/Theo/reference/ref_01141.jpg"
+  ],
+  "prompt_path": "library/characters/Theo/character.md"
+ },
+ {
+  "id": "Edison",
+  "type": "character",
+  "name": "Edison (Thomas Edison cameo)",
+  "description": "Same template as Theo with pale grey-beige swept hair, black suit, white shirt, bow tie.",
+  "first_frame": 617,
+  "frames_present": [
+   [
+    617,
+    720
+   ]
+  ],
+  "crop_paths": [
+   "library/characters/Edison/reference/ref_00630.jpg",
+   "library/characters/Edison/reference/ref_00700.jpg"
+  ],
+  "prompt_path": "library/characters/Edison/character.md"
+ },
+ {
+  "id": "bg_stage_high",
+  "type": "background",
+  "name": "stage high",
+  "description": "Spotlight stage: a dark green wood-panelled room with a dado rail, a bare pendant bulb with a visible light cone, an oval wooden frame holding a grey silhouette portrait, a small light switch, a wood-plank floor, a large concentric brown/cream ring rug, a ring of round wooden stools, a central wooden chair, two white metal plates.",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    371
+   ],
+   [
+    372,
+    619
+   ],
+   [
+    1093,
+    1172
+   ]
+  ],
+  "crop_paths": [
+   "library/backgrounds/02_your_brains_secret_idea_zone/bg_stage_high_f00045.jpg"
+  ],
+  "prompt_path": "library/backgrounds/02_your_brains_secret_idea_zone/index.md#bg_stage_high"
+ },
+ {
+  "id": "bg_stage_side_dark",
+  "type": "background",
+  "name": "stage side dark",
+  "description": "The same stage from a 3/4-side angle and darker: the bulb pool only, black surroundings, ring rug, chair with a plate on the floor.",
+  "first_frame": 372,
+  "frames_present": [
+   [
+    372,
+    619
+   ]
+  ],
+  "crop_paths": [
+   "library/backgrounds/02_your_brains_secret_idea_zone/bg_stage_side_dark_f00500.jpg"
+  ],
+  "prompt_path": "library/backgrounds/02_your_brains_secret_idea_zone/index.md#bg_stage_side_dark"
+ },
+ {
+  "id": "bg_stage_pov_rug",
+  "type": "background",
+  "name": "stage pov rug",
+  "description": "Top-down POV of the ring rug and chair seat slats (the hands and belly are character layers).",
+  "first_frame": 321,
+  "frames_present": [
+   [
+    321,
+    371
+   ]
+  ],
+  "crop_paths": [
+   "library/backgrounds/02_your_brains_secret_idea_zone/bg_stage_pov_rug_f00325.jpg"
+  ],
+  "prompt_path": "library/backgrounds/02_your_brains_secret_idea_zone/index.md#bg_stage_pov_rug"
+ },
+ {
+  "id": "bg_menlo_park_lab",
+  "type": "background",
+  "name": "menlo park lab",
+  "description": "Thomas Edison's Menlo Park laboratory: a long wooden hall with ceiling beams, tall shelves of glass bottles on both walls, a back wall with the sign 'MENLO PARK : LABORATORY', organ pipes, dark windows, a pendant bulb, a brass gramophone horn on the left, round wooden stools, a wooden chair, plank floor, floating dust motes.",
+  "first_frame": 620,
+  "frames_present": [
+   [
+    620,
+    717
+   ]
+  ],
+  "crop_paths": [
+   "library/backgrounds/02_your_brains_secret_idea_zone/bg_menlo_park_lab_f00660.jpg"
+  ],
+  "prompt_path": "library/backgrounds/02_your_brains_secret_idea_zone/index.md#bg_menlo_park_lab"
+ },
+ {
+  "id": "bg_depth_chart",
+  "type": "background",
+  "name": "depth chart",
+  "description": "Sleep-depth cross-section: a dark brown room above a wavy water surface; teal water with god-rays; a violet glow band between dashed wavy lines with floating confetti doodles; a navy-black deep zone; a thin depth-ruler pole at the left (labels and EEG are overlays).",
+  "first_frame": 718,
+  "frames_present": [
+   [
+    718,
+    862
+   ]
+  ],
+  "crop_paths": [
+   "library/backgrounds/02_your_brains_secret_idea_zone/bg_depth_chart_f00746.jpg"
+  ],
+  "prompt_path": "library/backgrounds/02_your_brains_secret_idea_zone/index.md#bg_depth_chart"
+ },
+ {
+  "id": "bg_underwater_band",
+  "type": "background",
+  "name": "underwater band",
+  "description": "A closer view inside the depth chart at LIGHT SLEEP / the violet band, with caustics and floating doodles.",
+  "first_frame": 781,
+  "frames_present": [
+   [
+    781,
+    862
+   ]
+  ],
+  "crop_paths": [
+   "library/backgrounds/02_your_brains_secret_idea_zone/bg_underwater_band_f00790.jpg"
+  ],
+  "prompt_path": "library/backgrounds/02_your_brains_secret_idea_zone/index.md#bg_underwater_band"
+ },
+ {
+  "id": "bg_corkboard",
+  "type": "background",
+  "name": "corkboard",
+  "description": "A cork pinboard filled with cream paper idea cards (black line icons + caps labels) pinned with red pins and linked by red strings.",
+  "first_frame": 863,
+  "frames_present": [
+   [
+    863,
+    946
+   ]
+  ],
+  "crop_paths": [
+   "library/backgrounds/02_your_brains_secret_idea_zone/bg_corkboard_f00900.jpg"
+  ],
+  "prompt_path": "library/backgrounds/02_your_brains_secret_idea_zone/index.md#bg_corkboard"
+ },
+ {
+  "id": "bg_elevator_hypnagogia",
+  "type": "background",
+  "name": "elevator hypnagogia",
+  "description": "Vintage elevator car interior: dark wood panelling, ceiling dome lamp, a red carpet runner, a semicircular floor dial above the door (A L H D), a brass scissor gate drawn over the left half of the doorway, side plaques and a button strip; through the door, a purple-lit 'HYPNAGOGIA' floor with a spotlight and a round display platform.",
+  "first_frame": 947,
+  "frames_present": [
+   [
+    947,
+    1092
+   ]
+  ],
+  "crop_paths": [
+   "library/backgrounds/02_your_brains_secret_idea_zone/bg_elevator_hypnagogia_f00960.jpg"
+  ],
+  "prompt_path": "library/backgrounds/02_your_brains_secret_idea_zone/index.md#bg_elevator_hypnagogia"
+ },
+ {
+  "id": "bg_elevator_deep_sleep",
+  "type": "background",
+  "name": "elevator deep sleep",
+  "description": "The same elevator at the DEEP SLEEP floor: the outside wall is dark brick with a white caps sign '…P SLEEP' (DEEP SLEEP), and the whole interior is graded blue-lavender.",
+  "first_frame": 983,
+  "frames_present": [
+   [
+    983,
+    1046
+   ]
+  ],
+  "crop_paths": [
+   "library/backgrounds/02_your_brains_secret_idea_zone/bg_elevator_deep_sleep_f01000.jpg"
+  ],
+  "prompt_path": "library/backgrounds/02_your_brains_secret_idea_zone/index.md#bg_elevator_deep_sleep"
+ },
+ {
+  "id": "steel_ball",
+  "type": "asset_3d",
+  "name": "steel ball",
+  "description": "A polished chrome steel ball, about palm-size, with strong environment reflections and a white specular highlight.",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    1172
+   ]
+  ],
+  "crop_paths": [
+   "library/assets_3d/02_your_brains_secret_idea_zone/steel_ball_f00300.jpg"
+  ],
+  "prompt_path": "library/assets_3d/02_your_brains_secret_idea_zone/index.md#steel_ball"
+ },
+ {
+  "id": "metal_plate",
+  "type": "asset_3d",
+  "name": "metal plate",
+  "description": "A white enamel / metal pie plate with concentric rings and a small orange tab or sticker on the rim.",
+  "first_frame": 16,
+  "frames_present": [
+   [
+    16,
+    1172
+   ]
+  ],
+  "crop_paths": [
+   "library/assets_3d/02_your_brains_secret_idea_zone/metal_plate_f00045.jpg"
+  ],
+  "prompt_path": "library/assets_3d/02_your_brains_secret_idea_zone/index.md#metal_plate"
+ },
+ {
+  "id": "ball_in_plate",
+  "type": "asset_3d",
+  "name": "ball in plate",
+  "description": "A chrome ball resting in the plate (the end-state composite).",
+  "first_frame": 77,
+  "frames_present": [
+   [
+    77,
+    119
+   ],
+   [
+    482,
+    619
+   ],
+   [
+    1015,
+    1172
+   ]
+  ],
+  "crop_paths": [
+   "library/assets_3d/02_your_brains_secret_idea_zone/ball_in_plate_f01141.jpg"
+  ],
+  "prompt_path": "library/assets_3d/02_your_brains_secret_idea_zone/index.md#ball_in_plate"
+ },
+ {
+  "id": "wooden_chair",
+  "type": "asset_3d",
+  "name": "wooden chair",
+  "description": "A simple wooden ladder-back chair with turned legs and stretchers, warm honey wood with thin dark contour lines.",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    620
+   ],
+   [
+    620,
+    717
+   ],
+   [
+    947,
+    1172
+   ]
+  ],
+  "crop_paths": [
+   "library/assets_3d/02_your_brains_secret_idea_zone/wooden_chair_f00160.jpg"
+  ],
+  "prompt_path": "library/assets_3d/02_your_brains_secret_idea_zone/index.md#wooden_chair"
+ },
+ {
+  "id": "round_stool",
+  "type": "asset_3d",
+  "name": "round stool",
+  "description": "A small round wooden stool with three splayed legs (props sit on them: plates, balls, a book).",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    619
+   ],
+   [
+    620,
+    717
+   ],
+   [
+    1093,
+    1172
+   ]
+  ],
+  "crop_paths": [
+   "library/assets_3d/02_your_brains_secret_idea_zone/round_stool_f00140.jpg"
+  ],
+  "prompt_path": "library/assets_3d/02_your_brains_secret_idea_zone/index.md#round_stool"
+ },
+ {
+  "id": "pendant_bulb",
+  "type": "asset_3d",
+  "name": "pendant bulb",
+  "description": "A bare incandescent bulb on a cord with a brass socket, glowing, with a volumetric cone below.",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    717
+   ],
+   [
+    1093,
+    1172
+   ]
+  ],
+  "crop_paths": [
+   "library/assets_3d/02_your_brains_secret_idea_zone/pendant_bulb_f00005.jpg"
+  ],
+  "prompt_path": "library/assets_3d/02_your_brains_secret_idea_zone/index.md#pendant_bulb"
+ },
+ {
+  "id": "oval_portrait",
+  "type": "asset_3d",
+  "name": "oval portrait",
+  "description": "An oval wooden picture frame holding a generic grey silhouette 'avatar' portrait.",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    320
+   ],
+   [
+    566,
+    619
+   ],
+   [
+    1093,
+    1172
+   ]
+  ],
+  "crop_paths": [
+   "library/assets_3d/02_your_brains_secret_idea_zone/oval_portrait_f00100.jpg"
+  ],
+  "prompt_path": "library/assets_3d/02_your_brains_secret_idea_zone/index.md#oval_portrait"
+ },
+ {
+  "id": "ring_rug",
+  "type": "asset_3d",
+  "name": "ring rug",
+  "description": "A large round rug of concentric brown and cream rings (a hypnotic target motif).",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    619
+   ],
+   [
+    1093,
+    1172
+   ]
+  ],
+  "crop_paths": [
+   "library/assets_3d/02_your_brains_secret_idea_zone/ring_rug_f00045.jpg"
+  ],
+  "prompt_path": "library/assets_3d/02_your_brains_secret_idea_zone/index.md#ring_rug"
+ },
+ {
+  "id": "gramophone_horn",
+  "type": "asset_3d",
+  "name": "gramophone horn",
+  "description": "A brass gramophone horn on a stand (Edison-era prop).",
+  "first_frame": 620,
+  "frames_present": [
+   [
+    620,
+    717
+   ]
+  ],
+  "crop_paths": [
+   "library/assets_3d/02_your_brains_secret_idea_zone/gramophone_horn_f00700.jpg"
+  ],
+  "prompt_path": "library/assets_3d/02_your_brains_secret_idea_zone/index.md#gramophone_horn"
+ },
+ {
+  "id": "magnet_car_model",
+  "type": "asset_3d",
+  "name": "magnet car model",
+  "description": "A 3D display model of the 'magnet car' gag: a green pickup truck with a white jointed rod frame dangling a red horseshoe magnet in front of the bumper, on a round dark platform with red rope stanchions, under a spotlight.",
+  "first_frame": 947,
+  "frames_present": [
+   [
+    947,
+    978
+   ],
+   [
+    1051,
+    1092
+   ]
+  ],
+  "crop_paths": [
+   "library/assets_3d/02_your_brains_secret_idea_zone/magnet_car_model_f00960.jpg"
+  ],
+  "prompt_path": "library/assets_3d/02_your_brains_secret_idea_zone/index.md#magnet_car_model"
+ },
+ {
+  "id": "elevator_floor_dial",
+  "type": "asset_3d",
+  "name": "elevator floor dial",
+  "description": "A semicircular brass floor-indicator dial with letters A, L, H, D (Awake / Light / Hypnagogia / Deep) and a needle; the H sector is highlighted purple.",
+  "first_frame": 947,
+  "frames_present": [
+   [
+    947,
+    1092
+   ]
+  ],
+  "crop_paths": [
+   "library/assets_3d/02_your_brains_secret_idea_zone/elevator_floor_dial_f01065.jpg"
+  ],
+  "prompt_path": "library/assets_3d/02_your_brains_secret_idea_zone/index.md#elevator_floor_dial"
+ },
+ {
+  "id": "ui_depth_chart_brain_waves",
+  "type": "unique_image",
+  "name": "depth chart brain waves",
+  "description": "The sleep-depth infographic with labels and the EEG trace: AWAKE (at the surface), LIGHT SLEEP, the violet band with '? ? ?' (unlabelled = hypnagogia), DEEP SLEEP (lavender), a tiny 'BRAIN WAVES' title at top right, and a mint EEG line (tight zigzag → spiky burst in the band → slow big waves). Text: AWAKE · LIGHT SLEEP · ? ? ? · DEEP SLEEP · BRAIN WAVES",
+  "first_frame": 718,
+  "frames_present": [
+   [
+    718,
+    810
+   ]
+  ],
+  "crop_paths": [
+   "library/unique_images/02_your_brains_secret_idea_zone/ui_depth_chart_brain_waves_f00765.jpg"
+  ],
+  "prompt_path": "library/unique_images/02_your_brains_secret_idea_zone/index.md#ui_depth_chart_brain_waves"
+ },
+ {
+  "id": "ui_corkboard_web",
+  "type": "unique_image",
+  "name": "corkboard web",
+  "description": "An idea corkboard: 13 cream paper cards with black line icons and caps labels, red pushpins, red strings connecting unrelated ideas. Text: FISH · UMBRELLA · KEY · KITE · TEACUP · BOOT · DUCK · GEAR · TRUCK · MAGNET · WHEEL · BICYCLE · TEAPOT",
+  "first_frame": 863,
+  "frames_present": [
+   [
+    863,
+    946
+   ]
+  ],
+  "crop_paths": [
+   "library/unique_images/02_your_brains_secret_idea_zone/ui_corkboard_web_f00900.jpg"
+  ],
+  "prompt_path": "library/unique_images/02_your_brains_secret_idea_zone/index.md#ui_corkboard_web"
+ },
+ {
+  "id": "ui_card_key",
+  "type": "unique_image",
+  "name": "card key",
+  "description": "A single idea card (template for all cards): cream paper, a red pushpin at top, a black line icon of a key, a thin rule, and the caps label. Text: KEY",
+  "first_frame": 863,
+  "frames_present": [
+   [
+    863,
+    946
+   ]
+  ],
+  "crop_paths": [
+   "library/unique_images/02_your_brains_secret_idea_zone/ui_card_key_f00866.jpg"
+  ],
+  "prompt_path": "library/unique_images/02_your_brains_secret_idea_zone/index.md#ui_card_key"
+ },
+ {
+  "id": "ui_card_magnet_car",
+  "type": "unique_image",
+  "name": "card magnet car",
+  "description": "The merged invention card: a green pickup truck with a driver; a white jointed rod frame from the truck bed arches over the cab and dangles a red horseshoe magnet in front of its own bumper (a perpetual-motion gag); a yellow pushpin and a red '!!' in the corner. Text: MAGNET CAR · !!",
+  "first_frame": 911,
+  "frames_present": [
+   [
+    911,
+    949
+   ]
+  ],
+  "crop_paths": [
+   "library/unique_images/02_your_brains_secret_idea_zone/ui_card_magnet_car_f00930.jpg"
+  ],
+  "prompt_path": "library/unique_images/02_your_brains_secret_idea_zone/index.md#ui_card_magnet_car"
+ },
+ {
+  "id": "ui_notepad_magnet_car",
+  "type": "unique_image",
+  "name": "notepad magnet car",
+  "description": "A spiral-top notepad page (pinkish paper, faint red ruled lines) with the MAGNET CAR sketch and a red italic handwritten caption. Text: MAGNET CAR!",
+  "first_frame": 1091,
+  "frames_present": [
+   [
+    1091,
+    1172
+   ]
+  ],
+  "crop_paths": [
+   "library/unique_images/02_your_brains_secret_idea_zone/ui_notepad_magnet_car_f01141.jpg"
+  ],
+  "prompt_path": "library/unique_images/02_your_brains_secret_idea_zone/index.md#ui_notepad_magnet_car"
+ },
+ {
+  "id": "ui_menlo_park_sign",
+  "type": "unique_image",
+  "name": "menlo park sign",
+  "description": "A painted wall sign in the lab: gold serif caps on dark wood, with organ pipes between the words. Text: MENLO PARK  LABORATORY",
+  "first_frame": 631,
+  "frames_present": [
+   [
+    631,
+    717
+   ]
+  ],
+  "crop_paths": [
+   "library/unique_images/02_your_brains_secret_idea_zone/ui_menlo_park_sign_f00700.jpg"
+  ],
+  "prompt_path": "library/unique_images/02_your_brains_secret_idea_zone/index.md#ui_menlo_park_sign"
+ },
+ {
+  "id": "ui_deep_sleep_floor_sign",
+  "type": "unique_image",
+  "name": "deep sleep floor sign",
+  "description": "The floor sign seen through the elevator door: white heavy caps on a dark brick fascia (the left part is hidden by the gate). Text: DEEP SLEEP (visible: '…P SLEEP')",
+  "first_frame": 962,
+  "frames_present": [
+   [
+    962,
+    1040
+   ]
+  ],
+  "crop_paths": [
+   "library/unique_images/02_your_brains_secret_idea_zone/ui_deep_sleep_floor_sign_f01000.jpg"
+  ],
+  "prompt_path": "library/unique_images/02_your_brains_secret_idea_zone/index.md#ui_deep_sleep_floor_sign"
+ },
+ {
+  "id": "ui_xray_body",
+  "type": "unique_image",
+  "name": "xray body",
+  "description": "A cutaway diagram of Theo as an X-ray: translucent blue body, pink brain, a plug tag, a glowing nerve wire to the hand holding the ball. Text: (no text)",
+  "first_frame": 372,
+  "frames_present": [
+   [
+    372,
+    560
+   ]
+  ],
+  "crop_paths": [
+   "library/unique_images/02_your_brains_secret_idea_zone/ui_xray_body_f00400.jpg"
+  ],
+  "prompt_path": "library/unique_images/02_your_brains_secret_idea_zone/index.md#ui_xray_body"
+ },
+ {
+  "id": "ov_caption_word",
+  "type": "overlay_ui",
+  "name": "ov_caption_word",
+  "description": "Word caption: heavy rounded sans (Montserrat ExtraBold / Poppins Bold look), white fill, black outline about 4 px plus a soft shadow, centred, baseline y≈900, 1–3 words, hard-cut per word. Build: Code / AE text layer driven by word timings. Not an image.",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    1172
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/ov_caption_word_f00100.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#ov_caption_word"
+ },
+ {
+  "id": "ov_hypnagogia_title",
+  "type": "overlay_ui",
+  "name": "ov_hypnagogia_title",
+  "description": "Keyword title card 'HYPNAGOGIA': heavy geometric caps, pale lavender fill #dddaf3, dark navy outline #212b4b, soft shadow, thin underline; fades in 6 frames and out 3 frames. Build: AE text layer with stroke + drop shadow; opacity keys 816–822 in, 850–853 out.",
+  "first_frame": 816,
+  "frames_present": [
+   [
+    816,
+    853
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/ov_hypnagogia_title_f00830.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#ov_hypnagogia_title"
+ },
+ {
+  "id": "ov_eeg_trace",
+  "type": "overlay_ui",
+  "name": "ov_eeg_trace",
+  "description": "Mint EEG line (#a2e7df) with a soft glow, drawn top→down: tight zigzag, a spiky burst inside the violet band, then slow big waves. Includes the tiny 'BRAIN WAVES' label. Build: Shape path + trim paths 0→100 % over 18 frames; glow effect.",
+  "first_frame": 747,
+  "frames_present": [
+   [
+    747,
+    789
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/ov_eeg_trace_f00765.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#ov_eeg_trace"
+ },
+ {
+  "id": "vfx_sparkle_glint",
+  "type": "vfx",
+  "name": "vfx_sparkle_glint",
+  "description": "A white 4-point star glint on chrome balls; scale 0→1→0 over 10–15 frames. Build: Sprite / shape star with glow.",
+  "first_frame": 238,
+  "frames_present": [
+   [
+    238,
+    249
+   ],
+   [
+    269,
+    280
+   ],
+   [
+    1149,
+    1162
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/vfx_sparkle_glint_f00240.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#vfx_sparkle_glint"
+ },
+ {
+  "id": "vfx_impact_arcs",
+  "type": "vfx",
+  "name": "vfx_impact_arcs",
+  "description": "Thin white semicircle arcs above the plate, spawning every 2–3 frames and expanding/fading (the ball smash sound). Build: AE ellipse strokes, scale 0→300 %, opacity 100→0, stagger 3 frames.",
+  "first_frame": 484,
+  "frames_present": [
+   [
+    484,
+    534
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/vfx_impact_arcs_f00500.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#vfx_impact_arcs"
+ },
+ {
+  "id": "vfx_impact_arcs_double",
+  "type": "vfx",
+  "name": "vfx_impact_arcs_double",
+  "description": "The same arcs, doubled over both plates on the elevator crash. Build: As above, two emitters.",
+  "first_frame": 1017,
+  "frames_present": [
+   [
+    1017,
+    1047
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/vfx_impact_arcs_double_f01030.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#vfx_impact_arcs_double"
+ },
+ {
+  "id": "vfx_scanline",
+  "type": "vfx",
+  "name": "vfx_scanline",
+  "description": "X-ray scan line: a bright cyan horizontal line with glow sweeping vertically and revealing the X-ray layer above it (down at #373–383, up at #555–564). Build: Linear wipe track matte + glowing solid line, 10 frames per sweep.",
+  "first_frame": 373,
+  "frames_present": [
+   [
+    373,
+    383
+   ],
+   [
+    555,
+    564
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/vfx_scanline_f00378.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#vfx_scanline"
+ },
+ {
+  "id": "vfx_eyelid_vignette",
+  "type": "vfx",
+  "name": "vfx_eyelid_vignette",
+  "description": "POV eyelids: near-black bands with feathered curved edges closing from the top and bottom (close, reopen a bit, close). Build: Two masked solids, feather about 40 px, keyed position.",
+  "first_frame": 331,
+  "frames_present": [
+   [
+    331,
+    369
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/vfx_eyelid_vignette_f00355.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#vfx_eyelid_vignette"
+ },
+ {
+  "id": "vfx_iris_zoom_through",
+  "type": "vfx",
+  "name": "vfx_iris_zoom_through",
+  "description": "Zoom-through into the pupil: the face tears into fragments, the iris fills the frame, the pupil opens with torn-paper edges onto the next scene. Build: Exponential scale + shatter + torn-paper alpha matte.",
+  "first_frame": 855,
+  "frames_present": [
+   [
+    855,
+    862
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/vfx_iris_zoom_through_f00861.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#vfx_iris_zoom_through"
+ },
+ {
+  "id": "vfx_card_merge",
+  "type": "vfx",
+  "name": "vfx_card_merge",
+  "description": "Two idea cards slide together, overlap with a ghost and pop into a bigger new card with a slight overshoot. Build: Position keys + cross-fade + scale overshoot (110 %→100 %).",
+  "first_frame": 902,
+  "frames_present": [
+   [
+    902,
+    912
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/vfx_card_merge_f00911.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#vfx_card_merge"
+ },
+ {
+  "id": "vfx_floor_scroll_blur",
+  "type": "vfx",
+  "name": "vfx_floor_scroll_blur",
+  "description": "Floors scrolling past the elevator door with vertical motion-blur streaks. Build: Tall 2D strip translated in Y behind the door matte, with motion blur.",
+  "first_frame": 961,
+  "frames_present": [
+   [
+    961,
+    990
+   ],
+   [
+    1031,
+    1057
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/vfx_floor_scroll_blur_f01053.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#vfx_floor_scroll_blur"
+ },
+ {
+  "id": "vfx_sweat_drop",
+  "type": "vfx",
+  "name": "vfx_sweat_drop",
+  "description": "A pale-blue teardrop sweat drop with a dark outline on the forehead. Build: Face-rig sprite; fades out after about 30 frames.",
+  "first_frame": 1030,
+  "frames_present": [
+   [
+    1030,
+    1063
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/vfx_sweat_drop_f01048.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#vfx_sweat_drop"
+ },
+ {
+  "id": "vfx_vibration_lines",
+  "type": "vfx",
+  "name": "vfx_vibration_lines",
+  "description": "Faint short parallel arcs beside the head (shaken/annoyed). Build: Shape layer with wiggle.",
+  "first_frame": 550,
+  "frames_present": [
+   [
+    550,
+    554
+   ],
+   [
+    583,
+    616
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/vfx_vibration_lines_f00590.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#vfx_vibration_lines"
+ },
+ {
+  "id": "vfx_water_caustics_bubbles",
+  "type": "vfx",
+  "name": "vfx_water_caustics_bubbles",
+  "description": "An animated white caustic network over the character plus rising bubbles (underwater). Build: AE CC Caustics / fractal noise in overlay mode, or a Blender shader; bubble particles.",
+  "first_frame": 718,
+  "frames_present": [
+   [
+    718,
+    862
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/vfx_water_caustics_bubbles_f00830.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#vfx_water_caustics_bubbles"
+ },
+ {
+  "id": "vfx_cross_dissolve_ghost",
+  "type": "vfx",
+  "name": "vfx_cross_dissolve_ghost",
+  "description": "The signature 4–8 frame cross-dissolve with the incoming shot slightly zoomed (ghost layering). Build: Opacity cross-fade over 5–6 frames with a 102–105 % scale settle.",
+  "first_frame": 117,
+  "frames_present": [
+   [
+    117,
+    122
+   ],
+   [
+    317,
+    324
+   ],
+   [
+    370,
+    374
+   ],
+   [
+    617,
+    622
+   ],
+   [
+    716,
+    720
+   ],
+   [
+    943,
+    949
+   ],
+   [
+    1090,
+    1094
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/vfx_cross_dissolve_ghost_f01092.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#vfx_cross_dissolve_ghost"
+ },
+ {
+  "id": "vfx_unplugged_wire",
+  "type": "vfx",
+  "name": "vfx_unplugged_wire",
+  "description": "The nerve wire in its unplugged state: a dull mauve-grey zigzag hanging from the plug tag (vs. the glowing straight pale-yellow double line when plugged). Build: Two shape-path versions swapped on one frame (#405, #537).",
+  "first_frame": 384,
+  "frames_present": [
+   [
+    384,
+    560
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/vfx_unplugged_wire_f00420.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#vfx_unplugged_wire"
+ },
+ {
+  "id": "vfx_red_string_draw",
+  "type": "vfx",
+  "name": "vfx_red_string_draw",
+  "description": "Red string drawing from one pushpin to another (4–5 frames per string). Build: Stroke path + trim paths; a slight sag curve.",
+  "first_frame": 866,
+  "frames_present": [
+   [
+    866,
+    906
+   ]
+  ],
+  "crop_paths": [
+   "library/overlays_ui/02_your_brains_secret_idea_zone/vfx_red_string_draw_f00870.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/02_your_brains_secret_idea_zone/index.md#vfx_red_string_draw"
+ }
+]

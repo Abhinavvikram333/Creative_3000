@@ -1,0 +1,579 @@
+[
+ {
+  "shot": 1,
+  "start_frame": 1,
+  "end_frame": 119,
+  "start_time": 0.0,
+  "end_time": 3.967,
+  "duration_s": 3.967,
+  "transition_in": {
+   "type": "none (video start, opens on CU mid-move)",
+   "frames": [
+    1,
+    1
+   ]
+  },
+  "shot_size": "CU→WS→MCU",
+  "camera_angle": "eye (slightly low) → high (#19-80) → eye",
+  "camera_motion": {
+   "description": "Opens CU with ~-5° roll (#1-8, measured 1-9 roll -4.5°), fast decelerating pull-back + crane up to high-angle WS (#9-25, zoom x0.79), near-static hold (#25-79), then push-in + crane down to eye-level MCU (#79-112, zoom x1.14).",
+   "measured": "frames 1-119: zoom x0.9053 (out), content dx +3px (camera pans left), content dy +65px (camera tilts up), roll -1.71 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1-31: x0.7858 +14 +3 112\n  31-61: x0.9821 -2 +3 520\n  61-91: x1.1740 -33 -20 269\n  91-119: x0.9991 +25 +78 225",
+   "easing": "ease-out on both moves (fast start, long settle)"
+  },
+  "background_id": "bg_stage_high",
+  "characters": [
+   {
+    "name": "Theo",
+    "pose_ids": [
+     "seated_holding_balls",
+     "seated_hands_empty"
+    ],
+    "emotion_ids": [
+     "asleep",
+     "stirring",
+     "alarmed",
+     "sly_grin",
+     "smug"
+    ],
+    "screen_position": "centre",
+    "scale": "head ~85% width at #1 → body ~35% frame height at WS → head ~55% width at #112"
+   }
+  ],
+  "assets": [
+   "steel_ball",
+   "metal_plate",
+   "wooden_chair",
+   "round_stool",
+   "pendant_bulb",
+   "oval_portrait",
+   "ring_rug"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "caption_word"
+  ],
+  "caption_words": "if you | fall asleep | holding | two | steel balls, | you might | wake up | a genius, | you | see.",
+  "lighting": "single warm overhead spotlight (bare bulb) with visible cone, dark green walls fall off to near-black; rim of warm light on head top",
+  "palette": [
+   "#34241b",
+   "#120f0e",
+   "#674e3a",
+   "#b1835c",
+   "#e3cfc2",
+   "#40547d"
+  ],
+  "palette_frame": 45,
+  "notes": "Hook. Balls drop #68-76 with no VFX; eyes snap open #81 on 'you might'; smug on 'a genius'. Dissolve out #117-122."
+ },
+ {
+  "shot": 2,
+  "start_frame": 120,
+  "end_frame": 320,
+  "start_time": 3.967,
+  "end_time": 10.667,
+  "duration_s": 6.7,
+  "transition_in": {
+   "type": "cross-dissolve",
+   "frames": [
+    117,
+    122
+   ]
+  },
+  "shot_size": "WS→MS",
+  "camera_angle": "high → eye",
+  "camera_motion": {
+   "description": "Near-static high-angle WS while plates are placed (#122-180), slow push-in + slight arc (#180-283, ~x1.03/s), then faster push-in + crane down to eye-level MS (#283-300, zoom x1.13), slow drift to #316.",
+   "measured": "frames 120-320: zoom x1.6037 (in), content dx -175px (camera pans right), content dy -181px (camera tilts down), roll -0.16 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  120-150: x1.0533 -11 -52 497\n  150-180: x1.0372 -13 -25 639\n  180-210: x1.0244 -15 -7 365\n  210-240: x0.9981 -6 +5 537\n  240-270: x1.0350 -16 -11 739\n  270-300: x1.2267 -91 -31 475\n  300-320: x1.1309 -24 -61 414",
+   "easing": "linear slow push, ease-in-out on final crane"
+  },
+  "background_id": "bg_stage_high",
+  "characters": [
+   {
+    "name": "Theo",
+    "pose_ids": [
+     "standing_placing_plate",
+     "sitting_down",
+     "seated_reach_side",
+     "seated_holding_balls"
+    ],
+    "emotion_ids": [
+     "determined",
+     "skeptical",
+     "neutral",
+     "happy",
+     "smug",
+     "drowsy"
+    ],
+    "screen_position": "centre",
+    "scale": "full body ~70% frame height → MS"
+   }
+  ],
+  "assets": [
+   "steel_ball",
+   "metal_plate",
+   "wooden_chair",
+   "round_stool",
+   "pendant_bulb",
+   "oval_portrait",
+   "ring_rug"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "caption_word",
+   "vfx_sparkle_glint"
+  ],
+  "caption_words": "First | you put | two | metal | plates | on | the floor, | sit down | right | above them | and | hold a | steel | ball in | each | hand. | Then | you just | let",
+  "lighting": "same warm spotlight stage; balls catch white star glints",
+  "palette": [
+   "#211814",
+   "#3c2d22",
+   "#6f513b",
+   "#b0825b",
+   "#e1c8b5",
+   "#3f5278"
+  ],
+  "palette_frame": 160,
+  "notes": "Literal step-by-step illustration of the instructions; each action lands on its verb. Dissolve out #317-324 via concentric rings."
+ },
+ {
+  "shot": 3,
+  "start_frame": 321,
+  "end_frame": 371,
+  "start_time": 10.667,
+  "end_time": 12.367,
+  "duration_s": 1.7,
+  "transition_in": {
+   "type": "cross-dissolve (rings + hands fade over face)",
+   "frames": [
+    317,
+    324
+   ]
+  },
+  "shot_size": "POV",
+  "camera_angle": "POV straight down (bird's-eye from own eyes)",
+  "camera_motion": {
+   "description": "Static POV with tiny nodding bob; eyelid vignette bands animate (top lid down 331-341, up 343-347, down 349-360; bottom lid up 351-360).",
+   "measured": "frames 321-371: zoom x0.9854 (out), content dx -6px (camera pans right), content dy +25px (camera tilts up), roll -0.71 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  321-351: x0.9967 -16 +13 312\n  351-371: x0.9887 +9 +12 147",
+   "easing": "eyelid bands ease-in-out"
+  },
+  "background_id": "bg_stage_pov_rug",
+  "characters": [
+   {
+    "name": "Theo",
+    "pose_ids": [
+     "pov_hands_balls"
+    ],
+    "emotion_ids": [],
+    "screen_position": "hands at y≈45-50%, belly arc bottom",
+    "scale": "hands/balls ~25% width each"
+   }
+  ],
+  "assets": [
+   "steel_ball",
+   "wooden_chair",
+   "ring_rug"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "caption_word",
+   "vfx_eyelid_vignette"
+  ],
+  "caption_words": "yourself | drift | off. | Now, | here's | the",
+  "lighting": "warm rug lit from above, vignette closes to black",
+  "palette": [
+   "#462a1e",
+   "#140b0f",
+   "#c8a375",
+   "#2e4f92",
+   "#7d5f47",
+   "#dadadd"
+  ],
+  "palette_frame": 330,
+  "notes": "Subjective 'drifting off' shot; the eyelid vignette is the transition device into the next scene."
+ },
+ {
+  "shot": 4,
+  "start_frame": 372,
+  "end_frame": 619,
+  "start_time": 12.367,
+  "end_time": 20.633,
+  "duration_s": 8.267,
+  "transition_in": {
+   "type": "cross-dissolve + X-ray scan-line wipe (top→bottom #373-383)",
+   "frames": [
+    370,
+    383
+   ]
+  },
+  "shot_size": "MLS→CU",
+  "camera_angle": "eye, 3/4-side → front-3/4 (orbit)",
+  "camera_motion": {
+   "description": "Static/very slow push on X-ray side view (#384-495, ~x1.01/s), slow pull-back (#495-536, bulb re-enters), jolt reframe #537, orbit ~60° to front-3/4 + push-in (#541-566), continued slow push to CU (#566-600), hold to 616.",
+   "measured": "frames 372-619: zoom x1.1152 (in), content dx -11px (camera pans right), content dy +56px (camera tilts up), roll +0.11 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  372-402: x0.9941 +4 +0 241\n  402-432: x1.0141 +0 -17 645\n  432-462: x1.0211 -4 -24 549\n  462-492: x1.0106 -3 -12 759\n  492-522: x0.9521 +7 +66 278\n  522-552: x1.0818 +26 +6 272\n  552-582: x1.0376 -30 +21 151\n  582-612: x1.0001 -9 +17 181\n  612-619: x1.0031 -2 -2 283",
+   "easing": "slow linear push; orbit ease-in-out"
+  },
+  "background_id": "bg_stage_side_dark",
+  "characters": [
+   {
+    "name": "Theo",
+    "pose_ids": [
+     "xray_side_seated",
+     "xray_front_upright",
+     "seated_holding_balls"
+    ],
+    "emotion_ids": [
+     "xray_asleep",
+     "xray_alarmed",
+     "alarmed",
+     "deadpan",
+     "annoyed"
+    ],
+    "screen_position": "centre",
+    "scale": "full seated body ~75% height → head ~70% width"
+   }
+  ],
+  "assets": [
+   "steel_ball",
+   "metal_plate",
+   "wooden_chair",
+   "round_stool",
+   "pendant_bulb",
+   "ring_rug"
+  ],
+  "unique_images": [
+   "ui_xray_body"
+  ],
+  "overlays": [
+   "caption_word",
+   "vfx_scanline",
+   "vfx_unplugged_wire",
+   "vfx_impact_arcs",
+   "vfx_vibration_lines"
+  ],
+  "caption_words": "weird | part. | The second | you | fall | asleep, | your hands | go | limp. | The | balls | smash | into the plates | and the | noise | jolts | you | awake. | Sounds | like | the worst | nap | ever.",
+  "lighting": "darker stage (only bulb pool), X-ray layer glows cyan; normal warm render returns after reverse scan #555-564",
+  "palette": [
+   "#0c080a",
+   "#331e16",
+   "#8b674b",
+   "#6faac8",
+   "#d8c7be",
+   "#306986"
+  ],
+  "palette_frame": 400,
+  "notes": "Mechanism cutaway: wire = nerve signal 'plugged/unplugged'. #405 unplug on 'second you fall'; ball slips 459-480 on 'limp'; arcs 484-534 on 'smash'; replug jolt #537 on 'jolts'. Ends with morph dissolve 617-622."
+ },
+ {
+  "shot": 5,
+  "start_frame": 620,
+  "end_frame": 717,
+  "start_time": 20.633,
+  "end_time": 23.9,
+  "duration_s": 3.267,
+  "transition_in": {
+   "type": "morph cross-dissolve (same framing, Theo→Edison)",
+   "frames": [
+    617,
+    622
+   ]
+  },
+  "shot_size": "MCU→WS→MS",
+  "camera_angle": "eye → slightly high → eye",
+  "camera_motion": {
+   "description": "Fast pull-back + crane up with +6.8° roll (#631-648, zoom x0.81), ease to WS by 660, then slow push-in WS→MS (#660-715, ~x1.04/s).",
+   "measured": "frames 620-717: zoom x0.7971 (out), content dx +182px (camera pans left), content dy +83px (camera tilts up), roll +6.41 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  620-650: x0.7324 +241 +112 241\n  650-680: x1.0304 -22 -9 526\n  680-710: x1.0466 -32 -16 726\n  710-717: x1.0092 -5 -5 558",
+   "easing": "ease-out pull, linear push"
+  },
+  "background_id": "bg_menlo_park_lab",
+  "characters": [
+   {
+    "name": "Edison",
+    "pose_ids": [
+     "seated_holding_balls"
+    ],
+    "emotion_ids": [
+     "serene",
+     "sly_peek",
+     "happy",
+     "wink"
+    ],
+    "screen_position": "centre",
+    "scale": "head 70% width → body 40% height"
+   }
+  ],
+  "assets": [
+   "steel_ball",
+   "metal_plate",
+   "wooden_chair",
+   "round_stool",
+   "pendant_bulb",
+   "gramophone_horn"
+  ],
+  "unique_images": [
+   "ui_menlo_park_sign"
+  ],
+  "overlays": [
+   "caption_word"
+  ],
+  "caption_words": "Thomas | Edison | was | rumored | to | do it | on | purpose. | That's | because | right",
+  "lighting": "warm golden tungsten interior, bokeh practicals, floating dust motes, strong amber grade",
+  "palette": [
+   "#190904",
+   "#31170b",
+   "#4e2713",
+   "#6b3d1f",
+   "#efc797",
+   "#a87b56"
+  ],
+  "palette_frame": 660,
+  "notes": "Celebrity cameo = authority. Same body template as Theo, re-skinned. Wink lands on 'purpose.'"
+ },
+ {
+  "shot": 6,
+  "start_frame": 718,
+  "end_frame": 862,
+  "start_time": 23.9,
+  "end_time": 28.733,
+  "duration_s": 4.833,
+  "transition_in": {
+   "type": "cross-dissolve",
+   "frames": [
+    716,
+    720
+   ]
+  },
+  "shot_size": "WS (diagram) → CU → ECU",
+  "camera_angle": "eye (diagram side-section)",
+  "camera_motion": {
+   "description": "Zoom-out + tilt down revealing depth chart (#721-746, x0.51), hold while EEG draws (#747-762), accelerating push-in + tilt down onto Theo (#763-810, x2.09), slow push on CU stare (#811-854), exponential zoom-through into screen-left eye (#854-862, x3.0 in 8 frames).",
+   "measured": "frames 718-862: zoom x3.9334 (in), content dx -279px (camera pans right), content dy -1192px (camera tilts down), roll +1.66 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  718-748: x0.5066 +220 +37 204\n  748-778: x1.4192 -118 -296 472\n  778-808: x1.5222 -123 -208 42\n  808-838: x1.1386 +50 +58 24\n  838-862: x3.1565 -308 -782 10",
+   "easing": "ease-out reveal; ease-in push; exponential zoom-through"
+  },
+  "background_id": "bg_depth_chart",
+  "characters": [
+   {
+    "name": "Theo",
+    "pose_ids": [
+     "underwater_sinking"
+    ],
+    "emotion_ids": [
+     "asleep_o_mouth",
+     "hypnagogic_stare"
+    ],
+    "screen_position": "centre-left on surface → centre",
+    "scale": "6% width → face fills frame"
+   }
+  ],
+  "assets": [
+   "wooden_chair"
+  ],
+  "unique_images": [
+   "ui_depth_chart_brain_waves"
+  ],
+  "overlays": [
+   "caption_word",
+   "ov_eeg_trace",
+   "ov_hypnagogia_title",
+   "vfx_water_caustics_bubbles",
+   "vfx_iris_zoom_through"
+  ],
+  "caption_words": "before | deep | sleep, | your brain | hits | a strange | halfway | state | called | hypnagogia | where | it | starts | connecting",
+  "lighting": "cool teal underwater with god rays, violet glow band, navy deep; caustics on character",
+  "palette": [
+   "#100f18",
+   "#2d6c7a",
+   "#2e3f63",
+   "#131f3d",
+   "#568b90",
+   "#c9cfda"
+  ],
+  "palette_frame": 746,
+  "notes": "Diagram beat. Labels: AWAKE, LIGHT SLEEP, ? ? ?, DEEP SLEEP, BRAIN WAVES. Realistic blue eyes on the key term. Zoom-through into pupil is the transition."
+ },
+ {
+  "shot": 7,
+  "start_frame": 863,
+  "end_frame": 946,
+  "start_time": 28.733,
+  "end_time": 31.533,
+  "duration_s": 2.8,
+  "transition_in": {
+   "type": "zoom-through (into the pupil, torn-paper reveal)",
+   "frames": [
+    855,
+    863
+   ]
+  },
+  "shot_size": "insert (ECU board → WS board → insert card)",
+  "camera_angle": "eye, flat-on",
+  "camera_motion": {
+   "description": "Pull-back over corkboard (#863-885 x0.49 fast, #885-900 x0.83), reverse to push-in + tilt toward merged card (#900-911 x1.14, #912-930 x1.44), slow push to 943.",
+   "measured": "frames 863-946: zoom x0.7235 (out), content dx -108px (camera pans right), content dy -562px (camera tilts down), roll -0.72 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  863-893: x0.4090 +109 -5 257\n  893-923: x1.4799 -146 -390 405\n  923-946: x1.1953 -71 -168 183",
+   "easing": "ease-out pull; ease-out push"
+  },
+  "background_id": "bg_corkboard",
+  "characters": [],
+  "assets": [],
+  "unique_images": [
+   "ui_corkboard_web",
+   "ui_card_key",
+   "ui_card_magnet_car"
+  ],
+  "overlays": [
+   "caption_word",
+   "vfx_red_string_draw",
+   "vfx_card_merge"
+  ],
+  "caption_words": "ideas | it | never | would | while | you're | awake. | Normally",
+  "lighting": "warm even top light on cork, slight vignette",
+  "palette": [
+   "#985b30",
+   "#a96e42",
+   "#7b4525",
+   "#e8c69d",
+   "#cb9b74",
+   "#4b2513"
+  ],
+  "palette_frame": 900,
+  "notes": "'Connecting ideas' visualised as conspiracy-board strings; payoff gag TRUCK+MAGNET → MAGNET CAR (perpetual-motion joke)."
+ },
+ {
+  "shot": 8,
+  "start_frame": 947,
+  "end_frame": 1092,
+  "start_time": 31.533,
+  "end_time": 36.4,
+  "duration_s": 4.867,
+  "transition_in": {
+   "type": "match cross-dissolve (card → elevator doorway with magnet-car model) with slight zoom-out settle",
+   "frames": [
+    943,
+    949
+   ]
+  },
+  "shot_size": "WS→MLS",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Very slow push-in throughout (~x1.01/s), small recoil on the crash (#1010-1030 zoom x0.89, tilt +129px), then push-in MLS (#1030-1089, x1.13).",
+   "measured": "frames 947-1092: zoom x1.0640 (in), content dx -143px (camera pans right), content dy +14px (camera tilts up), roll -6.22 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  947-977: x1.0122 -8 -11 418\n  977-1007: x1.0396 -9 -38 479\n  1007-1037: x0.8890 -11 +130 176\n  1037-1067: x1.0535 -58 -21 289\n  1067-1092: x1.0796 -57 -46 443",
+   "easing": "linear push; impulse recoil"
+  },
+  "background_id": "bg_elevator_hypnagogia",
+  "characters": [
+   {
+    "name": "Theo",
+    "pose_ids": [
+     "seated_holding_balls",
+     "seated_hands_empty"
+    ],
+    "emotion_ids": [
+     "asleep_o_mouth",
+     "stirring",
+     "alarmed",
+     "flinch",
+     "alarmed_sweat",
+     "relieved",
+     "excited",
+     "sly_grin",
+     "smug"
+    ],
+    "screen_position": "left of centre",
+    "scale": "full seated body ~55% height → ~70%"
+   }
+  ],
+  "assets": [
+   "steel_ball",
+   "metal_plate",
+   "wooden_chair",
+   "magnet_car_model",
+   "elevator_floor_dial"
+  ],
+  "unique_images": [
+   "ui_deep_sleep_floor_sign"
+  ],
+  "overlays": [
+   "caption_word",
+   "vfx_floor_scroll_blur",
+   "vfx_impact_arcs_double",
+   "vfx_sweat_drop"
+  ],
+  "caption_words": "you | sink | right | past it | and | forget | everything. | But the | crash | yanks | you out | right | in the middle | of it. | So",
+  "lighting": "warm interior; blue-lavender grade while at DEEP SLEEP floor (#983-1044) then back to warm; purple practical light from the hypnagogia floor",
+  "palette": [
+   "#3e2720",
+   "#30150d",
+   "#7c2a24",
+   "#55437a",
+   "#9d7659",
+   "#ebe5e4"
+  ],
+  "palette_frame": 960,
+  "notes": "Metaphor: sleep stages as elevator floors (A/L/H/D). Down = sink past; balls crash on 'But the'; ride back up = 'yanks you out'; arrives at HYPNAGOGIA floor on 'in the middle of it'."
+ },
+ {
+  "shot": 9,
+  "start_frame": 1093,
+  "end_frame": 1172,
+  "start_time": 36.4,
+  "end_time": 39.067,
+  "duration_s": 2.667,
+  "transition_in": {
+   "type": "cross-dissolve",
+   "frames": [
+    1090,
+    1094
+   ]
+  },
+  "shot_size": "MCU→MS",
+  "camera_angle": "low → eye",
+  "camera_motion": {
+   "description": "Very slow push (#1095-1125), then pull-back + crane up/tilt down (#1125-1150, zoom x0.95, tilt -54px), settle/hold to end.",
+   "measured": "frames 1093-1172: zoom x0.9751 (out), content dx +14px (camera pans left), content dy -79px (camera tilts down), roll -1.95 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1093-1123: x1.0364 -16 -23 489\n  1123-1153: x0.9438 +31 -58 432\n  1153-1172: x0.9969 +0 +2 912",
+   "easing": "ease-in-out"
+  },
+  "background_id": "bg_stage_high",
+  "characters": [
+   {
+    "name": "Theo",
+    "pose_ids": [
+     "arm_raised_notepad"
+    ],
+    "emotion_ids": [
+     "sly_grin",
+     "excited",
+     "proud",
+     "smug"
+    ],
+    "screen_position": "centre",
+    "scale": "head ~45% width → body ~60% height"
+   }
+  ],
+  "assets": [
+   "steel_ball",
+   "metal_plate",
+   "wooden_chair",
+   "round_stool",
+   "pendant_bulb",
+   "ring_rug"
+  ],
+  "unique_images": [
+   "ui_notepad_magnet_car"
+  ],
+  "overlays": [
+   "caption_word",
+   "vfx_sparkle_glint"
+  ],
+  "caption_words": "you wake up | holding | the | idea | instead | of the | balls.",
+  "lighting": "same warm spotlight stage as S1-S2 (bookend)",
+  "palette": [
+   "#171110",
+   "#322a22",
+   "#634836",
+   "#e0c6b5",
+   "#947560",
+   "#3d4f77"
+  ],
+  "palette_frame": 1141,
+  "notes": "Payoff/punchline: holding the idea (notepad) instead of the balls (resting in plates, glinting). Ends on smug smirk, no outro."
+ }
+]
