@@ -1,0 +1,554 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/creative3000/system/schema/shot_plan.schema.json",
+  "title": "Shot plan",
+  "description": "Everything a pipeline needs to build one vertical Short (720x1280, 30 fps). Frame numbers are 1-based and ranges are inclusive [start_frame, end_frame], matching analysis/videos/*/shots.json. Camera move params use the 2D measurement convention of tools/motion.py (zoom factor, content dx/dy px, content roll deg); system/CAMERA_LANGUAGE.md section 3 converts them to Blender 5.2 camera keys.",
+  "type": "object",
+  "required": ["schema_version", "meta", "script", "shots", "captions", "assets"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "meta": { "$ref": "#/$defs/meta" },
+    "script": { "$ref": "#/$defs/script" },
+    "shots": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/shot" } },
+    "captions": { "$ref": "#/$defs/captions" },
+    "assets": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/asset" } }
+  },
+  "$defs": {
+    "frame": { "type": "integer", "minimum": 1 },
+    "id": { "type": "string", "pattern": "^[A-Za-z0-9_.-]+$" },
+    "path": { "type": "string", "description": "Repo-relative path (no leading slash)." , "pattern": "^[^/].*" },
+    "hex": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+    "vec2": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2 },
+    "vec3": { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3 },
+    "frame_range": {
+      "type": "object",
+      "required": ["start_frame", "end_frame"],
+      "properties": {
+        "start_frame": { "$ref": "#/$defs/frame" },
+        "end_frame": { "$ref": "#/$defs/frame" }
+      }
+    },
+    "easing": {
+      "description": "Progress curve u=E(t), applied in log-zoom space for zooms and linearly for pans/rolls. Definitions in CAMERA_LANGUAGE.md section 3.3.",
+      "oneOf": [
+        { "enum": ["linear", "ease_in", "ease_out", "ease_in_out", "suction_in", "hold", "constant"] },
+        {
+          "type": "object",
+          "required": ["cubic_bezier"],
+          "additionalProperties": false,
+          "properties": {
+            "cubic_bezier": { "type": "array", "items": { "type": "number" }, "minItems": 4, "maxItems": 4 }
+          }
+        }
+      ]
+    },
+
+    "meta": {
+      "type": "object",
+      "required": ["id", "title", "fps", "width", "height", "duration_frames", "style_lock", "grade"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string" },
+        "series": { "type": "string" },
+        "source_reference": {
+          "description": "For rebuilds of an analysed video: where the decoded reference lives (used by QA).",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "video_path": { "$ref": "#/$defs/path" },
+            "analysis_dir": { "$ref": "#/$defs/path" },
+            "frame_metrics_csv": { "$ref": "#/$defs/path" }
+          }
+        },
+        "fps": { "const": 30 },
+        "width": { "const": 720 },
+        "height": { "const": 1280 },
+        "duration_frames": { "type": "integer", "minimum": 1 },
+        "style_lock": {
+          "type": "object",
+          "required": ["ref"],
+          "additionalProperties": false,
+          "properties": {
+            "ref": { "type": "string", "description": "Path (optionally #anchor) of the style-lock paragraph pasted into every prompt." },
+            "text": { "type": "string" }
+          }
+        },
+        "grade": {
+          "type": "object",
+          "description": "Global colour handling. Per-shot lighting is shot.background.lighting_grade.",
+          "additionalProperties": false,
+          "properties": {
+            "view_transform": { "enum": ["Standard", "AgX", "Filmic"], "default": "Standard" },
+            "look": { "type": "string" },
+            "palette": { "type": "array", "items": { "$ref": "#/$defs/hex" } },
+            "bloom": { "type": "number", "minimum": 0, "maximum": 1 },
+            "vignette": { "type": "number", "minimum": 0, "maximum": 1 },
+            "grain": { "type": "number", "minimum": 0, "maximum": 1 },
+            "lut_path": { "$ref": "#/$defs/path" }
+          }
+        },
+        "voiceover": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "audio_path": { "$ref": "#/$defs/path" },
+            "tts_voice": { "type": "string" },
+            "words_per_second": { "type": "number" },
+            "alignment": { "enum": ["whisperx", "stable_ts", "caption_cards", "manual"] }
+          }
+        },
+        "render": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "engine_default": { "enum": ["blender_cycles", "blender_eevee", "blender_workbench", "remotion"] },
+            "blender_version": { "type": "string", "pattern": "^5\\.2" },
+            "samples": { "type": "integer", "minimum": 1 },
+            "handles_frames": { "type": "integer", "minimum": 0, "default": 4, "description": "Extra frames rendered before/after each shot for dissolves." },
+            "output_path": { "$ref": "#/$defs/path" }
+          }
+        },
+        "notes": { "type": "string" }
+      }
+    },
+
+    "script": {
+      "type": "object",
+      "required": ["beats", "lines"],
+      "additionalProperties": false,
+      "properties": {
+        "beats": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "type", "start_frame", "end_frame"],
+            "additionalProperties": false,
+            "properties": {
+              "id": { "$ref": "#/$defs/id" },
+              "type": { "enum": ["hook", "setup", "escalation", "turn", "explanation", "evidence", "twist", "payoff", "outro"] },
+              "name": { "type": "string" },
+              "start_frame": { "$ref": "#/$defs/frame" },
+              "end_frame": { "$ref": "#/$defs/frame" },
+              "emotion_target": { "type": "string" },
+              "visual_device": { "type": "string", "description": "literal illustration, reaction CU, POV gag, cutaway diagram, running gag ..." }
+            }
+          }
+        },
+        "lines": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["id", "text", "start_frame", "end_frame", "words"],
+            "additionalProperties": false,
+            "properties": {
+              "id": { "$ref": "#/$defs/id" },
+              "beat_id": { "$ref": "#/$defs/id" },
+              "speaker": { "type": "string", "default": "narrator" },
+              "text": { "type": "string" },
+              "start_frame": { "$ref": "#/$defs/frame" },
+              "end_frame": { "$ref": "#/$defs/frame" },
+              "words": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": ["text", "start_frame", "end_frame"],
+                  "additionalProperties": false,
+                  "properties": {
+                    "text": { "type": "string" },
+                    "start_frame": { "$ref": "#/$defs/frame" },
+                    "end_frame": { "$ref": "#/$defs/frame" },
+                    "stress": { "type": "boolean", "description": "Keyword the camera/face/prop should hit." }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "captions": {
+      "type": "object",
+      "required": ["style", "cards"],
+      "additionalProperties": false,
+      "properties": {
+        "style": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "font": { "type": "string" },
+            "font_path": { "$ref": "#/$defs/path" },
+            "cap_height_px": { "type": "number" },
+            "fill": { "$ref": "#/$defs/hex" },
+            "stroke": { "$ref": "#/$defs/hex" },
+            "stroke_px": { "type": "number" },
+            "shadow": { "type": "boolean" },
+            "center_y_px": { "type": "number" },
+            "max_words_per_card": { "type": "integer", "minimum": 1 },
+            "animation": { "enum": ["cut", "pop", "fade"] },
+            "case": { "enum": ["as_spoken", "upper", "lower"] }
+          }
+        },
+        "cards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["word", "start_frame", "end_frame"],
+            "additionalProperties": false,
+            "properties": {
+              "word": { "type": "string", "description": "Card text (1-2 words in this series)." },
+              "start_frame": { "$ref": "#/$defs/frame" },
+              "end_frame": { "$ref": "#/$defs/frame" },
+              "line_id": { "$ref": "#/$defs/id" }
+            }
+          }
+        }
+      }
+    },
+
+    "asset": {
+      "type": "object",
+      "required": ["id", "type", "reference_crops", "generated_file"],
+      "anyOf": [ { "required": ["prompt"] }, { "required": ["prompt_ref"] } ],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "type": { "enum": ["character", "pose", "emotion_face", "background", "asset_3d", "unique_image", "overlay_ui", "vfx", "font", "audio", "video_clip"] },
+        "name": { "type": "string" },
+        "character_id": { "$ref": "#/$defs/id", "description": "For pose / emotion_face assets: the owning character asset." },
+        "pose_id": { "type": "string" },
+        "emotion": { "type": "string" },
+        "description": { "type": "string" },
+        "prompt": { "type": "string", "description": "Full generation prompt (style lock included)." },
+        "prompt_ref": { "type": "string", "description": "Path#heading of the prompt in the library .md files." },
+        "reference_crops": { "type": "array", "items": { "$ref": "#/$defs/path" }, "description": "Library crops attached as reference images." },
+        "generated_file": { "oneOf": [ { "$ref": "#/$defs/path" }, { "type": "null" } ], "description": "Where the generated asset is (or will be) written." },
+        "status": { "enum": ["planned", "generated", "approved", "rejected"], "default": "planned" },
+        "generator": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "model": { "type": "string" },
+            "endpoint": { "enum": ["generations", "edits", "i2v", "code", "blender"] },
+            "size": { "type": "string", "pattern": "^[0-9]+x[0-9]+$" },
+            "background": { "enum": ["opaque", "transparent", "auto"] },
+            "quality": { "type": "string" },
+            "input_images": { "type": "array", "items": { "$ref": "#/$defs/path" } }
+          }
+        },
+        "transparent": { "type": "boolean" },
+        "lighting_variants": { "type": "array", "items": { "type": "string" } },
+        "anchor_px": { "$ref": "#/$defs/vec2", "description": "Pivot in asset pixels (e.g. neck point for heads, feet for bodies)." },
+        "face_anchor_px": { "$ref": "#/$defs/vec2", "description": "For poses: where the face sprite centre goes, in pose pixels." },
+        "source_frames": { "type": "array", "items": { "type": "array", "items": { "$ref": "#/$defs/frame" }, "minItems": 2, "maxItems": 2 }, "description": "Frame ranges in the reference video where the asset appears." }
+      }
+    },
+
+    "transform": {
+      "type": "object",
+      "description": "Screen placement at the shot's first frame, in 720x1280 px (origin top-left), plus depth in metres from the camera for parallax.",
+      "additionalProperties": false,
+      "properties": {
+        "x_px": { "type": "number" },
+        "y_px": { "type": "number" },
+        "height_px": { "type": "number", "exclusiveMinimum": 0 },
+        "depth_m": { "type": "number", "exclusiveMinimum": 0 },
+        "rotation_deg": { "type": "number" },
+        "flip_x": { "type": "boolean" },
+        "billboard": { "type": "boolean", "description": "Track-To the camera (needed for orbits)." }
+      }
+    },
+
+    "animation_key": {
+      "type": "object",
+      "required": ["frame"],
+      "additionalProperties": false,
+      "properties": {
+        "frame": { "$ref": "#/$defs/frame" },
+        "action": { "type": "string", "description": "e.g. enter, exit, slide, land, stamp, value, swing, spin, morph, pop" },
+        "value": {},
+        "params": { "type": "object" },
+        "easing": { "$ref": "#/$defs/easing" }
+      }
+    },
+
+    "layer": {
+      "type": "object",
+      "required": ["id", "role", "asset_id", "transform"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "role": { "enum": ["background", "far", "mid", "near", "foreground", "detail_inset"] },
+        "asset_id": { "$ref": "#/$defs/id" },
+        "transform": { "$ref": "#/$defs/transform" },
+        "blur_px": { "type": "number", "minimum": 0 },
+        "opacity": { "type": "number", "minimum": 0, "maximum": 1 },
+        "visible": { "type": "array", "items": { "$ref": "#/$defs/frame_range" } },
+        "animation": { "type": "array", "items": { "$ref": "#/$defs/animation_key" } }
+      }
+    },
+
+    "emotion_key": {
+      "type": "object",
+      "required": ["frame", "emotion"],
+      "additionalProperties": false,
+      "properties": {
+        "frame": { "$ref": "#/$defs/frame" },
+        "emotion": { "type": "string", "description": "Emotion id; holds until the next key. 'hidden' = face not visible." },
+        "asset_id": { "$ref": "#/$defs/id" },
+        "blend_frames": { "type": "integer", "minimum": 0, "maximum": 6, "description": "Cross-blend from the previous face over N frames (soft morph look); 0 = hard swap." }
+      }
+    },
+
+    "character": {
+      "type": "object",
+      "required": ["character_id", "poses", "emotion_timeline", "transform"],
+      "additionalProperties": false,
+      "properties": {
+        "character_id": { "$ref": "#/$defs/id" },
+        "role": { "type": "string" },
+        "visible": { "type": "array", "items": { "$ref": "#/$defs/frame_range" } },
+        "poses": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["frame", "pose_id"],
+            "additionalProperties": false,
+            "properties": {
+              "frame": { "$ref": "#/$defs/frame" },
+              "pose_id": { "type": "string" },
+              "asset_id": { "$ref": "#/$defs/id" },
+              "transition": { "enum": ["cut", "blend", "i2v"] }
+            }
+          }
+        },
+        "emotion_timeline": { "type": "array", "items": { "$ref": "#/$defs/emotion_key" } },
+        "lip_flap": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "open_emotion": { "type": "string" },
+            "closed_emotion": { "type": "string" },
+            "hold_frames": { "type": "array", "items": { "type": "integer" }, "minItems": 2, "maxItems": 2 }
+          }
+        },
+        "transform": { "$ref": "#/$defs/transform" },
+        "motion": { "type": "array", "items": { "$ref": "#/$defs/animation_key" }, "description": "Body motion: walk path, bob, lean, enter/exit." },
+        "rim_light": { "type": "string" }
+      }
+    },
+
+    "timed_element": {
+      "type": "object",
+      "required": ["id", "start_frame", "end_frame"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "asset_id": { "$ref": "#/$defs/id" },
+        "kind": { "type": "string", "description": "prop / counter / badge / stamp / wireframe / glint / particles / dissolve_fx / morph / blur ..." },
+        "start_frame": { "$ref": "#/$defs/frame" },
+        "end_frame": { "$ref": "#/$defs/frame" },
+        "transform": { "$ref": "#/$defs/transform" },
+        "build": { "enum": ["image_plane", "blender_geometry", "code_text", "particles", "compositor", "i2v", "sprite_sequence"] },
+        "keys": { "type": "array", "items": { "$ref": "#/$defs/animation_key" } },
+        "params": { "type": "object" }
+      }
+    },
+
+    "camera_move": {
+      "type": "object",
+      "required": ["type", "start_frame", "end_frame", "params", "easing"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": ["static", "slow_push_in", "tension_push_in", "punch_in", "recoil", "pull_back_reveal", "crane_out_aerial",
+                   "suction_push", "dolly_through", "orbit", "tilt", "crane", "truck", "follow", "insert_move_through",
+                   "whip_pan", "pov", "dutch_hold", "shake"]
+        },
+        "start_frame": { "$ref": "#/$defs/frame" },
+        "end_frame": { "$ref": "#/$defs/frame" },
+        "params": {
+          "type": "object",
+          "description": "2D targets in motion.py convention plus implementation hints.",
+          "additionalProperties": false,
+          "properties": {
+            "zoom": { "type": "number", "exclusiveMinimum": 0, "description": "Cumulative scale factor over the move (>1 push-in)." },
+            "content_dx_px": { "type": "number" },
+            "content_dy_px": { "type": "number" },
+            "roll_deg": { "type": "number" },
+            "orbit_deg": { "type": "number" },
+            "target": { "type": "string", "description": "Layer/character/prop id the move is aimed at or ends on." },
+            "reference_layer": { "type": "string", "description": "Layer whose 2D motion must match zoom/dx/dy (default: background)." },
+            "zoom_mode": { "enum": ["dolly", "focal", "2d_scale"], "default": "dolly" },
+            "pan_mode": { "enum": ["translate", "rotate"], "default": "translate" },
+            "lens_mm": { "type": "number" },
+            "dof": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "fstop": { "type": "number" },
+                "focus_target": { "type": "string" },
+                "focus_m": { "type": "number" }
+              }
+            },
+            "motion_blur": { "type": "boolean" },
+            "noise": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": { "strength_m": { "type": "number" }, "scale_frames": { "type": "number" } }
+            },
+            "blender": {
+              "type": "object",
+              "description": "Optional explicit overrides; otherwise derived from the 2D targets.",
+              "additionalProperties": false,
+              "properties": {
+                "start_location": { "$ref": "#/$defs/vec3" },
+                "end_location": { "$ref": "#/$defs/vec3" },
+                "start_rotation_deg": { "$ref": "#/$defs/vec3" },
+                "end_rotation_deg": { "$ref": "#/$defs/vec3" },
+                "start_lens_mm": { "type": "number" },
+                "end_lens_mm": { "type": "number" }
+              }
+            }
+          }
+        },
+        "easing": { "$ref": "#/$defs/easing" },
+        "measured": {
+          "type": "object",
+          "description": "Reference values from tools/motion.py (QA targets).",
+          "additionalProperties": false,
+          "properties": {
+            "zoom": { "type": "number" },
+            "content_dx_px": { "type": "number" },
+            "content_dy_px": { "type": "number" },
+            "roll_deg": { "type": "number" },
+            "reliable": { "type": "boolean" },
+            "source": { "type": "string" }
+          }
+        },
+        "beat_word": { "type": "string", "description": "Narration word this move is cut to." }
+      }
+    },
+
+    "transition": {
+      "type": "object",
+      "required": ["type", "frames"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "enum": ["none", "cut", "jump_cut", "match_cut", "dissolve", "match_dissolve", "dissolve_ghost", "zoom_through", "whip_pan", "move_through", "wipe", "loop_match"] },
+        "frames": { "type": "integer", "minimum": 0, "description": "Duration of the overlap in frames (0 for cuts)." },
+        "start_frame": { "$ref": "#/$defs/frame" },
+        "params": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "portal_shape": { "enum": ["circle", "door", "torn_paper", "page", "window", "none"] },
+            "overlay_asset_id": { "$ref": "#/$defs/id" },
+            "match_subject": { "type": "string" },
+            "curve": { "$ref": "#/$defs/easing" }
+          }
+        }
+      }
+    },
+
+    "shot": {
+      "type": "object",
+      "required": ["id", "start_frame", "end_frame", "render", "background", "camera", "transition_in"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "beat_ids": { "type": "array", "items": { "$ref": "#/$defs/id" } },
+        "start_frame": { "$ref": "#/$defs/frame" },
+        "end_frame": { "$ref": "#/$defs/frame" },
+        "description": { "type": "string" },
+        "shot_size": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "start": { "enum": ["EWS", "WS", "MLS", "MS", "MCU", "CU", "ECU", "insert", "UI-screen", "POV"] },
+            "end": { "enum": ["EWS", "WS", "MLS", "MS", "MCU", "CU", "ECU", "insert", "UI-screen", "POV"] }
+          }
+        },
+        "angle": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": { "enum": ["eye", "high", "low", "birds_eye", "worms_eye", "pov"] },
+            "end_type": { "enum": ["eye", "high", "low", "birds_eye", "worms_eye", "pov"] },
+            "dutch_deg": { "type": "number" }
+          }
+        },
+        "render": {
+          "type": "object",
+          "required": ["mode"],
+          "additionalProperties": false,
+          "properties": {
+            "mode": { "enum": ["blender_2_5d", "blender_3d_blockout", "i2v", "remotion_2d", "hybrid"] },
+            "engine": { "enum": ["blender_cycles", "blender_eevee", "blender_workbench", "remotion"] },
+            "i2v_segments": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["start_frame", "end_frame", "prompt"],
+                "additionalProperties": false,
+                "properties": {
+                  "start_frame": { "$ref": "#/$defs/frame" },
+                  "end_frame": { "$ref": "#/$defs/frame" },
+                  "model": { "type": "string" },
+                  "prompt": { "type": "string" },
+                  "start_image": { "type": "string", "description": "Rendered frame or asset id used as the first frame." },
+                  "end_image": { "type": "string" }
+                }
+              }
+            },
+            "notes": { "type": "string" }
+          }
+        },
+        "background": {
+          "type": "object",
+          "required": ["asset_id", "lighting_grade"],
+          "additionalProperties": false,
+          "properties": {
+            "asset_id": { "$ref": "#/$defs/id" },
+            "lighting_grade": { "type": "string", "description": "Lighting variant / grade id, e.g. casino_warm, xray." },
+            "palette": { "type": "array", "items": { "$ref": "#/$defs/hex" } },
+            "depth_m": { "type": "number", "exclusiveMinimum": 0 }
+          }
+        },
+        "layers": { "type": "array", "items": { "$ref": "#/$defs/layer" } },
+        "characters": { "type": "array", "items": { "$ref": "#/$defs/character" } },
+        "props": { "type": "array", "items": { "$ref": "#/$defs/timed_element" } },
+        "overlays": { "type": "array", "items": { "$ref": "#/$defs/timed_element" } },
+        "vfx": { "type": "array", "items": { "$ref": "#/$defs/timed_element" } },
+        "camera": {
+          "type": "object",
+          "required": ["lens_mm", "moves"],
+          "additionalProperties": false,
+          "properties": {
+            "lens_mm": { "type": "number", "exclusiveMinimum": 0 },
+            "sensor_fit": { "enum": ["VERTICAL", "AUTO"], "default": "VERTICAL" },
+            "sensor_mm": { "type": "number", "default": 36 },
+            "projection": { "enum": ["perspective", "fisheye_equisolid", "orthographic"], "default": "perspective" },
+            "moves": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/camera_move" } }
+          }
+        },
+        "transition_in": { "$ref": "#/$defs/transition" },
+        "qa": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "zoom_tolerance": { "type": "number", "default": 0.05 },
+            "pan_tolerance_px": { "type": "number", "default": 30 },
+            "reference_frames": { "type": "array", "items": { "$ref": "#/$defs/frame" } }
+          }
+        },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}
