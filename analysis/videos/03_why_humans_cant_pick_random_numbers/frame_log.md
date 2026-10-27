@@ -22,7 +22,7 @@ Caption = white heavy rounded sans, black outline + soft drop shadow, centred �
 - Captions: "number," #31–43, "there's" #44–50, "a way" #51–56, "to" #57–59, "tell" #60.
 
 ## sec 002 — frames 61–90
-- S1 continues; push-in continues (head ~65 % frame width by #90). Caption now sits inside the lens (≈ y 1020).
+- S1 continues; push-in continues (head ~65 % frame width by #90). Caption stays at y≈900; the magnifier lens has moved under it, so the words sit over the lens.
 - #61–74 Rico smug side-eye grin (one brow raised), mouth flat-teeth.
 - #75 transition face: eyes shut to dashes, mouth small zig-zag (blink/squirm). #76 eyes look sideways, wavy mouth (worried).
 - **#77 face switches → shocked/panicked**: big hollow circle eyes with dot pupils, raised curved brows, wavy zig-zag mouth, **blue sweat drop** top-right of head (#77–90). Hold #77–90+.
@@ -243,12 +243,12 @@ Caption = white heavy rounded sans, black outline + soft drop shadow, centred �
 
 ## sec 037 — frames 1111–1140
 - S9 continues: Marge places cheques on the "8" stack (#1117–1124) and "9" stack (#1127–1134), the 7-8-9 stacks now tallest (≈7, 8, 6 cheques); she then turns away right with hands down (#1135–1140).
-- Marge: pleasant smile; **#1135–1140 eyes-closed smug smile** (glasses with closed-eye curves) — "case closed" satisfaction.
+- Marge: pleasant smile; **#1134–1140 wink** (one eye closed curve behind the glasses, the other open, smile; full-res #1134/#1136/#1138) — "case closed" satisfaction.
 - Camera: slow push-in continuing; ledge digits "2 3 4 5 6 7 8 9" visible.
 - Captions: "seven," to #1117, "eight" #1118–1126, "or nine," #1127–1144.
 
 ## sec 038 — frames 1141–1170
-- #1141–1144 S9: Marge walking right (eyes-closed smile #1141–1146), slips out of frame right (#1147–1150).
+- #1141–1144 S9: Marge walking right, **wink continues #1141–1146** (full-res #1141; both eyes shut for 1 frame ≈#1144), slips out of frame right (#1147–1150).
 - **#1145–1160 camera move-through (whip-ish pan left + tilt down, ~15 frames)**: the cheque histogram (digits "1 2 3 4 5 6 7 8 9" visible #1145+, so the ledge actually reads 1–9 with tall 7-8-9) slides right and out; Rico enters from left (#1151) seated at the "AUDIT" desk in a teal chair by the window (Marge's desk turned toward camera), desk lamp, green blotter, light shafts. Becomes S10 at ≈#1160 (high-angle MS of Rico at desk, camera ~25° above).
 - Rico #1155–1170: **focused/suspicious** (one brow down, half-lid, small "o" mouth), writing with a blue ballpoint on a white notepad: "8" #1165, "87" #1166, "87." #1167 → "871" #1168 → "874" #1169–1170 (number written live, rewritten/corrected 871→874).
 - Captions: "and" #1145–1150, "he avoided" #1151–1165, "doubles" #1166–1179.

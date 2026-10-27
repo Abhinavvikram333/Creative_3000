@@ -1,0 +1,931 @@
+[
+ {
+  "shot": 1,
+  "start_frame": 1,
+  "end_frame": 213,
+  "start_time": 0.0,
+  "end_time": 7.1,
+  "duration_s": 7.1,
+  "transition_in": {
+   "type": "loop match (cold open; f1200 drawn page = same layout as f1)",
+   "frames": [
+    1200,
+    1
+   ]
+  },
+  "shot_size": "WS → MS → ECU (continuous)",
+  "camera_angle": "high → bird's-eye → eye-level follow",
+  "camera_motion": {
+   "description": "3D-like camera move in one take: orbit + tilt-down off the platform edge following Dex (1-30), then a dive alongside him with a continuous roll (~-55°) and gentle push (31-180), then an accelerating push-in onto his face/eye (181-213).",
+   "measured": {
+    "shot": "frames 1-213: zoom x3.0423 (in), content dx -1202px (camera pans right), content dy -540px (camera tilts down), roll -55.40 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1-31: x0.8871 -486 +202 101\n  31-61: x1.4095 -173 -300 266\n  61-91: x1.0246 -553 +295 272\n  91-121: x0.9527 +23 +39 425\n  121-151: x0.9569 +149 -17 341\n  151-181: x1.1459 +73 -159 318\n  181-211: x2.2731 -234 -601 183\n  211-213: x1.0000 -0 +0 346",
+    "orbit/tilt-down off edge (1-30)": "frames 1-30: zoom x0.8954 (out), content dx -462px (camera pans right), content dy +184px (camera tilts up), roll -26.25 deg",
+    "dive + roll follow (31-180)": "frames 31-180: zoom x1.4932 (in), content dx -481px (camera pans right), content dy -135px (camera tilts down), roll -32.05 deg",
+    "accelerating push-in to eye (181-213)": "frames 181-213: zoom x2.2731 (in), content dx -234px (camera pans right), content dy -600px (camera tilts down), roll +4.16 deg"
+   },
+   "easing": "ease-in on final push (181-213 scale/frame rising to ~1.05)"
+  },
+  "background_id": "bg_tower_top_highangle → bg_tower_side_fall",
+  "characters": [
+   {
+    "name": "Dr. Klaus",
+    "pose_ids": [
+     "push"
+    ],
+    "emotion_ids": [
+     "neutral"
+    ],
+    "screen_position": "left-centre (1-30)",
+    "scale": "full body ~0.35 frame height"
+   },
+   {
+    "name": "Dex",
+    "pose_ids": [
+     "pushed_off_edge",
+     "freefall_spread",
+     "tumble_horizontal"
+    ],
+    "emotion_ids": [
+     "terrified(1-128,192-213)",
+     "dread_eyesshut(130-153)",
+     "deadpan(154-189)",
+     "smug(190-191)"
+    ],
+    "screen_position": "centre",
+    "scale": "body 0.5 → face fills frame"
+   },
+   {
+    "name": "Elmer",
+    "pose_ids": [
+     "waiting"
+    ],
+    "emotion_ids": [
+     "neutral"
+    ],
+    "screen_position": "bg left",
+    "scale": "tiny"
+   },
+   {
+    "name": "Gil",
+    "pose_ids": [
+     "waiting"
+    ],
+    "emotion_ids": [
+     "neutral"
+    ],
+    "screen_position": "bg left",
+    "scale": "tiny"
+   }
+  ],
+  "assets": [
+   "asset_freefall_tower",
+   "asset_red_cap",
+   "asset_pigeon",
+   "asset_chrono2_device"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "ov_sweat_drops",
+   "ov_pupil_zoom"
+  ],
+  "caption_words": "A scientist dropped people off a tower just to find out what happens to time right before you die. Apparently, when you're terrified,",
+  "lighting": "bright midday sun, soft cel shading, blue sky",
+  "palette": [
+   "#332831",
+   "#ea872a",
+   "#e5e1da",
+   "#665247",
+   "#9ca655",
+   "#4b9bd4"
+  ],
+  "notes": "Hook shot, 7.1 s with no cut. Dex's red cap flies off at f1 and drifts alongside. The pigeon joins at #82. Ends on an ECU of the eye whose pupil is the brain (match into shot 2)."
+ },
+ {
+  "shot": 2,
+  "start_frame": 214,
+  "end_frame": 330,
+  "start_time": 7.1,
+  "end_time": 11.0,
+  "duration_s": 3.9,
+  "transition_in": {
+   "type": "zoom-through (pupil → lens → circular reveal)",
+   "frames": [
+    214,
+    228
+   ]
+  },
+  "shot_size": "MS → insert (porthole)",
+  "camera_angle": "eye-level wide-angle → high, then tilt up to porthole",
+  "camera_motion": {
+   "description": "Zoom-through the pupil, then an orbit left→right around Noggin (fisheye-like 3D move), crane-up/tilt-up and push toward the left porthole; ends near-static on the porthole.",
+   "measured": {
+    "shot": "frames 214-330: zoom x0.6906 (out), content dx +1788px (camera pans left), content dy +42px (camera tilts up), roll +79.97 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  214-244: x1.0662 +240 -218 59\n  244-274: x0.7424 +1106 +146 116\n  274-304: x0.8075 +394 +180 165\n  304-330: x1.0805 +48 -65 272",
+    "pupil iris reveal (214-228)": "frames 214-228: zoom x1.0164 (in), content dx +57px (camera pans left), content dy -83px (camera tilts down), roll +3.15 deg",
+    "orbit + crane (229-289)": "frames 229-289: zoom x0.6480 (out), content dx +1556px (camera pans left), content dy +192px (camera tilts up), roll +66.07 deg",
+    "settle on porthole (289-330)": "frames 289-330: zoom x1.0652 (in), content dx +162px (camera pans left), content dy -73px (camera tilts down), roll +10.26 deg"
+   },
+   "easing": "ease-in-out"
+  },
+  "background_id": "bg_brain_room → bg_brain_porthole",
+  "characters": [
+   {
+    "name": "Noggin",
+    "pose_ids": [
+     "in_pupil",
+     "seated_scribble_front",
+     "back_view"
+    ],
+    "emotion_ids": [
+     "bored_halflid(214-225)",
+     "startled(226-230)",
+     "strain_squint(231-235,243-244)",
+     "frantic(236-242)",
+     "angry_determined(245-251)"
+    ],
+    "screen_position": "centre → exits right",
+    "scale": "body ~0.45 frame height"
+   }
+  ],
+  "assets": [
+   "asset_panic_button",
+   "asset_pigeon",
+   "drawing desk/stool/lamp (bg)"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "ov_lens_reveal",
+   "ov_sweat_drops"
+  ],
+  "caption_words": "your brain speeds up so much that the whole world slows down.",
+  "lighting": "warm interior, soft daylight from portholes",
+  "palette": [
+   "#f8efdd",
+   "#dfc8b8",
+   "#d5914d",
+   "#a7523a",
+   "#5c84b0",
+   "#51362c"
+  ],
+  "notes": "Porthole shows the pigeon in slow motion (one wingbeat ≈ 20 frames)."
+ },
+ {
+  "shot": 3,
+  "start_frame": 331,
+  "end_frame": 437,
+  "start_time": 11.0,
+  "end_time": 14.567,
+  "duration_s": 3.567,
+  "transition_in": {
+   "type": "dissolve (graphic match porthole circle → rug circle)",
+   "frames": [
+    331,
+    336
+   ]
+  },
+  "shot_size": "WS bird's-eye → insert (table-level)",
+  "camera_angle": "bird's-eye → high → low (table level)",
+  "camera_motion": {
+   "description": "Tilt up from top-down + dolly in (331-390); accelerating dolly forward/down past the empty red-cap chair onto the table, rack focus 397-402, then a very slow push on the slow-mo crash.",
+   "measured": {
+    "shot": "frames 331-437: zoom x4.3883 (in), content dx -423px (camera pans right), content dy -1074px (camera tilts down), roll -0.05 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  331-361: x0.8057 +59 +280 236\n  361-391: x1.1612 +49 -156 223\n  391-421: x4.1927 -448 -1111 100\n  421-437: x1.1187 -83 -87 574",
+    "tilt-up + dolly (331-390)": "frames 331-390: zoom x0.8968 (out), content dx +100px (camera pans left), content dy +170px (camera tilts up), roll +3.48 deg",
+    "fast dolly to table + rack focus (391-421)": "frames 391-421: zoom x4.1927 (in), content dx -448px (camera pans right), content dy -1111px (camera tilts down), roll -2.38 deg",
+    "slow-mo creep (421-437)": "frames 421-437: zoom x1.1187 (in), content dx -83px (camera pans right), content dy -87px (camera tilts down), roll -2.45 deg"
+   },
+   "easing": "ease-in then hard ease-out into slow-mo"
+  },
+  "background_id": "bg_support_group_birdseye → bg_support_group_room → bg_toy_table",
+  "characters": [
+   {
+    "name": "Gus",
+    "pose_ids": [
+     "seated",
+     "hand_raise"
+    ],
+    "emotion_ids": [
+     "happy_closed"
+    ],
+    "screen_position": "circle of chairs",
+    "scale": "small (~0.15 frame height)"
+   },
+   {
+    "name": "Carl",
+    "pose_ids": [
+     "seated",
+     "hand_raise"
+    ],
+    "emotion_ids": [
+     "sleepy_halflid"
+    ],
+    "screen_position": "circle of chairs",
+    "scale": "small (~0.15 frame height)"
+   },
+   {
+    "name": "Deb",
+    "pose_ids": [
+     "seated",
+     "hand_raise"
+    ],
+    "emotion_ids": [
+     "happy_closed / o_mouth(414-437)"
+    ],
+    "screen_position": "circle of chairs",
+    "scale": "small (~0.15 frame height)"
+   },
+   {
+    "name": "Ray",
+    "pose_ids": [
+     "seated",
+     "hand_raise"
+    ],
+    "emotion_ids": [
+     "smug_sideglance"
+    ],
+    "screen_position": "circle of chairs",
+    "scale": "small (~0.15 frame height)"
+   },
+   {
+    "name": "Mo",
+    "pose_ids": [
+     "seated",
+     "hand_raise"
+    ],
+    "emotion_ids": [
+     "happy_closed"
+    ],
+    "screen_position": "circle of chairs",
+    "scale": "small (~0.15 frame height)"
+   }
+  ],
+  "assets": [
+   "asset_toy_crash_cars",
+   "asset_fries_soda",
+   "asset_red_cap"
+  ],
+  "unique_images": [
+   "ui_crash_survivors_banner",
+   "ui_one_mile_poster"
+  ],
+  "overlays": [
+   "ov_crash_sparkles",
+   "DOF blur"
+  ],
+  "caption_words": "People who survive crashes swear everything went into slow motion. So",
+  "lighting": "flat cool fluorescent interior",
+  "palette": [
+   "#dad3ae",
+   "#9fc1a5",
+   "#ae8b66",
+   "#e4e6db",
+   "#5c422c",
+   "#576480"
+  ],
+  "notes": "Visual gag: crash survivors as a support group. The \"crash\" is toy cars on a playmat in slow-mo with flying fries."
+ },
+ {
+  "shot": 4,
+  "start_frame": 438,
+  "end_frame": 615,
+  "start_time": 14.567,
+  "end_time": 20.5,
+  "duration_s": 5.933,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    438,
+    444
+   ]
+  },
+  "shot_size": "MS 2-shot → MCU → ECU insert",
+  "camera_angle": "eye-level",
+  "camera_motion": {
+   "description": "Continuous slow push-in that eases out (≈x1.25/s → x1.05/s) and then speeds up again on \"numbers… way too fast\" (558-615 x2.20) into an ECU of the device, with DOF rising.",
+   "measured": {
+    "shot": "frames 438-615: zoom x3.9619 (in), content dx -499px (camera pans right), content dy -974px (camera tilts down), roll +0.94 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  438-468: x1.2481 -85 -160 409\n  468-498: x1.2063 -62 -137 517\n  498-528: x1.1449 -54 -93 733\n  528-558: x1.0456 -12 -32 837\n  558-588: x1.5162 -150 -280 304\n  588-615: x1.4498 -137 -271 548",
+    "slow push-in on 2-shot (438-558)": "frames 438-558: zoom x1.8023 (in), content dx -212px (camera pans right), content dy -422px (camera tilts down), roll +0.82 deg",
+    "faster push to device ECU (558-615)": "frames 558-615: zoom x2.1982 (in), content dx -287px (camera pans right), content dy -552px (camera tilts down), roll +0.12 deg"
+   },
+   "easing": "ease-out, then ease-in"
+  },
+  "background_id": "bg_tower_platform",
+  "characters": [
+   {
+    "name": "Dr. Klaus",
+    "pose_ids": [
+     "fasten_device"
+    ],
+    "emotion_ids": [
+     "neutral(443-493,496-507)",
+     "wink(494-495,508-509)",
+     "smug_halflid(510-560)"
+    ],
+    "screen_position": "left third",
+    "scale": "full body 0.75 → head cropped"
+   },
+   {
+    "name": "Dex",
+    "pose_ids": [
+     "standing_harness"
+    ],
+    "emotion_ids": [
+     "terrified(443-493,527-534)",
+     "skeptical(494-495)",
+     "worried(496-526)",
+     "surprised_o(535-547)"
+    ],
+    "screen_position": "right third",
+    "scale": "full body 0.8 → head cropped"
+   },
+   {
+    "name": "Gil",
+    "pose_ids": [
+     "waiting"
+    ],
+    "emotion_ids": [
+     "queasy"
+    ],
+    "screen_position": "bg centre-left",
+    "scale": "small"
+   },
+   {
+    "name": "Elmer",
+    "pose_ids": [
+     "waiting"
+    ],
+    "emotion_ids": [
+     "worried_sweat"
+    ],
+    "screen_position": "bg centre-right",
+    "scale": "small"
+   }
+  ],
+  "assets": [
+   "asset_chrono2_device",
+   "asset_chrono2_digits47"
+  ],
+  "unique_images": [
+   "ui_lone_star_banner"
+  ],
+  "overlays": [
+   "ov_led_glow_dof"
+  ],
+  "caption_words": "before they fell, he strapped a little screen to each of their wrists that flashed numbers way too fast to read. If time",
+  "lighting": "bright day; LED adds red bloom at the end",
+  "palette": [
+   "#378fd5",
+   "#2a2d38",
+   "#54575c",
+   "#dbe7ec",
+   "#a4ad86",
+   "#e7722b",
+   "#ec5044"
+  ],
+  "notes": "Digits change every 5-6 frames (30,48,60,25,47,19), then all LEDs light from #569 (\"too fast to read\")."
+ },
+ {
+  "shot": 5,
+  "start_frame": 616,
+  "end_frame": 711,
+  "start_time": 20.5,
+  "end_time": 23.7,
+  "duration_s": 3.2,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    616,
+    621
+   ]
+  },
+  "shot_size": "insert (top-down document)",
+  "camera_angle": "bird's-eye (top-down)",
+  "camera_motion": {
+   "description": "Push-in plus tilt-down along the blueprint tracking the falling chalk figure (616-676), then a slight drift back.",
+   "measured": {
+    "shot": "frames 616-711: zoom x1.2839 (in), content dx -151px (camera pans right), content dy -170px (camera tilts down), roll -4.45 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  616-646: x1.2313 -124 -171 201\n  646-676: x1.1191 -100 -87 352\n  676-706: x0.9461 +56 +73 271\n  706-711: x0.9849 +17 +15 543",
+    "push + tilt-down track (616-676)": "frames 616-676: zoom x1.3779 (in), content dx -224px (camera pans right), content dy -258px (camera tilts down), roll -3.87 deg",
+    "drift (676-711)": "frames 676-711: zoom x0.9318 (out), content dx +73px (camera pans left), content dy +88px (camera tilts up), roll -0.57 deg"
+   },
+   "easing": "linear"
+  },
+  "background_id": "bg_blueprint_clipboard",
+  "characters": [
+   {
+    "name": "Dex",
+    "pose_ids": [
+     "blueprint_stick_figure"
+    ],
+    "emotion_ids": [
+     "content_smile(616-667)",
+     "squint_grin_thumbs_up(668-697)",
+     "worried(700-711)"
+    ],
+    "screen_position": "centre",
+    "scale": "figure ~0.3 frame height"
+   }
+  ],
+  "assets": [],
+  "unique_images": [
+   "ui_blueprint_hypothesis",
+   "ui_blueprint_title_block"
+  ],
+  "overlays": [
+   "ov_detail_callout_check",
+   "ov_speed_lines_blueprint"
+  ],
+  "caption_words": "really slowed down. They'd be able to read them as they were falling",
+  "lighting": "cool blue paper, soft vignette",
+  "palette": [
+   "#304474",
+   "#4b5f8c",
+   "#a09da5",
+   "#8d5f3d",
+   "#1d294e",
+   "#bcc9e3"
+  ],
+  "notes": "Snail sliding down the tower = slow-fall gag. Callout + check is an animated vector overlay."
+ },
+ {
+  "shot": 6,
+  "start_frame": 712,
+  "end_frame": 856,
+  "start_time": 23.7,
+  "end_time": 28.533,
+  "duration_s": 4.833,
+  "transition_in": {
+   "type": "hard cut",
+   "frames": [
+    712
+   ]
+  },
+  "shot_size": "WS (static) → MS group",
+  "camera_angle": "low (near ground) → eye-level",
+  "camera_motion": {
+   "description": "Locked-off 712-745 while Dex drops into the net. Then a smooth crane-down/pull-back with tilt-up (746-801) and a truck right + slight push (802-856) along the walking volunteers.",
+   "measured": {
+    "shot": "frames 712-856: zoom x0.5988 (out), content dx -100px (camera pans right), content dy +520px (camera tilts up), roll -15.17 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  712-742: x0.9984 +0 +2 710\n  742-772: x0.7776 +136 +225 444\n  772-802: x0.7056 +144 +290 318\n  802-832: x1.1811 -124 -170 275\n  832-856: x0.9255 -255 +174 445",
+    "static (712-745)": "frames 712-745: zoom x0.9925 (out), content dx +3px (camera pans left), content dy +7px (camera tilts up), roll -0.05 deg",
+    "crane-down/pull-back (746-801)": "frames 746-801: zoom x0.5558 (out), content dx +274px (camera pans left), content dy +503px (camera tilts up), roll -2.62 deg",
+    "truck right + push (802-856)": "frames 802-856: zoom x1.0931 (in), content dx -379px (camera pans right), content dy +4px (camera tilts up), roll -12.47 deg"
+   },
+   "easing": "ease-in-out"
+  },
+  "background_id": "bg_landing_net → bg_plaza_tower_base",
+  "characters": [
+   {
+    "name": "Dex",
+    "pose_ids": [
+     "landed_on_net",
+     "standing_bg"
+    ],
+    "emotion_ids": [
+     "dizzy(731-745)",
+     "worried(797-843)",
+     "frown(844-856)"
+    ],
+    "screen_position": "centre → bg right",
+    "scale": "small"
+   },
+   {
+    "name": "Tad",
+    "pose_ids": [
+     "walk_dizzy",
+     "arms_out_brag"
+    ],
+    "emotion_ids": [
+     "dizzy(757-786)",
+     "big_grin(787-842)",
+     "annoyed(844-856)"
+    ],
+    "screen_position": "centre-left fg",
+    "scale": "0.45 frame height"
+   },
+   {
+    "name": "Elmer",
+    "pose_ids": [
+     "arms_out_brag"
+    ],
+    "emotion_ids": [
+     "happy_closed(775-830)"
+    ],
+    "screen_position": "left/centre",
+    "scale": "0.35"
+   },
+   {
+    "name": "Gil",
+    "pose_ids": [
+     "walk_laughing"
+    ],
+    "emotion_ids": [
+     "laughing(795-813)"
+    ],
+    "screen_position": "left edge",
+    "scale": "0.35"
+   },
+   {
+    "name": "Dr. Klaus",
+    "pose_ids": [
+     "stopwatch"
+    ],
+    "emotion_ids": [
+     "neutral"
+    ],
+    "screen_position": "bg right",
+    "scale": "0.25"
+   }
+  ],
+  "assets": [
+   "asset_red_cap",
+   "asset_stopwatch",
+   "landing net (bg)"
+  ],
+  "unique_images": [
+   "ui_drop_off_net_sign"
+  ],
+  "overlays": [
+   "ov_motion_blur_smear"
+  ],
+  "caption_words": "when they landed. Every one of them swore the fall took way longer than it really did. But",
+  "lighting": "hard bright sun, long diagonal shadows",
+  "palette": [
+   "#2f78ce",
+   "#eeddc7",
+   "#7c543a",
+   "#e9922b",
+   "#373138",
+   "#814931"
+  ],
+  "notes": "Stopwatch reads 2.49 s (punchline contrast with \"way longer\")."
+ },
+ {
+  "shot": 7,
+  "start_frame": 857,
+  "end_frame": 967,
+  "start_time": 28.533,
+  "end_time": 32.233,
+  "duration_s": 3.7,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    857,
+    864
+   ]
+  },
+  "shot_size": "MS group → CU (back of head)",
+  "camera_angle": "eye-level",
+  "camera_motion": {
+   "description": "Near-static very slow push (857-905 x1.07), then an accelerating push-in onto the back of Dex's head (905-967 x3.68). A door is drawn on the head (957-960) and opens (961-968).",
+   "measured": {
+    "shot": "frames 857-967: zoom x3.9307 (in), content dx -494px (camera pans right), content dy -1066px (camera tilts down), roll -0.04 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  857-887: x1.0315 -20 -22 363\n  887-917: x1.0851 -22 -62 505\n  917-947: x1.2507 -74 -173 637\n  947-967: x2.8078 -378 -809 119",
+    "near-static (857-905)": "frames 857-905: zoom x1.0675 (in), content dx -28px (camera pans right), content dy -49px (camera tilts down), roll -0.19 deg",
+    "accelerating push-in (905-967)": "frames 905-967: zoom x3.6822 (in), content dx -466px (camera pans right), content dy -1017px (camera tilts down), roll +0.15 deg"
+   },
+   "easing": "ease-in (exponential)"
+  },
+  "background_id": "bg_lineup_room",
+  "characters": [
+   {
+    "name": "Gil",
+    "pose_ids": [
+     "witness",
+     "shrug"
+    ],
+    "emotion_ids": [
+     "skeptical_squint(870-912)",
+     "worried_frown(915-960)"
+    ],
+    "screen_position": "left",
+    "scale": "chest-up 0.3"
+   },
+   {
+    "name": "Dex",
+    "pose_ids": [
+     "back_view"
+    ],
+    "emotion_ids": [],
+    "screen_position": "centre",
+    "scale": "chest-up 0.3 → fills frame"
+   },
+   {
+    "name": "Elmer",
+    "pose_ids": [
+     "witness",
+     "shrug"
+    ],
+    "emotion_ids": [
+     "skeptical_halflid(870-912)",
+     "worried_frown(915-960)"
+    ],
+    "screen_position": "centre-right",
+    "scale": "0.3"
+   },
+   {
+    "name": "Dr. Klaus",
+    "pose_ids": [
+     "clipboard"
+    ],
+    "emotion_ids": [
+     "neutral"
+    ],
+    "screen_position": "right",
+    "scale": "0.3"
+   },
+   {
+    "name": "Digit Gang",
+    "pose_ids": [
+     "lineup"
+    ],
+    "emotion_ids": [
+     "sleepy_halflid",
+     "googly(8)"
+    ],
+    "screen_position": "behind glass, upper-mid",
+    "scale": "0.15"
+   }
+  ],
+  "assets": [
+   "asset_digit_suspects"
+  ],
+  "unique_images": [
+   "ui_clipboard_0of4"
+  ],
+  "overlays": [
+   "ov_door_drawn_on_head",
+   "ov_door_open"
+  ],
+  "caption_words": "when he asked them what number they saw, not one of them could tell him. You see,",
+  "lighting": "dim warm tungsten pendant + cold white window glow (film-noir)",
+  "palette": [
+   "#27140d",
+   "#583323",
+   "#695953",
+   "#e0e3e1",
+   "#91979f",
+   "#c98658"
+  ],
+  "notes": "Police lineup of digits is the visual pun on \"what number they saw\"."
+ },
+ {
+  "shot": 8,
+  "start_frame": 968,
+  "end_frame": 1077,
+  "start_time": 32.233,
+  "end_time": 35.9,
+  "duration_s": 3.667,
+  "transition_in": {
+   "type": "zoom-through (door in head)",
+   "frames": [
+    961,
+    971
+   ]
+  },
+  "shot_size": "MS high-angle → insert (stack)",
+  "camera_angle": "high",
+  "camera_motion": {
+   "description": "Fly-through the door, then a slow push-in + tilt-down onto the desk and the growing stack.",
+   "measured": {
+    "shot": "frames 968-1077: zoom x2.3952 (in), content dx -399px (camera pans right), content dy -589px (camera tilts down), roll -8.58 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  968-998: x1.5179 -130 -314 222\n  998-1028: x1.1870 -47 -109 262\n  1028-1058: x1.2824 -210 -140 321\n  1058-1077: x1.0367 -12 -26 566",
+    "enter + push (968-998)": "frames 968-998: zoom x1.5179 (in), content dx -130px (camera pans right), content dy -314px (camera tilts down), roll +0.67 deg",
+    "slow push/tilt (998-1058)": "frames 998-1058: zoom x1.5222 (in), content dx -257px (camera pans right), content dy -248px (camera tilts down), roll -9.03 deg",
+    "settle (1058-1077)": "frames 1058-1077: zoom x1.0367 (in), content dx -12px (camera pans right), content dy -26px (camera tilts down), roll -0.22 deg"
+   },
+   "easing": "ease-out"
+  },
+  "background_id": "bg_brain_room_highangle → bg_brain_room_red_alarm",
+  "characters": [
+   {
+    "name": "Amy",
+    "pose_ids": [
+     "stand_by_button",
+     "slam_button"
+    ],
+    "emotion_ids": [
+     "worried(972-980)",
+     "panic(981-990)",
+     "panic_sweat(991-1026)"
+    ],
+    "screen_position": "upper-left on desk",
+    "scale": "0.1"
+   },
+   {
+    "name": "Noggin",
+    "pose_ids": [
+     "back_view_drawing"
+    ],
+    "emotion_ids": [],
+    "screen_position": "bottom-right",
+    "scale": "0.3 (partial)"
+   }
+  ],
+  "assets": [
+   "asset_panic_button",
+   "asset_flipbook_stack"
+  ],
+  "unique_images": [
+   "ui_normal_tuesday_note",
+   "ui_comic_sheet"
+  ],
+  "overlays": [
+   "ov_red_alarm_tint",
+   "ov_rubber_band_snap"
+  ],
+  "caption_words": "when you're frightened, your brain records way more detail than normal. So",
+  "lighting": "red emergency light 982-1066 (red overlay + rays), then normal warm interior",
+  "palette": [
+   "#f3ba9f",
+   "#d3361f",
+   "#e66b50",
+   "#762b20",
+   "#f3e9f1",
+   "#958cdb"
+  ],
+  "notes": "Amy (amygdala) presses PANIC → red alarm → brain draws frame after frame → stack bound with a red rubber band → flipbook."
+ },
+ {
+  "shot": 9,
+  "start_frame": 1078,
+  "end_frame": 1170,
+  "start_time": 35.9,
+  "end_time": 39.0,
+  "duration_s": 3.1,
+  "transition_in": {
+   "type": "match cut (stack → flipbook in hands)",
+   "frames": [
+    1078
+   ]
+  },
+  "shot_size": "MCU → MS group → insert (flipbook)",
+  "camera_angle": "slightly low / eye-level → high",
+  "camera_motion": {
+   "description": "Pull-back + tilt-up revealing the deck party (1078-1146 x0.56), then push-in + tilt-down onto the flipping pages (1147-1170 x1.68).",
+   "measured": {
+    "shot": "frames 1078-1170: zoom x0.9742 (out), content dx +27px (camera pans left), content dy -110px (camera tilts down), roll +0.64 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1078-1108: x0.4759 +224 +713 138\n  1108-1138: x0.9894 -3 +42 324\n  1138-1168: x1.9419 -173 -763 145\n  1168-1170: x1.0654 -22 -102 149",
+    "pull-back reveal (1078-1146)": "frames 1078-1146: zoom x0.5642 (out), content dx +158px (camera pans left), content dy +594px (camera tilts up), roll -1.94 deg",
+    "push + tilt down into page (1147-1170)": "frames 1147-1170: zoom x1.6774 (in), content dx -122px (camera pans right), content dy -677px (camera tilts down), roll +2.57 deg"
+   },
+   "easing": "ease-out / ease-in"
+  },
+  "background_id": "bg_bbq_deck_sunset",
+  "characters": [
+   {
+    "name": "Dex",
+    "pose_ids": [
+     "seated_flipbook"
+    ],
+    "emotion_ids": [
+     "smug(1078-1121,1156-1162)",
+     "big_grin(1123-1155)"
+    ],
+    "screen_position": "centre",
+    "scale": "0.7 → 0.45"
+   },
+   {
+    "name": "Cooper",
+    "pose_ids": [
+     "standing_cup"
+    ],
+    "emotion_ids": [
+     "smile",
+     "side_eye",
+     "bored_stare"
+    ],
+    "screen_position": "left edge",
+    "scale": "0.3"
+   },
+   {
+    "name": "Hank",
+    "pose_ids": [
+     "standing_beer"
+    ],
+    "emotion_ids": [
+     "halflid",
+     "squint",
+     "blank_stare"
+    ],
+    "screen_position": "right edge",
+    "scale": "0.3"
+   },
+   {
+    "name": "Biscuit",
+    "pose_ids": [
+     "sitting_looking_up"
+    ],
+    "emotion_ids": [
+     "looking_up"
+    ],
+    "screen_position": "bottom-right",
+    "scale": "0.2"
+   }
+  ],
+  "assets": [
+   "asset_flipbook_stack",
+   "lawn chair",
+   "red pickup (bg)"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "ov_paper_flutter"
+  ],
+  "caption_words": "replay it later, it feels like it all happened in slow",
+  "lighting": "golden-hour sunset, pink/orange backlight, string lights",
+  "palette": [
+   "#985d58",
+   "#be935d",
+   "#654236",
+   "#e7b084",
+   "#e77372",
+   "#f3e7d3"
+  ],
+  "notes": "Dex tells the story to bored friends (social-comedy payoff)."
+ },
+ {
+  "shot": 10,
+  "start_frame": 1171,
+  "end_frame": 1200,
+  "start_time": 39.0,
+  "end_time": 40.0,
+  "duration_s": 1.0,
+  "transition_in": {
+   "type": "zoom-through (into flipbook page)",
+   "frames": [
+    1153,
+    1179
+   ]
+  },
+  "shot_size": "WS (drawn) high-angle",
+  "camera_angle": "high / bird's-eye",
+  "camera_motion": {
+   "description": "Push-in through the page edges onto the drawn tower top (x2.11 in 30 frames), with line boil at 1180-1182.",
+   "measured": {
+    "shot": "frames 1171-1200: zoom x2.1097 (in), content dx -246px (camera pans right), content dy -640px (camera tilts down), roll +2.81 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1171-1200: x2.1097 -246 -640 65",
+    "push into page (1171-1200)": "frames 1171-1200: zoom x2.1097 (in), content dx -246px (camera pans right), content dy -640px (camera tilts down), roll +2.81 deg"
+   },
+   "easing": "ease-out"
+  },
+  "background_id": "bg_flipbook_page",
+  "characters": [
+   {
+    "name": "Dr. Klaus",
+    "pose_ids": [
+     "push (drawn)"
+    ],
+    "emotion_ids": [
+     "neutral"
+    ],
+    "screen_position": "centre-left",
+    "scale": "0.3"
+   },
+   {
+    "name": "Dex",
+    "pose_ids": [
+     "pushed_off_edge (drawn)"
+    ],
+    "emotion_ids": [
+     "surprised_o"
+    ],
+    "screen_position": "centre-right",
+    "scale": "0.3"
+   },
+   {
+    "name": "Elmer",
+    "pose_ids": [
+     "waiting"
+    ],
+    "emotion_ids": [
+     "neutral"
+    ],
+    "screen_position": "bg left",
+    "scale": "tiny"
+   },
+   {
+    "name": "Gil",
+    "pose_ids": [
+     "waiting"
+    ],
+    "emotion_ids": [
+     "neutral"
+    ],
+    "screen_position": "bg left",
+    "scale": "tiny"
+   }
+  ],
+  "assets": [],
+  "unique_images": [
+   "ui_flipbook_page_towertop"
+  ],
+  "overlays": [
+   "ov_shake_lines",
+   "ov_paper_flutter"
+  ],
+  "caption_words": "motion.",
+  "lighting": "flat paper-lit",
+  "palette": [
+   "#c7c59e",
+   "#e3d8c1",
+   "#555355",
+   "#858372",
+   "#e28937",
+   "#422a1a"
+  ],
+  "notes": "LOOP: f1200 = the opening composition redrawn as a flipbook page, so playback restarts seamlessly at f1."
+ }
+]

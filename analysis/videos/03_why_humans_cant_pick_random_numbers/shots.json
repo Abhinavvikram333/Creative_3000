@@ -1,0 +1,849 @@
+[
+ {
+  "shot": 1,
+  "start_frame": 1,
+  "end_frame": 108,
+  "start_time": 0.0,
+  "end_time": 3.6,
+  "duration_s": 3.6,
+  "transition_in": {
+   "type": "cold open (video start)",
+   "frames": [
+    1,
+    1
+   ]
+  },
+  "shot_size": "ECU\u2192MCU",
+  "camera_angle": "high (\u224830\u00b0 down on desk) levelling to eye",
+  "camera_motion": {
+   "description": "Continuous crane/zoom-out + tilt-up from ECU of pen writing the cheque amount to MS of Rico at his desk (#1\u201330, very fast, ease-out), then slow push-in toward Rico as the magnifier arrives (#31\u2013105). Slight clockwise roll during the pull (\u22485\u00b0 at #13\u201320, levels by #25). Head tremble #77\u2013105.",
+   "measured": "frames 1-108: zoom x0.1933 (out), content dx +719px (camera pans left), content dy +1699px (camera tilts up), roll -1.34 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1-31: x0.1612 +823 +1722 112\n  31-61: x1.1706 -67 -25 338\n  61-91: x0.9955 -28 +18 492\n  91-108: x1.0287 -9 -16 522",
+   "easing": "pull-out: strong ease-out (\u224880 % of the scale change in the first 15 frames); push-in: linear-slow"
+  },
+  "background_id": "bg_ap_office",
+  "characters": [
+   {
+    "name": "Rico",
+    "pose_ids": [
+     "desk_writing"
+    ],
+    "emotion_ids": [
+     "confident_grin",
+     "smug_halflid",
+     "panic_wavy_sweat"
+    ],
+    "screen_position": "centre",
+    "scale": "head \u224860\u201380 % frame width at end (MCU)"
+   },
+   {
+    "name": "Marge",
+    "pose_ids": [
+     "arm_magnifier"
+    ],
+    "emotion_ids": [],
+    "screen_position": "off-screen right/bottom (arm only)",
+    "scale": "arm only"
+   }
+  ],
+  "assets": [
+   "fountain_pen",
+   "magnifier_gold",
+   "accounts_payable_nameplate"
+  ],
+  "unique_images": [
+   "cheque_ecu",
+   "cheque_87439",
+   "employee_of_month",
+   "days_without_audit"
+  ],
+  "overlays": [
+   "caption_card",
+   "vfx_sweat_drop",
+   "vfx_sparkle_glint",
+   "googly_eyes_on_digits"
+  ],
+  "caption_words": "If you | ever | fake a | number, | there's | a way | to | tell | a human | made it | up.",
+  "lighting": "Warm afternoon daylight from window left, soft venetian-blind light stripes across Rico and desk (diagonal shadow bands).",
+  "palette": [
+   "#73432d",
+   "#e7e4e1",
+   "#392422",
+   "#beb2a8",
+   "#528385",
+   "#a67c54"
+  ],
+  "notes": "Hook: the exact cheque amount 87,439.12 is written live; magnifier reveals digits that grow eyes (#49) \u2014 'the number betrays him'. Face swap smug\u2192panic at #77 on 'a human'."
+ },
+ {
+  "shot": 2,
+  "start_frame": 109,
+  "end_frame": 300,
+  "start_time": 3.6,
+  "end_time": 10.0,
+  "duration_s": 6.4,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    106,
+    112
+   ]
+  },
+  "shot_size": "WS\u2192MCU\u2192MS",
+  "camera_angle": "low (\u224820\u00b0 up) on the bank, then eye-level at the car window",
+  "camera_motion": {
+   "description": "Slow push-in with slight roll on the bank sign while the LED counter runs (#112\u2013162); then a long camera move-through: dolly forward/down into the car's driver window (#163\u2013200, x2.45 in one second); hold MCU on Rico writing (#200\u2013248); then pull-back + pan right to reveal the VIDEO TELLER kiosk and tube (#249\u2013270); hold; police-light colour wash #285\u2013298.",
+   "measured": "frames 109-300: zoom x2.9021 (in), content dx -567px (camera pans right), content dy -1247px (camera tilts down), roll -2.45 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  109-139: x0.9718 +12 +27 363\n  139-169: x1.4844 -144 -332 459\n  169-199: x2.3760 -315 -1073 160\n  199-229: x1.1050 -20 -153 449\n  229-259: x0.6900 +50 +343 333\n  259-289: x1.0764 -142 -34 407\n  289-300: x1.0317 -9 -26 546",
+   "easing": "ease-in-out on the dolly (accelerates #163\u2013180, settles #190\u2013200); pull-back ease-out"
+  },
+  "background_id": "bg_bank_drive_through \u2192 bg_car_window",
+  "characters": [
+   {
+    "name": "Rico",
+    "pose_ids": [
+     "car_capsule",
+     "car_writing_cheque"
+    ],
+    "emotion_ids": [
+     "smug_halflid",
+     "confident_grin",
+     "focused",
+     "uneasy_sweat",
+     "relieved_sweat",
+     "nervous_sideglance",
+     "surprised_sweat"
+    ],
+    "screen_position": "centre-right (car) \u2192 centre (window)",
+    "scale": "tiny in WS (head \u224810 % width) \u2192 MCU (head \u224845 %)"
+   },
+   {
+    "name": "Nina",
+    "pose_ids": [
+     "booth_window",
+     "video_screen"
+    ],
+    "emotion_ids": [
+     "neutral",
+     "smug_halflid"
+    ],
+    "screen_position": "left booth window; then bottom-right video screen",
+    "scale": "small"
+   }
+  ],
+  "assets": [
+   "bank_sign_led",
+   "orange_sedan",
+   "video_teller_kiosk",
+   "handcuffs_spring",
+   "fuzzy_dice",
+   "cash_stacks",
+   "blue_ballpoint"
+  ],
+  "unique_images": [
+   "cheque_100000",
+   "cheque_crossed_out"
+  ],
+  "overlays": [
+   "ui_led_counter",
+   "vfx_sweat_drop",
+   "vfx_police_wash_red",
+   "vfx_police_wash_blue",
+   "caption_card",
+   "vfx_sparkle_glint"
+  ],
+  "caption_words": "A man | stole | two | million | dollars | with | fake | checks, | made | every | amount | look | totally | random, | and | still | got | caught. | But",
+  "lighting": "Bright desert noon, pale-blue gradient sky with sun flare top-left; in-car: soft daylight, glints on car paint; #285\u2013298 alternating red/blue full-frame tint (police lights).",
+  "palette": [
+   "#cea28c",
+   "#a9d3e2",
+   "#e9e4d7",
+   "#7cb0c8",
+   "#d98d6c",
+   "#4c3730"
+  ],
+  "notes": "LED sign counts $0\u2192$2,000,000 frame-by-frame #109\u2013130 (ease-out). Visual gag: '100,000.00' (round) crossed out and replaced by '87,439.12' (looks random). Handcuffs on a spring drop from the pneumatic tube (#273) = 'got caught'."
+ },
+ {
+  "shot": 3,
+  "start_frame": 301,
+  "end_frame": 345,
+  "start_time": 10.0,
+  "end_time": 11.5,
+  "duration_s": 1.5,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    298,
+    303
+   ]
+  },
+  "shot_size": "MS\u2192MCU",
+  "camera_angle": "eye-level, slight dutch",
+  "camera_motion": {
+   "description": "Slow truck right + push-in with roll (\u2248-6\u00b0), parallax: chain-link cage foreground moves faster than Rico.",
+   "measured": "frames 301-345: zoom x1.3267 (in), content dx -490px (camera pans right), content dy -107px (camera tilts down), roll -6.15 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  301-331: x1.2396 -368 -86 281\n  331-345: x1.0702 -122 -20 141",
+   "easing": "linear, slow"
+  },
+  "background_id": "bg_police_backseat",
+  "characters": [
+   {
+    "name": "Rico",
+    "pose_ids": [
+     "backseat_cuffed"
+    ],
+    "emotion_ids": [
+     "surprised_sweat",
+     "annoyed"
+    ],
+    "screen_position": "centre\u2192left",
+    "scale": "head \u224835 % width"
+   },
+   {
+    "name": "Officer Dale",
+    "pose_ids": [
+     "back_view_front_seat"
+    ],
+    "emotion_ids": [],
+    "screen_position": "left edge (cap from behind)",
+    "scale": "partial"
+   }
+  ],
+  "assets": [
+   "police_cage_mesh",
+   "dome_light"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "caption_card",
+   "mesh_overlay"
+  ],
+  "caption_words": "how? | Well, | picture | a",
+  "lighting": "Flat interior daylight, cool grey; rear window shows desert + cactus.",
+  "palette": [
+   "#686168",
+   "#f3e6d4",
+   "#ccbea9",
+   "#96939a",
+   "#302d36",
+   "#d9a167"
+  ],
+  "notes": "Reaction beat on 'But how?' \u2014 Rico grumpy behind the mesh. Rear window shows the numbered tower outside (pre-echo)."
+ },
+ {
+  "shot": 4,
+  "start_frame": 346,
+  "end_frame": 429,
+  "start_time": 11.5,
+  "end_time": 14.3,
+  "duration_s": 2.8,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    342,
+    348
+   ]
+  },
+  "shot_size": "EWS\u2192WS",
+  "camera_angle": "worm's-eye (\u224825\u00b0 up), lowering",
+  "camera_motion": {
+   "description": "Push-in + tilt-down from the tower top toward the entrance (x2.48 over 2.8 s, accelerating), slight orbit right (palms/foreground wing parallax).",
+   "measured": "frames 346-429: zoom x2.4889 (in), content dx -352px (camera pans right), content dy -1080px (camera tilts down), roll +0.49 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  346-376: x1.2451 -82 -238 458\n  376-406: x1.4812 -166 -573 432\n  406-429: x1.3495 -105 -269 399",
+   "easing": "ease-in (speeds up in the 2nd second)"
+  },
+  "background_id": "bg_tower_exterior",
+  "characters": [
+   {
+    "name": "Officer Dale",
+    "pose_ids": [
+     "walk_escort_tiny"
+    ],
+    "emotion_ids": [],
+    "screen_position": "bottom centre",
+    "scale": "tiny figures"
+   },
+   {
+    "name": "Rico",
+    "pose_ids": [
+     "walk_escort_tiny"
+    ],
+    "emotion_ids": [],
+    "screen_position": "bottom centre",
+    "scale": "tiny"
+   }
+  ],
+  "assets": [
+   "tower_the_one",
+   "police_car",
+   "palm_trees",
+   "glass_elevator_cab",
+   "birds"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "caption_card"
+  ],
+  "caption_words": "building | with 19 | floors. | Step | into the elevator",
+  "lighting": "Midday, saturated blue sky, cumulus right, warm sun on facade.",
+  "palette": [
+   "#dcd2bd",
+   "#c8a284",
+   "#8a7b72",
+   "#83a9b9",
+   "#477bbb",
+   "#56504a"
+  ],
+  "notes": "The floor numbers 1\u201319 stacked on a gold band of the facade make the 'building with 19 floors' literal."
+ },
+ {
+  "shot": 5,
+  "start_frame": 430,
+  "end_frame": 739,
+  "start_time": 14.3,
+  "end_time": 24.633,
+  "duration_s": 10.33,
+  "transition_in": {
+   "type": "hard cut",
+   "frames": [
+    430,
+    430
+   ]
+  },
+  "shot_size": "MLS\u2192MS",
+  "camera_angle": "eye-level",
+  "camera_motion": {
+   "description": "Truck right + push-in (#430\u2013490, x1.24) moving from Dale+Rico two-shot to Rico at the panel; near-locked (#490\u2013670) with tiny follow drifts when Rico crouches; slow pull-back + drift (#670\u2013700, x0.91) and a short push again (#700\u2013736).",
+   "measured": "frames 430-739: zoom x1.2036 (in), content dx -307px (camera pans right), content dy -37px (camera tilts down), roll -11.65 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  430-460: x1.0889 -61 -59 481\n  460-490: x1.1384 -119 -84 273\n  490-520: x1.0223 -7 -23 632\n  520-550: x0.9987 -0 -0 512\n  550-580: x0.9882 +1 +14 510\n  580-610: x0.9693 +14 +32 355\n  610-640: x1.0004 -0 -0 588\n  640-670: x0.9892 -4 +5 836\n  670-700: x0.9071 +1 +85 431\n  700-730: x1.0691 -85 +5 271\n  730-739: x1.0345 -47 -12 272",
+   "easing": "ease-in-out, gentle"
+  },
+  "background_id": "bg_elevator_interior",
+  "characters": [
+   {
+    "name": "Rico",
+    "pose_ids": [
+     "standing_cuffed",
+     "press_button_reach",
+     "crouch_press",
+     "standing_smug"
+    ],
+    "emotion_ids": [
+     "sulky",
+     "content_eyes_closed",
+     "mischievous_grin",
+     "gleeful_eyes_closed",
+     "smug_halflid",
+     "surprised",
+     "manic_grin",
+     "confident_grin",
+     "worried_frown"
+    ],
+    "screen_position": "right of panel",
+    "scale": "full figure \u2192 MS (head \u224840 % width)"
+   },
+   {
+    "name": "Officer Dale",
+    "pose_ids": [
+     "standing_elevator",
+     "arm_reach_panel"
+    ],
+    "emotion_ids": [
+     "stern"
+    ],
+    "screen_position": "left edge, later arm only",
+    "scale": "MS, cut by frame edge"
+   }
+  ],
+  "assets": [
+   "elevator_panel"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "vfx_rainbow_button_glow",
+   "gold_button_glow",
+   "vfx_gold_bloom",
+   "glass_reflection_ghost",
+   "caption_card"
+  ],
+  "caption_words": "and | look at | the | buttons. | Floors | two | through | nine | each | start | with a | different | number. | But | floor | one | and ten | all the way | up | to 19. | All | start | with | a one | that's | more | than | half | the | buttons. | Real",
+  "lighting": "Soft daylight through glass, warm brass; from #693 a gold bloom wraps the panel and warms Rico's head (signals 'all the ones').",
+  "palette": [
+   "#d9bf9a",
+   "#c79e71",
+   "#ded9cc",
+   "#6eb4ac",
+   "#a36b41",
+   "#472c22"
+  ],
+  "notes": "Core explainer: buttons 2\u20139 light in rainbow colours (each a different leading digit), 1 and 10\u201319 light the same gold (all start with 1). Longest shot (10.3 s)."
+ },
+ {
+  "shot": 6,
+  "start_frame": 740,
+  "end_frame": 872,
+  "start_time": 24.633,
+  "end_time": 29.067,
+  "duration_s": 4.43,
+  "transition_in": {
+   "type": "dissolve (with scale change)",
+   "frames": [
+    737,
+    741
+   ]
+  },
+  "shot_size": "WS\u2192EWS",
+  "camera_angle": "eye-level on the cab \u2192 high-angle aerial",
+  "camera_motion": {
+   "description": "Huge crane-up + pull-back: from the glass cab on the facade to an aerial of the whole desert town (zoom x0.049 total, roll +15\u00b0 as it rises), accelerating #751\u2013800 then strong ease-out to a near-static hold #840\u2013870.",
+   "measured": "frames 740-872: zoom x0.0498 (out), content dx +1136px (camera pans left), content dy +1422px (camera tilts up), roll +15.78 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  740-770: x0.4214 +317 +550 205\n  770-800: x0.2033 +632 +706 222\n  800-830: x0.6247 +150 +167 325\n  830-860: x0.9277 +37 +1 459\n  860-872: x1.0028 -0 -2 213",
+   "easing": "ease-in-out (S-curve), long ease-out tail"
+  },
+  "background_id": "bg_tower_facade_sunset \u2192 bg_number_city",
+  "characters": [
+   {
+    "name": "Rico",
+    "pose_ids": [
+     "glass_cab"
+    ],
+    "emotion_ids": [
+     "worried_frown"
+    ],
+    "screen_position": "centre (in cab)",
+    "scale": "small\u2192vanishes"
+   },
+   {
+    "name": "Officer Dale",
+    "pose_ids": [
+     "glass_cab"
+    ],
+    "emotion_ids": [
+     "stern"
+    ],
+    "screen_position": "centre (in cab)",
+    "scale": "small\u2192vanishes"
+   }
+  ],
+  "assets": [
+   "glass_elevator_cab",
+   "tower_the_one",
+   "number_buildings_skyline",
+   "strip_mall",
+   "cars"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "caption_card"
+  ],
+  "caption_words": "numbers | work | like | that | elevator. | So ones | show up | way | more | than | anything | else. | On",
+  "lighting": "Golden-hour sunset: violet top \u2192 pink \u2192 peach \u2192 yellow horizon, warm haze, long soft shadows.",
+  "palette": [
+   "#f4cb98",
+   "#db9d84",
+   "#e4b38e",
+   "#fad693",
+   "#7e5c5b",
+   "#543940"
+  ],
+  "notes": "Reveal: the tower is a giant '1' and the skyline is digits 2\u20139 of shrinking height = Benford's-law bar chart as a city."
+ },
+ {
+  "shot": 7,
+  "start_frame": 873,
+  "end_frame": 954,
+  "start_time": 29.067,
+  "end_time": 31.8,
+  "duration_s": 2.73,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    869,
+    876
+   ]
+  },
+  "shot_size": "MS (3-shot)",
+  "camera_angle": "eye-level, slightly low",
+  "camera_motion": {
+   "description": "Slow push-in + drift right toward Marge (x1.21 over 2.7 s).",
+   "measured": "frames 873-954: zoom x1.2057 (in), content dx -90px (camera pans right), content dy -74px (camera tilts down), roll -2.48 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  873-903: x1.0734 -35 +18 508\n  903-933: x1.0554 -35 -35 464\n  933-954: x1.0643 -20 -56 415",
+   "easing": "linear"
+  },
+  "background_id": "bg_audit_office_19",
+  "characters": [
+   {
+    "name": "Marge",
+    "pose_ids": [
+     "seated_coin_flip"
+    ],
+    "emotion_ids": [
+     "knowing_smirk"
+    ],
+    "screen_position": "left",
+    "scale": "head \u224830\u219240 % width"
+   },
+   {
+    "name": "Officer Dale",
+    "pose_ids": [
+     "doorway_standing"
+    ],
+    "emotion_ids": [
+     "suppressed_laugh",
+     "stern"
+    ],
+    "screen_position": "centre-right",
+    "scale": "MLS"
+   },
+   {
+    "name": "Rico",
+    "pose_ids": [
+     "doorway_cuffed"
+    ],
+    "emotion_ids": [
+     "annoyed",
+     "mesmerised_lookup",
+     "worried_frown"
+    ],
+    "screen_position": "right",
+    "scale": "MLS"
+   }
+  ],
+  "assets": [
+   "audit_desk",
+   "gold_coin",
+   "file_boxes",
+   "succulent",
+   "desk_lamp"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "vfx_coin_trail",
+   "vfx_sparkle_glint",
+   "caption_card"
+  ],
+  "caption_words": "top of | that, | real | randomness | is | streaky. | Flip",
+  "lighting": "Warm sunset, strong god-rays from top-left, pink/peach window glow, lamp glow left.",
+  "palette": [
+   "#eeb894",
+   "#8b584e",
+   "#c5875f",
+   "#f6e3ce",
+   "#583226",
+   "#708bac"
+  ],
+  "notes": "Marge introduced. Coin flips shown as a stroboscopic stack of glowing coin ghosts; Rico's eyes follow the coin."
+ },
+ {
+  "shot": 8,
+  "start_frame": 955,
+  "end_frame": 1063,
+  "start_time": 31.8,
+  "end_time": 35.433,
+  "duration_s": 3.63,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    952,
+    957
+   ]
+  },
+  "shot_size": "insert (top-down)",
+  "camera_angle": "bird's-eye",
+  "camera_motion": {
+   "description": "Push-in + pan down over the coin board (x1.27, then x1.47), follow the pencil slightly back (#1014\u20131044), hold.",
+   "measured": "frames 955-1063: zoom x1.7990 (in), content dx -14px (camera pans right), content dy -364px (camera tilts down), roll +13.30 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  955-985: x1.2890 +35 -231 139\n  985-1015: x1.4261 -139 -308 223\n  1015-1045: x0.9656 +96 +184 161\n  1045-1063: x1.0135 -5 -9 278",
+   "easing": "ease-in-out"
+  },
+  "background_id": "bg_coin_desk_topdown",
+  "characters": [
+   {
+    "name": "Marge",
+    "pose_ids": [
+     "arms_pour_sack",
+     "arm_pencil_point"
+    ],
+    "emotion_ids": [],
+    "screen_position": "arms from bottom-left/right",
+    "scale": "arms only"
+   }
+  ],
+  "assets": [
+   "coin_board_10x10",
+   "money_sack",
+   "red_pencil",
+   "heads_coin",
+   "tails_coin"
+  ],
+  "unique_images": [
+   "legal_pad_flips"
+  ],
+  "overlays": [
+   "ui_glow_run_ellipse",
+   "dust_motes",
+   "caption_card"
+  ],
+  "caption_words": "a coin | a hundred | times | and | you'll | usually | get six | heads | in | a row.",
+  "lighting": "Warm overhead desk light, green felt.",
+  "palette": [
+   "#5e6c4f",
+   "#80512f",
+   "#dca354",
+   "#51442a",
+   "#a5723f",
+   "#f1cd80"
+  ],
+  "notes": "100 flips visualised as a 10\u00d710 board; 6 consecutive heads light up one by one (#1021\u20131036) and get a red ellipse (#1042)."
+ },
+ {
+  "shot": 9,
+  "start_frame": 1064,
+  "end_frame": 1150,
+  "start_time": 35.433,
+  "end_time": 38.333,
+  "duration_s": 2.9,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    1060,
+    1066
+   ]
+  },
+  "shot_size": "MLS",
+  "camera_angle": "eye-level",
+  "camera_motion": {
+   "description": "Slow push-in + drift following Marge, then accelerating pan (#1122\u20131150, content +360 px) that becomes the whip/move-through into S10.",
+   "measured": "frames 1064-1150: zoom x1.1207 (in), content dx +410px (camera pans left), content dy -228px (camera tilts down), roll +19.00 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1064-1094: x0.9890 -5 +13 528\n  1094-1124: x1.0418 +96 -93 243\n  1124-1150: x1.0877 +318 -148 260",
+   "easing": "slow then ease-in into the pan"
+  },
+  "background_id": "bg_window_ledge",
+  "characters": [
+   {
+    "name": "Marge",
+    "pose_ids": [
+     "standing_hold_cheques",
+     "walk_place_cheque"
+    ],
+    "emotion_ids": [
+     "pleasant_smile",
+     "eyes_closed_smug",
+     "wink"
+    ],
+    "screen_position": "right",
+    "scale": "full figure, head \u224830 % width"
+   }
+  ],
+  "assets": [
+   "cheque_stacks"
+  ],
+  "unique_images": [
+   "cheque_histogram"
+  ],
+  "overlays": [
+   "caption_card"
+  ],
+  "caption_words": "His | checks | mostly | began | with a | seven, | eight | or nine, | and",
+  "lighting": "Sunset through the panoramic window (pink\u2192yellow), warm rim on Marge.",
+  "palette": [
+   "#f1be96",
+   "#b46853",
+   "#f5edce",
+   "#c87ca3",
+   "#d2966d",
+   "#663b47"
+  ],
+  "notes": "Cheque stacks on the ledge form a histogram of leading digits (tall at 7, 8, 9)."
+ },
+ {
+  "shot": 10,
+  "start_frame": 1151,
+  "end_frame": 1220,
+  "start_time": 38.333,
+  "end_time": 40.667,
+  "duration_s": 2.33,
+  "transition_in": {
+   "type": "camera move-through (whip pan)",
+   "frames": [
+    1145,
+    1160
+   ]
+  },
+  "shot_size": "MS",
+  "camera_angle": "high (\u224825\u00b0 down)",
+  "camera_motion": {
+   "description": "Lands from the pan (#1145\u20131160, measured dx +578 px, zoom x1.08, roll +12\u00b0 over 1140\u20131170), near-static hold with slight pull-back (#1180\u20131210, x0.89), then pans out right (#1209\u20131228).",
+   "measured": "frames 1151-1220: zoom x0.8049 (out), content dx +37px (camera pans left), content dy +194px (camera tilts up), roll +1.44 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1151-1181: x1.0128 +314 -50 187\n  1181-1211: x0.8763 -94 +154 333\n  1211-1220: x0.9069 -183 +90 279",
+   "easing": "whip-in ease-out, whip-out ease-in"
+  },
+  "background_id": "bg_audit_desk_highangle",
+  "characters": [
+   {
+    "name": "Rico",
+    "pose_ids": [
+     "desk_highangle_writing"
+    ],
+    "emotion_ids": [
+     "focused",
+     "doubtful",
+     "panic_wavy_sweat",
+     "gritted_panic"
+    ],
+    "screen_position": "centre-left",
+    "scale": "head \u224830 % width"
+   }
+  ],
+  "assets": [
+   "audit_desk",
+   "notepad_8746",
+   "blue_ballpoint",
+   "desk_lamp"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "vfx_vibration_lines",
+   "vfx_sweat_drop",
+   "caption_card"
+  ],
+  "caption_words": "he avoided | doubles | to make | them | look | random. | But",
+  "lighting": "Warm sunset, diagonal light shafts across the desk.",
+  "palette": [
+   "#eeba8b",
+   "#c48e66",
+   "#804f41",
+   "#583024",
+   "#f9edca",
+   "#3ab3a9"
+  ],
+  "notes": "Rico writes 874 then, avoiding a double, adds 6 \u2192 8746; trembling pen + sweat."
+ },
+ {
+  "shot": 11,
+  "start_frame": 1221,
+  "end_frame": 1290,
+  "start_time": 40.667,
+  "end_time": 43.0,
+  "duration_s": 2.33,
+  "transition_in": {
+   "type": "camera move-through (whip pan)",
+   "frames": [
+    1209,
+    1228
+   ]
+  },
+  "shot_size": "MLS",
+  "camera_angle": "eye-level",
+  "camera_motion": {
+   "description": "Lands from the pan (#1215\u20131245 x0.81 pull-back, dx -394), static hold with defocus ramp #1255\u20131286.",
+   "measured": "frames 1221-1290: zoom x0.8681 (out), content dx -265px (camera pans right), content dy +153px (camera tilts up), roll -5.63 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1221-1251: x0.8435 -249 +174 232\n  1251-1281: x1.0211 -11 -16 164\n  1281-1290: x1.0080 -6 -5 173",
+   "easing": "ease-out landing"
+  },
+  "background_id": "bg_window_ledge",
+  "characters": [
+   {
+    "name": "Marge",
+    "pose_ids": [
+     "hands_behind_back"
+    ],
+    "emotion_ids": [
+     "eyes_closed_smug",
+     "pondering_eyesup"
+    ],
+    "screen_position": "right",
+    "scale": "full figure"
+   }
+  ],
+  "assets": [
+   "cheque_stacks",
+   "number_buildings_skyline (ghost)"
+  ],
+  "unique_images": [
+   "cheque_histogram"
+  ],
+  "overlays": [
+   "vfx_defocus_double_exposure",
+   "caption_card"
+  ],
+  "caption_words": "truly | random | numbers | are | the opposite. | So",
+  "lighting": "Sunset; whole frame softens (lens defocus) during the double exposure.",
+  "palette": [
+   "#f4c294",
+   "#bb755a",
+   "#e39697",
+   "#eee7d1",
+   "#9a769a",
+   "#8a4438"
+  ],
+  "notes": "Comparison by double exposure: the real 1-heavy number skyline is ghosted over Rico's 7-8-9 cheque histogram on 'the opposite'."
+ },
+ {
+  "shot": 12,
+  "start_frame": 1291,
+  "end_frame": 1413,
+  "start_time": 43.0,
+  "end_time": 47.1,
+  "duration_s": 4.1,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    1287,
+    1294
+   ]
+  },
+  "shot_size": "MS\u2192MCU",
+  "camera_angle": "eye-level",
+  "camera_motion": {
+   "description": "Slow push-in + drift right with slight roll (bars parallax) #1291\u20131320; slight pull-back x0.94 while Marge raises the magnifier (#1350\u20131380); near-static hold to the end.",
+   "measured": "frames 1291-1413: zoom x0.9654 (out), content dx -10px (camera pans right), content dy +66px (camera tilts up), roll -1.91 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1291-1321: x1.0363 -16 -23 750\n  1321-1351: x0.9896 +47 +3 473\n  1351-1381: x0.9384 +13 +69 399\n  1381-1411: x1.0032 -53 +17 480\n  1411-1413: x0.9999 -1 +1 1220",
+   "easing": "linear, slow; hard end (no fade)"
+  },
+  "background_id": "bg_jail_cell",
+  "characters": [
+   {
+    "name": "Marge",
+    "pose_ids": [
+     "hold_magnifier_low",
+     "raise_magnifier"
+    ],
+    "emotion_ids": [
+     "knowing_smirk",
+     "eyes_closed_smug"
+    ],
+    "screen_position": "left",
+    "scale": "head \u224830 % width"
+   },
+   {
+    "name": "Rico",
+    "pose_ids": [
+     "jail_writing_wall"
+    ],
+    "emotion_ids": [
+     "annoyed",
+     "smug_halflid",
+     "cocky_grin",
+     "panic_multi_sweat"
+    ],
+    "screen_position": "centre-right behind bars; then inside the lens",
+    "scale": "small \u2192 magnified head fills lens (\u224850 % width)"
+   }
+  ],
+  "assets": [
+   "magnifier_gold",
+   "jail_bars",
+   "cot"
+  ],
+  "unique_images": [
+   "jail_wall_scribbles"
+  ],
+  "overlays": [
+   "vfx_lens_magnified_face",
+   "vfx_sparkle_glint",
+   "vfx_sweat_drop",
+   "caption_card"
+  ],
+  "caption_words": "no | matter | how | random | you try | to make | yours, | there's | almost | always | a way | to | tell.",
+  "lighting": "Warm amber light from a back window, bars in cool grey-blue.",
+  "palette": [
+   "#9f7050",
+   "#554b52",
+   "#3c2a2b",
+   "#d3a37a",
+   "#f7ddbe",
+   "#867489"
+  ],
+  "notes": "Payoff: Rico still scribbles 7s/8s/9s on the cell wall; the magnifier (callback to S1) flips his cocky grin into sweaty panic on 'always'."
+ }
+]

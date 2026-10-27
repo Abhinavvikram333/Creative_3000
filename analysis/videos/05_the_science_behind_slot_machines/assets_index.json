@@ -1,0 +1,1241 @@
+[
+ {
+  "id": "char_lenny",
+  "type": "character",
+  "name": "Lenny",
+  "description": "Gambler / narrator's 'you': round cream head, messy dark hair, teal leaf shirt, red lanyard+badge",
+  "first_frame": 21,
+  "frames_present": [
+   [
+    21,
+    340
+   ],
+   [
+    341,
+    390
+   ],
+   [
+    423,
+    541
+   ],
+   [
+    784,
+    813
+   ],
+   [
+    886,
+    928
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/reference/ref_00230.jpg",
+   "library/characters/Lenny/reference/ref_00038.jpg",
+   "library/characters/Lenny/reference/ref_00457.jpg",
+   "library/characters/Lenny/reference/ref_00914.jpg"
+  ],
+  "prompt_path": "library/characters/Lenny/character.md"
+ },
+ {
+  "id": "char_bling",
+  "type": "character",
+  "name": "Bling",
+  "description": "Neighbour/buddy: red backwards cap with sunglasses, gold chain, cream ribbed tank top, stubble",
+  "first_frame": 175,
+  "frames_present": [
+   [
+    175,
+    188
+   ],
+   [
+    255,
+    340
+   ],
+   [
+    497,
+    520
+   ]
+  ],
+  "crops": [
+   "library/characters/Bling/reference/ref_00290.jpg",
+   "library/characters/Bling/reference/ref_00499.jpg"
+  ],
+  "prompt_path": "library/characters/Bling/character.md"
+ },
+ {
+  "id": "char_beanie",
+  "type": "character",
+  "name": "Beanie",
+  "description": "Tiny background patron with mustard-orange beanie walking L→R",
+  "first_frame": 284,
+  "frames_present": [
+   [
+    284,
+    310
+   ]
+  ],
+  "crops": [
+   "library/characters/Beanie/reference/ref_00297.jpg"
+  ],
+  "prompt_path": "library/characters/Beanie/character.md"
+ },
+ {
+  "id": "lenny_emo_blink_f00100",
+  "type": "character",
+  "name": "Lenny emotion blink",
+  "description": "Lenny face sprite",
+  "first_frame": 100,
+  "frames_present": [
+   [
+    100,
+    101
+   ],
+   [
+    146,
+    147
+   ],
+   [
+    233,
+    234
+   ],
+   [
+    452,
+    453
+   ],
+   [
+    461,
+    462
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/emotions/emo_blink_f00100.png"
+  ],
+  "prompt_path": "library/characters/Lenny/emotions/emotions.md"
+ },
+ {
+  "id": "lenny_emo_content_f00457",
+  "type": "character",
+  "name": "Lenny emotion content",
+  "description": "Lenny face sprite",
+  "first_frame": 27,
+  "frames_present": [
+   [
+    27,
+    41
+   ],
+   [
+    45,
+    48
+   ],
+   [
+    223,
+    232
+   ],
+   [
+    456,
+    458
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/emotions/emo_content_f00457.png"
+  ],
+  "prompt_path": "library/characters/Lenny/emotions/emotions.md"
+ },
+ {
+  "id": "lenny_emo_curious_brow_f00455",
+  "type": "character",
+  "name": "Lenny emotion curious_brow",
+  "description": "Lenny face sprite",
+  "first_frame": 454,
+  "frames_present": [
+   [
+    454,
+    455
+   ],
+   [
+    459,
+    460
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/emotions/emo_curious_brow_f00455.png"
+  ],
+  "prompt_path": "library/characters/Lenny/emotions/emotions.md"
+ },
+ {
+  "id": "lenny_emo_deadpan_f00150",
+  "type": "character",
+  "name": "Lenny emotion deadpan",
+  "description": "Lenny face sprite",
+  "first_frame": 148,
+  "frames_present": [
+   [
+    148,
+    216
+   ],
+   [
+    235,
+    240
+   ],
+   [
+    251,
+    310
+   ],
+   [
+    806,
+    813
+   ],
+   [
+    889,
+    928
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/emotions/emo_deadpan_f00150.png"
+  ],
+  "prompt_path": "library/characters/Lenny/emotions/emotions.md"
+ },
+ {
+  "id": "lenny_emo_determined_f00508",
+  "type": "character",
+  "name": "Lenny emotion determined",
+  "description": "Lenny face sprite",
+  "first_frame": 495,
+  "frames_present": [
+   [
+    495,
+    528
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/emotions/emo_determined_f00508.png"
+  ],
+  "prompt_path": "library/characters/Lenny/emotions/emotions.md"
+ },
+ {
+  "id": "lenny_emo_eyes_closed_smile_f00043",
+  "type": "character",
+  "name": "Lenny emotion eyes_closed_smile",
+  "description": "Lenny face sprite",
+  "first_frame": 42,
+  "frames_present": [
+   [
+    42,
+    44
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/emotions/emo_eyes_closed_smile_f00043.png"
+  ],
+  "prompt_path": "library/characters/Lenny/emotions/emotions.md"
+ },
+ {
+  "id": "lenny_emo_manic_grin_f00060",
+  "type": "character",
+  "name": "Lenny emotion manic_grin",
+  "description": "Lenny face sprite",
+  "first_frame": 49,
+  "frames_present": [
+   [
+    49,
+    71
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/emotions/emo_manic_grin_f00060.png"
+  ],
+  "prompt_path": "library/characters/Lenny/emotions/emotions.md"
+ },
+ {
+  "id": "lenny_emo_skeptical_f00077",
+  "type": "character",
+  "name": "Lenny emotion skeptical",
+  "description": "Lenny face sprite",
+  "first_frame": 77,
+  "frames_present": [
+   [
+    77,
+    99
+   ],
+   [
+    102,
+    145
+   ],
+   [
+    241,
+    250
+   ],
+   [
+    311,
+    340
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/emotions/emo_skeptical_f00077.png"
+  ],
+  "prompt_path": "library/characters/Lenny/emotions/emotions.md"
+ },
+ {
+  "id": "lenny_emo_smirk_f00222",
+  "type": "character",
+  "name": "Lenny emotion smirk",
+  "description": "Lenny face sprite",
+  "first_frame": 217,
+  "frames_present": [
+   [
+    217,
+    222
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/emotions/emo_smirk_f00222.png"
+  ],
+  "prompt_path": "library/characters/Lenny/emotions/emotions.md"
+ },
+ {
+  "id": "lenny_emo_smug_grin_f00074",
+  "type": "character",
+  "name": "Lenny emotion smug_grin",
+  "description": "Lenny face sprite",
+  "first_frame": 72,
+  "frames_present": [
+   [
+    72,
+    76
+   ],
+   [
+    529,
+    531
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/emotions/emo_smug_grin_f00074.png"
+  ],
+  "prompt_path": "library/characters/Lenny/emotions/emotions.md"
+ },
+ {
+  "id": "lenny_emo_suspicious_f00440",
+  "type": "character",
+  "name": "Lenny emotion suspicious",
+  "description": "Lenny face sprite",
+  "first_frame": 423,
+  "frames_present": [
+   [
+    423,
+    451
+   ],
+   [
+    463,
+    494
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/emotions/emo_suspicious_f00440.png"
+  ],
+  "prompt_path": "library/characters/Lenny/emotions/emotions.md"
+ },
+ {
+  "id": "lenny_pose_cu_lean_glare_f00440",
+  "type": "character",
+  "name": "Lenny pose cu_lean_glare",
+  "description": "Lenny pose",
+  "first_frame": 423,
+  "frames_present": [
+   [
+    423,
+    494
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/poses/pose_cu_lean_glare_f00440.jpg"
+  ],
+  "prompt_path": "library/characters/Lenny/poses/poses.md"
+ },
+ {
+  "id": "lenny_pose_hand_insert_bill_f00370",
+  "type": "character",
+  "name": "Lenny pose hand_insert_bill",
+  "description": "Lenny pose",
+  "first_frame": 341,
+  "frames_present": [
+   [
+    341,
+    390
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/poses/pose_hand_insert_bill_f00370.jpg"
+  ],
+  "prompt_path": "library/characters/Lenny/poses/poses.md"
+ },
+ {
+  "id": "lenny_pose_lean_tilt_f00135",
+  "type": "character",
+  "name": "Lenny pose lean_tilt",
+  "description": "Lenny pose",
+  "first_frame": 134,
+  "frames_present": [
+   [
+    134,
+    147
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/poses/pose_lean_tilt_f00135.jpg"
+  ],
+  "prompt_path": "library/characters/Lenny/poses/poses.md"
+ },
+ {
+  "id": "lenny_pose_pov_seated_cup_f00290",
+  "type": "character",
+  "name": "Lenny pose pov_seated_cup",
+  "description": "Lenny pose",
+  "first_frame": 251,
+  "frames_present": [
+   [
+    251,
+    340
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/poses/pose_pov_seated_cup_f00290.jpg"
+  ],
+  "prompt_path": "library/characters/Lenny/poses/poses.md"
+ },
+ {
+  "id": "lenny_pose_seated_badge_f00055",
+  "type": "character",
+  "name": "Lenny pose seated_badge",
+  "description": "Lenny pose",
+  "first_frame": 27,
+  "frames_present": [
+   [
+    27,
+    133
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/poses/pose_seated_badge_f00055.jpg"
+  ],
+  "prompt_path": "library/characters/Lenny/poses/poses.md"
+ },
+ {
+  "id": "lenny_pose_seated_relaxed_f00230",
+  "type": "character",
+  "name": "Lenny pose seated_relaxed",
+  "description": "Lenny pose",
+  "first_frame": 200,
+  "frames_present": [
+   [
+    200,
+    250
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/poses/pose_seated_relaxed_f00230.jpg"
+  ],
+  "prompt_path": "library/characters/Lenny/poses/poses.md"
+ },
+ {
+  "id": "lenny_pose_stand_deadpan_f00914",
+  "type": "character",
+  "name": "Lenny pose stand_deadpan",
+  "description": "Lenny pose",
+  "first_frame": 784,
+  "frames_present": [
+   [
+    784,
+    928
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/poses/pose_stand_deadpan_f00914.jpg"
+  ],
+  "prompt_path": "library/characters/Lenny/poses/poses.md"
+ },
+ {
+  "id": "lenny_pose_stand_reach_f00508",
+  "type": "character",
+  "name": "Lenny pose stand_reach",
+  "description": "Lenny pose",
+  "first_frame": 495,
+  "frames_present": [
+   [
+    495,
+    528
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/poses/pose_stand_reach_f00508.jpg"
+  ],
+  "prompt_path": "library/characters/Lenny/poses/poses.md"
+ },
+ {
+  "id": "lenny_pose_walk_cup_f00160",
+  "type": "character",
+  "name": "Lenny pose walk_cup",
+  "description": "Lenny pose",
+  "first_frame": 148,
+  "frames_present": [
+   [
+    148,
+    200
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/poses/pose_walk_cup_f00160.jpg"
+  ],
+  "prompt_path": "library/characters/Lenny/poses/poses.md"
+ },
+ {
+  "id": "lenny_pose_yank_door_f00529",
+  "type": "character",
+  "name": "Lenny pose yank_door",
+  "description": "Lenny pose",
+  "first_frame": 529,
+  "frames_present": [
+   [
+    529,
+    532
+   ]
+  ],
+  "crops": [
+   "library/characters/Lenny/poses/pose_yank_door_f00529.jpg"
+  ],
+  "prompt_path": "library/characters/Lenny/poses/poses.md"
+ },
+ {
+  "id": "bling_emo_neutral_f00499",
+  "type": "character",
+  "name": "Bling emotion neutral",
+  "description": "Bling emotion",
+  "first_frame": 175,
+  "frames_present": [
+   [
+    175,
+    188
+   ],
+   [
+    497,
+    520
+   ]
+  ],
+  "crops": [
+   "library/characters/Bling/emotions/emo_neutral_f00499.png"
+  ],
+  "prompt_path": "library/characters/Bling/emotions/emotions.md"
+ },
+ {
+  "id": "bling_emo_smug_smirk_f00290",
+  "type": "character",
+  "name": "Bling emotion smug_smirk",
+  "description": "Bling emotion",
+  "first_frame": 287,
+  "frames_present": [
+   [
+    287,
+    296
+   ],
+   [
+    304,
+    309
+   ],
+   [
+    314,
+    317
+   ],
+   [
+    324,
+    325
+   ]
+  ],
+  "crops": [
+   "library/characters/Bling/emotions/emo_smug_smirk_f00290.png"
+  ],
+  "prompt_path": "library/characters/Bling/emotions/emotions.md"
+ },
+ {
+  "id": "bling_emo_talk_grin_f00297",
+  "type": "character",
+  "name": "Bling emotion talk_grin",
+  "description": "Bling emotion",
+  "first_frame": 297,
+  "frames_present": [
+   [
+    297,
+    303
+   ],
+   [
+    310,
+    313
+   ],
+   [
+    318,
+    323
+   ],
+   [
+    326,
+    334
+   ]
+  ],
+  "crops": [
+   "library/characters/Bling/emotions/emo_talk_grin_f00297.png"
+  ],
+  "prompt_path": "library/characters/Bling/emotions/emotions.md"
+ },
+ {
+  "id": "bling_emo_wink_grin_f00337",
+  "type": "character",
+  "name": "Bling emotion wink_grin",
+  "description": "Bling emotion",
+  "first_frame": 255,
+  "frames_present": [
+   [
+    255,
+    286
+   ],
+   [
+    335,
+    340
+   ]
+  ],
+  "crops": [
+   "library/characters/Bling/emotions/emo_wink_grin_f00337.png"
+  ],
+  "prompt_path": "library/characters/Bling/emotions/emotions.md"
+ },
+ {
+  "id": "bling_pose_edge_peek_f00184",
+  "type": "character",
+  "name": "Bling pose edge_peek",
+  "description": "Bling pose",
+  "first_frame": 175,
+  "frames_present": [
+   [
+    175,
+    188
+   ]
+  ],
+  "crops": [
+   "library/characters/Bling/poses/pose_edge_peek_f00184.jpg"
+  ],
+  "prompt_path": "library/characters/Bling/poses/poses.md"
+ },
+ {
+  "id": "bling_pose_lean_in_talk_f00290",
+  "type": "character",
+  "name": "Bling pose lean_in_talk",
+  "description": "Bling pose",
+  "first_frame": 255,
+  "frames_present": [
+   [
+    255,
+    340
+   ]
+  ],
+  "crops": [
+   "library/characters/Bling/poses/pose_lean_in_talk_f00290.jpg"
+  ],
+  "prompt_path": "library/characters/Bling/poses/poses.md"
+ },
+ {
+  "id": "bling_pose_seated_behind_f00499",
+  "type": "character",
+  "name": "Bling pose seated_behind",
+  "description": "Bling pose",
+  "first_frame": 497,
+  "frames_present": [
+   [
+    497,
+    520
+   ]
+  ],
+  "crops": [
+   "library/characters/Bling/poses/pose_seated_behind_f00499.jpg"
+  ],
+  "prompt_path": "library/characters/Bling/poses/poses.md"
+ },
+ {
+  "id": "bg_casino_row",
+  "type": "background",
+  "name": "Casino row",
+  "description": "LUCKY 7s machine row, GOLD RUSH/DIAMOND machines, barstools, swirl carpet, coffered ceiling, progressive LED sign",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    250
+   ],
+   [
+    495,
+    541
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/05_the_science_behind_slot_machines/bg_casino_row_wide_f00176.jpg",
+   "library/backgrounds/05_the_science_behind_slot_machines/bg_casino_row_f00205.jpg"
+  ],
+  "prompt_path": "library/backgrounds/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "bg_pov_ceiling",
+  "type": "background",
+  "name": "Machine POV",
+  "description": "From inside the machine: blurred reels foreground, coffered ceiling, distant machines",
+  "first_frame": 251,
+  "frames_present": [
+   [
+    251,
+    340
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/05_the_science_behind_slot_machines/bg_pov_ceiling_f00255.jpg"
+  ],
+  "prompt_path": "library/backgrounds/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "bg_machine_panel_insert",
+  "type": "background",
+  "name": "Button deck insert",
+  "description": "High dutch CU of bill acceptor, SPIN, CREDITS",
+  "first_frame": 341,
+  "frames_present": [
+   [
+    341,
+    422
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/05_the_science_behind_slot_machines/bg_machine_panel_insert_f00405.jpg"
+  ],
+  "prompt_path": "library/backgrounds/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "bg_machine_dutch_cu",
+  "type": "background",
+  "name": "Machine face CU",
+  "description": "Dutch CU of LUCKY 7s face, reels, buttons",
+  "first_frame": 423,
+  "frames_present": [
+   [
+    423,
+    494
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/05_the_science_behind_slot_machines/bg_machine_dutch_cu_f00440.jpg"
+  ],
+  "prompt_path": "library/backgrounds/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "bg_machine_interior",
+  "type": "background",
+  "name": "Cabinet interior",
+  "description": "Amber plywood interior, reel unit, RNG PCB, wires",
+  "first_frame": 542,
+  "frames_present": [
+   [
+    542,
+    778
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/05_the_science_behind_slot_machines/bg_machine_interior_f00550.jpg"
+  ],
+  "prompt_path": "library/backgrounds/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "bg_xray_machine",
+  "type": "background",
+  "name": "X-ray machine",
+  "description": "Machine with cyan wireframe lower cabinet in the casino row",
+  "first_frame": 779,
+  "frames_present": [
+   [
+    779,
+    928
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/05_the_science_behind_slot_machines/bg_xray_machine_f00840.jpg"
+  ],
+  "prompt_path": "library/backgrounds/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "a_slot_machine_lucky7s",
+  "type": "asset_3d",
+  "name": "LUCKY 7s slot machine",
+  "description": "LUCKY 7s slot machine (see index)",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    928
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/05_the_science_behind_slot_machines/a_slot_machine_lucky7s_f00508.jpg"
+  ],
+  "prompt_path": "library/assets_3d/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "a_reel_window_near_miss",
+  "type": "asset_3d",
+  "name": "Reel window near miss",
+  "description": "Reel window near miss (see index)",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    133
+   ],
+   [
+    200,
+    250
+   ],
+   [
+    423,
+    494
+   ],
+   [
+    781,
+    928
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/05_the_science_behind_slot_machines/a_reel_window_near_miss_f00440.jpg"
+  ],
+  "prompt_path": "library/assets_3d/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "a_progressive_led_sign",
+  "type": "asset_3d",
+  "name": "Progressive LED sign",
+  "description": "Progressive LED sign (see index)",
+  "first_frame": 148,
+  "frames_present": [
+   [
+    148,
+    252
+   ],
+   [
+    900,
+    928
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/05_the_science_behind_slot_machines/a_progressive_led_sign_f00200.jpg"
+  ],
+  "prompt_path": "library/assets_3d/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "a_bill_acceptor_spin_button",
+  "type": "asset_3d",
+  "name": "Bill acceptor + SPIN button",
+  "description": "Bill acceptor + SPIN button (see index)",
+  "first_frame": 341,
+  "frames_present": [
+   [
+    341,
+    422
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/05_the_science_behind_slot_machines/a_bill_acceptor_spin_button_f00370.jpg"
+  ],
+  "prompt_path": "library/assets_3d/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "a_dollar_bill_100",
+  "type": "asset_3d",
+  "name": "$100 bill",
+  "description": "$100 bill (see index)",
+  "first_frame": 341,
+  "frames_present": [
+   [
+    341,
+    399
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/05_the_science_behind_slot_machines/a_dollar_bill_100_f00370.jpg"
+  ],
+  "prompt_path": "library/assets_3d/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "a_credits_counter",
+  "type": "asset_3d",
+  "name": "CREDITS display",
+  "description": "CREDITS display (see index)",
+  "first_frame": 400,
+  "frames_present": [
+   [
+    400,
+    424
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/05_the_science_behind_slot_machines/a_credits_counter_f00418.jpg"
+  ],
+  "prompt_path": "library/assets_3d/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "a_bar_stool",
+  "type": "asset_3d",
+  "name": "Barstool",
+  "description": "Barstool (see index)",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    250
+   ],
+   [
+    423,
+    541
+   ],
+   [
+    900,
+    928
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/05_the_science_behind_slot_machines/a_bar_stool_f00508.jpg"
+  ],
+  "prompt_path": "library/assets_3d/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "a_coin_cup_777",
+  "type": "asset_3d",
+  "name": "777 coin cup",
+  "description": "777 coin cup (see index)",
+  "first_frame": 148,
+  "frames_present": [
+   [
+    148,
+    340
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/05_the_science_behind_slot_machines/a_coin_cup_777_f00290.jpg"
+  ],
+  "prompt_path": "library/assets_3d/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "a_machine_door_open",
+  "type": "asset_3d",
+  "name": "Opening machine door",
+  "description": "Opening machine door (see index)",
+  "first_frame": 529,
+  "frames_present": [
+   [
+    529,
+    541
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/05_the_science_behind_slot_machines/a_machine_door_open_f00530.jpg"
+  ],
+  "prompt_path": "library/assets_3d/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "a_reel_unit_pcb",
+  "type": "asset_3d",
+  "name": "Reel unit + RNG PCB",
+  "description": "Reel unit + RNG PCB (see index)",
+  "first_frame": 542,
+  "frames_present": [
+   [
+    542,
+    778
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/05_the_science_behind_slot_machines/a_reel_unit_pcb_f00550.jpg"
+  ],
+  "prompt_path": "library/assets_3d/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "a_tally_counter",
+  "type": "asset_3d",
+  "name": "Tally counter x00–x14",
+  "description": "Tally counter x00–x14 (see index)",
+  "first_frame": 690,
+  "frames_present": [
+   [
+    690,
+    928
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/05_the_science_behind_slot_machines/a_tally_counter_f00776.jpg"
+  ],
+  "prompt_path": "library/assets_3d/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "a_rubber_stamp",
+  "type": "asset_3d",
+  "name": "ONE CLICK SHORT stamp",
+  "description": "ONE CLICK SHORT stamp (see index)",
+  "first_frame": 690,
+  "frames_present": [
+   [
+    690,
+    770
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/05_the_science_behind_slot_machines/a_rubber_stamp_f00714.jpg"
+  ],
+  "prompt_path": "library/assets_3d/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "a_bill_validator",
+  "type": "asset_3d",
+  "name": "Bill validator box",
+  "description": "Bill validator box (see index)",
+  "first_frame": 720,
+  "frames_present": [
+   [
+    720,
+    780
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/05_the_science_behind_slot_machines/a_bill_validator_f00760.jpg"
+  ],
+  "prompt_path": "library/assets_3d/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "u_paytable",
+  "type": "unique_image",
+  "name": "LUCKY 7s PAYS paytable",
+  "description": "LUCKY 7s PAYS paytable (see index for exact text)",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    250
+   ],
+   [
+    495,
+    541
+   ]
+  ],
+  "crops": [
+   "library/unique_images/05_the_science_behind_slot_machines/u_paytable_f00230.jpg"
+  ],
+  "prompt_path": "library/unique_images/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "u_par_sheet_reel3",
+  "type": "unique_image",
+  "name": "REEL 3: EVERY STOP par sheet",
+  "description": "REEL 3: EVERY STOP par sheet (see index for exact text)",
+  "first_frame": 561,
+  "frames_present": [
+   [
+    561,
+    690
+   ]
+  ],
+  "crops": [
+   "library/unique_images/05_the_science_behind_slot_machines/u_par_sheet_reel3_f00588.jpg"
+  ],
+  "prompt_path": "library/unique_images/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "u_par_sheet_stamped",
+  "type": "unique_image",
+  "name": "Stamped par sheet",
+  "description": "Stamped par sheet (see index for exact text)",
+  "first_frame": 699,
+  "frames_present": [
+   [
+    699,
+    770
+   ]
+  ],
+  "crops": [
+   "library/unique_images/05_the_science_behind_slot_machines/u_par_sheet_stamped_f00765.jpg"
+  ],
+  "prompt_path": "library/unique_images/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "u_one_click_short_wheel",
+  "type": "unique_image",
+  "name": "ONE CLICK SHORT prize wheel",
+  "description": "ONE CLICK SHORT prize wheel (see index for exact text)",
+  "first_frame": 769,
+  "frames_present": [
+   [
+    769,
+    928
+   ]
+  ],
+  "crops": [
+   "library/unique_images/05_the_science_behind_slot_machines/u_one_click_short_wheel_f00776.jpg"
+  ],
+  "prompt_path": "library/unique_images/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "o_caption_word",
+  "type": "overlay_ui",
+  "name": "Word caption card",
+  "description": "Word caption card (see index)",
+  "first_frame": 2,
+  "frames_present": [
+   [
+    2,
+    928
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/05_the_science_behind_slot_machines/o_caption_word_f00300.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "o_x1_badge",
+  "type": "overlay_ui",
+  "name": "x1 circled badge",
+  "description": "x1 circled badge (see index)",
+  "first_frame": 681,
+  "frames_present": [
+   [
+    681,
+    778
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/05_the_science_behind_slot_machines/o_x1_badge_f00690.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "o_one_click_short_stamp_imprint",
+  "type": "overlay_ui",
+  "name": "ONE CLICK SHORT stamp imprint",
+  "description": "ONE CLICK SHORT stamp imprint (see index)",
+  "first_frame": 699,
+  "frames_present": [
+   [
+    699,
+    778
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/05_the_science_behind_slot_machines/o_one_click_short_stamp_imprint_f00760.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "o_xray_wireframe",
+  "type": "overlay_ui",
+  "name": "Cyan X-ray wireframe",
+  "description": "Cyan X-ray wireframe (see index)",
+  "first_frame": 779,
+  "frames_present": [
+   [
+    779,
+    928
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/05_the_science_behind_slot_machines/o_xray_wireframe_f00840.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "vfx_glint_sweep",
+  "type": "vfx",
+  "name": "Glint sweep",
+  "description": "Glint sweep (see index)",
+  "first_frame": 644,
+  "frames_present": [
+   [
+    644,
+    650
+   ],
+   [
+    669,
+    677
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/05_the_science_behind_slot_machines/vfx_glint_sweep_f00647.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "vfx_stamp_impact_lines",
+  "type": "vfx",
+  "name": "Stamp impact lines",
+  "description": "Stamp impact lines (see index)",
+  "first_frame": 699,
+  "frames_present": [
+   [
+    699,
+    762
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/05_the_science_behind_slot_machines/vfx_stamp_impact_lines_f00700.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "vfx_dissolve_ghost",
+  "type": "vfx",
+  "name": "Ghosted dissolve",
+  "description": "Ghosted dissolve (see index)",
+  "first_frame": 251,
+  "frames_present": [
+   [
+    251,
+    254
+   ],
+   [
+    340,
+    344
+   ],
+   [
+    423,
+    428
+   ],
+   [
+    495,
+    498
+   ],
+   [
+    542,
+    547
+   ],
+   [
+    779,
+    784
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/05_the_science_behind_slot_machines/vfx_dissolve_ghost_f00253.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/05_the_science_behind_slot_machines/index.md"
+ },
+ {
+  "id": "vfx_dust_motes",
+  "type": "vfx",
+  "name": "Dust motes",
+  "description": "Dust motes (see index)",
+  "first_frame": 542,
+  "frames_present": [
+   [
+    542,
+    778
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/05_the_science_behind_slot_machines/vfx_dust_motes_f00556.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/05_the_science_behind_slot_machines/index.md"
+ }
+]

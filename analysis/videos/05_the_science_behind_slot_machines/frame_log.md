@@ -196,13 +196,13 @@ Shot boundaries used below: S1 1–133 · S2 134–250 · S3 251–340 · S4 341
 
 ## sec 024 — frames 721–750
 - Stamping accelerates: **x03 #722 · x04 #728 · x05 #733 · x06 #737 · x07 #740 · x08 #743 · x09 #747 · x10 #750**
-  (digit roll visible between values). Every BLANK row (#10 → #20) gets a "ONE CLICK SHORT" stamp.
-- Camera keeps tilting down (690–768 x0.878, dy −472); cherry rows #23–#25 appear at the bottom; **BILL VALIDATOR**
+  (digit roll visible between values). Every BLANK row (#10 onward) gets a "ONE CLICK SHORT" stamp.
+- Camera keeps tilting down (690–768 x0.878, dy −472); CHERRY rows #24–#25 appear at the bottom; **BILL VALIDATOR**
   (black box, green "$", green slot light) enters bottom-left.
 - Captions: "is" #722–726 · "on there" #727–736 · "over" #737–749 · "and over." #750–774.
 
 ## sec 025 — frames 751–780
-- Counter: **x11 #753 · x12 #756 · x13 #759 · x14 #762** — last stamp ≈#762 on row #21; counter holds x14.
+- Counter: **x11 #753 · x12 #756 · x13 #759 · x14 #762** — last stamp ≈#762 on row #23 (14 stamps on rows #10–#23); counter holds x14.
 - **#769–774 MORPH**: the whole stamped strip whips up and curls into a ring (#770 big arc with a huge red "ONE CLICK
   SHORT" band + thin yellow "JACKPOT" sliver; #772 three-quarter ring; #774 closed) → a **prize-wheel / pie chart**: red
   "ONE CLICK SHORT" wedge (≈60°), thin yellow "JACKPOT 7" sliver beside it, ~70 cream segments with tiny symbols,
