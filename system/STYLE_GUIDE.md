@@ -76,7 +76,7 @@ Other cross-video rules:
 
 ## 2. Character construction template
 
-### 2.1 The shared body (all 15 named humans across V1–V5 use it)
+### 2.1 The shared body (every human character in V1–V5 uses it)
 
 | Part | Rule | Evidence |
 |---|---|---|
@@ -376,7 +376,7 @@ with start and end frames (§8).
 | **Shadow** | Soft dark drop shadow: offset ≈3 px down @720, blur ≈4 px, black 50 % |
 | **Words per card** | 1 word by default; group 2–3 only when a function word is short or bound to the next word ("a tower", "to time", "than it", "really did.", "in the middle"). Pooled ≈1.35 words per card. |
 | **Timing** | The card appears on the first frame of its first word and stays until the next card. **No gaps** (V4: a card on screen from f1 to f1200). Holds 2–28 f, mean ≈10 f (0.33 s). Derive from word timestamps (WhisperX / forced alignment). |
-| **Text** | Exactly as spoken, sentence case, punctuation kept on the word it follows ("Apparently,", "die.", "Bro,"). Numbers as digits when read as numbers ("19", "$2 million" is spoken words, so keep the words). Fix ASR errors to the spoken script (V1 "When night falls,"; V2 "hypnagogia"). |
+| **Text** | Exactly as spoken, sentence case, punctuation kept on the word it follows ("Apparently,", "die.", "Bro,"). Numbers as an auto-captioner writes them: digits for multi-digit numbers ("19", "100"), words for small ones when spoken that way ("two", "ten"; V3 visuals §5). Fix ASR errors to the spoken script (V1 "When night falls,"; V2 "hypnagogia"). |
 | **Animation** | **None**: a hard cut between cards. No pop, scale, karaoke or colour highlight word. Always the top layer, above VFX and dissolves. |
 | **Never** | emoji, coloured keywords, boxes or pills behind the text, title cards, logos, an end card or a CTA |
 
@@ -391,7 +391,7 @@ with start and end frames (§8).
 | Duration | 68.1 s | 39.1 s | 47.1 s | 40.0 s | 30.9 s | **40–60 s** (30–70 OK) |
 | Words | 235 | 145 | 164 | 143 | 112 | 145–215 |
 | Words / s | 3.45 (3.5 in speech) | 3.71 | 3.48 | 3.58 | 3.62 | **3.55 (≈215 wpm)** |
-| Hook (first sentence) | 2.7 s, 11 words | 3.9 s, 14 w | 3.5 s, 15 w | 5.3 s, 19 w | 4.4 s, 15 w | **3–5 s, 11–19 words** |
+| Hook (first sentence) | 2.7 s, 11 words | 3.9 s, 14 w | 3.5 s, 16 w | 5.3 s, 19 w | 4.4 s, 15 w | **3–5 s, 11–19 words** |
 | First visual gag / face hit | 2.1 s (#64) | 2.7 s (#81) | 2.6 s (#77) | 0 s (push at f1) | 1.6 s (#49) | **≤ 2.7 s** |
 | Shots | 21 | 9 | 12 | 10 | 8 | 1 per 3.5–4 s |
 | Avg / median shot | 3.24 / 2.47 s | 4.34 / 3.97 s | 3.92 / 3.25 s | 4.0 / 3.68 s | 3.87 / 3.45 s | **3.75 s pooled** (60 shots / 225 s) |
