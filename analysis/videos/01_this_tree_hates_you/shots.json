@@ -45,7 +45,7 @@
   ],
   "unique_images": [],
   "overlays": [
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "If you ever sit under this tree, it can kill you.",
   "lighting": "bright midday, soft painterly light, warm sand bounce",
@@ -99,7 +99,7 @@
   ],
   "unique_images": [],
   "overlays": [
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "Imagine you're stranded on a beach and it's the only tree in sight.",
   "lighting": "bright midday, deep blue sea, high-key",
@@ -141,7 +141,7 @@
    "poster_manchineel"
   ],
   "overlays": [
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "It's called the manchineel.",
   "lighting": "soft daylight, shallow depth of field",
@@ -207,7 +207,7 @@
   "unique_images": [],
   "overlays": [
    "red_x_trunk",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "It looks completely harmless with little green apples hanging from the branches, but there's a big red X painted on its trunk and you're about to find out why. The first",
   "lighting": "bright midday",
@@ -248,8 +248,7 @@
   "unique_images": [],
   "overlays": [
    "radar_screen",
-   "severe_storm_pill",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "night, a storm rolls in. Naturally,",
   "lighting": "UI: dark navy, glowing white sweep",
@@ -304,12 +303,12 @@
   "assets": [
    "manchineel_tree",
    "sap_drops",
-   "rain"
+   "lightning_rain"
   ],
   "unique_images": [],
   "overlays": [
    "lightning_rain",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "you run under the tree for cover. Big mistake. You see, every",
   "lighting": "stormy night, desaturated navy/teal, lightning flash #575–577",
@@ -353,7 +352,7 @@
   ],
   "overlays": [
    "milky_sap_label",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "leaf on this tree is full of a milky sap and the rain carries it straight",
   "lighting": "night, cool blue bokeh, glossy highlights",
@@ -410,7 +409,7 @@
    "sap_splat",
    "sizzle_smoke",
    "sweat_drop",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "onto your skin. Within",
   "lighting": "night, cool blue",
@@ -453,7 +452,7 @@
   ],
   "overlays": [
    "skin_cutaway_window",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "minutes, you're covered in blisters.",
   "lighting": "flat diagram light",
@@ -510,7 +509,7 @@
    "blisters",
    "sizzle_smoke",
    "lightning_rain",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "This sap is so strong, it",
   "lighting": "stormy night, navy, lightning flash #835–838",
@@ -554,7 +553,7 @@
   ],
   "unique_images": [],
   "overlays": [
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "can strip the paint off a car.",
   "lighting": "bright day",
@@ -620,7 +619,7 @@
    "anger_vein",
    "scent_wisp",
    "sparkles",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "Lesson learned. By the next morning though, you're starving and those little apples smell incredible.",
   "lighting": "sunset/dawn, pink-magenta sky, warm grade on the character",
@@ -685,7 +684,7 @@
    "steam_columns",
    "sweat_drop",
    "tear_streams",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "One bite actually tastes sweet for about a second. Then, your mouth starts burning and it feels like you swallowed",
   "lighting": "bright day with god rays",
@@ -736,10 +735,8 @@
   "unique_images": [],
   "overlays": [
    "xray_screen",
-   "xray_header",
-   "xray_gut_header",
    "shake_ticks",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "fire. At this point, nature calls.",
   "lighting": "UI: dark teal, cyan glow",
@@ -807,7 +804,7 @@
    "blisters",
    "sweat_drop",
    "sizzle_smoke",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "The only thing around to use is a handful of big soft leaves. Yeah, same sap, same blisters.",
   "lighting": "bright day, dappled shade",
@@ -864,7 +861,7 @@
   "overlays": [
    "sizzle_smoke",
    "sweat_drop",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "Just in a much worse place.",
   "lighting": "bright day, turquoise water",
@@ -930,7 +927,7 @@
    "red_x_marks_logs",
    "frost_marks",
    "toxic_smoke_cloud",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "When night falls, you're freezing. Fortunately, you have plenty of wood. Unfortunately, it's from the same tree. The second it catches, the smoke turns toxic. It",
   "lighting": "animated grade: dusk pink → purple → blue night, then warm firelight from #1729, grey smoke 1764+",
@@ -986,7 +983,7 @@
    "bloodshot_eyes",
    "tear_streams",
    "sweat_drop",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "burns your eyes until you can't",
   "lighting": "near-black navy with warm orange under-glow",
@@ -1040,7 +1037,7 @@
   "unique_images": [],
   "overlays": [
    "red_x_marks_logs",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "see a thing. And every",
   "lighting": "firelit night, smoky",
@@ -1095,11 +1092,10 @@
   "unique_images": [],
   "overlays": [
    "thermal_screen",
-   "thermal_header",
    "cough_smoke",
    "tear_streams",
    "sweat_drop",
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "breath scorches your lungs. So, if you're ever",
   "lighting": "UI: dark navy + thermal palette",
@@ -1155,7 +1151,7 @@
   ],
   "unique_images": [],
   "overlays": [
-   "caption"
+   "caption_sample"
   ],
   "caption_words": "stranded on a beach, maybe just sit in the sand.",
   "lighting": "bright day",

@@ -1,0 +1,1173 @@
+[
+ {
+  "id": "Kai",
+  "type": "character",
+  "name": "Kai (castaway)",
+  "description": "Only character: big round pale-lavender head, thick dark outline, curly hair sprouts, orange Hawaiian shirt with cream red-centred flowers, navy shorts, stick limbs, yellow flip-flops. 24 emotions, 24 poses.",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    90
+   ],
+   [
+    233,
+    457
+   ],
+   [
+    515,
+    610
+   ],
+   [
+    723,
+    763
+   ],
+   [
+    814,
+    859
+   ],
+   [
+    905,
+    1221
+   ],
+   [
+    1222,
+    1295
+   ],
+   [
+    1296,
+    1525
+   ],
+   [
+    1526,
+    1823
+   ],
+   [
+    1824,
+    1867
+   ],
+   [
+    1868,
+    2043
+   ]
+  ],
+  "crops": [
+   "library/characters/Kai/emotions/emo_E01_calm_f00008.png",
+   "library/characters/Kai/emotions/emo_E01_calm_f02040.png",
+   "library/characters/Kai/emotions/emo_E01_calm_relieved_f01520.png",
+   "library/characters/Kai/emotions/emo_E02_content_smile_f00340.png",
+   "library/characters/Kai/emotions/emo_E02_content_smile_f01395.png",
+   "library/characters/Kai/emotions/emo_E03_dead_x_f00066.png",
+   "library/characters/Kai/emotions/emo_E04_smug_f00280.png",
+   "library/characters/Kai/emotions/emo_E05_curious_f01360.png",
+   "library/characters/Kai/emotions/emo_E05_curious_f01590.png",
+   "library/characters/Kai/emotions/emo_E06_worried_f00365.png",
+   "library/characters/Kai/emotions/emo_E06_worried_f01445.png",
+   "library/characters/Kai/emotions/emo_E06_worried_heatfill_f01165.png",
+   "library/characters/Kai/emotions/emo_E07_unimpressed_f00400.png",
+   "library/characters/Kai/emotions/emo_E07_unimpressed_f01415.png",
+   "library/characters/Kai/emotions/emo_E08_shocked_gritted_f00430.png",
+   "library/characters/Kai/emotions/emo_E08_shocked_gritted_f01310.png",
+   "library/characters/Kai/emotions/emo_E09_alarmed_o_f00452.png",
+   "library/characters/Kai/emotions/emo_E10_wince_f00740.png",
+   "library/characters/Kai/emotions/emo_E10_wince_f01465.png",
+   "library/characters/Kai/emotions/emo_E11_annoyed_scowl_f00830.png",
+   "library/characters/Kai/emotions/emo_E11_annoyed_scowl_f00985.png",
+   "library/characters/Kai/emotions/emo_E12_angry_vein_f00935.png",
+   "library/characters/Kai/emotions/emo_E13_sulky_closed_f00955.png",
+   "library/characters/Kai/emotions/emo_E14_dreamy_bliss_f01050.png",
+   "library/characters/Kai/emotions/emo_E15_eager_grin_f01065.png",
+   "library/characters/Kai/emotions/emo_E16_blissful_blush_f01100.png",
+   "library/characters/Kai/emotions/emo_E17_suspicious_f01140.png",
+   "library/characters/Kai/emotions/emo_E18_crying_hot_red_f01190.png",
+   "library/characters/Kai/emotions/emo_E19_strain_grimace_f01340.png",
+   "library/characters/Kai/emotions/emo_E19_strain_grimace_f01490.png",
+   "library/characters/Kai/emotions/emo_E20_cold_chatter_f01570.png",
+   "library/characters/Kai/emotions/emo_E21_tear_wince_f01765.png",
+   "library/characters/Kai/emotions/emo_E22_squeeze_cry_f01820.png",
+   "library/characters/Kai/emotions/emo_E23_bloodshot_cry_f01805.png",
+   "library/characters/Kai/emotions/emo_E23_bloodshot_cry_f01885.png",
+   "library/characters/Kai/emotions/emo_E24_cough_cry_f01935.png",
+   "library/characters/Kai/poses/pose_P01_walk_side_f00008.jpg",
+   "library/characters/Kai/poses/pose_P02_sit_legs_out_f00045.jpg",
+   "library/characters/Kai/poses/pose_P03_fall_dead_f00076.jpg",
+   "library/characters/Kai/poses/pose_P04_hand_on_hip_f00250.jpg",
+   "library/characters/Kai/poses/pose_P05_reach_apple_f00285.jpg",
+   "library/characters/Kai/poses/pose_P06_hands_on_hips_f00340.jpg",
+   "library/characters/Kai/poses/pose_P07_stand_arms_down_f00400.jpg",
+   "library/characters/Kai/poses/pose_P08_run_f00525.jpg",
+   "library/characters/Kai/poses/pose_P09_crouch_trunk_f00560.jpg",
+   "library/characters/Kai/poses/pose_P10_sit_hug_knees_f00830.jpg",
+   "library/characters/Kai/poses/pose_P11_point_back_angry_f00935.jpg",
+   "library/characters/Kai/poses/pose_P12_hold_belly_f00990.jpg",
+   "library/characters/Kai/poses/pose_P13_float_on_scent_f01050.jpg",
+   "library/characters/Kai/poses/pose_P14_hold_apple_up_f01100.jpg",
+   "library/characters/Kai/poses/pose_P15_crouch_behind_bush_f01310.jpg",
+   "library/characters/Kai/poses/pose_P16_reach_branch_f01380.jpg",
+   "library/characters/Kai/poses/pose_P17_hold_leaves_f01415.jpg",
+   "library/characters/Kai/poses/pose_P18_waddle_water_f01490.jpg",
+   "library/characters/Kai/poses/pose_P19_sit_in_water_f01520.jpg",
+   "library/characters/Kai/poses/pose_P20_arms_crossed_shiver_f01600.jpg",
+   "library/characters/Kai/poses/pose_P21_walk_to_pile_f01705.jpg",
+   "library/characters/Kai/poses/pose_P22_squat_warm_hands_f01745.jpg",
+   "library/characters/Kai/poses/pose_P23_front_stand_f01900.jpg",
+   "library/characters/Kai/poses/pose_P24_sit_lean_back_f02040.jpg",
+   "library/characters/Kai/reference/ref_00400.jpg",
+   "library/characters/Kai/reference/ref_01100.jpg",
+   "library/characters/Kai/reference/ref_01310.jpg",
+   "library/characters/Kai/reference/ref_01805.jpg"
+  ],
+  "prompt_path": "library/characters/Kai/character.md (+ poses/poses.md, emotions/emotions.md)"
+ },
+ {
+  "id": "bg01_day_tree_beach",
+  "type": "background",
+  "name": "Manchineel tree on a tropical beach, midday (close/MLS plate)",
+  "description": "day; layers: far: pale sky with streaky clouds + turquoise sea band; mid: thick pale-beige trunk with a dark ink outline, red painted X on the trunk, wide canopy of glossy green outlined leaves with small yellow-green apples; near: sand with fallen apples and leaves, soft trunk shadow",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    72
+   ],
+   [
+    226,
+    457
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/01_this_tree_hates_you/bg01_day_tree_beach_f00400.jpg"
+  ],
+  "prompt_path": "library/backgrounds/01_this_tree_hates_you/index.md#bg01_day_tree_beach"
+ },
+ {
+  "id": "bg02_aerial_island",
+  "type": "background",
+  "name": "Aerial view of a tiny lone island in deep blue sea",
+  "description": "day; layers: single layer (aerial); clouds near the top edge for depth",
+  "first_frame": 73,
+  "frames_present": [
+   [
+    73,
+    184
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/01_this_tree_hates_you/bg02_aerial_island_f00175.jpg"
+  ],
+  "prompt_path": "library/backgrounds/01_this_tree_hates_you/index.md#bg02_aerial_island"
+ },
+ {
+  "id": "bg03_storm_night_tree",
+  "type": "background",
+  "name": "Manchineel tree on a beach in a night rainstorm",
+  "description": "night storm; layers: far: dark stormy sky + sea; mid: tree with dark canopy, trunk; near: wet sand with puddle splashes, diagonal rain streaks over everything",
+  "first_frame": 516,
+  "frames_present": [
+   [
+    516,
+    609
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/01_this_tree_hates_you/bg03_storm_night_tree_f00520.jpg"
+  ],
+  "prompt_path": "library/backgrounds/01_this_tree_hates_you/index.md#bg03_storm_night_tree"
+ },
+ {
+  "id": "bg04_night_bokeh",
+  "type": "background",
+  "name": "Out-of-focus night bokeh backdrop for close-ups",
+  "description": "night; layers: single blurred layer",
+  "first_frame": 723,
+  "frames_present": [
+   [
+    723,
+    763
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/01_this_tree_hates_you/bg04_night_bokeh_f00726.jpg"
+  ],
+  "prompt_path": "library/backgrounds/01_this_tree_hates_you/index.md#bg04_night_bokeh"
+ },
+ {
+  "id": "bg05_storm_open_beach",
+  "type": "background",
+  "name": "Open beach at night in a storm, no tree",
+  "description": "night storm; layers: far: heavy navy storm clouds + flat sea horizon; near: rainy sand",
+  "first_frame": 814,
+  "frames_present": [
+   [
+    814,
+    859
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/01_this_tree_hates_you/bg05_storm_open_beach_f00818.jpg"
+  ],
+  "prompt_path": "library/backgrounds/01_this_tree_hates_you/index.md#bg05_storm_open_beach"
+ },
+ {
+  "id": "bg06_roadside_tree",
+  "type": "background",
+  "name": "Manchineel canopy over a seaside road (car scene)",
+  "description": "day; layers: far: sky + sea; mid: tree canopy + trunk, grey asphalt road with white line; near: the red car (asset)",
+  "first_frame": 860,
+  "frames_present": [
+   [
+    860,
+    904
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/01_this_tree_hates_you/bg06_roadside_tree_f00900.jpg"
+  ],
+  "prompt_path": "library/backgrounds/01_this_tree_hates_you/index.md#bg06_roadside_tree"
+ },
+ {
+  "id": "bg07_sunset_beach",
+  "type": "background",
+  "name": "Beach at sunset/dawn with the manchineel in mid-ground",
+  "description": "sunset; layers: far: pink-magenta sky with lilac clouds; mid: manchineel tree left with a tiny red X, low shrubs on the horizon, sea at right; near: pale sand",
+  "first_frame": 905,
+  "frames_present": [
+   [
+    905,
+    1059
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/01_this_tree_hates_you/bg07_sunset_beach_f01015.jpg"
+  ],
+  "prompt_path": "library/backgrounds/01_this_tree_hates_you/index.md#bg07_sunset_beach"
+ },
+ {
+  "id": "bg08_day_godrays",
+  "type": "background",
+  "name": "Bright beach with crepuscular god rays (apple scene)",
+  "description": "day; layers: far: bright blue sky with cumulus and diagonal light rays, small distant island; mid: sea strip; near: sand",
+  "first_frame": 1060,
+  "frames_present": [
+   [
+    1060,
+    1221
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/01_this_tree_hates_you/bg08_day_godrays_f01063.jpg"
+  ],
+  "prompt_path": "library/backgrounds/01_this_tree_hates_you/index.md#bg08_day_godrays"
+ },
+ {
+  "id": "bg09_bush_tree_day",
+  "type": "background",
+  "name": "Under the manchineel canopy with a round bush and grass tufts",
+  "description": "day; layers: far: sea + sky; mid: trunk with red X at left, overhanging branch with apples; near: round leafy bush centre-bottom flanked by tall golden grass tufts",
+  "first_frame": 1296,
+  "frames_present": [
+   [
+    1296,
+    1474
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/01_this_tree_hates_you/bg09_bush_tree_day_f01300.jpg"
+  ],
+  "prompt_path": "library/backgrounds/01_this_tree_hates_you/index.md#bg09_bush_tree_day"
+ },
+ {
+  "id": "bg10_shallow_lagoon",
+  "type": "background",
+  "name": "Shallow turquoise lagoon by the beach",
+  "description": "day; layers: far: blue sky with clouds, tree line; mid: sand strip, manchineel canopy top-right; near: bright turquoise shallow water with ripple lines",
+  "first_frame": 1475,
+  "frames_present": [
+   [
+    1475,
+    1525
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/01_this_tree_hates_you/bg10_shallow_lagoon_f01480.jpg"
+  ],
+  "prompt_path": "library/backgrounds/01_this_tree_hates_you/index.md#bg10_shallow_lagoon"
+ },
+ {
+  "id": "bg11_logpile",
+  "type": "background",
+  "name": "Manchineel tree with a big stacked log pile (three grades: dusk, night, firelit)",
+  "description": "dusk → night → firelit; layers: far: sea + sky band; mid: tree trunk with red X and canopy filling the top; near: stacked log pile (≈9 logs) at the base, sand foreground with fallen apples",
+  "first_frame": 1526,
+  "frames_present": [
+   [
+    1526,
+    1795
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/01_this_tree_hates_you/bg11_logpile_dusk_f01530.jpg",
+   "library/backgrounds/01_this_tree_hates_you/bg11_logpile_night_f01600.jpg",
+   "library/backgrounds/01_this_tree_hates_you/bg11_logpile_firelit_f01760.jpg"
+  ],
+  "prompt_path": "library/backgrounds/01_this_tree_hates_you/index.md#bg11_logpile"
+ },
+ {
+  "id": "bg12_dark_void",
+  "type": "background",
+  "name": "Near-black void with warm under-glow",
+  "description": "night; layers: single layer",
+  "first_frame": 1796,
+  "frames_present": [
+   [
+    1796,
+    1823
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/01_this_tree_hates_you/bg12_dark_void_f01812.jpg"
+  ],
+  "prompt_path": "library/backgrounds/01_this_tree_hates_you/index.md#bg12_dark_void"
+ },
+ {
+  "id": "bg13_pov_campfire",
+  "type": "background",
+  "name": "POV of a campfire in front of the red-X log pile",
+  "description": "night firelit; layers: far: blurred canopy + night sky; mid: log pile with red X's; near: campfire + Kai's POV hands",
+  "first_frame": 1824,
+  "frames_present": [
+   [
+    1824,
+    1867
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/01_this_tree_hates_you/bg13_pov_campfire_f01835.jpg"
+  ],
+  "prompt_path": "library/backgrounds/01_this_tree_hates_you/index.md#bg13_pov_campfire"
+ },
+ {
+  "id": "bg14_final_open_beach",
+  "type": "background",
+  "name": "Open sunny beach with no tree (ending)",
+  "description": "day; layers: far: bright blue sky with streaky cirrus + cumulus, low scrub tree line on the horizon; mid: wide sand; near: turquoise water with white foam line at the bottom",
+  "first_frame": 1950,
+  "frames_present": [
+   [
+    1950,
+    2043
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/01_this_tree_hates_you/bg14_final_open_beach_f01955.jpg"
+  ],
+  "prompt_path": "library/backgrounds/01_this_tree_hates_you/index.md#bg14_final_open_beach"
+ },
+ {
+  "id": "manchineel_tree",
+  "type": "prop_2d",
+  "name": "Manchineel tree (hero prop)",
+  "description": "Thick pale-beige trunk with dark ink outline and bark strokes, red spray-painted dripping X at chest height, wide umbrella canopy of glossy oval leaves (each outlined, two greens), small yellow-green apples on thin stems. Looks like: Painted 2.5D illustration (AI image). Not a real 3D render.",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    457
+   ],
+   [
+    516,
+    609
+   ],
+   [
+    860,
+    1059
+   ],
+   [
+    1296,
+    1525
+   ],
+   [
+    1526,
+    1867
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/01_this_tree_hates_you/manchineel_tree_f00400.jpg"
+  ],
+  "prompt_path": "library/assets_3d/01_this_tree_hates_you/index.md#manchineel_tree"
+ },
+ {
+  "id": "manchineel_apple",
+  "type": "prop_2d",
+  "name": "Manchineel apple (small green fruit)",
+  "description": "Small glossy yellow-green sphere (#f4f16c lit) with a dark outline, a white specular highlight, a thin stem and two leaves. Looks like: Flat illustration with a gloss highlight",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    457
+   ],
+   [
+    1060,
+    1221
+   ],
+   [
+    2035,
+    2043
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/01_this_tree_hates_you/manchineel_apple_f00400.jpg"
+  ],
+  "prompt_path": "library/assets_3d/01_this_tree_hates_you/index.md#manchineel_apple"
+ },
+ {
+  "id": "apple_bitten",
+  "type": "prop_2d",
+  "name": "Bitten apple",
+  "description": "Same apple with a cartoon bite (scalloped notch) out of the right side, showing pale flesh. Looks like: Illustration",
+  "first_frame": 1070,
+  "frames_present": [
+   [
+    1070,
+    1221
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/01_this_tree_hates_you/apple_bitten_f01100.jpg"
+  ],
+  "prompt_path": "library/assets_3d/01_this_tree_hates_you/index.md#apple_bitten"
+ },
+ {
+  "id": "red_convertible",
+  "type": "asset_3d",
+  "name": "Red classic convertible",
+  "description": "Glossy red 1950s-style convertible (side view), cream seats, chrome bumpers, white-wall tyres. Later shown with paint bubbling/peeling to grey primer with curled red edges where sap drips. Looks like: Looks like a cel-shaded 3D render or AI image with ink outlines",
+  "first_frame": 860,
+  "frames_present": [
+   [
+    860,
+    904
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/01_this_tree_hates_you/red_convertible_f00900.jpg",
+   "library/assets_3d/01_this_tree_hates_you/red_convertible_stripped_f00870.jpg"
+  ],
+  "prompt_path": "library/assets_3d/01_this_tree_hates_you/index.md#red_convertible"
+ },
+ {
+  "id": "log_pile",
+  "type": "asset_3d",
+  "name": "Stacked log pile",
+  "description": "About nine cut logs stacked in a pyramid, round cut ends with rings facing the camera, dark outlines. Later every cut end gets a red X. Looks like: Painted 2.5D illustration",
+  "first_frame": 1526,
+  "frames_present": [
+   [
+    1526,
+    1867
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/01_this_tree_hates_you/log_pile_f01600.jpg"
+  ],
+  "prompt_path": "library/assets_3d/01_this_tree_hates_you/index.md#log_pile"
+ },
+ {
+  "id": "campfire",
+  "type": "prop_2d",
+  "name": "Cartoon campfire",
+  "description": "Flame shapes in layers: red outer tongues, orange, yellow-white core, floating ember sparks, small logs/stones at the base, a warm light pool on the sand. Looks like: 2D animated flame (AE/sprite loop) + glow",
+  "first_frame": 1725,
+  "frames_present": [
+   [
+    1725,
+    1867
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/01_this_tree_hates_you/campfire_f01745.jpg"
+  ],
+  "prompt_path": "library/assets_3d/01_this_tree_hates_you/index.md#campfire"
+ },
+ {
+  "id": "bush_and_grass",
+  "type": "prop_2d",
+  "name": "Round bush with golden grass tufts",
+  "description": "Dense round bush of small glossy leaves, flanked by tall golden-green grass tufts. Looks like: Painted illustration",
+  "first_frame": 1296,
+  "frames_present": [
+   [
+    1296,
+    1474
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/01_this_tree_hates_you/bush_and_grass_f01300.jpg"
+  ],
+  "prompt_path": "library/assets_3d/01_this_tree_hates_you/index.md#bush_and_grass"
+ },
+ {
+  "id": "leaf_bunch",
+  "type": "prop_2d",
+  "name": "Bunch of three big soft leaves",
+  "description": "Three large pale-green oval leaves joined at the stem, held like a bouquet. Looks like: Flat illustration",
+  "first_frame": 1387,
+  "frames_present": [
+   [
+    1387,
+    1477
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/01_this_tree_hates_you/leaf_bunch_f01415.jpg"
+  ],
+  "prompt_path": "library/assets_3d/01_this_tree_hates_you/index.md#leaf_bunch"
+ },
+ {
+  "id": "crab",
+  "type": "prop_2d",
+  "name": "Tiny red crab",
+  "description": "Tiny cartoon red crab with stalk eyes that scuttles across the sand. Looks like: Flat illustration",
+  "first_frame": 905,
+  "frames_present": [
+   [
+    905,
+    1034
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/01_this_tree_hates_you/crab_f00935.jpg"
+  ],
+  "prompt_path": "library/assets_3d/01_this_tree_hates_you/index.md#crab"
+ },
+ {
+  "id": "poster_manchineel",
+  "type": "unique_image",
+  "name": "Botanical field-guide poster",
+  "description": "Aged cream paper poster pinned to a trunk. Text (top→bottom): 'A FIELD GUIDE TO CARIBBEAN TREES' / 'PLATE XIII' (small caps), engraved illustration of a broad tree, small green leaf icon top-right, 'MANCHINEEL' (large serif caps), 'Hippomane mancinella' (italic), 'Spanish: manzanilla de la muerte', '(\"little apple of death\")' in red, bottom row small drawings 'Fig. 2 leaf' and 'Fig. 3 fruit', fine-print footer (illegible).",
+  "first_frame": 185,
+  "frames_present": [
+   [
+    185,
+    252
+   ]
+  ],
+  "crops": [
+   "library/unique_images/01_this_tree_hates_you/poster_manchineel_f00200.jpg"
+  ],
+  "prompt_path": "library/unique_images/01_this_tree_hates_you/index.md#poster_manchineel"
+ },
+ {
+  "id": "leaf_xray",
+  "type": "unique_image",
+  "name": "Leaf in x-ray mode",
+  "description": "Large oval leaf in 'x-ray' rendering: dark navy fill, glowing light-blue serrated outline, thick pale-lavender midrib and veins, on dark-blue bokeh; blurred dark leaves foreground.",
+  "first_frame": 631,
+  "frames_present": [
+   [
+    631,
+    690
+   ]
+  ],
+  "crops": [
+   "library/unique_images/01_this_tree_hates_you/leaf_xray_f00660.jpg"
+  ],
+  "prompt_path": "library/unique_images/01_this_tree_hates_you/index.md#leaf_xray"
+ },
+ {
+  "id": "leaf_sap_drop",
+  "type": "unique_image",
+  "name": "Glossy leaf with sap drop",
+  "description": "Same leaf in normal glossy green with blue-white water beads and an opaque milky-white teardrop hanging from the tip.",
+  "first_frame": 686,
+  "frames_present": [
+   [
+    686,
+    722
+   ]
+  ],
+  "crops": [
+   "library/unique_images/01_this_tree_hates_you/leaf_sap_drop_f00708.jpg"
+  ],
+  "prompt_path": "library/unique_images/01_this_tree_hates_you/index.md#leaf_sap_drop"
+ },
+ {
+  "id": "skin_cross_section",
+  "type": "unique_image",
+  "name": "Skin cross-section diagram with blister",
+  "description": "Cartoon medical cross-section filling the frame: top dome (blister) pink and glossy with label 'INSIDE YOUR SKIN'; epidermis of pink cells with dark nuclei; white sap tendrils spreading down; dermis pink with wavy fibres, red/purple capillary loops, coiled sweat gland, diagonal hair shaft at left; hypodermis of yellow fat-cell spheres; lamellar corpuscle; red and blue vessels.",
+  "first_frame": 764,
+  "frames_present": [
+   [
+    764,
+    813
+   ]
+  ],
+  "crops": [
+   "library/unique_images/01_this_tree_hates_you/skin_cross_section_f00805.jpg"
+  ],
+  "prompt_path": "library/unique_images/01_this_tree_hates_you/index.md#skin_cross_section"
+ },
+ {
+  "id": "radar_screen",
+  "type": "overlay_ui",
+  "name": "Satellite storm radar app",
+  "description": "Dark navy ocean map, dark-green island silhouette, 'YOU' marker (red dot in a white ring + tiny white label), faint concentric range rings, white sweep line rotating clockwise (~0.5 rev/s), white-lavender satellite cloud band drifting right, coloured precipitation echoes (green→yellow→orange→magenta) revealed behind the sweep. Header: 'SATELLITE · LIVE' (teal #7fd8c8 tiny caps, letter-spaced) and 'NIGHT 1 · 9:42 PM' (white bold geometric sans). Bottom pill (#e01436): '⚠ SEVERE STORM' (white bold, yellow triangle) fades in #478.",
+  "first_frame": 458,
+  "frames_present": [
+   [
+    458,
+    515
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/radar_screen_f00485.jpg",
+   "library/overlays_ui/01_this_tree_hates_you/severe_storm_pill_f00485.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#radar_screen"
+ },
+ {
+  "id": "xray_screen",
+  "type": "overlay_ui",
+  "name": "X-ray HUD with Kai's skeleton",
+  "description": "Glowing cyan cartoon skeleton of Kai (round skull with big sockets + teeth grid, ribcage, pelvis, stick bones), translucent pink oesophagus/stomach/intestines, yellow-orange fire spark travelling down; dark teal-navy background. HUD: 'X-RAY' (#96d9e2, top-left), 'THROAT: ON FIRE' (orange #e8643c, top-right) → 'GUT: INCOMING' (amber) at #1260, 'R' marker, corner brackets, ruler ticks right, 'PATIENT: YOU' / 'AP VIEW · 1:1' bottom-left; legs cross knock-kneed with 3 yellow shake ticks each side 1267–1293.",
+  "first_frame": 1222,
+  "frames_present": [
+   [
+    1222,
+    1295
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/xray_screen_f01250.jpg",
+   "library/overlays_ui/01_this_tree_hates_you/xray_skeleton_legs_f01280.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#xray_screen"
+ },
+ {
+  "id": "thermal_screen",
+  "type": "overlay_ui",
+  "name": "Thermal camera HUD with lungs",
+  "description": "Kai front view; torso replaced by a thermal-palette view of lungs/trachea (magenta→orange→yellow as the temperature climbs). HUD: 'THERMAL' (golden #dbc87a, top-left), 'LUNGS: 99°F' → counts up to '451°F' (white, top-right; counter 1883–1902), '● REC' red dot blinking, corner brackets, vertical scale bar (white-yellow-orange-magenta-purple) with '500°F' / '60°F', crosshair + temperature tag on the right lung. A horizontal scan line wipes down 1868–1876.",
+  "first_frame": 1868,
+  "frames_present": [
+   [
+    1868,
+    1949
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/thermal_screen_f01900.jpg",
+   "library/overlays_ui/01_this_tree_hates_you/thermal_header_f01900.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#thermal_screen"
+ },
+ {
+  "id": "red_x_trunk",
+  "type": "overlay_ui",
+  "name": "Red spray-painted X",
+  "description": "Bright red (#e22924) spray-paint X with drips, on the trunk. The motif reappears as clean red X marks on the log ends (red_x_marks_logs_f01680.jpg, #cf2627, 1644–1867).",
+  "first_frame": 226,
+  "frames_present": [
+   [
+    226,
+    1867
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/red_x_trunk_f00400.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#red_x_trunk"
+ },
+ {
+  "id": "milky_sap_label",
+  "type": "overlay_ui",
+  "name": "'MILKY SAP' callout",
+  "description": "White bold caps 'MILKY SAP' with a thin white leader line to a glossy sap bead.",
+  "first_frame": 671,
+  "frames_present": [
+   [
+    671,
+    704
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/milky_sap_label_f00680.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#milky_sap_label"
+ },
+ {
+  "id": "skin_cutaway_window",
+  "type": "overlay_ui",
+  "name": "Cut-away window",
+  "description": "A small rectangle with a thick dark outline opens in the splat on the head and shows skin cells, then scales up to fill the frame.",
+  "first_frame": 760,
+  "frames_present": [
+   [
+    760,
+    770
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/skin_cutaway_window_f00764.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#skin_cutaway_window"
+ },
+ {
+  "id": "caption_sample",
+  "type": "overlay_ui",
+  "name": "Caption style",
+  "description": "White heavy geometric sans (Montserrat ExtraBold-like) with a ~3–4 px black stroke, centred at y≈900, 1–2 words per card, hard cuts.",
+  "first_frame": 2,
+  "frames_present": [
+   [
+    2,
+    2043
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/caption_sample_f00400.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#caption_sample"
+ },
+ {
+  "id": "sweat_drop",
+  "type": "vfx",
+  "name": "Sweat drop",
+  "description": "Blue teardrop (#6488aa) with a dark outline and a white highlight at the upper right of the head.",
+  "first_frame": 421,
+  "frames_present": [
+   [
+    421,
+    456
+   ],
+   [
+    546,
+    610
+   ],
+   [
+    723,
+    763
+   ],
+   [
+    1150,
+    1170
+   ],
+   [
+    1425,
+    1510
+   ],
+   [
+    1797,
+    1949
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/sweat_drop_f01805.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#sweat_drop"
+ },
+ {
+  "id": "tear_streams",
+  "type": "vfx",
+  "name": "Tear streams",
+  "description": "Two thick light-blue wavy ribbons running from the eyes down the cheeks.",
+  "first_frame": 1171,
+  "frames_present": [
+   [
+    1171,
+    1221
+   ],
+   [
+    1756,
+    1822
+   ],
+   [
+    1869,
+    1949
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/tear_streams_f01805.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#tear_streams"
+ },
+ {
+  "id": "bloodshot_eyes",
+  "type": "vfx",
+  "name": "Bloodshot eyes",
+  "description": "Ring eyes with pink-red whites, red vein ticks and dark pupils; red lower lids.",
+  "first_frame": 1801,
+  "frames_present": [
+   [
+    1801,
+    1920
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/bloodshot_eyes_f01805.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#bloodshot_eyes"
+ },
+ {
+  "id": "steam_columns",
+  "type": "vfx",
+  "name": "Steam columns",
+  "description": "White cartoon puff clouds rising in columns from both sides of a red head.",
+  "first_frame": 1177,
+  "frames_present": [
+   [
+    1177,
+    1221
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/steam_columns_f01190.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#steam_columns"
+ },
+ {
+  "id": "sizzle_smoke",
+  "type": "vfx",
+  "name": "Sizzle smoke puffs + splat",
+  "description": "Small white puffs + tiny bubbles rising from a white splat.",
+  "first_frame": 735,
+  "frames_present": [
+   [
+    735,
+    763
+   ],
+   [
+    815,
+    845
+   ],
+   [
+    1462,
+    1477
+   ],
+   [
+    1516,
+    1525
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/sizzle_smoke_f00740.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#sizzle_smoke"
+ },
+ {
+  "id": "sap_splat",
+  "type": "vfx",
+  "name": "Milky sap splat",
+  "description": "Flat white irregular splat with a dark outline on top of the head, dotted drops around it.",
+  "first_frame": 734,
+  "frames_present": [
+   [
+    734,
+    763
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/sap_splat_f00736.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#sap_splat"
+ },
+ {
+  "id": "anger_vein",
+  "type": "vfx",
+  "name": "Anger vein",
+  "description": "Red anime 'cross-popping vein' mark.",
+  "first_frame": 908,
+  "frames_present": [
+   [
+    908,
+    944
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/anger_vein_f00935.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#anger_vein"
+ },
+ {
+  "id": "blisters",
+  "type": "vfx",
+  "name": "Blisters",
+  "description": "Pink glossy balls with dark outlines dotted over the head.",
+  "first_frame": 815,
+  "frames_present": [
+   [
+    815,
+    859
+   ],
+   [
+    1457,
+    1477
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/blisters_f00830.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#blisters"
+ },
+ {
+  "id": "frost_marks",
+  "type": "vfx",
+  "name": "Frost marks",
+  "description": "Small pale-blue zigzag icicle marks on the forehead.",
+  "first_frame": 1560,
+  "frames_present": [
+   [
+    1560,
+    1718
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/frost_marks_f01660.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#frost_marks"
+ },
+ {
+  "id": "heat_fill_head",
+  "type": "vfx",
+  "name": "Rising red heat fill",
+  "description": "Red-pink liquid level with a wavy top rising inside the head, ending fully red.",
+  "first_frame": 1160,
+  "frames_present": [
+   [
+    1160,
+    1221
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/heat_fill_head_f01165.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#heat_fill_head"
+ },
+ {
+  "id": "scent_wisp",
+  "type": "vfx",
+  "name": "Scent wisp",
+  "description": "Glowing green-white wavy line with sparkles curling from the tree to Kai's nose.",
+  "first_frame": 1014,
+  "frames_present": [
+   [
+    1014,
+    1057
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/scent_wisp_f01040.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#scent_wisp"
+ },
+ {
+  "id": "light_orbs",
+  "type": "vfx",
+  "name": "Soft light orbs",
+  "description": "Soft white bokeh orbs floating up.",
+  "first_frame": 1098,
+  "frames_present": [
+   [
+    1098,
+    1126
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/light_orbs_f01100.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#light_orbs"
+ },
+ {
+  "id": "lightning_rain",
+  "type": "vfx",
+  "name": "Rain + lightning flash",
+  "description": "White diagonal rain streaks; 2–3 frame lightning flashes (bolt + exposure lift).",
+  "first_frame": 515,
+  "frames_present": [
+   [
+    515,
+    610
+   ],
+   [
+    575,
+    577
+   ],
+   [
+    835,
+    838
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/lightning_rain_f00576.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#lightning_rain"
+ },
+ {
+  "id": "toxic_smoke_cloud",
+  "type": "vfx",
+  "name": "Toxic smoke cloud",
+  "description": "Dark grey-brown volumetric smoke billowing up from the fire over the tree and Kai.",
+  "first_frame": 1711,
+  "frames_present": [
+   [
+    1711,
+    1795
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/toxic_smoke_cloud_f01780.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#toxic_smoke_cloud"
+ },
+ {
+  "id": "cough_smoke",
+  "type": "vfx",
+  "name": "Cough smoke puff",
+  "description": "Dark grey soft puff at the mouth corner.",
+  "first_frame": 1923,
+  "frames_present": [
+   [
+    1923,
+    1941
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/cough_smoke_f01935.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#cough_smoke"
+ },
+ {
+  "id": "shake_ticks",
+  "type": "vfx",
+  "name": "Shake ticks",
+  "description": "3 short yellow dashes on each side of the knees (jitter).",
+  "first_frame": 1267,
+  "frames_present": [
+   [
+    1267,
+    1293
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/shake_ticks_f01280.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#shake_ticks"
+ },
+ {
+  "id": "butterfly",
+  "type": "prop_2d",
+  "name": "Yellow butterfly",
+  "description": "Tiny yellow butterfly that lands on Kai's head during 'harmless'.",
+  "first_frame": 242,
+  "frames_present": [
+   [
+    242,
+    270
+   ]
+  ],
+  "crops": [],
+  "prompt_path": "analysis/videos/01_this_tree_hates_you/visuals.md#4-vfx-catalogue"
+ },
+ {
+  "id": "sap_drops",
+  "type": "vfx",
+  "name": "Falling milky sap drops",
+  "description": "White teardrop drips falling from leaves with splash ellipses on the sand; also on the car.",
+  "first_frame": 547,
+  "frames_present": [
+   [
+    547,
+    610
+   ],
+   [
+    863,
+    904
+   ]
+  ],
+  "crops": [],
+  "prompt_path": "analysis/videos/01_this_tree_hates_you/visuals.md#4-vfx-catalogue"
+ },
+ {
+  "id": "sparkles",
+  "type": "vfx",
+  "name": "4-point sparkles / light motes",
+  "description": "White twinkles on the canopy (scent cue) and around the leaves.",
+  "first_frame": 1014,
+  "frames_present": [
+   [
+    1014,
+    1034
+   ],
+   [
+    1389,
+    1402
+   ]
+  ],
+  "crops": [],
+  "prompt_path": "analysis/videos/01_this_tree_hates_you/visuals.md#4-vfx-catalogue"
+ },
+ {
+  "id": "breath_vapour",
+  "type": "vfx",
+  "name": "Cold breath vapour",
+  "description": "Faint blue-white mist puffs drifting right from Kai's mouth while shivering (too faint to crop).",
+  "first_frame": 1565,
+  "frames_present": [
+   [
+    1565,
+    1590
+   ]
+  ],
+  "crops": [],
+  "prompt_path": "analysis/videos/01_this_tree_hates_you/visuals.md#4-vfx-catalogue"
+ },
+ {
+  "id": "embers",
+  "type": "vfx",
+  "name": "Fire embers / ignition sparks",
+  "description": "Tiny orange sparks before the fire catches and floating embers over the flames.",
+  "first_frame": 1712,
+  "frames_present": [
+   [
+    1712,
+    1867
+   ]
+  ],
+  "crops": [],
+  "prompt_path": "analysis/videos/01_this_tree_hates_you/visuals.md#4-vfx-catalogue"
+ },
+ {
+  "id": "pov_hands",
+  "type": "prop_2d",
+  "name": "Kai's POV hands",
+  "description": "Two stick arms with white ball hands reaching in from the bottom corners (POV shot).",
+  "first_frame": 1824,
+  "frames_present": [
+   [
+    1824,
+    1867
+   ]
+  ],
+  "crops": [],
+  "prompt_path": "analysis/videos/01_this_tree_hates_you/visuals.md#4-vfx-catalogue"
+ },
+ {
+  "id": "red_x_marks_logs",
+  "type": "overlay_ui",
+  "name": "Red X marks on log ends",
+  "description": "Clean red (#cf2627) X marks that scale-pop onto every cut log end in a staggered cascade (~15 X's), recalling the trunk X.",
+  "first_frame": 1644,
+  "frames_present": [
+   [
+    1644,
+    1867
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/01_this_tree_hates_you/red_x_marks_logs_f01680.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/01_this_tree_hates_you/index.md#red_x_trunk"
+ }
+]

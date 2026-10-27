@@ -1,0 +1,1490 @@
+[
+ {
+  "id": "char_dr_klaus",
+  "type": "character",
+  "name": "Dr. Klaus",
+  "description": "Scientist: round head, black centre-parted bowl cut, round black glasses, moustache, white lab coat",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    30
+   ],
+   [
+    438,
+    560
+   ],
+   [
+    826,
+    944
+   ],
+   [
+    1183,
+    1200
+   ]
+  ],
+  "crops": [
+   "library/characters/Dr_Klaus/emotions/emo_neutral_f00480.png",
+   "library/characters/Dr_Klaus/emotions/emo_smug_halflid_f00515.png",
+   "library/characters/Dr_Klaus/emotions/emo_wink_f00494.png",
+   "library/characters/Dr_Klaus/poses/pose_clipboard_f00900.jpg",
+   "library/characters/Dr_Klaus/poses/pose_fasten_device_f00470.jpg",
+   "library/characters/Dr_Klaus/poses/pose_push_f00015.jpg",
+   "library/characters/Dr_Klaus/poses/pose_stopwatch_f00840.jpg",
+   "library/characters/Dr_Klaus/reference/ref_00001.jpg",
+   "library/characters/Dr_Klaus/reference/ref_00480.jpg"
+  ],
+  "prompt_path": "library/characters/Dr_Klaus/character.md ; library/characters/Dr_Klaus/poses/poses.md ; library/characters/Dr_Klaus/emotions/emotions.md"
+ },
+ {
+  "id": "char_dex",
+  "type": "character",
+  "name": "Dex",
+  "description": "Volunteer: round head, backwards red cap, brown hair, orange safety harness over yellow T-shirt, CHRONO-2 on wrist",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    213
+   ],
+   [
+    438,
+    560
+   ],
+   [
+    616,
+    711
+   ],
+   [
+    719,
+    856
+   ],
+   [
+    857,
+    967
+   ],
+   [
+    1078,
+    1170
+   ],
+   [
+    1183,
+    1200
+   ]
+  ],
+  "crops": [
+   "library/characters/Dex/emotions/emo_big_grin_f01140.png",
+   "library/characters/Dex/emotions/emo_deadpan_f00160.png",
+   "library/characters/Dex/emotions/emo_dizzy_f00731.png",
+   "library/characters/Dex/emotions/emo_dread_eyesshut_f00140.png",
+   "library/characters/Dex/emotions/emo_frown_f00850.png",
+   "library/characters/Dex/emotions/emo_skeptical_f00494.png",
+   "library/characters/Dex/emotions/emo_smug_browraise_f00190.png",
+   "library/characters/Dex/emotions/emo_smug_f01085.png",
+   "library/characters/Dex/emotions/emo_surprised_o_f00540.png",
+   "library/characters/Dex/emotions/emo_terrified_f00200.png",
+   "library/characters/Dex/emotions/emo_worried_f00510.png",
+   "library/characters/Dex/poses/pose_back_view_f00940.jpg",
+   "library/characters/Dex/poses/pose_freefall_spread_f00070.jpg",
+   "library/characters/Dex/poses/pose_landed_on_net_f00731.jpg",
+   "library/characters/Dex/poses/pose_pushed_off_edge_f00015.jpg",
+   "library/characters/Dex/poses/pose_seated_flipbook_f01110.jpg",
+   "library/characters/Dex/poses/pose_standing_harness_f00470.jpg",
+   "library/characters/Dex/poses/pose_tumble_horizontal_f00100.jpg",
+   "library/characters/Dex/reference/ref_00070.jpg",
+   "library/characters/Dex/reference/ref_00480.jpg",
+   "library/characters/Dex/reference/ref_01085.jpg"
+  ],
+  "prompt_path": "library/characters/Dex/character.md ; library/characters/Dex/poses/poses.md ; library/characters/Dex/emotions/emotions.md"
+ },
+ {
+  "id": "char_noggin",
+  "type": "character",
+  "name": "Noggin",
+  "description": "Pink brain with green visor band and pencil, draws at a desk inside the brain room",
+  "first_frame": 214,
+  "frames_present": [
+   [
+    214,
+    330
+   ],
+   [
+    972,
+    1077
+   ]
+  ],
+  "crops": [
+   "library/characters/Noggin/emotions/emo_angry_determined_f00248.png",
+   "library/characters/Noggin/emotions/emo_bored_halflid_f00225.png",
+   "library/characters/Noggin/emotions/emo_frantic_f00238.png",
+   "library/characters/Noggin/emotions/emo_startled_f00228.png",
+   "library/characters/Noggin/emotions/emo_strain_squint_f00233.png",
+   "library/characters/Noggin/poses/pose_back_view_drawing_f01000.jpg",
+   "library/characters/Noggin/poses/pose_in_pupil_f00218.jpg",
+   "library/characters/Noggin/poses/pose_seated_scribble_front_f00238.jpg",
+   "library/characters/Noggin/reference/ref_00238.jpg"
+  ],
+  "prompt_path": "library/characters/Noggin/character.md ; library/characters/Noggin/poses/poses.md ; library/characters/Noggin/emotions/emotions.md"
+ },
+ {
+  "id": "char_amy",
+  "type": "character",
+  "name": "Amy",
+  "description": "Amygdala: small brown almond with wood grain, ring eyes, slams the PANIC button",
+  "first_frame": 972,
+  "frames_present": [
+   [
+    972,
+    1026
+   ]
+  ],
+  "crops": [
+   "library/characters/Amy/emotions/emo_panic_f00985.png",
+   "library/characters/Amy/emotions/emo_panic_sweat_f01010.png",
+   "library/characters/Amy/emotions/emo_worried_f00975.png",
+   "library/characters/Amy/poses/pose_slam_button_f00981.jpg",
+   "library/characters/Amy/poses/pose_stand_by_button_f00975.jpg",
+   "library/characters/Amy/reference/ref_00975.jpg"
+  ],
+  "prompt_path": "library/characters/Amy/character.md ; library/characters/Amy/poses/poses.md ; library/characters/Amy/emotions/emotions.md"
+ },
+ {
+  "id": "char_elmer",
+  "type": "character",
+  "name": "Elmer",
+  "description": "Bald older volunteer with white side tufts, green harness",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    30
+   ],
+   [
+    465,
+    600
+   ],
+   [
+    775,
+    830
+   ],
+   [
+    857,
+    960
+   ],
+   [
+    1183,
+    1200
+   ]
+  ],
+  "crops": [
+   "library/characters/Elmer/emotions/emo_happy_closed_f00800.png",
+   "library/characters/Elmer/emotions/emo_skeptical_halflid_f00900.png",
+   "library/characters/Elmer/emotions/emo_worried_frown_f00925.png",
+   "library/characters/Elmer/emotions/emo_worried_sweat_f00545.png",
+   "library/characters/Elmer/poses/pose_arms_out_brag_f00800.jpg",
+   "library/characters/Elmer/poses/pose_shrug_f00914.jpg",
+   "library/characters/Elmer/reference/ref_00800.jpg"
+  ],
+  "prompt_path": "library/characters/Elmer/character.md ; library/characters/Elmer/poses/poses.md ; library/characters/Elmer/emotions/emotions.md"
+ },
+ {
+  "id": "char_gil",
+  "type": "character",
+  "name": "Gil",
+  "description": "Volunteer with dark fringe, purple shirt, orange harness; queasy lavender face before the drop",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    30
+   ],
+   [
+    465,
+    600
+   ],
+   [
+    795,
+    813
+   ],
+   [
+    857,
+    960
+   ],
+   [
+    1183,
+    1200
+   ]
+  ],
+  "crops": [
+   "library/characters/Gil/emotions/emo_laughing_f00805.png",
+   "library/characters/Gil/emotions/emo_queasy_f00545.png",
+   "library/characters/Gil/emotions/emo_skeptical_squint_f00905.png",
+   "library/characters/Gil/emotions/emo_worried_frown_f00925.png",
+   "library/characters/Gil/poses/pose_shrug_f00914.jpg",
+   "library/characters/Gil/reference/ref_00915.jpg"
+  ],
+  "prompt_path": "library/characters/Gil/character.md ; library/characters/Gil/poses/poses.md ; library/characters/Gil/emotions/emotions.md"
+ },
+ {
+  "id": "char_tad",
+  "type": "character",
+  "name": "Tad",
+  "description": "Volunteer with black bowl cut, teal harness; dizzy then bragging then annoyed",
+  "first_frame": 757,
+  "frames_present": [
+   [
+    757,
+    856
+   ]
+  ],
+  "crops": [
+   "library/characters/Tad/emotions/emo_annoyed_f00846.png",
+   "library/characters/Tad/emotions/emo_big_grin_f00835.png",
+   "library/characters/Tad/emotions/emo_dizzy_f00765.png",
+   "library/characters/Tad/poses/pose_arms_out_brag_f00835.jpg",
+   "library/characters/Tad/poses/pose_walk_dizzy_f00765.jpg",
+   "library/characters/Tad/reference/ref_00835.jpg"
+  ],
+  "prompt_path": "library/characters/Tad/character.md ; library/characters/Tad/poses/poses.md ; library/characters/Tad/emotions/emotions.md"
+ },
+ {
+  "id": "char_gus",
+  "type": "character",
+  "name": "Gus",
+  "description": "Support-group member, orange hair, red shirt, neck brace (tag GUS)",
+  "first_frame": 331,
+  "frames_present": [
+   [
+    331,
+    437
+   ]
+  ],
+  "crops": [
+   "library/characters/Gus/reference/ref_00380.jpg"
+  ],
+  "prompt_path": "library/characters/Gus/character.md"
+ },
+ {
+  "id": "char_carl",
+  "type": "character",
+  "name": "Carl",
+  "description": "Support-group member, head bandage, blue shirt (tag CARL)",
+  "first_frame": 331,
+  "frames_present": [
+   [
+    331,
+    437
+   ]
+  ],
+  "crops": [
+   "library/characters/Carl/reference/ref_00380.jpg"
+  ],
+  "prompt_path": "library/characters/Carl/character.md"
+ },
+ {
+  "id": "char_deb",
+  "type": "character",
+  "name": "Deb",
+  "description": "Support-group member, grey bun, glasses, pink top (tag DEB)",
+  "first_frame": 331,
+  "frames_present": [
+   [
+    331,
+    437
+   ]
+  ],
+  "crops": [
+   "library/characters/Deb/emotions/emo_o_mouth_blur_f00420.png",
+   "library/characters/Deb/reference/ref_00380.jpg"
+  ],
+  "prompt_path": "library/characters/Deb/character.md"
+ },
+ {
+  "id": "char_ray",
+  "type": "character",
+  "name": "Ray",
+  "description": "Support-group member, blond hair, red shirt (tag RAY)",
+  "first_frame": 331,
+  "frames_present": [
+   [
+    331,
+    437
+   ]
+  ],
+  "crops": [
+   "library/characters/Ray/reference/ref_00380.jpg"
+  ],
+  "prompt_path": "library/characters/Ray/character.md"
+ },
+ {
+  "id": "char_mo",
+  "type": "character",
+  "name": "Mo",
+  "description": "Support-group member, black beard, purple shirt, leg cast and crutch (tag MO)",
+  "first_frame": 331,
+  "frames_present": [
+   [
+    331,
+    437
+   ]
+  ],
+  "crops": [
+   "library/characters/Mo/reference/ref_00380.jpg"
+  ],
+  "prompt_path": "library/characters/Mo/character.md"
+ },
+ {
+  "id": "char_cooper",
+  "type": "character",
+  "name": "Cooper",
+  "description": "BBQ friend, orange-brown hair, salmon shirt, red cup",
+  "first_frame": 1098,
+  "frames_present": [
+   [
+    1098,
+    1170
+   ]
+  ],
+  "crops": [
+   "library/characters/Cooper/reference/ref_01125.jpg"
+  ],
+  "prompt_path": "library/characters/Cooper/character.md"
+ },
+ {
+  "id": "char_hank",
+  "type": "character",
+  "name": "Hank",
+  "description": "BBQ friend, straw cowboy hat, glasses, plaid shirt, beer bottle",
+  "first_frame": 1108,
+  "frames_present": [
+   [
+    1108,
+    1170
+   ]
+  ],
+  "crops": [
+   "library/characters/Hank/reference/ref_01125.jpg"
+  ],
+  "prompt_path": "library/characters/Hank/character.md"
+ },
+ {
+  "id": "char_biscuit",
+  "type": "character",
+  "name": "Biscuit",
+  "description": "Brown cartoon dog at the BBQ",
+  "first_frame": 1104,
+  "frames_present": [
+   [
+    1104,
+    1170
+   ]
+  ],
+  "crops": [
+   "library/characters/Biscuit/reference/ref_01125.jpg"
+  ],
+  "prompt_path": "library/characters/Biscuit/character.md"
+ },
+ {
+  "id": "bg_tower_top_highangle",
+  "type": "background",
+  "name": "tower top highangle",
+  "description": "Top of the LONE STAR THRILLS free-fall tower seen from high above/side: dark steel grated deck with yellow/black hazard-striped edge, orange lattice tower beams diving down, vertical navy \"FREEFALL\" banner, far below a parking lot full of tiny cars, plaza, trees, city skyline far on the horizon",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    30
+   ],
+   [
+    1183,
+    1200
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_tower_top_highangle_f00030.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_tower_top_highangle"
+ },
+ {
+  "id": "bg_tower_side_fall",
+  "type": "background",
+  "name": "tower side fall",
+  "description": "View straight down the side of the orange lattice tower with the navy FREEFALL banner, pale concrete plaza and parking lot far below, motion-blurred",
+  "first_frame": 31,
+  "frames_present": [
+   [
+    31,
+    213
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_tower_side_fall_f00125.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_tower_side_fall"
+ },
+ {
+  "id": "bg_brain_room",
+  "type": "background",
+  "name": "brain room",
+  "description": "Cosy round room inside a brain: cream curved walls, brown-framed round porthole windows with blue sky, wooden drawing desk covered in pencil sketches of a tower and a pigeon, green desk lamp, red pencil cup, small wooden stool, rainbow-striped round rug on a wooden floor, bookshelf with colourful books, corkboard",
+  "first_frame": 214,
+  "frames_present": [
+   [
+    214,
+    290
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_brain_room_f00262.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_brain_room"
+ },
+ {
+  "id": "bg_brain_porthole",
+  "type": "background",
+  "name": "brain porthole",
+  "description": "Same brain room wall with a big round porthole window centred: through it blue sky, white clouds, an orange lattice tower and a grey pigeon gliding; desk edge with a PANIC button box and papers below, red alarm dome light on the wall",
+  "first_frame": 255,
+  "frames_present": [
+   [
+    255,
+    336
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_brain_porthole_f00315.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_brain_porthole"
+ },
+ {
+  "id": "bg_support_group_birdseye",
+  "type": "background",
+  "name": "support group birdseye",
+  "description": "Community-hall support-group room seen from straight above: mint-green walls, banner \"CRASH SURVIVORS · TUESDAYS 7PM\", poster \"ONE MILE AT A TIME\", donuts table with checkered cloth and coffee urn, US flag, circle of yellow wooden chairs on a beige floor around a round rug and a low table with a road playmat and toy cars, sign-in table in foreground",
+  "first_frame": 331,
+  "frames_present": [
+   [
+    331,
+    360
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_support_group_birdseye_f00340.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_support_group_birdseye"
+ },
+ {
+  "id": "bg_support_group_room",
+  "type": "background",
+  "name": "support group room",
+  "description": "Same support-group room at high angle with the ceiling (white fluorescent panels) visible, banner on mint wall, US flag, chair circle",
+  "first_frame": 361,
+  "frames_present": [
+   [
+    361,
+    396
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_support_group_room_f00385.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_support_group_room"
+ },
+ {
+  "id": "bg_toy_table",
+  "type": "background",
+  "name": "toy table",
+  "description": "Table-level view of a kids' road playmat (grey road, yellow dashes, STOP sign, green grass areas) with a heavily blurred mint-green room behind",
+  "first_frame": 391,
+  "frames_present": [
+   [
+    391,
+    444
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_toy_table_f00425.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_toy_table"
+ },
+ {
+  "id": "bg_tower_platform",
+  "type": "background",
+  "name": "tower platform",
+  "description": "On top of the free-fall tower: dark steel grated deck, behind it a navy \"LONE STAR THRILLS\" banner with star and red/white stripe, grey utility box, green horizon, bright blue sky with puffy cartoon clouds, orange beam cutting in from the right",
+  "first_frame": 438,
+  "frames_present": [
+   [
+    438,
+    621
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_tower_platform_f00451.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_tower_platform"
+ },
+ {
+  "id": "bg_blueprint_clipboard",
+  "type": "background",
+  "name": "blueprint clipboard",
+  "description": "Top-down blueprint on a clipboard on a wooden desk (see unique image ui_blueprint_hypothesis for text)",
+  "first_frame": 616,
+  "frames_present": [
+   [
+    616,
+    711
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_blueprint_clipboard_f00625.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_blueprint_clipboard"
+ },
+ {
+  "id": "bg_landing_net",
+  "type": "background",
+  "name": "landing net",
+  "description": "Ground-level view across a big landing net (red-brown woven mesh on an orange steel frame with a front rail and yellow curb) at the base of the orange lattice tower with a navy banner letter \"L\"; roller coaster and Ferris wheel, trees and blue sky behind",
+  "first_frame": 712,
+  "frames_present": [
+   [
+    712,
+    760
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_landing_net_f00715.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_landing_net"
+ },
+ {
+  "id": "bg_plaza_tower_base",
+  "type": "background",
+  "name": "plaza tower base",
+  "description": "Sunny amusement-park plaza in front of the landing net and tower base: pale paving with long diagonal shadows, orange net frame, \"DROP-OFF NET\" sign, Ferris wheel, roller coaster, trees, tower with vertical \"FREEFALL\" banner",
+  "first_frame": 746,
+  "frames_present": [
+   [
+    746,
+    864
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_plaza_tower_base_f00752.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_plaza_tower_base"
+ },
+ {
+  "id": "bg_lineup_room",
+  "type": "background",
+  "name": "lineup room",
+  "description": "Police lineup viewing room: dark warm-brown walls, dark ceiling tiles with a vent, a cone pendant lamp glowing warm, a wide one-way window lit cold white showing a height chart (3'–6' lines) and placards A–F, wooden ledge with small \"CASE 07\" plaque",
+  "first_frame": 857,
+  "frames_present": [
+   [
+    857,
+    967
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_lineup_room_f00870.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_lineup_room"
+ },
+ {
+  "id": "bg_brain_room_highangle",
+  "type": "background",
+  "name": "brain room highangle",
+  "description": "Brain room from high above the desk: two round portholes showing the tower, desk with PANIC button box, \"NORMAL TUESDAY\" sticky note, blank papers, drawing board, stool, rainbow rug",
+  "first_frame": 968,
+  "frames_present": [
+   [
+    968,
+    981
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_brain_room_highangle_f00975.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_brain_room_highangle"
+ },
+ {
+  "id": "bg_brain_room_red_alarm",
+  "type": "background",
+  "name": "brain room red alarm",
+  "description": "Same high-angle brain room flooded with red emergency light, light rays from upper left, porthole sky purple, wall alarm light glowing",
+  "first_frame": 982,
+  "frames_present": [
+   [
+    982,
+    1069
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_brain_room_red_alarm_f01000.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_brain_room_red_alarm"
+ },
+ {
+  "id": "bg_bbq_deck_sunset",
+  "type": "background",
+  "name": "bbq deck sunset",
+  "description": "Backyard wooden deck at golden-hour sunset: honey-coloured boards with long shadows, white folding lawn chairs, red pickup truck, wooden fence, power pole, string lights, house wall with a red/white flag, pink-orange-purple sky with purple clouds, tree branches top right",
+  "first_frame": 1078,
+  "frames_present": [
+   [
+    1078,
+    1170
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_bbq_deck_sunset_f01104.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_bbq_deck_sunset"
+ },
+ {
+  "id": "bg_flipbook_page",
+  "type": "background",
+  "name": "flipbook page",
+  "description": "Hand-drawn flipbook page (ink line + flat colours on cream paper): bird's-eye view of the tower top with grated deck, hazard edge, orange lattice, FREEFALL banner, parking lot of colourful car rectangles, round green tree scribbles, navy \"S★\" flag, city blocks",
+  "first_frame": 1153,
+  "frames_present": [
+   [
+    1153,
+    1200
+   ]
+  ],
+  "crops": [
+   "library/backgrounds/04_the_scientists_insane_time_test/bg_flipbook_page_f01190.jpg"
+  ],
+  "prompt_path": "library/backgrounds/04_the_scientists_insane_time_test/index.md#bg_flipbook_page"
+ },
+ {
+  "id": "asset_freefall_tower",
+  "type": "asset_3d",
+  "name": "freefall tower",
+  "description": "Orange steel lattice free-fall tower: four orange I-beam legs with white cross-bracing, dark grated deck on top with yellow/black hazard edge, vertical navy banner \"FREEFALL\" (white letters), small yellow \"100 FT\" sign",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    213
+   ],
+   [
+    712,
+    856
+   ],
+   [
+    1153,
+    1200
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/04_the_scientists_insane_time_test/asset_freefall_tower_f00001.jpg"
+  ],
+  "prompt_path": "library/assets_3d/04_the_scientists_insane_time_test/index.md#asset_freefall_tower",
+  "bbox_xywh": "(0,420,560,860)",
+  "source_frame": 1
+ },
+ {
+  "id": "asset_chrono2_device",
+  "type": "asset_3d",
+  "name": "chrono2 device",
+  "description": "CHRONO-2 wrist display: dark-maroon rounded rectangular housing with 4 corner screws, a metal toggle switch on top labelled \"OFF / ON\", two stacked red dot-matrix LED panels (each about 7x10 dots), side wrist-strap lugs, cream masking-tape label with navy hand lettering \"CHRONO-2\"",
+  "first_frame": 443,
+  "frames_present": [
+   [
+    443,
+    621
+   ],
+   [
+    857,
+    967
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/04_the_scientists_insane_time_test/asset_chrono2_device_f00585.jpg"
+  ],
+  "prompt_path": "library/assets_3d/04_the_scientists_insane_time_test/index.md#asset_chrono2_device",
+  "bbox_xywh": "(180,260,350,800)",
+  "source_frame": 585
+ },
+ {
+  "id": "asset_chrono2_digits47",
+  "type": "asset_3d",
+  "name": "chrono2 digits47",
+  "description": "Same device showing the red dot-matrix digits \"4\" over \"7\" (other states seen: 30, 48, 60, 25, 19, all-on)",
+  "first_frame": 548,
+  "frames_present": [
+   [
+    548,
+    552
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/04_the_scientists_insane_time_test/asset_chrono2_digits47_f00550.jpg"
+  ],
+  "prompt_path": "library/assets_3d/04_the_scientists_insane_time_test/index.md#asset_chrono2_digits47",
+  "bbox_xywh": "(270,480,170,300)",
+  "source_frame": 550
+ },
+ {
+  "id": "asset_panic_button",
+  "type": "asset_3d",
+  "name": "panic button",
+  "description": "Big glossy red dome button on a yellow box with black/yellow hazard stripes and a white label \"PANIC\" (red letters)",
+  "first_frame": 266,
+  "frames_present": [
+   [
+    266,
+    330
+   ],
+   [
+    972,
+    1077
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/04_the_scientists_insane_time_test/asset_panic_button_f00975.jpg"
+  ],
+  "prompt_path": "library/assets_3d/04_the_scientists_insane_time_test/index.md#asset_panic_button",
+  "bbox_xywh": "(130,500,160,150)",
+  "source_frame": 975
+ },
+ {
+  "id": "asset_toy_crash_cars",
+  "type": "asset_3d",
+  "name": "toy crash cars",
+  "description": "Two chunky toy cars on a road playmat: red pickup truck with big white hubcaps ramming a blue sedan (Texas plate \"SLOMO\") that tips up on two wheels; sparkles and pink smoke",
+  "first_frame": 331,
+  "frames_present": [
+   [
+    331,
+    444
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/04_the_scientists_insane_time_test/asset_toy_crash_cars_f00415.jpg"
+  ],
+  "prompt_path": "library/assets_3d/04_the_scientists_insane_time_test/index.md#asset_toy_crash_cars",
+  "bbox_xywh": "(0,480,720,600)",
+  "source_frame": 415
+ },
+ {
+  "id": "asset_fries_soda",
+  "type": "asset_3d",
+  "name": "fries soda",
+  "description": "Red fries carton with yellow fries spilling out, white soda cup with red stripe, lid and straw, floating in slow motion",
+  "first_frame": 400,
+  "frames_present": [
+   [
+    400,
+    444
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/04_the_scientists_insane_time_test/asset_fries_soda_f00415.jpg"
+  ],
+  "prompt_path": "library/assets_3d/04_the_scientists_insane_time_test/index.md#asset_fries_soda",
+  "bbox_xywh": "(300,480,240,200)",
+  "source_frame": 415
+ },
+ {
+  "id": "asset_stopwatch",
+  "type": "asset_3d",
+  "name": "stopwatch",
+  "description": "Big silver analog-style stopwatch with crown button, white face showing digital \"2.49\"",
+  "first_frame": 826,
+  "frames_present": [
+   [
+    826,
+    864
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/04_the_scientists_insane_time_test/asset_stopwatch_f00840.jpg"
+  ],
+  "prompt_path": "library/assets_3d/04_the_scientists_insane_time_test/index.md#asset_stopwatch",
+  "bbox_xywh": "(520,690,130,140)",
+  "source_frame": 840
+ },
+ {
+  "id": "asset_red_cap",
+  "type": "asset_3d",
+  "name": "red cap",
+  "description": "Dex's red baseball cap (#d64444) with a dark-red top button, flying separately",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    213
+   ],
+   [
+    331,
+    396
+   ],
+   [
+    719,
+    760
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/04_the_scientists_insane_time_test/asset_red_cap_f00100.jpg"
+  ],
+  "prompt_path": "library/assets_3d/04_the_scientists_insane_time_test/index.md#asset_red_cap",
+  "bbox_xywh": "(250,20,220,300)",
+  "source_frame": 100
+ },
+ {
+  "id": "asset_pigeon",
+  "type": "asset_3d",
+  "name": "pigeon",
+  "description": "Cartoon pigeon: grey body (#9b9db3), purple-blue iridescent head, orange eye, pink feet, dark outline, flying with wings up",
+  "first_frame": 82,
+  "frames_present": [
+   [
+    82,
+    213
+   ],
+   [
+    255,
+    336
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/04_the_scientists_insane_time_test/asset_pigeon_f00200.jpg"
+  ],
+  "prompt_path": "library/assets_3d/04_the_scientists_insane_time_test/index.md#asset_pigeon",
+  "bbox_xywh": "(140,80,400,360)",
+  "source_frame": 200
+ },
+ {
+  "id": "asset_flipbook_stack",
+  "type": "asset_3d",
+  "name": "flipbook stack",
+  "description": "Tall stack of cream paper sheets with a blank cover, bound with a red rubber band",
+  "first_frame": 1023,
+  "frames_present": [
+   [
+    1023,
+    1170
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/04_the_scientists_insane_time_test/asset_flipbook_stack_f01075.jpg"
+  ],
+  "prompt_path": "library/assets_3d/04_the_scientists_insane_time_test/index.md#asset_flipbook_stack",
+  "bbox_xywh": "(120,500,460,520)",
+  "source_frame": 1075
+ },
+ {
+  "id": "asset_digit_suspects",
+  "type": "asset_3d",
+  "name": "digit suspects",
+  "description": "\"Digit Gang\": six numeral characters 4 1 8 0 7 3 made of dark-red bodies covered in glowing red LED dots, tiny dot eyes (the 8 has googly eyes, the others sleepy half-lids), stubby legs, standing at placards A–F in a police lineup",
+  "first_frame": 857,
+  "frames_present": [
+   [
+    857,
+    967
+   ]
+  ],
+  "crops": [
+   "library/assets_3d/04_the_scientists_insane_time_test/asset_digit_suspects_f00928.jpg"
+  ],
+  "prompt_path": "library/assets_3d/04_the_scientists_insane_time_test/index.md#asset_digit_suspects",
+  "bbox_xywh": "(110,500,500,250)",
+  "source_frame": 928
+ },
+ {
+  "id": "ui_blueprint_hypothesis",
+  "type": "unique_image",
+  "name": "blueprint hypothesis",
+  "description": "Blueprint sheet on a metal-clip clipboard on a wooden desk with a pencil: cyan-navy paper with a fine grid, chalk-white hand-drafted line drawing of a lattice tower with a snail on its arm, a stick-figure subject (cap, harness, red wrist device), cloud and bird doodles, title block bottom right | text: \"HYPOTHESIS\" (with bird doodle), \"FIG. 1\", \"SUBJECT 7\" (circled), \"IF TIME SLOWS → CAN READ #\", \"DROP: 100 FT\", \"DETAIL A: DISPLAY\", title block: \"PROJECT: TIME TEST | LONE STAR THRILLS – DALLAS TX | DWG NO. 7 | SCALE 1:200 | DRAWN: DR. K | SHEET 7/14\"",
+  "first_frame": 616,
+  "frames_present": [
+   [
+    616,
+    711
+   ]
+  ],
+  "crops": [
+   "library/unique_images/04_the_scientists_insane_time_test/ui_blueprint_hypothesis_f00625.jpg"
+  ],
+  "prompt_path": "library/unique_images/04_the_scientists_insane_time_test/index.md#ui_blueprint_hypothesis",
+  "bbox_xywh": "full frame",
+  "source_frame": 625
+ },
+ {
+  "id": "ui_blueprint_title_block",
+  "type": "unique_image",
+  "name": "blueprint title block",
+  "description": "Close crop of the blueprint title block | text: \"PROJECT: TIME TEST\" / \"LONE STAR THRILLS – DALLAS TX\" / \"DWG NO. 7\" / \"SCALE 1:200\" / \"DRAWN: DR. K\" / \"SHEET 7/14\"",
+  "first_frame": 616,
+  "frames_present": [
+   [
+    616,
+    711
+   ]
+  ],
+  "crops": [
+   "library/unique_images/04_the_scientists_insane_time_test/ui_blueprint_title_block_f00685.jpg"
+  ],
+  "prompt_path": "library/unique_images/04_the_scientists_insane_time_test/index.md#ui_blueprint_title_block",
+  "bbox_xywh": "(320,950,400,230)",
+  "source_frame": 685
+ },
+ {
+  "id": "ui_flipbook_page_towertop",
+  "type": "unique_image",
+  "name": "flipbook page towertop",
+  "description": "Hand-drawn flipbook page: bird's-eye tower top with Klaus about to push a terrified Dex (shake lines), two volunteers waiting, parking lot, trees. The last frame mirrors the video's first frame (loop) | text: \"FREEFALL\", \"100 FT\", \"S★\"",
+  "first_frame": 1153,
+  "frames_present": [
+   [
+    1153,
+    1200
+   ]
+  ],
+  "crops": [
+   "library/unique_images/04_the_scientists_insane_time_test/ui_flipbook_page_towertop_f01190.jpg"
+  ],
+  "prompt_path": "library/unique_images/04_the_scientists_insane_time_test/index.md#ui_flipbook_page_towertop",
+  "bbox_xywh": "full frame",
+  "source_frame": 1190
+ },
+ {
+  "id": "ui_comic_sheet",
+  "type": "unique_image",
+  "name": "comic sheet",
+  "description": "Top sheet of the brain's drawing stack: colour-pencil comic panel of Dex (red cap, orange harness) falling beside the orange tower with a purple pigeon and a cloud, frame number bottom right | text: \"FR 0047\"",
+  "first_frame": 1004,
+  "frames_present": [
+   [
+    1004,
+    1059
+   ]
+  ],
+  "crops": [
+   "library/unique_images/04_the_scientists_insane_time_test/ui_comic_sheet_f01050.jpg"
+  ],
+  "prompt_path": "library/unique_images/04_the_scientists_insane_time_test/index.md#ui_comic_sheet",
+  "bbox_xywh": "(60,480,500,280)",
+  "source_frame": 1050
+ },
+ {
+  "id": "ui_normal_tuesday_note",
+  "type": "unique_image",
+  "name": "normal tuesday note",
+  "description": "Yellow sticky note on white paper with a doodle of a pot/bowl and a scribble | text: \"NORMAL TUESDAY\"",
+  "first_frame": 972,
+  "frames_present": [
+   [
+    972,
+    1077
+   ]
+  ],
+  "crops": [
+   "library/unique_images/04_the_scientists_insane_time_test/ui_normal_tuesday_note_f01050.jpg"
+  ],
+  "prompt_path": "library/unique_images/04_the_scientists_insane_time_test/index.md#ui_normal_tuesday_note",
+  "bbox_xywh": "(200,960,280,230)",
+  "source_frame": 1050
+ },
+ {
+  "id": "ui_crash_survivors_banner",
+  "type": "unique_image",
+  "name": "crash survivors banner",
+  "description": "White vinyl banner with a blue border, red cartoon car icon, navy heavy text and red subline | text: \"CRASH SURVIVORS\" / \"· TUESDAYS 7PM ·\"",
+  "first_frame": 331,
+  "frames_present": [
+   [
+    331,
+    396
+   ]
+  ],
+  "crops": [
+   "library/unique_images/04_the_scientists_insane_time_test/ui_crash_survivors_banner_f00345.jpg"
+  ],
+  "prompt_path": "library/unique_images/04_the_scientists_insane_time_test/index.md#ui_crash_survivors_banner",
+  "bbox_xywh": "(160,80,450,145)",
+  "source_frame": 345
+ },
+ {
+  "id": "ui_one_mile_poster",
+  "type": "unique_image",
+  "name": "one mile poster",
+  "description": "Motivational poster: yellow/green with a road vanishing to the horizon | text: \"ONE MILE AT A TIME\"",
+  "first_frame": 331,
+  "frames_present": [
+   [
+    331,
+    396
+   ]
+  ],
+  "crops": [
+   "library/unique_images/04_the_scientists_insane_time_test/ui_one_mile_poster_f00345.jpg"
+  ],
+  "prompt_path": "library/unique_images/04_the_scientists_insane_time_test/index.md#ui_one_mile_poster",
+  "bbox_xywh": "(30,160,110,120)",
+  "source_frame": 345
+ },
+ {
+  "id": "ui_clipboard_0of4",
+  "type": "unique_image",
+  "name": "clipboard 0of4",
+  "description": "Klaus's clipboard with a 4-line checklist and a big red handwritten score | text: \"0/4\" (red)",
+  "first_frame": 927,
+  "frames_present": [
+   [
+    927,
+    944
+   ]
+  ],
+  "crops": [
+   "library/unique_images/04_the_scientists_insane_time_test/ui_clipboard_0of4_f00931.jpg"
+  ],
+  "prompt_path": "library/unique_images/04_the_scientists_insane_time_test/index.md#ui_clipboard_0of4",
+  "bbox_xywh": "(560,640,160,360)",
+  "source_frame": 931
+ },
+ {
+  "id": "ui_lone_star_banner",
+  "type": "unique_image",
+  "name": "lone star banner",
+  "description": "Navy ride banner with a white star, white heavy sans text and a red/white stripe below | text: \"★ LONE STAR THRILLS\"",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    30
+   ],
+   [
+    438,
+    600
+   ]
+  ],
+  "crops": [
+   "library/unique_images/04_the_scientists_insane_time_test/ui_lone_star_banner_f00545.jpg"
+  ],
+  "prompt_path": "library/unique_images/04_the_scientists_insane_time_test/index.md#ui_lone_star_banner",
+  "bbox_xywh": "(0,380,720,200)",
+  "source_frame": 545
+ },
+ {
+  "id": "ui_drop_off_net_sign",
+  "type": "unique_image",
+  "name": "drop off net sign",
+  "description": "White rectangular sign with red letters on the net rail (partly hidden) | text: \"DROP-OFF NET\"",
+  "first_frame": 780,
+  "frames_present": [
+   [
+    780,
+    856
+   ]
+  ],
+  "crops": [
+   "library/unique_images/04_the_scientists_insane_time_test/ui_drop_off_net_sign_f00800.jpg"
+  ],
+  "prompt_path": "library/unique_images/04_the_scientists_insane_time_test/index.md#ui_drop_off_net_sign",
+  "bbox_xywh": "(20,780,220,70)",
+  "source_frame": 800
+ },
+ {
+  "id": "ov_caption_style",
+  "type": "overlay_ui",
+  "name": "caption style",
+  "description": "Word caption \"Apparently,\" | build: Code (ASS/Remotion): heavy rounded sans (Montserrat Black / Poppins ExtraBold), white #f1ebe6, 4–5 px black #0f0909 stroke + soft shadow, cap height 45 px at 720p, centre y≈900, 1 word/card, hard swap, 117 cards",
+  "first_frame": 1,
+  "frames_present": [
+   [
+    1,
+    1200
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_caption_style_f00160.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_caption_style",
+  "bbox_xywh": "(190,860,340,90)",
+  "source_frame": 160
+ },
+ {
+  "id": "ov_sweat_drops",
+  "type": "vfx",
+  "name": "sweat drops",
+  "description": "Pale blue/white teardrops with dark outline and highlight, streaming upward during the fall | build: Sprite + particle emitter (upward velocity during the fall; at the temple for Noggin/Amy/Elmer)",
+  "first_frame": 57,
+  "frames_present": [
+   [
+    57,
+    251
+   ],
+   [
+    541,
+    560
+   ],
+   [
+    972,
+    1026
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_sweat_drops_f00190.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_sweat_drops",
+  "bbox_xywh": "(330,0,220,160)",
+  "source_frame": 190
+ },
+ {
+  "id": "ov_speed_lines_blueprint",
+  "type": "vfx",
+  "name": "speed lines blueprint",
+  "description": "Chalk-white short vertical speed lines above the falling stick figure | build: AE shape layers with a chalk texture",
+  "first_frame": 631,
+  "frames_present": [
+   [
+    631,
+    711
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_speed_lines_blueprint_f00640.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_speed_lines_blueprint",
+  "bbox_xywh": "(200,540,260,360)",
+  "source_frame": 640
+ },
+ {
+  "id": "ov_red_alarm_tint",
+  "type": "overlay_ui",
+  "name": "red alarm tint",
+  "description": "Red emergency overlay with light rays from upper-left | build: AE adjustment layer: Fill #d3361f in Multiply at ~55 % plus a soft-light ray layer; 4-frame ramp in (982–986) and out (1066–1069)",
+  "first_frame": 982,
+  "frames_present": [
+   [
+    982,
+    1069
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_red_alarm_tint_f01000.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_red_alarm_tint",
+  "bbox_xywh": "full frame",
+  "source_frame": 1000
+ },
+ {
+  "id": "ov_pupil_zoom",
+  "type": "vfx",
+  "name": "pupil zoom",
+  "description": "Dex's ring eye in ECU; the pupil is a tiny Noggin | build: Scale-up of the eye sprite + nested pupil comp",
+  "first_frame": 205,
+  "frames_present": [
+   [
+    205,
+    223
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_pupil_zoom_f00218.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_pupil_zoom",
+  "bbox_xywh": "(60,340,600,580)",
+  "source_frame": 218
+ },
+ {
+  "id": "ov_lens_reveal",
+  "type": "vfx",
+  "name": "lens reveal",
+  "description": "Circular glass lens with a specular arc and a dark rim, revealing the brain room inside, expanding to full frame (224–228) | build: AE: circle mask on the new scene, scale 30→250 % over 5 frames, white highlight arc shape",
+  "first_frame": 224,
+  "frames_present": [
+   [
+    224,
+    228
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_lens_reveal_f00225.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_lens_reveal",
+  "bbox_xywh": "(0,280,720,760)",
+  "source_frame": 225
+ },
+ {
+  "id": "ov_door_drawn_on_head",
+  "type": "overlay_ui",
+  "name": "door drawn on head",
+  "description": "Black-outlined arched white door with grey hinges and a gold knob, drawn onto the back of Dex's white head | build: AE trim-path stroke draw-on 957–960",
+  "first_frame": 957,
+  "frames_present": [
+   [
+    957,
+    960
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_door_drawn_on_head_f00960.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_door_drawn_on_head",
+  "bbox_xywh": "(150,320,440,520)",
+  "source_frame": 960
+ },
+ {
+  "id": "ov_door_open",
+  "type": "overlay_ui",
+  "name": "door open",
+  "description": "The door swinging open on its left hinge, the brain room visible inside | build: AE 3D layer Y-rotation 0→−110° over 961–968 + new scene behind a mask",
+  "first_frame": 961,
+  "frames_present": [
+   [
+    961,
+    971
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_door_open_f00964.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_door_open",
+  "bbox_xywh": "(130,320,460,540)",
+  "source_frame": 964
+ },
+ {
+  "id": "ov_detail_callout_check",
+  "type": "overlay_ui",
+  "name": "detail callout check",
+  "description": "Chalk callout: line from the wrist to a circle labelled \"DETAIL A: DISPLAY\" containing red dot-matrix \"47\" and a checkmark | build: AE: trim-path line (668–669), circle scale (670–672), digits fade (673–675), check draw-on (681–683)",
+  "first_frame": 668,
+  "frames_present": [
+   [
+    668,
+    711
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_detail_callout_check_f00685.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_detail_callout_check",
+  "bbox_xywh": "(360,440,360,460)",
+  "source_frame": 685
+ },
+ {
+  "id": "ov_crash_sparkles",
+  "type": "vfx",
+  "name": "crash sparkles",
+  "description": "White 4-point sparkle stars + pink dust puffs drifting slowly | build: Particle sprites at 10 % speed",
+  "first_frame": 399,
+  "frames_present": [
+   [
+    399,
+    437
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_crash_sparkles_f00415.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_crash_sparkles",
+  "bbox_xywh": "(220,620,160,220)",
+  "source_frame": 415
+ },
+ {
+  "id": "ov_motion_blur_smear",
+  "type": "vfx",
+  "name": "motion blur smear",
+  "description": "Heavy vertical motion smear of the falling Dex into the net | build: Directional blur / CC Force Motion Blur on the falling sprite",
+  "first_frame": 719,
+  "frames_present": [
+   [
+    719,
+    726
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_motion_blur_smear_f00722.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_motion_blur_smear",
+  "bbox_xywh": "(220,290,300,300)",
+  "source_frame": 722
+ },
+ {
+  "id": "ov_shake_lines",
+  "type": "vfx",
+  "name": "shake lines",
+  "description": "Three short curved ink strokes next to the head (fear tremble) | build: Drawn sprite",
+  "first_frame": 1183,
+  "frames_present": [
+   [
+    1183,
+    1200
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_shake_lines_f01190.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_shake_lines",
+  "bbox_xywh": "(420,60,200,180)",
+  "source_frame": 1190
+ },
+ {
+  "id": "ov_paper_flutter",
+  "type": "vfx",
+  "name": "paper flutter",
+  "description": "Flipbook pages flipping past camera as cream curved strips | build: Blender page-flip rig or AE CC Page Turn, 1 page/frame",
+  "first_frame": 1080,
+  "frames_present": [
+   [
+    1080,
+    1179
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_paper_flutter_f01165.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_paper_flutter",
+  "bbox_xywh": "(0,0,720,600)",
+  "source_frame": 1165
+ },
+ {
+  "id": "ov_rubber_band_snap",
+  "type": "vfx",
+  "name": "rubber band snap",
+  "description": "Red rubber band snapping around the stack (1 frame stretched diagonal, then tight) | build: Shape layer: 1-frame stretched polygon → tight band",
+  "first_frame": 1066,
+  "frames_present": [
+   [
+    1066,
+    1068
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_rubber_band_snap_f01066.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_rubber_band_snap",
+  "bbox_xywh": "(0,440,720,420)",
+  "source_frame": 1066
+ },
+ {
+  "id": "ov_crossfade",
+  "type": "overlay_ui",
+  "name": "crossfade",
+  "description": "Example of the 6-frame dissolve (CHRONO-2 → blueprint) | build: Editor crossfade, 6–8 frames linear",
+  "first_frame": 331,
+  "frames_present": [
+   [
+    331,
+    336
+   ],
+   [
+    438,
+    444
+   ],
+   [
+    616,
+    621
+   ],
+   [
+    857,
+    864
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_crossfade_f00618.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_crossfade",
+  "bbox_xywh": "full frame",
+  "source_frame": 618
+ },
+ {
+  "id": "ov_led_glow_dof",
+  "type": "vfx",
+  "name": "led glow dof",
+  "description": "Red LED bloom + strong background DOF blur on the CHRONO-2 ECU | build: Glow (threshold red) + camera lens blur",
+  "first_frame": 565,
+  "frames_present": [
+   [
+    565,
+    621
+   ]
+  ],
+  "crops": [
+   "library/overlays_ui/04_the_scientists_insane_time_test/ov_led_glow_dof_f00605.jpg"
+  ],
+  "prompt_path": "library/overlays_ui/04_the_scientists_insane_time_test/index.md#ov_led_glow_dof",
+  "bbox_xywh": "(60,60,600,1100)",
+  "source_frame": 605
+ },
+ {
+  "id": "vfx_dizzy_spirals",
+  "type": "vfx",
+  "name": "dizzy spirals",
+  "description": "Spiral eyes face swap (Dex 731–745, Tad 757–786)",
+  "first_frame": 731,
+  "frames_present": [
+   [
+    731,
+    745
+   ],
+   [
+    757,
+    786
+   ]
+  ],
+  "crops": [],
+  "prompt_path": "analysis/videos/04_the_scientists_insane_time_test/visuals.md#4-vfx-inventory"
+ },
+ {
+  "id": "vfx_line_boil",
+  "type": "vfx",
+  "name": "line boil",
+  "description": "Ink line jitter on the drawn flipbook page",
+  "first_frame": 1180,
+  "frames_present": [
+   [
+    1180,
+    1182
+   ]
+  ],
+  "crops": [],
+  "prompt_path": "analysis/videos/04_the_scientists_insane_time_test/visuals.md#4-vfx-inventory"
+ },
+ {
+  "id": "vfx_queasy_tint",
+  "type": "vfx",
+  "name": "queasy tint",
+  "description": "Gil's head fill turns lavender #9c9cbb",
+  "first_frame": 541,
+  "frames_present": [
+   [
+    541,
+    600
+   ]
+  ],
+  "crops": [],
+  "prompt_path": "analysis/videos/04_the_scientists_insane_time_test/visuals.md#4-vfx-inventory"
+ },
+ {
+  "id": "vfx_rack_focus",
+  "type": "vfx",
+  "name": "rack focus",
+  "description": "Background DOF blur on inserts",
+  "first_frame": 397,
+  "frames_present": [
+   [
+    397,
+    437
+   ],
+   [
+    565,
+    615
+   ],
+   [
+    1078,
+    1110
+   ]
+  ],
+  "crops": [],
+  "prompt_path": "analysis/videos/04_the_scientists_insane_time_test/visuals.md#4-vfx-inventory"
+ }
+]
