@@ -1,0 +1,686 @@
+[
+ {
+  "shot": 1,
+  "start_frame": 1,
+  "end_frame": 133,
+  "start_time": 0.0,
+  "end_time": 4.433,
+  "duration_s": 4.43,
+  "transition_in": {
+   "type": "none (video opens mid-action)",
+   "frames": [
+    1,
+    1
+   ]
+  },
+  "shot_size": "ECU→MS",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Opening pull-back reveal: ECU of spinning reels, very fast pull-back + crane up (ease-out, ~40 f) to an MS of Lenny on a barstool, then a slow push-in (~7 %/s) while the third reel stops one click short.",
+   "phases": [
+    {
+     "frames": [
+      1,
+      40
+     ],
+     "move": "fast pull-back + crane up (reveal)",
+     "measured": "frames 1-40: zoom x0.2481 (out), content dx +619px (camera pans left), content dy +721px (camera tilts up), roll +1.65 deg"
+    },
+    {
+     "frames": [
+      40,
+      133
+     ],
+     "move": "slow push-in",
+     "measured": "frames 40-133: zoom x1.2745 (in), content dx -61px (camera pans right), content dy -58px (camera tilts down), roll +1.54 deg"
+    }
+   ],
+   "measured": "frames 1-133: zoom x0.3162 (out), content dx +559px (camera pans left), content dy +664px (camera tilts up), roll +3.18 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  1-31: x0.3766 +454 +481 250\n  31-61: x0.7040 +147 +189 452\n  61-91: x1.0722 -30 +21 596\n  91-121: x1.0710 -21 +3 574\n  121-133: x1.0385 +9 -30 724",
+   "easing": "ease-out on the reveal (most motion in frames 1–25), then linear slow push"
+  },
+  "background_id": "bg_casino_row",
+  "characters": [
+   {
+    "name": "Lenny",
+    "pose_ids": [
+     "seated_badge"
+    ],
+    "emotion_ids": [
+     "content",
+     "eyes_closed_smile",
+     "manic_grin",
+     "smug_grin",
+     "skeptical",
+     "blink"
+    ],
+    "screen_position": "left third, head upper-left (x 40–380)",
+    "scale": "full body seated, head ≈300 px wide"
+   }
+  ],
+  "assets": [
+   "a_slot_machine_lucky7s",
+   "a_reel_window_near_miss",
+   "a_bar_stool",
+   "a_progressive_led_sign"
+  ],
+  "unique_images": [
+   "u_paytable"
+  ],
+  "overlays": [
+   "o_caption_word"
+  ],
+  "caption_words": "You just watched two jackpot symbols land. And the third one stopped one click short.",
+  "lighting": "warm tungsten casino interior, red/gold machine glow, soft bloom on chrome and LEDs",
+  "palette": [
+   "#2c0b0a",
+   "#684334",
+   "#af2213",
+   "#c59a60",
+   "#f6e9d0",
+   "#25cfa7"
+  ],
+  "notes": "Hook. Lenny's face cycles content→eyes-closed smile (#42–44)→manic grin (#49–71)→smug grin morph (#72–76)→skeptical (#77+) exactly as the narration goes from excitement ('jackpot symbols land') to letdown ('one click short')."
+ },
+ {
+  "shot": 2,
+  "start_frame": 134,
+  "end_frame": 250,
+  "start_time": 4.433,
+  "end_time": 8.333,
+  "duration_s": 3.9,
+  "transition_in": {
+   "type": "jump cut (pose pop)",
+   "frames": [
+    134,
+    134
+   ]
+  },
+  "shot_size": "MS→WS→MS",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "Jump-cut re-pose, then a camera move-through: pull-back + crane up + truck right following Lenny to the next machine (progressive LED sign fills the top), settling into an MS with a slow push-in.",
+   "phases": [
+    {
+     "frames": [
+      134,
+      147
+     ],
+     "move": "hold / slight pull",
+     "measured": "frames 134-147: zoom x0.9451 (out), content dx +32px (camera pans left), content dy +29px (camera tilts up), roll +0.31 deg"
+    },
+    {
+     "frames": [
+      147,
+      205
+     ],
+     "move": "pull-back + crane up + truck right (follow walk)",
+     "measured": "frames 147-205: zoom x0.6044 (out), content dx +21px (camera pans left), content dy +325px (camera tilts up), roll +0.39 deg"
+    },
+    {
+     "frames": [
+      205,
+      250
+     ],
+     "move": "slow push-in",
+     "measured": "frames 205-250: zoom x1.0334 (in), content dx -2px (camera pans right), content dy -22px (camera tilts down), roll +0.32 deg"
+    }
+   ],
+   "measured": "frames 134-250: zoom x0.5903 (out), content dx +51px (camera pans left), content dy +332px (camera tilts up), roll +1.02 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  134-164: x0.5799 +157 +333 253\n  164-194: x0.8559 -107 +123 299\n  194-224: x1.1935 +3 -127 334\n  224-250: x0.9964 -2 +3 613",
+   "easing": "ease-in-out on the follow move (peak ≈#160–170), linear slow push after"
+  },
+  "background_id": "bg_casino_row",
+  "characters": [
+   {
+    "name": "Lenny",
+    "pose_ids": [
+     "lean_tilt",
+     "walk_cup",
+     "seated_relaxed"
+    ],
+    "emotion_ids": [
+     "skeptical",
+     "blink",
+     "deadpan",
+     "smirk",
+     "content"
+    ],
+    "screen_position": "centre",
+    "scale": "full body, head ≈250–440 px"
+   },
+   {
+    "name": "Bling",
+    "pose_ids": [
+     "edge_peek"
+    ],
+    "emotion_ids": [
+     "neutral"
+    ],
+    "screen_position": "right edge #175–188",
+    "scale": "partial"
+   }
+  ],
+  "assets": [
+   "a_slot_machine_lucky7s",
+   "a_progressive_led_sign",
+   "a_bar_stool",
+   "a_coin_cup_777"
+  ],
+  "unique_images": [
+   "u_paytable"
+  ],
+  "overlays": [
+   "o_caption_word"
+  ],
+  "caption_words": "So you move to the machine next door and the exact same thing happens.",
+  "lighting": "same warm casino; red LED sign glow from top",
+  "palette": [
+   "#1f1315",
+   "#562521",
+   "#ad1012",
+   "#c4baa2",
+   "#f1f5e4",
+   "#25cfa7"
+  ],
+  "notes": "Progressive jackpot LED ticks every frame ($1,284,532.82 @#181 → 536.21 @#210) — a living background detail. Reel 3 lands one-click-short again ≈#236."
+ },
+ {
+  "shot": 3,
+  "start_frame": 251,
+  "end_frame": 340,
+  "start_time": 8.333,
+  "end_time": 11.333,
+  "duration_s": 3.0,
+  "transition_in": {
+   "type": "dissolve (ghosted double exposure)",
+   "frames": [
+    251,
+    254
+   ]
+  },
+  "shot_size": "MS (two-shot)",
+  "camera_angle": "POV (from inside the machine, eye level)",
+  "camera_motion": {
+   "description": "Reverse angle from inside the slot machine looking out through its glass: blurred reel strips in the foreground, Bling leans into frame at left and talks to Lenny. Practically static (≈1 %/s push).",
+   "phases": [
+    {
+     "frames": [
+      253,
+      341
+     ],
+     "move": "near-static micro push-in",
+     "measured": "frames 253-341: zoom x1.0351 (in), content dx +1px (camera pans left), content dy -24px (camera tilts down), roll +0.17 deg"
+    }
+   ],
+   "measured": "frames 251-340: zoom x1.0294 (in), content dx +2px (camera pans left), content dy -19px (camera tilts down), roll +0.11 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  251-281: x1.0139 -3 -10 454\n  281-311: x1.0082 +4 -6 744\n  311-340: x1.0070 +2 -4 534",
+   "easing": "linear"
+  },
+  "background_id": "bg_pov_ceiling",
+  "characters": [
+   {
+    "name": "Bling",
+    "pose_ids": [
+     "lean_in_talk"
+    ],
+    "emotion_ids": [
+     "wink_grin",
+     "smug_smirk",
+     "talk_grin"
+    ],
+    "screen_position": "left half",
+    "scale": "head+torso, head ≈340 px"
+   },
+   {
+    "name": "Lenny",
+    "pose_ids": [
+     "pov_seated_cup"
+    ],
+    "emotion_ids": [
+     "deadpan",
+     "skeptical"
+    ],
+    "screen_position": "right half",
+    "scale": "head+torso, head ≈300 px"
+   },
+   {
+    "name": "Beanie",
+    "pose_ids": [
+     "walk_bg"
+    ],
+    "emotion_ids": [
+     "neutral"
+    ],
+    "screen_position": "background centre #284–310",
+    "scale": "tiny (≈40 px head)"
+   }
+  ],
+  "assets": [
+   "a_coin_cup_777",
+   "a_reel_window_near_miss"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "o_caption_word",
+   "vfx_dissolve_ghost"
+  ],
+  "caption_words": "Your buddy leans over and says, \"Bro, it's just warming up.\"",
+  "lighting": "warm spotlights in coffered ceiling, slight glass reflection, foreground reels heavily defocused",
+  "palette": [
+   "#3e1712",
+   "#6b331f",
+   "#a38372",
+   "#685a4e",
+   "#f7e8d4",
+   "#c55218"
+  ],
+  "notes": "Dialogue handled with mouth-open/closed alternation on Bling (2–6 f holds) rather than phoneme lip-sync."
+ },
+ {
+  "shot": 4,
+  "start_frame": 341,
+  "end_frame": 422,
+  "start_time": 11.333,
+  "end_time": 14.067,
+  "duration_s": 2.73,
+  "transition_in": {
+   "type": "dissolve with diagonal glass-glint streak",
+   "frames": [
+    340,
+    344
+   ]
+  },
+  "shot_size": "insert (ECU)",
+  "camera_angle": "high + dutch (≈-30°)",
+  "camera_motion": {
+   "description": "Insert: $100 bill fed into the bill acceptor next to the SPIN button, then a camera move-through tilting up/right to the CREDITS display counting 0→100.",
+   "phases": [
+    {
+     "frames": [
+      342,
+      395
+     ],
+     "move": "slow push-in on bill",
+     "measured": "frames 342-395: zoom x1.0525 (in), content dx -65px (camera pans right), content dy +36px (camera tilts up), roll +0.08 deg"
+    },
+    {
+     "frames": [
+      395,
+      422
+     ],
+     "move": "move-through: tilt up + truck right + roll toward level to CREDITS",
+     "measured": "frames 395-422: zoom x1.1634 (in), content dx -470px (camera pans right), content dy +564px (camera tilts up), roll -7.71 deg"
+    }
+   ],
+   "measured": "frames 341-422: zoom x1.2274 (in), content dx -537px (camera pans right), content dy +598px (camera tilts up), roll -7.70 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  341-371: x1.0591 -10 -56 310\n  371-401: x1.0225 -158 +189 385\n  401-422: x1.1333 -369 +465 302",
+   "easing": "ease-in-out on the move-through (peak ≈#405)"
+  },
+  "background_id": "bg_machine_panel_insert",
+  "characters": [
+   {
+    "name": "Lenny",
+    "pose_ids": [
+     "hand_insert_bill"
+    ],
+    "emotion_ids": [],
+    "screen_position": "hand only, bottom-left",
+    "scale": "hand blob ≈200 px"
+   }
+  ],
+  "assets": [
+   "a_dollar_bill_100",
+   "a_bill_acceptor_spin_button",
+   "a_credits_counter"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "o_caption_word"
+  ],
+  "caption_words": "So you put in another hundred, but it's starting to feel",
+  "lighting": "warm red cabinet, green self-illuminated slot glow, shallow depth of field",
+  "palette": [
+   "#c11815",
+   "#672822",
+   "#2b1612",
+   "#836755",
+   "#bba87e",
+   "#efefd4"
+  ],
+  "notes": "CREDITS digits roll 23→30→39→48→58→70→82→95→100 (#406–414): counter animation synced to the camera arrival."
+ },
+ {
+  "shot": 5,
+  "start_frame": 423,
+  "end_frame": 494,
+  "start_time": 14.067,
+  "end_time": 16.467,
+  "duration_s": 2.4,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    423,
+    428
+   ]
+  },
+  "shot_size": "CU",
+  "camera_angle": "low + dutch (≈+10°)",
+  "camera_motion": {
+   "description": "Dutch CU: Lenny's half-cropped head at frame-right glaring sideways at the reels, which re-spin and stop one click short again. Almost static.",
+   "phases": [
+    {
+     "frames": [
+      425,
+      494
+     ],
+     "move": "near-static micro push",
+     "measured": "frames 425-494: zoom x1.0238 (in), content dx -9px (camera pans right), content dy -16px (camera tilts down), roll -0.04 deg"
+    }
+   ],
+   "measured": "frames 423-494: zoom x1.0120 (in), content dx -11px (camera pans right), content dy -3px (camera tilts down), roll -0.42 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  423-453: x0.9954 -5 +9 294\n  453-483: x1.0134 -5 -9 854\n  483-494: x1.0033 -2 -2 950",
+   "easing": "linear"
+  },
+  "background_id": "bg_machine_dutch_cu",
+  "characters": [
+   {
+    "name": "Lenny",
+    "pose_ids": [
+     "cu_lean_glare"
+    ],
+    "emotion_ids": [
+     "suspicious",
+     "blink",
+     "curious_brow",
+     "content"
+    ],
+    "screen_position": "right edge (x 400–720), head cropped",
+    "scale": "head ≈320 px wide"
+   }
+  ],
+  "assets": [
+   "a_slot_machine_lucky7s",
+   "a_reel_window_near_miss",
+   "a_bar_stool"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "o_caption_word"
+  ],
+  "caption_words": "like the machine is teasing you on purpose.",
+  "lighting": "strong warm orange rim light on the head from the machine side, red glow",
+  "palette": [
+   "#3d0f0c",
+   "#a21a16",
+   "#5d4d40",
+   "#a47d5c",
+   "#d8b399",
+   "#faf1e1"
+  ],
+  "notes": "Reaction close-up; face flicker #451–462 (suspicious→closed→curious→content→curious→blink→suspicious) = momentary hope then distrust."
+ },
+ {
+  "shot": 6,
+  "start_frame": 495,
+  "end_frame": 541,
+  "start_time": 16.467,
+  "end_time": 18.033,
+  "duration_s": 1.57,
+  "transition_in": {
+   "type": "dissolve",
+   "frames": [
+    495,
+    498
+   ]
+  },
+  "shot_size": "MS→CU (dolly into machine)",
+  "camera_angle": "eye, slightly low",
+  "camera_motion": {
+   "description": "Lenny stands up determined, yanks the machine's front open (3D hinge swing #529–532) and the camera dollies hard into the exposed reels.",
+   "phases": [
+    {
+     "frames": [
+      497,
+      528
+     ],
+     "move": "push-in + tilt down (≈39 %/s)",
+     "measured": "frames 497-528: zoom x1.3884 (in), content dx -34px (camera pans right), content dy -176px (camera tilts down), roll +0.67 deg"
+    },
+    {
+     "frames": [
+      528,
+      541
+     ],
+     "move": "fast dolly-in through the opened door",
+     "measured": "frames 528-541: zoom x2.3512 (in), content dx -124px (camera pans right), content dy -536px (camera tilts down), roll +1.38 deg"
+    }
+   ],
+   "measured": "frames 495-541: zoom x3.2760 (in), content dx -160px (camera pans right), content dy -714px (camera tilts down), roll +2.01 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  495-525: x1.2458 -39 -117 232\n  525-541: x2.6296 -121 -597 75",
+   "easing": "ease-in (accelerating into the door)"
+  },
+  "background_id": "bg_casino_row",
+  "characters": [
+   {
+    "name": "Lenny",
+    "pose_ids": [
+     "stand_reach",
+     "yank_door"
+    ],
+    "emotion_ids": [
+     "determined",
+     "smug_grin"
+    ],
+    "screen_position": "centre-right",
+    "scale": "full body → partial"
+   },
+   {
+    "name": "Bling",
+    "pose_ids": [
+     "seated_behind"
+    ],
+    "emotion_ids": [
+     "neutral"
+    ],
+    "screen_position": "behind Lenny, right",
+    "scale": "head+torso"
+   }
+  ],
+  "assets": [
+   "a_slot_machine_lucky7s",
+   "a_bar_stool",
+   "a_machine_door_open"
+  ],
+  "unique_images": [],
+  "overlays": [
+   "o_caption_word"
+  ],
+  "caption_words": "So let's crack it open.",
+  "lighting": "warm casino; interior of machine glows orange when opened",
+  "palette": [
+   "#2c0b0a",
+   "#af2213",
+   "#c59a60",
+   "#f6e9d0",
+   "#19bda4",
+   "#e09542"
+  ],
+  "notes": "Action beat that bridges from 'character world' into the 'explainer/diagram world'."
+ },
+ {
+  "shot": 7,
+  "start_frame": 542,
+  "end_frame": 778,
+  "start_time": 18.033,
+  "end_time": 25.933,
+  "duration_s": 7.9,
+  "transition_in": {
+   "type": "dissolve + zoom-through (camera move-through)",
+   "frames": [
+    542,
+    547
+   ]
+  },
+  "shot_size": "insert / diagram CU",
+  "camera_angle": "eye → high (tilting down the list)",
+  "camera_motion": {
+   "description": "Inside the cabinet: reel unit + RNG board; reel 3's strip unrolls into the 'REEL 3: EVERY STOP' par-sheet list; camera tilts down it, glint on JACKPOT, x1 badge, then stamp + tally counter mark every blank 'ONE CLICK SHORT' (x01→x14); the strip morphs into a prize wheel.",
+   "phases": [
+    {
+     "frames": [
+      544,
+      560
+     ],
+     "move": "push + truck right on reel unit",
+     "measured": "frames 544-560: zoom x1.4426 (in), content dx -240px (camera pans right), content dy -304px (camera tilts down), roll -4.52 deg"
+    },
+    {
+     "frames": [
+      560,
+      640
+     ],
+     "move": "tilt down + push along unrolling list",
+     "measured": "frames 560-640: zoom x2.8799 (in), content dx -431px (camera pans right), content dy -1953px (camera tilts down), roll -1.74 deg"
+    },
+    {
+     "frames": [
+      640,
+      690
+     ],
+     "move": "hold on JACKPOT row, slight pull",
+     "measured": "frames 640-690: zoom x0.9344 (out), content dx +108px (camera pans left), content dy -109px (camera tilts down), roll +1.46 deg"
+    },
+    {
+     "frames": [
+      690,
+      768
+     ],
+     "move": "pull-back + steady tilt down following the stamps",
+     "measured": "frames 690-768: zoom x0.8776 (out), content dx +35px (camera pans left), content dy -472px (camera tilts down), roll -4.20 deg"
+    },
+    {
+     "frames": [
+      768,
+      778
+     ],
+     "move": "strip→wheel morph (camera pulls/tilts up)",
+     "measured": "frames 768-778: zoom x0.7457 (out), content dx +32px (camera pans left), content dy +191px (camera tilts up), roll -12.62 deg"
+    }
+   ],
+   "measured": "frames 542-778: zoom x2.7744 (in), content dx -542px (camera pans right), content dy -2703px (camera tilts down), roll -22.51 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  542-572: x2.1379 -443 -713 173\n  572-602: x1.4733 -176 -850 309\n  602-632: x1.3797 -89 -656 400\n  632-662: x1.1565 -36 -200 556\n  662-692: x0.8282 +147 -9 363\n  692-722: x0.9044 +43 -185 361\n  722-752: x1.0380 -20 -333 338\n  752-778: x0.7100 +33 +242 91",
+   "easing": "mostly linear drifts; the stamping section accelerates with the counter"
+  },
+  "background_id": "bg_machine_interior",
+  "characters": [],
+  "assets": [
+   "a_reel_unit_pcb",
+   "a_tally_counter",
+   "a_rubber_stamp",
+   "a_bill_validator"
+  ],
+  "unique_images": [
+   "u_par_sheet_reel3",
+   "u_par_sheet_stamped",
+   "u_one_click_short_wheel"
+  ],
+  "overlays": [
+   "o_caption_word",
+   "o_x1_badge",
+   "o_one_click_short_stamp_imprint",
+   "vfx_glint_sweep",
+   "vfx_stamp_impact_lines",
+   "vfx_dust_motes"
+  ],
+  "caption_words": "Inside is a list of every place that last reel can stop. The jackpot is on that list once. One click short is on there over and over. So",
+  "lighting": "warm amber interior, soft top light, floating bokeh dust motes, glints",
+  "palette": [
+   "#80481f",
+   "#ad7238",
+   "#f6bf5a",
+   "#e09542",
+   "#fbf892",
+   "#327a0c"
+  ],
+  "notes": "The 'cutaway diagram' of the video. Counter values: x01 #699, x02 #713, x03 #722, x04 #728, x05 #733, x06 #737, x07 #740, x08 #743, x09 #747, x10 #750, x11 #753, x12 #756, x13 #759, x14 #762 — interval shrinks 14 f → 3 f (accelerating 'over and over'). Motion values inside this shot are polluted by the animating strip."
+ },
+ {
+  "shot": 8,
+  "start_frame": 779,
+  "end_frame": 928,
+  "start_time": 25.933,
+  "end_time": 30.933,
+  "duration_s": 5.0,
+  "transition_in": {
+   "type": "cross-fade into X-ray wireframe + camera pull-out (move-through)",
+   "frames": [
+    779,
+    784
+   ]
+  },
+  "shot_size": "MS (machine) → MS (Lenny)",
+  "camera_angle": "eye",
+  "camera_motion": {
+   "description": "X-ray view: camera pulls out of the cabinet to see the whole machine with a cyan wireframe lower body and the wheel inside; wheel and reels spin, wheel lands on ONE CLICK SHORT, then pull-back/crane up to Lenny standing deadpan.",
+   "phases": [
+    {
+     "frames": [
+      781,
+      800
+     ],
+     "move": "pull-back + crane up out of the cabinet",
+     "measured": "frames 781-800: zoom x0.5982 (out), content dx +151px (camera pans left), content dy +481px (camera tilts up), roll -0.24 deg"
+    },
+    {
+     "frames": [
+      800,
+      886
+     ],
+     "move": "static then slow push-in on wheel (≈7 %/s)",
+     "measured": "frames 800-886: zoom x1.2361 (in), content dx +352px (camera pans left), content dy -334px (camera tilts down), roll +27.82 deg"
+    },
+    {
+     "frames": [
+      886,
+      928
+     ],
+     "move": "pull-back + crane up to reveal Lenny",
+     "measured": "frames 886-928: zoom x0.5589 (out), content dx +48px (camera pans left), content dy +699px (camera tilts up), roll -0.06 deg"
+    }
+   ],
+   "measured": "frames 779-928: zoom x0.4098 (out), content dx +555px (camera pans left), content dy +861px (camera tilts up), roll +27.52 deg\nper-second (frame: zoom, dx, dy, min_inliers):\n  779-809: x0.5871 +162 +510 54\n  809-839: x1.1705 -40 -146 299\n  839-869: x1.1848 +235 -263 207\n  869-899: x0.6936 +176 +382 390\n  899-928: x0.7255 +21 +378 497",
+   "easing": "ease-out on both pull-backs"
+  },
+  "background_id": "bg_xray_machine",
+  "characters": [
+   {
+    "name": "Lenny",
+    "pose_ids": [
+     "stand_deadpan"
+    ],
+    "emotion_ids": [
+     "deadpan"
+    ],
+    "screen_position": "right, head top-right then centre-right",
+    "scale": "torso → MS head ≈360 px"
+   }
+  ],
+  "assets": [
+   "a_slot_machine_lucky7s",
+   "a_progressive_led_sign",
+   "a_bar_stool"
+  ],
+  "unique_images": [
+   "u_one_click_short_wheel"
+  ],
+  "overlays": [
+   "o_caption_word",
+   "o_xray_wireframe"
+  ],
+  "caption_words": "every time you spin, the machine is way more likely to stop one click short than on the jackpot.",
+  "lighting": "casino warm + cool cyan wireframe glow; wheel brightly lit cream/red",
+  "palette": [
+   "#261a20",
+   "#625354",
+   "#40a7a7",
+   "#bfa488",
+   "#eff4ec",
+   "#b82b2d"
+  ],
+  "notes": "Payoff/punchline: the wheel literally stops one click short of JACKPOT while reel 3 does the same; Lenny's deadpan ends the video with no outro card. Roll value 800–886 is the spinning wheel, not the camera."
+ }
+]

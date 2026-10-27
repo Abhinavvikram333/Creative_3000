@@ -5,9 +5,11 @@ Caption = white heavy rounded sans, black outline + soft drop shadow, centred �
 ## sec 000 — frames 1–30
 - #1–6 ECU insert: cheque amount box "$ 87,43…" being written by a gold-nib black fountain pen (top-right, pen tip moves right as digits appear: "87,4" #1 → "87,43" #5 → "87,43 9" #10 → "87,439.1" #13 → "87,439.12" #18). Pale mint cheque with "DATE", "No. 1047", "DOLLARS", wavy signature line.
 - #1→#30 one continuous **crane/zoom-out + tilt-up** (no cut): the check shrinks, at #7 Rico's red striped tie enters top, #13–16 mustard jacket and the bottom of the white head, #17 face enters top (grin), #19–24 full head + desk, #22 "ACCOUNTS PAYABLE" brass nameplate enters bottom, #24–30 settles into MS of Rico at desk (window with cactus, "EMPLOYEE OF THE MONTH" frame, teal wall, filing cabinets). Slight clockwise roll during the pull (frame tilted ~5° at #13–20, levels by #25).
-- Rico faces: #17–20 big toothy grin (eyes closed-ish lines), #21–26 smug grin with eyes open, #27–29 half-lidded "smug-talk" (small round 'o' mouth), #30 smug closed smile.
+- Rico faces: #17–20 big toothy grin (eyes open dots, left brow raised; full-res #20), #21–26 smug grin with eyes open, #27–29 half-lidded "smug-talk" (small round 'o' mouth), #30 smug closed smile.
 - Rico's black-ball hand holds the pen at right (#19 onward), left hand on cheque.
 - Captions: "If you" #1–10, "ever" #11–19, "fake a" #20–29, "number," #30. Caption rides low over the cheque (y≈ 900).
+
+> Note: what looked like "winks" at thumbnail size are both-eyes-closed grins (verified full-res #500, #604, #682).
 
 ## sec 001 — frames 31–60
 - Same shot continues (S1). MS of Rico seated at "ACCOUNTS PAYABLE" desk; slow push-in throughout (head grows from ~45 % to ~60 % of frame width by #60), slight drift down.
@@ -15,7 +17,7 @@ Caption = white heavy rounded sans, black outline + soft drop shadow, centred �
 - #37–42 the glass travels up-left over the cheque; inside the lens the magnified view shows "DOLLARS"/wavy line (#39–40) then "7,439" (#41) then "87,43" (#42 on). Lens = real magnification (scaled copy of the cheque layer).
 - #47–52 white 4-point sparkle glint on top-left of the lens rim.
 - #49 the magnified digits "8" and "7" sprout cartoon googly eyes (eyes on the numbers = "the number gives itself away"), persists to #90+.
-- Rico faces: #37–53 confident toothy grin (eyebrows level); #54–56 one-eye squint/wink (left eye shut line); #57–60 smug side-eye with flat-teeth smile.
+- Rico faces: #37–53 confident toothy grin (eyebrows level); #54–56 brief squint (left eye shut line); #57–60 smug side-eye with flat-teeth smile.
 - Lower bg: "DAYS WITHOUT AN AUDIT 412" sign top-centre (visible full-res), Employee-of-the-Month portrait (Rico) top-right.
 - Captions: "number," #31–43, "there's" #44–50, "a way" #51–56, "to" #57–59, "tell" #60.
 
@@ -115,7 +117,7 @@ Caption = white heavy rounded sans, black outline + soft drop shadow, centred �
 
 ## sec 016 — frames 481–510
 - S5 continues; push-in continues slowly (#481–510), the panel + Rico fill the frame (MS). Rico runs his finger up the left column lighting 5 (green) #481, 6 (cyan) #483, 7 (blue) #485, 8 (violet) #487, 9 (magenta) #489 — 2 frames per button; all of 2–9 stay lit in a rainbow gradient (full-res #495).
-- Rico: #481–498 mischievous toothy grin; **#499–500 wink** (one eye shut line); #501–510 **smug closed-mouth smirk** (half-lid, one brow up).
+- Rico: #481–498 mischievous toothy grin; **#499–500 gleeful eyes-closed grin** (both eyes shut lines + teeth; full-res #500); #501–510 **smug closed-mouth smirk** (half-lid, one brow up).
 - Captions: "through" to #486, "nine" #487–497, "each" #498–506, "start" #507–512.
 
 ## sec 017 — frames 511–540
@@ -128,7 +130,7 @@ Caption = white heavy rounded sans, black outline + soft drop shadow, centred �
 
 ## sec 018 — frames 541–570
 - S5 continues; camera slightly **pushes in and drifts left/down** following Rico as he crouches (knees bent, #545–566) and presses the bottom "1" button with both hands (#551–566) — "1" lights **gold/yellow** (#553+, full-res #556). Dale's arm withdraws to the left #541–546.
-- Rico manic circle-eye toothy grin #541–566; **#567 squint (wink) grin**, #568 half-lid grin, **#569–570 smug confident smirk** (one brow raised, closed smile).
+- Rico manic circle-eye toothy grin #541–566; **#567 eyes-closed grin**, #568 half-lid grin, **#569–570 smug confident smirk** (one brow raised, closed smile).
 - #566–570 the rainbow glow on 2–9 fades out (buttons go back to white) leaving the "1" gold.
 - Captions: "number." to #544, "But" #545–550, "floor" #551–558, "one" #559–571.
 
@@ -140,7 +142,7 @@ Caption = white heavy rounded sans, black outline + soft drop shadow, centred �
 
 ## sec 020 — frames 601–630
 - S5 continues: Rico straightens up (#601–606) and runs his finger up the right column: 14–19 light gold #603–626 (one every ~4 frames). By #626 all of 10–19 + 1 glow gold; 2–9 rainbow.
-- Rico: #601–602 grin; **#603–605 wink grin** (one eye shut); #606–626 cheeky grin; #626–627 wink again; **#628–630 smug closed-mouth smirk** (brow raised, half-lid).
+- Rico: #601–602 grin; **#603–605 gleeful eyes-closed grin** (both eyes shut, teeth; full-res #604); #606–626 cheeky grin; #626–627 eyes-closed grin again; **#628–630 smug closed-mouth smirk** (brow raised, half-lid).
 - Camera: subtle push-in continuing.
 - Captions: "all the way" to #608, "up" #609–612, "to 19." #613–634.
 
@@ -150,14 +152,14 @@ Caption = white heavy rounded sans, black outline + soft drop shadow, centred �
 - Captions: "to 19." to #635, "All" #636–645, "start" #646–655, "with" #656–660.
 
 ## sec 022 — frames 661–690
-- S5 continues, same pose (standing, cuffed hands at waist). Rico smug smirk #661–680; **#681–683 wink** (left eye closed, smirk); #684–690 **grin with teeth, brows level** (talking grin), head bobs slightly.
+- S5 continues, same pose (standing, cuffed hands at waist). Rico smug smirk #661–680; **#681–683 eyes-closed grin** (both eyes shut lines, teeth; full-res #682); #684–690 **grin with teeth, brows level** (talking grin), head bobs slightly.
 - Camera locked with slow push-in.
 - Captions: "with" to #660, "a one" #661–680, "that's" #681–686, "more" #687–694.
 
 ## sec 023 — frames 691–720
 - S5 continues; slow **pull-back + drift right** begins (#697+): Rico shrinks slightly, Dale's dark edge re-appears at frame-left #706+.
 - **Lighting/grade shift**: from ≈#693 the panel blooms into a uniform warm gold glow (all buttons white-gold, fan header rainbow-tinted), and the whole frame warms (Rico's head goes from white to warm cream/peach by #705–720) — a light-wrap/glow that signals "all the ones".
-- Rico: #691–697 talking grin (teeth), #698–699 wink grin, #700–711 smug talking grin (one brow raised), #712–713 half-lid, #714 flat-mouth doubtful, **#715 surprised** (circle eyes + tiny frown) as **Dale's arm** swings in from the left again (#715–720) toward the panel.
+- Rico: #691–697 talking grin (teeth), #698–699 eyes-closed grin, #700–711 smug talking grin (one brow raised), #712–713 half-lid, #714 flat-mouth doubtful, **#715 surprised** (circle eyes + tiny frown) as **Dale's arm** swings in from the left again (#715–720) toward the panel.
 - Captions: "more" to #692, "than" #693–696, "half" #697–708, "the" #709–711, "buttons." #712–729.
 
 ## sec 024 — frames 721–750
