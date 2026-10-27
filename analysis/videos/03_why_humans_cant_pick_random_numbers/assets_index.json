@@ -1,0 +1,1338 @@
+{
+ "video": "03_why_humans_cant_pick_random_numbers",
+ "fps": 30,
+ "frames": 1413,
+ "items": [
+  {
+   "id": "char_rico",
+   "type": "character",
+   "name": "Rico",
+   "description": "the embezzling clerk (mustard jacket, red striped tie)",
+   "first_frame": 1,
+   "frames_present": [
+    [
+     1,
+     345
+    ],
+    [
+     375,
+     429
+    ],
+    [
+     430,
+     800
+    ],
+    [
+     873,
+     954
+    ],
+    [
+     1151,
+     1222
+    ],
+    [
+     1291,
+     1413
+    ]
+   ],
+   "crop_paths": [
+    "library/characters/Rico/emotions/emo_annoyed_f00320.png",
+    "library/characters/Rico/emotions/emo_cocky_grin_f01346.png",
+    "library/characters/Rico/emotions/emo_confident_grin_f00045.png",
+    "library/characters/Rico/emotions/emo_content_eyes_closed_f00458.png",
+    "library/characters/Rico/emotions/emo_doubtful_f01174.png",
+    "library/characters/Rico/emotions/emo_focused_f00200.png",
+    "library/characters/Rico/emotions/emo_gleeful_eyes_closed_f00604.png",
+    "library/characters/Rico/emotions/emo_gritted_panic_f01199.png",
+    "library/characters/Rico/emotions/emo_manic_grin_f00548.png",
+    "library/characters/Rico/emotions/emo_mesmerised_lookup_f00912.png",
+    "library/characters/Rico/emotions/emo_mischievous_grin_f00495.png",
+    "library/characters/Rico/emotions/emo_nervous_sideglance_f00278.png",
+    "library/characters/Rico/emotions/emo_panic_multi_sweat_f01395.png",
+    "library/characters/Rico/emotions/emo_panic_wavy_sweat_f00080.png",
+    "library/characters/Rico/emotions/emo_relieved_sweat_f00240.png",
+    "library/characters/Rico/emotions/emo_smug_halflid_f00640.png",
+    "library/characters/Rico/emotions/emo_sulky_f00440.png",
+    "library/characters/Rico/emotions/emo_surprised_f00531.png",
+    "library/characters/Rico/emotions/emo_surprised_sweat_f00290.png",
+    "library/characters/Rico/emotions/emo_uneasy_sweat_f00210.png",
+    "library/characters/Rico/emotions/emo_worried_frown_f00730.png",
+    "library/characters/Rico/poses/pose_backseat_cuffed_f00320.jpg",
+    "library/characters/Rico/poses/pose_car_capsule_f00140.jpg",
+    "library/characters/Rico/poses/pose_car_writing_cheque_f00200.jpg",
+    "library/characters/Rico/poses/pose_crouch_press_f00556.jpg",
+    "library/characters/Rico/poses/pose_desk_highangle_writing_f01182.jpg",
+    "library/characters/Rico/poses/pose_desk_writing_f00045.jpg",
+    "library/characters/Rico/poses/pose_doorway_cuffed_f00882.jpg",
+    "library/characters/Rico/poses/pose_glass_cab_f00745.jpg",
+    "library/characters/Rico/poses/pose_jail_writing_wall_f01300.jpg",
+    "library/characters/Rico/poses/pose_press_button_reach_f00495.jpg",
+    "library/characters/Rico/poses/pose_standing_cuffed_f00440.jpg",
+    "library/characters/Rico/poses/pose_standing_smug_f00640.jpg",
+    "library/characters/Rico/reference/ref_00045.jpg",
+    "library/characters/Rico/reference/ref_00640.jpg",
+    "library/characters/Rico/reference/ref_01182.jpg"
+   ],
+   "prompt_path": [
+    "library/characters/Rico/character.md",
+    "library/characters/Rico/poses.md",
+    "library/characters/Rico/emotions.md"
+   ]
+  },
+  {
+   "id": "char_marge",
+   "type": "character",
+   "name": "Marge",
+   "description": "the auditor (auburn bun, round glasses, purple suit)",
+   "first_frame": 34,
+   "frames_present": [
+    [
+     34,
+     105
+    ],
+    [
+     873,
+     954
+    ],
+    [
+     955,
+     1063
+    ],
+    [
+     1063,
+     1150
+    ],
+    [
+     1227,
+     1413
+    ]
+   ],
+   "crop_paths": [
+    "library/characters/Marge/emotions/emo_eyes_closed_smug_f01358.png",
+    "library/characters/Marge/emotions/emo_knowing_smirk_f00882.png",
+    "library/characters/Marge/emotions/emo_pleasant_smile_f01075.png",
+    "library/characters/Marge/emotions/emo_pondering_eyesup_f01238.png",
+    "library/characters/Marge/emotions/emo_wink_f01141.png",
+    "library/characters/Marge/poses/pose_arm_magnifier_f00045.jpg",
+    "library/characters/Marge/poses/pose_arm_pencil_point_f01050.jpg",
+    "library/characters/Marge/poses/pose_arms_pour_sack_f00966.jpg",
+    "library/characters/Marge/poses/pose_hands_behind_back_f01238.jpg",
+    "library/characters/Marge/poses/pose_hold_magnifier_low_f01300.jpg",
+    "library/characters/Marge/poses/pose_raise_magnifier_f01395.jpg",
+    "library/characters/Marge/poses/pose_seated_coin_flip_f00900.jpg",
+    "library/characters/Marge/poses/pose_standing_hold_cheques_f01075.jpg",
+    "library/characters/Marge/poses/pose_walk_place_cheque_f01110.jpg",
+    "library/characters/Marge/reference/ref_00882.jpg",
+    "library/characters/Marge/reference/ref_01075.jpg",
+    "library/characters/Marge/reference/ref_01300.jpg"
+   ],
+   "prompt_path": [
+    "library/characters/Marge/character.md",
+    "library/characters/Marge/poses.md",
+    "library/characters/Marge/emotions.md"
+   ]
+  },
+  {
+   "id": "char_officer_dale",
+   "type": "character",
+   "name": "Officer Dale",
+   "description": "police officer (navy cap with star, navy uniform)",
+   "first_frame": 301,
+   "frames_present": [
+    [
+     301,
+     345
+    ],
+    [
+     375,
+     470
+    ],
+    [
+     519,
+     546
+    ],
+    [
+     715,
+     800
+    ],
+    [
+     873,
+     954
+    ]
+   ],
+   "crop_paths": [
+    "library/characters/Officer_Dale/emotions/emo_stern_f00440.png",
+    "library/characters/Officer_Dale/emotions/emo_suppressed_laugh_f00882.png",
+    "library/characters/Officer_Dale/poses/pose_arm_reach_panel_f00531.jpg",
+    "library/characters/Officer_Dale/poses/pose_back_view_front_seat_f00320.jpg",
+    "library/characters/Officer_Dale/poses/pose_doorway_standing_f00882.jpg",
+    "library/characters/Officer_Dale/poses/pose_glass_cab_f00745.jpg",
+    "library/characters/Officer_Dale/poses/pose_standing_elevator_f00440.jpg",
+    "library/characters/Officer_Dale/reference/ref_00440.jpg",
+    "library/characters/Officer_Dale/reference/ref_00882.jpg"
+   ],
+   "prompt_path": [
+    "library/characters/Officer_Dale/character.md",
+    "library/characters/Officer_Dale/poses.md",
+    "library/characters/Officer_Dale/emotions.md"
+   ]
+  },
+  {
+   "id": "char_nina",
+   "type": "character",
+   "name": "Nina",
+   "description": "bank teller extra (teal uniform, bun) \u2014 named by this analysis",
+   "first_frame": 109,
+   "frames_present": [
+    [
+     109,
+     165
+    ],
+    [
+     253,
+     300
+    ]
+   ],
+   "crop_paths": [
+    "library/characters/Nina/emotions/emo_neutral_f00140.png",
+    "library/characters/Nina/emotions/emo_smug_halflid_f00278.png",
+    "library/characters/Nina/poses/pose_booth_window_f00140.jpg",
+    "library/characters/Nina/poses/pose_video_screen_f00278.jpg",
+    "library/characters/Nina/reference/ref_00278.jpg"
+   ],
+   "prompt_path": [
+    "library/characters/Nina/character.md",
+    "library/characters/Nina/poses.md",
+    "library/characters/Nina/emotions.md"
+   ]
+  },
+  {
+   "id": "bg_ap_office",
+   "type": "background",
+   "name": "ap_office",
+   "description": "Accounts-payable office: teal wall, wooden desk with brass \"ACCOUNTS PAYABLE\" plaque, window with venetian blinds showing desert + saguaro, potted plant, \"DAYS WITHOUT AN AUDIT 412\" sign, framed \"EMPLOYEE OF THE MONTH\" portrait, beige filing cabinets, teal office chair",
+   "first_frame": 1,
+   "frames_present": [
+    [
+     1,
+     108
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_ap_office_f00030.jpg"
+   ],
+   "prompt_path": "library/backgrounds/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "bg_bank_drive_through",
+   "type": "background",
+   "name": "bank_drive_through",
+   "description": "Desert State Bank drive-through: 1960s stucco building with brown oval breeze-block screen, teal steel posts, flat canopy, teller booth window at left, pneumatic tube arching to a VIDEO TELLER kiosk, tall LED sign \"Desert State BANK / EST. 1961 / YOUR TOTAL / DRIVE-UP BANKING\", palm tree, pale-blue sky",
+   "first_frame": 106,
+   "frames_present": [
+    [
+     106,
+     200
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_bank_drive_through_f00120.jpg"
+   ],
+   "prompt_path": "library/backgrounds/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "bg_car_window",
+   "type": "background",
+   "name": "car_window",
+   "description": "Inside view through the driver window of a coral-orange 1960s sedan: cream window pillar, rear-view mirror with red/white fuzzy dice, steering wheel, passenger seat piled with green banded cash stacks, side mirror",
+   "first_frame": 163,
+   "frames_present": [
+    [
+     163,
+     300
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_car_window_f00200.jpg"
+   ],
+   "prompt_path": "library/backgrounds/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "bg_police_backseat",
+   "type": "background",
+   "name": "police_backseat",
+   "description": "Police cruiser back seat: tan bench seat, chain-link cage partition at left, oval dome light on a beige ceiling, rear window showing desert + cactus",
+   "first_frame": 298,
+   "frames_present": [
+    [
+     298,
+     345
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_police_backseat_f00320.jpg"
+   ],
+   "prompt_path": "library/backgrounds/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "bg_tower_exterior",
+   "type": "background",
+   "name": "tower_exterior",
+   "description": "\"THE ONE\" tower: ~19-storey retro tower, teal glass, terracotta frame, a gold vertical band with big serif floor numbers 1\u201319, cantilevered top-floor wing, red roof sign \"THE ONE\", entrance canopy with glass revolving cylinder, palms, police car, blue sky + cumulus",
+   "first_frame": 342,
+   "frames_present": [
+    [
+     342,
+     429
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_tower_exterior_f00355.jpg"
+   ],
+   "prompt_path": "library/backgrounds/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "bg_elevator_interior",
+   "type": "background",
+   "name": "elevator_interior",
+   "description": "Round glass elevator cab interior: brass ribs and rails, terrazzo floor with confetti specks and a brass compass inlay, art-deco wooden button panel \"THE ONE\" with sunburst fan, teal glass walls with blurred outside",
+   "first_frame": 430,
+   "frames_present": [
+    [
+     430,
+     739
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_elevator_interior_f00440.jpg"
+   ],
+   "prompt_path": "library/backgrounds/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "bg_tower_facade_sunset",
+   "type": "background",
+   "name": "tower_facade_sunset",
+   "description": "Tower facade at sunset with orange elevator rails, teal windows, terracotta + teal zig-zag friezes, AC unit",
+   "first_frame": 737,
+   "frames_present": [
+    [
+     737,
+     790
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_tower_facade_sunset_f00745.jpg"
+   ],
+   "prompt_path": "library/backgrounds/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "bg_number_city",
+   "type": "background",
+   "name": "number_city",
+   "description": "Aerial desert town at sunset: the tower shaped like a giant \"1\", a row of giant striped digit-shaped buildings 2\u20139 shrinking in height, flat-roofed pastel houses, palms, saguaros, strip mall (Desert State Bank, DINER, EAT, GAS $1.19), road with cars, mesas, big pink cloud",
+   "first_frame": 775,
+   "frames_present": [
+    [
+     775,
+     876
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_number_city_f00850.jpg"
+   ],
+   "prompt_path": "library/backgrounds/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "bg_audit_office_19",
+   "type": "background",
+   "name": "audit_office_19",
+   "description": "19th-floor audit office: wooden desk with brass \"AUDIT\" plaque, blue/yellow file boxes, succulent pots, desk lamp, teal chair, arrived glass elevator cab with \"19\" indicator, panoramic sunset window, Navajo-pattern rug, god rays",
+   "first_frame": 869,
+   "frames_present": [
+    [
+     869,
+     957
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_audit_office_19_f00882.jpg"
+   ],
+   "prompt_path": "library/backgrounds/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "bg_coin_desk_topdown",
+   "type": "background",
+   "name": "coin_desk_topdown",
+   "description": "Top-down desk: green felt blotter, wooden 10\u00d710 coin board with round slots, yellow legal pad and note paper",
+   "first_frame": 952,
+   "frames_present": [
+    [
+     952,
+     1066
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_coin_desk_topdown_f00966.jpg"
+   ],
+   "prompt_path": "library/backgrounds/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "bg_window_ledge",
+   "type": "background",
+   "name": "window_ledge",
+   "description": "Office panoramic window at sunset with a wooden ledge, red hand-written digits 1\u20139 on the ledge, terracotta rug with yellow triangles and teal chevron, blurred desert with cactus outside",
+   "first_frame": 1060,
+   "frames_present": [
+    [
+     1060,
+     1160
+    ],
+    [
+     1209,
+     1294
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_window_ledge_f01238.jpg"
+   ],
+   "prompt_path": "library/backgrounds/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "bg_audit_desk_highangle",
+   "type": "background",
+   "name": "audit_desk_highangle",
+   "description": "High-angle view of the AUDIT desk with lamp, green blotter, teal chair, window frames and blurred desert",
+   "first_frame": 1145,
+   "frames_present": [
+    [
+     1145,
+     1228
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_audit_desk_highangle_f01174.jpg"
+   ],
+   "prompt_path": "library/backgrounds/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "bg_jail_cell",
+   "type": "background",
+   "name": "jail_cell",
+   "description": "Jail cell: grey-blue steel bars with a lock box in the foreground, beige brick wall behind, blue cot, warm back-window light",
+   "first_frame": 1287,
+   "frames_present": [
+    [
+     1287,
+     1413
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_jail_cell_f01300.jpg"
+   ],
+   "prompt_path": "library/backgrounds/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "fountain_pen",
+   "type": "asset_3d",
+   "name": "fountain_pen",
+   "description": "black lacquer fountain pen with gold nib and gold trim",
+   "first_frame": 1,
+   "frames_present": [
+    [
+     1,
+     30
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/fountain_pen_f00003.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "magnifier_eyed_digits",
+   "type": "asset_3d",
+   "name": "magnifier_eyed_digits",
+   "description": "gold-rimmed magnifying glass over the cheque; digits \"87,43\" magnified with googly eyes on 8 and 7",
+   "first_frame": 34,
+   "frames_present": [
+    [
+     34,
+     105
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/magnifier_eyed_digits_f00080.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "magnifier_gold",
+   "type": "asset_3d",
+   "name": "magnifier_gold",
+   "description": "Marge's large magnifying glass: thick gold rim, brown wooden handle, glint",
+   "first_frame": 34,
+   "frames_present": [
+    [
+     34,
+     105
+    ],
+    [
+     1291,
+     1413
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/magnifier_gold_f01300.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "bank_sign_led",
+   "type": "asset_3d",
+   "name": "bank_sign_led",
+   "description": "roadside sign: cream/terracotta \"Desert State BANK\" with sunset logo, \"EST. 1961\", \"YOUR TOTAL\", \"DRIVE-UP BANKING\", black LED panel showing \"$2,000,000\"",
+   "first_frame": 107,
+   "frames_present": [
+    [
+     107,
+     200
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/bank_sign_led_f00140.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "orange_sedan",
+   "type": "asset_3d",
+   "name": "orange_sedan",
+   "description": "boxy coral-orange 1960s sedan with chrome hubcaps, window down",
+   "first_frame": 109,
+   "frames_present": [
+    [
+     109,
+     300
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/orange_sedan_f00140.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "video_teller_kiosk",
+   "type": "asset_3d",
+   "name": "video_teller_kiosk",
+   "description": "beige VIDEO TELLER kiosk with screen (\"TELLER 3\"), teal base, yellow \"SMILE!\" sticker, clear pneumatic tube with orange capsule cup",
+   "first_frame": 249,
+   "frames_present": [
+    [
+     249,
+     300
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/video_teller_kiosk_f00278.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "handcuffs_spring",
+   "type": "asset_3d",
+   "name": "handcuffs_spring",
+   "description": "silver handcuffs on a coiled spring popping out of the tube cup",
+   "first_frame": 273,
+   "frames_present": [
+    [
+     273,
+     300
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/handcuffs_spring_f00278.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "police_car",
+   "type": "asset_3d",
+   "name": "police_car",
+   "description": "black-and-white police car with \"POLICE\" and star",
+   "first_frame": 346,
+   "frames_present": [
+    [
+     346,
+     405
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/police_car_f00355.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "tower_the_one",
+   "type": "asset_3d",
+   "name": "tower_the_one",
+   "description": "\"THE ONE\" tower with floor numbers 1\u201319; silhouette is a digit 1",
+   "first_frame": 342,
+   "frames_present": [
+    [
+     342,
+     872
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/tower_the_one_f00355.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "elevator_panel",
+   "type": "asset_3d",
+   "name": "elevator_panel",
+   "description": "art-deco wooden button panel \"THE ONE\", sunburst fan, left column bell/9\u20261, right column 19\u202610, round white enamel buttons",
+   "first_frame": 430,
+   "frames_present": [
+    [
+     430,
+     739
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/elevator_panel_f00640.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "glass_elevator_cab",
+   "type": "asset_3d",
+   "name": "glass_elevator_cab",
+   "description": "round glass elevator cab with orange/brass ring top and base",
+   "first_frame": 403,
+   "frames_present": [
+    [
+     403,
+     429
+    ],
+    [
+     737,
+     800
+    ],
+    [
+     873,
+     954
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/glass_elevator_cab_f00745.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "number_buildings_skyline",
+   "type": "asset_3d",
+   "name": "number_buildings_skyline",
+   "description": "row of giant digit buildings 1\u20139, decreasing height, pastel striped windows (Benford chart as a city)",
+   "first_frame": 775,
+   "frames_present": [
+    [
+     775,
+     872
+    ],
+    [
+     1253,
+     1290
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/number_buildings_skyline_f00850.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "audit_desk",
+   "type": "asset_3d",
+   "name": "audit_desk",
+   "description": "wooden desk with brass \"AUDIT\" plaque",
+   "first_frame": 873,
+   "frames_present": [
+    [
+     873,
+     1220
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/audit_desk_f00882.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "coin_board_10x10",
+   "type": "asset_3d",
+   "name": "coin_board_10x10",
+   "description": "wooden-framed green 10\u00d710 board with round slots filled with gold heads / copper tails coins; \"10 \u00d7 10\" label",
+   "first_frame": 955,
+   "frames_present": [
+    [
+     955,
+     1063
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/coin_board_10x10_f00985.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "money_sack",
+   "type": "asset_3d",
+   "name": "money_sack",
+   "description": "canvas money sack \"DESERT STATE BANK $\" in green print",
+   "first_frame": 955,
+   "frames_present": [
+    [
+     955,
+     990
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/money_sack_f00966.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "gold_coin",
+   "type": "asset_3d",
+   "name": "gold_coin",
+   "description": "shiny gold coin flipped by Marge",
+   "first_frame": 877,
+   "frames_present": [
+    [
+     877,
+     933
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/gold_coin_f00900.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "accounts_payable_nameplate",
+   "type": "asset_3d",
+   "name": "accounts_payable_nameplate",
+   "description": "brass desk nameplate \"ACCOUNTS PAYABLE\"",
+   "first_frame": 22,
+   "frames_present": [
+    [
+     22,
+     108
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/accounts_payable_nameplate_f00045.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "notepad_8746",
+   "type": "asset_3d",
+   "name": "notepad_8746",
+   "description": "small lined notepad with hand-written \"8746\" in blue ink",
+   "first_frame": 1165,
+   "frames_present": [
+    [
+     1165,
+     1220
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/notepad_8746_f01199.jpg"
+   ],
+   "prompt_path": "library/assets_3d/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "cheque_ecu",
+   "type": "unique_image",
+   "name": "cheque_ecu",
+   "description": "ECU of the forged cheque: pale mint paper, \"DATE ____\", \"No. 1047\" (red), amount box \"$ 87,4\u2026\", \"DOLLARS\", wavy signature line",
+   "first_frame": 1,
+   "frames_present": [
+    [
+     1,
+     17
+    ]
+   ],
+   "crop_paths": [
+    "library/unique_images/03_why_humans_cant_pick_random_numbers/cheque_ecu_f00003.jpg"
+   ],
+   "prompt_path": "library/unique_images/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "cheque_87439",
+   "type": "unique_image",
+   "name": "cheque_87439",
+   "description": "full cheque: \"DESERT STATE TREASURY / PHOENIX, ARIZONA\", No. 1047, pay to \"Totally Real Vendor LLC\", \"$87,439.12\", \"eighty-seven thousand four hundred\u2026\", memo \"consulting\", MICR line \"\u2446122105155\u2446 0047 22914\u2448 1047\"",
+   "first_frame": 13,
+   "frames_present": [
+    [
+     13,
+     108
+    ]
+   ],
+   "crop_paths": [
+    "library/unique_images/03_why_humans_cant_pick_random_numbers/cheque_87439_f00018.jpg"
+   ],
+   "prompt_path": "library/unique_images/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "cheque_100000",
+   "type": "unique_image",
+   "name": "cheque_100000",
+   "description": "same cheque template with \"100,000.00\" being written",
+   "first_frame": 195,
+   "frames_present": [
+    [
+     195,
+     212
+    ]
+   ],
+   "crop_paths": [
+    "library/unique_images/03_why_humans_cant_pick_random_numbers/cheque_100000_f00200.jpg"
+   ],
+   "prompt_path": "library/unique_images/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "cheque_crossed_out",
+   "type": "unique_image",
+   "name": "cheque_crossed_out",
+   "description": "\"100,000.00\" scribbled out, \"87,439.12\" written below",
+   "first_frame": 213,
+   "frames_present": [
+    [
+     213,
+     252
+    ]
+   ],
+   "crop_paths": [
+    "library/unique_images/03_why_humans_cant_pick_random_numbers/cheque_crossed_out_f00240.jpg"
+   ],
+   "prompt_path": "library/unique_images/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "employee_of_month",
+   "type": "unique_image",
+   "name": "employee_of_month",
+   "description": "framed portrait of Rico grinning, gold star, \"EMPLOYEE OF THE MONTH\" plaque",
+   "first_frame": 24,
+   "frames_present": [
+    [
+     24,
+     108
+    ]
+   ],
+   "crop_paths": [
+    "library/unique_images/03_why_humans_cant_pick_random_numbers/employee_of_month_f00060.jpg"
+   ],
+   "prompt_path": "library/unique_images/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "days_without_audit",
+   "type": "unique_image",
+   "name": "days_without_audit",
+   "description": "wall sign \"DAYS WITHOUT AN AUDIT\" with \"412\" on a black counter",
+   "first_frame": 24,
+   "frames_present": [
+    [
+     24,
+     108
+    ]
+   ],
+   "crop_paths": [
+    "library/unique_images/03_why_humans_cant_pick_random_numbers/days_without_audit_f00060.jpg"
+   ],
+   "prompt_path": "library/unique_images/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "legal_pad_flips",
+   "type": "unique_image",
+   "name": "legal_pad_flips",
+   "description": "yellow legal pad: pencil \"HHTHHHHHHT\u2026\" and \"flips \u2014 longest run?\"",
+   "first_frame": 952,
+   "frames_present": [
+    [
+     952,
+     1000
+    ]
+   ],
+   "crop_paths": [
+    "library/unique_images/03_why_humans_cant_pick_random_numbers/legal_pad_flips_f00960.jpg"
+   ],
+   "prompt_path": "library/unique_images/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "cheque_histogram",
+   "type": "unique_image",
+   "name": "cheque_histogram",
+   "description": "window-ledge histogram: stacks of cheques over red hand-written digits 1\u20139; short at 1\u20136, tall at 7, 8, 9",
+   "first_frame": 1063,
+   "frames_present": [
+    [
+     1063,
+     1290
+    ]
+   ],
+   "crop_paths": [
+    "library/unique_images/03_why_humans_cant_pick_random_numbers/cheque_histogram_f01075.jpg"
+   ],
+   "prompt_path": "library/unique_images/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "jail_wall_scribbles",
+   "type": "unique_image",
+   "name": "jail_wall_scribbles",
+   "description": "brick cell wall covered in hand-scrawled 7s, 8s, 9s (\"789 878 98 97\u2026\") and tally marks",
+   "first_frame": 1291,
+   "frames_present": [
+    [
+     1291,
+     1413
+    ]
+   ],
+   "crop_paths": [
+    "library/unique_images/03_why_humans_cant_pick_random_numbers/jail_wall_scribbles_f01300.jpg"
+   ],
+   "prompt_path": "library/unique_images/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "caption_card",
+   "type": "overlay_ui",
+   "name": "caption_card",
+   "description": "caption word card \"there's\"",
+   "first_frame": 1,
+   "frames_present": [
+    [
+     1,
+     1413
+    ]
+   ],
+   "crop_paths": [
+    "library/overlays_ui/03_why_humans_cant_pick_random_numbers/caption_card_f00045.jpg"
+   ],
+   "prompt_path": "library/overlays_ui/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "vfx_sweat_drop",
+   "type": "vfx",
+   "name": "vfx_sweat_drop",
+   "description": "blue sweat drop with highlight",
+   "first_frame": 77,
+   "frames_present": [
+    [
+     77,
+     105
+    ],
+    [
+     204,
+     240
+    ],
+    [
+     279,
+     303
+    ],
+    [
+     1177,
+     1188
+    ],
+    [
+     1380,
+     1413
+    ]
+   ],
+   "crop_paths": [
+    "library/overlays_ui/03_why_humans_cant_pick_random_numbers/vfx_sweat_drop_f00080.jpg"
+   ],
+   "prompt_path": "library/overlays_ui/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "vfx_police_wash_red",
+   "type": "vfx",
+   "name": "vfx_police_wash_red",
+   "description": "full-frame red tint (police lights)",
+   "first_frame": 289,
+   "frames_present": [
+    [
+     289,
+     293
+    ]
+   ],
+   "crop_paths": [
+    "library/overlays_ui/03_why_humans_cant_pick_random_numbers/vfx_police_wash_red_f00290.jpg"
+   ],
+   "prompt_path": "library/overlays_ui/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "vfx_police_wash_blue",
+   "type": "vfx",
+   "name": "vfx_police_wash_blue",
+   "description": "full-frame blue tint",
+   "first_frame": 285,
+   "frames_present": [
+    [
+     285,
+     288
+    ],
+    [
+     295,
+     298
+    ]
+   ],
+   "crop_paths": [
+    "library/overlays_ui/03_why_humans_cant_pick_random_numbers/vfx_police_wash_blue_f00286.jpg"
+   ],
+   "prompt_path": "library/overlays_ui/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "vfx_coin_trail",
+   "type": "vfx",
+   "name": "vfx_coin_trail",
+   "description": "stroboscopic stack of glowing coin after-images",
+   "first_frame": 903,
+   "frames_present": [
+    [
+     903,
+     933
+    ]
+   ],
+   "crop_paths": [
+    "library/overlays_ui/03_why_humans_cant_pick_random_numbers/vfx_coin_trail_f00912.jpg"
+   ],
+   "prompt_path": "library/overlays_ui/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "vfx_rainbow_button_glow",
+   "type": "vfx",
+   "name": "vfx_rainbow_button_glow",
+   "description": "per-button rainbow glow 2\u20139",
+   "first_frame": 475,
+   "frames_present": [
+    [
+     475,
+     700
+    ]
+   ],
+   "crop_paths": [
+    "library/overlays_ui/03_why_humans_cant_pick_random_numbers/vfx_rainbow_button_glow_f00495.jpg"
+   ],
+   "prompt_path": "library/overlays_ui/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "vfx_gold_bloom",
+   "type": "vfx",
+   "name": "vfx_gold_bloom",
+   "description": "gold glow on 1 and 10\u201319 + warm bloom",
+   "first_frame": 553,
+   "frames_present": [
+    [
+     553,
+     736
+    ]
+   ],
+   "crop_paths": [
+    "library/overlays_ui/03_why_humans_cant_pick_random_numbers/vfx_gold_bloom_f00720.jpg"
+   ],
+   "prompt_path": "library/overlays_ui/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "ui_glow_run_ellipse",
+   "type": "overlay_ui",
+   "name": "ui_glow_run_ellipse",
+   "description": "6 glowing heads coins + red ellipse outline",
+   "first_frame": 1021,
+   "frames_present": [
+    [
+     1021,
+     1060
+    ]
+   ],
+   "crop_paths": [
+    "library/overlays_ui/03_why_humans_cant_pick_random_numbers/ui_glow_run_ellipse_f01050.jpg"
+   ],
+   "prompt_path": "library/overlays_ui/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "vfx_vibration_lines",
+   "type": "vfx",
+   "name": "vfx_vibration_lines",
+   "description": "\"((\" tremble marks beside the pen",
+   "first_frame": 1176,
+   "frames_present": [
+    [
+     1176,
+     1186
+    ]
+   ],
+   "crop_paths": [
+    "library/overlays_ui/03_why_humans_cant_pick_random_numbers/vfx_vibration_lines_f01182.jpg"
+   ],
+   "prompt_path": "library/overlays_ui/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "ui_led_counter",
+   "type": "overlay_ui",
+   "name": "ui_led_counter",
+   "description": "LED dot-matrix counter $0 \u2192 $2,000,000",
+   "first_frame": 107,
+   "frames_present": [
+    [
+     107,
+     130
+    ]
+   ],
+   "crop_paths": [
+    "library/overlays_ui/03_why_humans_cant_pick_random_numbers/ui_led_counter_f00115.jpg"
+   ],
+   "prompt_path": "library/overlays_ui/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "vfx_defocus_double_exposure",
+   "type": "vfx",
+   "name": "vfx_defocus_double_exposure",
+   "description": "lens defocus + ghost number skyline",
+   "first_frame": 1253,
+   "frames_present": [
+    [
+     1253,
+     1290
+    ]
+   ],
+   "crop_paths": [
+    "library/overlays_ui/03_why_humans_cant_pick_random_numbers/vfx_defocus_double_exposure_f01275.jpg"
+   ],
+   "prompt_path": "library/overlays_ui/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "trans_dissolve",
+   "type": "vfx",
+   "name": "trans_dissolve",
+   "description": "example of a 7-frame cross-dissolve (Rico face + bank LED $0)",
+   "first_frame": 106,
+   "frames_present": [
+    [
+     106,
+     112
+    ]
+   ],
+   "crop_paths": [
+    "library/overlays_ui/03_why_humans_cant_pick_random_numbers/trans_dissolve_f00109.jpg"
+   ],
+   "prompt_path": "library/overlays_ui/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "vfx_sparkle_glint",
+   "type": "vfx",
+   "name": "vfx_sparkle_glint",
+   "description": "white 4-point sparkle on the magnifier rim",
+   "first_frame": 47,
+   "frames_present": [
+    [
+     47,
+     52
+    ],
+    [
+     1291,
+     1390
+    ]
+   ],
+   "crop_paths": [
+    "library/overlays_ui/03_why_humans_cant_pick_random_numbers/vfx_sparkle_glint_f00050.jpg"
+   ],
+   "prompt_path": "library/overlays_ui/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "vfx_lens_magnified_face",
+   "type": "vfx",
+   "name": "vfx_lens_magnified_face",
+   "description": "magnifier showing Rico's face enlarged with 3 sweat drops",
+   "first_frame": 1372,
+   "frames_present": [
+    [
+     1372,
+     1413
+    ]
+   ],
+   "crop_paths": [
+    "library/overlays_ui/03_why_humans_cant_pick_random_numbers/vfx_lens_magnified_face_f01395.jpg"
+   ],
+   "prompt_path": "library/overlays_ui/03_why_humans_cant_pick_random_numbers/index.md"
+  },
+  {
+   "id": "blue_ballpoint",
+   "type": "prop_2d",
+   "name": "blue_ballpoint",
+   "description": "blue ballpoint pen Rico writes with",
+   "first_frame": 184,
+   "frames_present": [
+    [
+     184,
+     252
+    ],
+    [
+     1151,
+     1222
+    ]
+   ],
+   "crop_paths": [
+    "library/characters/Rico/poses/pose_car_writing_cheque_f00200.jpg"
+   ],
+   "prompt_path": null,
+   "note": "no dedicated crop; visible in the referenced crop"
+  },
+  {
+   "id": "fuzzy_dice",
+   "type": "prop_2d",
+   "name": "fuzzy_dice",
+   "description": "red/white fuzzy dice hanging from the rear-view mirror",
+   "first_frame": 193,
+   "frames_present": [
+    [
+     193,
+     300
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_car_window_f00200.jpg"
+   ],
+   "prompt_path": null,
+   "note": "no dedicated crop; visible in the referenced crop"
+  },
+  {
+   "id": "cash_stacks",
+   "type": "prop_2d",
+   "name": "cash_stacks",
+   "description": "green banded cash bundles on the passenger seat",
+   "first_frame": 181,
+   "frames_present": [
+    [
+     181,
+     300
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_car_window_f00200.jpg"
+   ],
+   "prompt_path": null,
+   "note": "no dedicated crop; visible in the referenced crop"
+  },
+  {
+   "id": "red_pencil",
+   "type": "prop_2d",
+   "name": "red_pencil",
+   "description": "Marge's red pencil (also in her bun)",
+   "first_frame": 995,
+   "frames_present": [
+    [
+     995,
+     1060
+    ]
+   ],
+   "crop_paths": [
+    "library/characters/Marge/poses/pose_arm_pencil_point_f01050.jpg"
+   ],
+   "prompt_path": null,
+   "note": "no dedicated crop; visible in the referenced crop"
+  },
+  {
+   "id": "googly_eyes_on_digits",
+   "type": "vfx",
+   "name": "googly_eyes_on_digits",
+   "description": "cartoon eyes sprouting on the magnified digits 8 and 7",
+   "first_frame": 49,
+   "frames_present": [
+    [
+     49,
+     105
+    ]
+   ],
+   "crop_paths": [
+    "library/assets_3d/03_why_humans_cant_pick_random_numbers/magnifier_eyed_digits_f00080.jpg"
+   ],
+   "prompt_path": null,
+   "note": "no dedicated crop; visible in the referenced crop"
+  },
+  {
+   "id": "glass_reflection_ghost",
+   "type": "vfx",
+   "name": "glass_reflection_ghost",
+   "description": "faint mirrored Rico reflection in the elevator glass",
+   "first_frame": 465,
+   "frames_present": [
+    [
+     465,
+     736
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_elevator_interior_f00440.jpg"
+   ],
+   "prompt_path": null,
+   "note": "no dedicated crop; visible in the referenced crop"
+  },
+  {
+   "id": "cheque_stacks",
+   "type": "prop_2d",
+   "name": "cheque_stacks",
+   "description": "stacks of cheques on the ledge (see cheque_histogram)",
+   "first_frame": 1063,
+   "frames_present": [
+    [
+     1063,
+     1290
+    ]
+   ],
+   "crop_paths": [
+    "library/unique_images/03_why_humans_cant_pick_random_numbers/cheque_histogram_f01075.jpg"
+   ],
+   "prompt_path": null,
+   "note": "no dedicated crop; visible in the referenced crop"
+  },
+  {
+   "id": "jail_bars",
+   "type": "asset_3d",
+   "name": "jail_bars",
+   "description": "grey-blue steel cell bars with lock box (foreground layer)",
+   "first_frame": 1287,
+   "frames_present": [
+    [
+     1287,
+     1413
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_jail_cell_f01300.jpg"
+   ],
+   "prompt_path": null,
+   "note": "no dedicated crop; visible in the referenced crop"
+  },
+  {
+   "id": "birds",
+   "type": "vfx",
+   "name": "birds",
+   "description": "two small birds gliding across the sky / perched vulture on the canopy",
+   "first_frame": 350,
+   "frames_present": [
+    [
+     350,
+     429
+    ]
+   ],
+   "crop_paths": [
+    "library/backgrounds/03_why_humans_cant_pick_random_numbers/bg_tower_exterior_f00355.jpg"
+   ],
+   "prompt_path": null,
+   "note": "no dedicated crop; visible in the referenced crop"
+  }
+ ]
+}
