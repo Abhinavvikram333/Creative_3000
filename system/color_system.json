@@ -1,0 +1,2125 @@
+{
+ "meta": {
+  "source": "Pilot videos 01-05, every frame at 30 fps (analysis/videos/*/metrics/frame_metrics.csv, palettes.json, colors.md) + pixel checks on full-res frames.",
+  "metric_definitions": "brightness = mean HSV V (0-1), saturation = mean HSV S (0-1), per frame; grade stats = mean / p10 / p90 over the listed frame ranges.",
+  "hex_note": "Palette hexes are k-means centroids of JPEG frames (slightly desaturated averages); paint pure fills a little cleaner.",
+  "doc": "system/COLOR_SYSTEM.md"
+ },
+ "core": {
+  "outline": {
+   "series_target": "#2a1c1a",
+   "description": "Warm near-black dark brown, uniform ~1% of frame width (6-8 px at 720 w on an MS head, ~10 px in CU). Never pure black.",
+   "per_video": {
+    "01": "#2f3d43",
+    "02": "#2e1d17",
+    "03": "#2a1c1a",
+    "04": "#2a2024",
+    "05": "#421411"
+   },
+   "variants": {
+    "01_night": "#140916",
+    "01_sampled_day": "#293243",
+    "02_edison": "#381b0f",
+    "05_bling": "#531c12",
+    "05_style_lock": "#3a1512"
+   },
+   "variation": "dE76 to series mean: 02 4.6, 03 3.6, 04 5.3; 01 17.6 (cool navy-charcoal), 05 17.6 (redder brown). Max pair dE 34 (01 vs 05). Lightness L* 12-14 everywhere except 01 (L* 25)."
+  },
+  "head_fill": {
+   "series_target": "#f7ede0",
+   "description": "Warm off-white / cream; never pure white. Brightest large area on screen.",
+   "per_video": {
+    "01": "#dce0e9",
+    "02": "#f6e1c7",
+    "03": "#f8efe6",
+    "04": "#f3eeed",
+    "05": "#fcf6e7"
+   },
+   "shade": {
+    "01": "#babfcf",
+    "02": "#e2c2ab",
+    "03": "#e9dbd9",
+    "05": "#f0c6af"
+   },
+   "variation": "L* 89-97. dE76 to mean of 02-05: 03 2.1, 05 3.4, 04 6.4, 02 8.9 (peachier), 01 13.4 (cool lavender-white, b* -5). Hue drifts per video from cool (01) to peach (02); pick one per video and keep it."
+  },
+  "limbs": {
+   "series_target": "#2b1919",
+   "description": "Single solid dark strokes (noodle limbs) ending in ball/blob hands, same family as the outline.",
+   "per_video": {
+    "01": "#362337",
+    "02": "#1f1917",
+    "03": "#1e1616",
+    "04": "#2a2024",
+    "05": "#421411"
+   },
+   "hands": {
+    "05": "#2a1210"
+   },
+   "variation": "L* 8-17; 02-04 within dE 7 of each other; 01 violet-tinted, 05 = outline colour."
+  },
+  "face_lines": {
+   "description": "Eyes/brows/mouth = outline colour or slightly darker",
+   "per_video": {
+    "01": "#1e0912",
+    "02": "#3b2418",
+    "03": "#2a1c1a",
+    "04": "#2a2024",
+    "05": "#421411"
+   }
+  },
+  "caption": {
+   "fill": "#ffffff",
+   "stroke": "#000000",
+   "stroke_measured": "#040000",
+   "stroke_width_px_at_720w": 4,
+   "shadow": "#000000 @ 50 %, soft",
+   "position": "centre, y ~ 860-950 of 1280 (lower-middle third)",
+   "variation": "Identical in all 5 videos (fill 253-255 per channel, stroke <= 4/255)."
+  },
+  "cast_shadow": {
+   "normal_blend": "#2a2035",
+   "opacity": "35-55 %",
+   "multiply_equivalent": "#a39ebd",
+   "description": "Soft blurred contact ellipse under characters/props; darkens the ground ~30-45 % and shifts it cool/violet.",
+   "measured": [
+    {
+     "ground": "#c1aa8b",
+     "shadow": "#867770",
+     "where": "01 f400 sand"
+    },
+    {
+     "ground": "#ad825a",
+     "shadow": "#64453c",
+     "where": "04 f1125 sunset deck"
+    }
+   ]
+  },
+  "sweat_drop": {
+   "fill": [
+    "#8cb9db",
+    "#a7cdd7",
+    "#6488aa",
+    "#9fd3f0"
+   ],
+   "highlight": "#ffffff",
+   "outline": "outline colour"
+  },
+  "tears": [
+   "#829aad",
+   "#9cc8ec"
+  ]
+ },
+ "grades": {
+  "day_exterior": {
+   "swatches": [
+    {
+     "hex": "#348cd6",
+     "role": "sky zenith"
+    },
+    {
+     "hex": "#bfe0f6",
+     "role": "sky horizon / haze"
+    },
+    {
+     "hex": "#f5dfab",
+     "role": "key light (sun-lit sand, facade)"
+    },
+    {
+     "hex": "#ceb683",
+     "role": "ground mid (sand, paving)"
+    },
+    {
+     "hex": "#867770",
+     "role": "cast shadow"
+    },
+    {
+     "hex": "#487440",
+     "role": "foliage"
+    },
+    {
+     "hex": "#1f4c2c",
+     "role": "deep foliage / darkest shade"
+    },
+    {
+     "hex": "#38add7",
+     "role": "accent (turquoise sea)"
+    }
+   ],
+   "used_in": [
+    "01 S1-S4, S11, S13, S15, S16, S21 (beach, aerial, road, god-rays, lagoon, final)",
+    "03 S2, S4 (desert noon bank, tower)",
+    "04 S1, S4, S6 (tower top, platform, landing net / plaza)"
+   ],
+   "notes": "High-key; sky blue + warm sand/cream + one saturated accent (turquoise in 01, safety orange #ea872a in 04, coral car #d98d6c in 03).",
+   "brightness": {
+    "mean": 0.72,
+    "p10": 0.58,
+    "p90": 0.87
+   },
+   "saturation": {
+    "mean": 0.42,
+    "p10": 0.32,
+    "p90": 0.54
+   },
+   "frame_ranges": {
+    "01": [
+     "1-184",
+     "226-457",
+     "860-904",
+     "1060-1221",
+     "1296-1525",
+     "1950-2043"
+    ],
+    "03": [
+     "109-300",
+     "346-429"
+    ],
+    "04": [
+     "1-213",
+     "438-615",
+     "712-856"
+    ]
+   },
+   "frames_measured": 1759
+  },
+  "golden_hour_sunset": {
+   "swatches": [
+    {
+     "hex": "#a8709a",
+     "role": "sky zenith (lilac-violet)"
+    },
+    {
+     "hex": "#ea8f98",
+     "role": "sky mid (pink-rose)"
+    },
+    {
+     "hex": "#fad593",
+     "role": "horizon gold / key light"
+    },
+    {
+     "hex": "#feefce",
+     "role": "rim / highlight cream"
+    },
+    {
+     "hex": "#d9a878",
+     "role": "ground lit (peach-honey)"
+    },
+    {
+     "hex": "#6e4f5c",
+     "role": "shadow (mauve-brown)"
+    },
+    {
+     "hex": "#e77372",
+     "role": "accent (sunset rose, string lights)"
+    }
+   ],
+   "used_in": [
+    "01 S12 (sunset beach) + S17 dusk start f1526-1560",
+    "03 S6-S11 (number city, audit office, window ledge)",
+    "04 S9 (BBQ deck)"
+   ],
+   "notes": "Brightest grade but lower saturation than night; violet top -> pink -> yellow horizon gradient; warm rim on characters.",
+   "brightness": {
+    "mean": 0.77,
+    "p10": 0.7,
+    "p90": 0.85
+   },
+   "saturation": {
+    "mean": 0.4,
+    "p10": 0.37,
+    "p90": 0.45
+   },
+   "frame_ranges": {
+    "01": [
+     "905-1059",
+     "1526-1560"
+    ],
+    "03": [
+     "740-954",
+     "1064-1290"
+    ],
+    "04": [
+     "1078-1170"
+    ]
+   },
+   "frames_measured": 725
+  },
+  "night_moonlit": {
+   "swatches": [
+    {
+     "hex": "#25325c",
+     "role": "sky / ambient navy"
+    },
+    {
+     "hex": "#0c0b32",
+     "role": "deepest shadow (indigo-black)"
+    },
+    {
+     "hex": "#082329",
+     "role": "foliage shadow (teal-black)"
+    },
+    {
+     "hex": "#1d448f",
+     "role": "lit mid-tone blue"
+    },
+    {
+     "hex": "#2c54a1",
+     "role": "bokeh / secondary blue"
+    },
+    {
+     "hex": "#7d8ad3",
+     "role": "key / rim (periwinkle moon)"
+    },
+    {
+     "hex": "#94a5f1",
+     "role": "head under night grade"
+    },
+    {
+     "hex": "#f5f7f8",
+     "role": "rain / lightning highlight"
+    }
+   ],
+   "used_in": [
+    "01 S6-S8, S10 (storm night, leaf macro, bokeh CU, open beach)",
+    "01 S17 night part f1580-1728"
+   ],
+   "notes": "Whole frame pushed to navy/indigo incl. the character (Kai head #8b96e2-#91a1ed, shirt -> brick #835d64). Low brightness but HIGH saturation (blue).",
+   "brightness": {
+    "mean": 0.4,
+    "p10": 0.28,
+    "p90": 0.49
+   },
+   "saturation": {
+    "mean": 0.67,
+    "p10": 0.56,
+    "p90": 0.79
+   },
+   "frame_ranges": {
+    "01": [
+     "516-763",
+     "814-859",
+     "1580-1728"
+    ]
+   },
+   "frames_measured": 443
+  },
+  "firelight_tungsten_interior": {
+   "swatches": [
+    {
+     "hex": "#ffe680",
+     "role": "flame core / bare bulb"
+    },
+    {
+     "hex": "#efa440",
+     "role": "key light (flame / tungsten amber)"
+    },
+    {
+     "hex": "#c06436",
+     "role": "warm bounce glow"
+    },
+    {
+     "hex": "#683a1c",
+     "role": "amber mid-tone (wood)"
+    },
+    {
+     "hex": "#836673",
+     "role": "smoke / haze (grey-violet)"
+    },
+    {
+     "hex": "#2a1c16",
+     "role": "shadow (warm brown)"
+    },
+    {
+     "hex": "#0e0c0d",
+     "role": "falloff black / vignette"
+    },
+    {
+     "hex": "#4650a8",
+     "role": "cool counter-fill (night / window)"
+    }
+   ],
+   "used_in": [
+    "01 S17 fire f1729-1795, S18, S19 (campfire)",
+    "02 S1-S4, S9 (spotlit stage), S5 (Menlo Park amber), S8 warm elevator",
+    "03 S12 (jail, amber window)",
+    "04 S7 (lineup room, tungsten pendant + cold window)",
+    "05 S7 (machine interior, amber)"
+   ],
+   "sub_stats": {
+    "01 campfire": [
+     0.45,
+     0.44
+    ],
+    "02 stage": [
+     0.31,
+     0.39
+    ],
+    "02 Menlo amber": [
+     0.3,
+     0.7
+    ],
+    "04 lineup": [
+     0.44,
+     0.46
+    ],
+    "05 machine interior": [
+     0.78,
+     0.61
+    ],
+    "03 jail": [
+     0.54,
+     0.36
+    ]
+   },
+   "notes": "Single warm practical source with steep falloff into warm-brown/black; a small cool counter-colour in the shadows (moon/window/character body).",
+   "brightness": {
+    "mean": 0.45,
+    "p10": 0.29,
+    "p90": 0.77
+   },
+   "saturation": {
+    "mean": 0.47,
+    "p10": 0.35,
+    "p90": 0.66
+   },
+   "frame_ranges": {
+    "01": [
+     "1729-1867"
+    ],
+    "02": [
+     "1-371",
+     "620-717",
+     "947-982",
+     "1045-1172"
+    ],
+    "03": [
+     "1291-1413"
+    ],
+    "04": [
+     "857-967"
+    ],
+    "05": [
+     "542-778"
+    ]
+   },
+   "frames_measured": 1243
+  },
+  "casino_neon": {
+   "swatches": [
+    {
+     "hex": "#280a09",
+     "role": "shadow (near-black oxblood)"
+    },
+    {
+     "hex": "#562521",
+     "role": "deep oxblood mid-shadow"
+    },
+    {
+     "hex": "#ad1012",
+     "role": "machine red (dominant)"
+    },
+    {
+     "hex": "#d23a30",
+     "role": "bright red accent (cap, stamp)"
+    },
+    {
+     "hex": "#744b43",
+     "role": "warm brown mid (ceiling, wood)"
+    },
+    {
+     "hex": "#e8bd42",
+     "role": "gold key light / marquee"
+    },
+    {
+     "hex": "#f6ead3",
+     "role": "cream highlight (reels, heads)"
+    },
+    {
+     "hex": "#24cfa8",
+     "role": "teal complement (hero shirt)"
+    }
+   ],
+   "used_in": [
+    "05 S1-S6 (casino row, POV ceiling, panel, dutch CU)",
+    "05 S8 (with x-ray overlay)"
+   ],
+   "notes": "~65 % warm red/brown/gold; the only cool hue is carried by the hero (Lenny teal) and later the x-ray cyan.",
+   "brightness": {
+    "mean": 0.52,
+    "p10": 0.45,
+    "p90": 0.57
+   },
+   "saturation": {
+    "mean": 0.59,
+    "p10": 0.5,
+    "p90": 0.69
+   },
+   "frame_ranges": {
+    "05": [
+     "1-541",
+     "779-928"
+    ]
+   },
+   "frames_measured": 691
+  },
+  "dream_underwater": {
+   "swatches": [
+    {
+     "hex": "#081129",
+     "role": "abyss navy"
+    },
+    {
+     "hex": "#182443",
+     "role": "deep water"
+    },
+    {
+     "hex": "#295b72",
+     "role": "water mid"
+    },
+    {
+     "hex": "#53838d",
+     "role": "water light / god ray"
+    },
+    {
+     "hex": "#362e67",
+     "role": "hypnagogia violet band"
+    },
+    {
+     "hex": "#8690c6",
+     "role": "DEEP SLEEP lavender cast"
+    },
+    {
+     "hex": "#9eb4cb",
+     "role": "head under water grade"
+    },
+    {
+     "hex": "#e7eff6",
+     "role": "caustics / bubble highlight"
+    }
+   ],
+   "used_in": [
+    "02 S6 (depth chart / underwater, f718-862)",
+    "02 S8 DEEP SLEEP grade f983-1044"
+   ],
+   "sub_stats": {
+    "02 underwater": [
+     0.42,
+     0.48
+    ],
+    "02 deep sleep": [
+     0.18,
+     0.47
+    ]
+   },
+   "notes": "Cool teal-to-navy vertical gradient; violet band marks the 'halfway' state; the darkest moment of the series (B 0.17).",
+   "brightness": {
+    "mean": 0.35,
+    "p10": 0.17,
+    "p90": 0.55
+   },
+   "saturation": {
+    "mean": 0.47,
+    "p10": 0.34,
+    "p90": 0.59
+   },
+   "frame_ranges": {
+    "02": [
+     "718-862",
+     "983-1044"
+    ]
+   },
+   "frames_measured": 207
+  },
+  "ui_radar": {
+   "swatches": [
+    {
+     "hex": "#021767",
+     "role": "screen base (deep blue)"
+    },
+    {
+     "hex": "#030f3a",
+     "role": "vignette / corner dark"
+    },
+    {
+     "hex": "#2a4576",
+     "role": "grid / map mid"
+    },
+    {
+     "hex": "#898aa5",
+     "role": "cloud mass"
+    },
+    {
+     "hex": "#d9d1ef",
+     "role": "sweep / cloud highlight"
+    },
+    {
+     "hex": "#e01436",
+     "role": "alert pill red"
+    },
+    {
+     "hex": "#ffffff",
+     "role": "UI text"
+    }
+   ],
+   "used_in": [
+    "01 S5 (storm radar f458-515)"
+   ],
+   "notes": "Dark blue screen with one hot accent.",
+   "brightness": {
+    "mean": 0.49,
+    "p10": 0.43,
+    "p90": 0.55
+   },
+   "saturation": {
+    "mean": 0.63,
+    "p10": 0.53,
+    "p90": 0.77
+   },
+   "frame_ranges": {
+    "01": [
+     "458-515"
+    ]
+   },
+   "frames_measured": 58
+  },
+  "ui_xray": {
+   "swatches": [
+    {
+     "hex": "#021529",
+     "role": "screen base"
+    },
+    {
+     "hex": "#032842",
+     "role": "field"
+    },
+    {
+     "hex": "#285f78",
+     "role": "inner organs / mid"
+    },
+    {
+     "hex": "#558ba4",
+     "role": "soft tissue"
+    },
+    {
+     "hex": "#96d9e2",
+     "role": "glow"
+    },
+    {
+     "hex": "#dcf2f7",
+     "role": "bone glow"
+    },
+    {
+     "hex": "#3fd8e8",
+     "role": "wireframe cyan (05)"
+    },
+    {
+     "hex": "#cf6f43",
+     "role": "hot spot / label orange"
+    }
+   ],
+   "used_in": [
+    "01 S14 (full-screen X-ray f1222-1295)",
+    "02 S4 (Theo X-ray layer #6faac8 / #306a87 / outline #a8d8ef, f384-600)",
+    "05 S8 (machine wireframe #40a7a7 -> #3fd8e8)"
+   ],
+   "notes": "Stats are from 01 S14 only (02/05 are overlays on warm plates). Cyan = 'science / look inside' everywhere.",
+   "brightness": {
+    "mean": 0.38,
+    "p10": 0.35,
+    "p90": 0.39
+   },
+   "saturation": {
+    "mean": 0.76,
+    "p10": 0.76,
+    "p90": 0.81
+   },
+   "frame_ranges": {
+    "01": [
+     "1222-1295"
+    ],
+    "02": [
+     "384-600 (overlay)"
+    ],
+    "05": [
+     "800-928 (overlay)"
+    ]
+   },
+   "frames_measured": 74
+  },
+  "ui_thermal": {
+   "swatches": [
+    {
+     "hex": "#130f2f",
+     "role": "screen base (cold)"
+    },
+    {
+     "hex": "#4c2830",
+     "role": "cold purple-brown"
+    },
+    {
+     "hex": "#acb3ea",
+     "role": "cool body (head)"
+    },
+    {
+     "hex": "#b30a86",
+     "role": "magenta (warm)"
+    },
+    {
+     "hex": "#ef7b2b",
+     "role": "orange (hot)"
+    },
+    {
+     "hex": "#fcd84c",
+     "role": "yellow (hottest)"
+    },
+    {
+     "hex": "#fbf6e9",
+     "role": "white-hot / text"
+    }
+   ],
+   "used_in": [
+    "01 S20 (thermal lungs f1868-1949)"
+   ],
+   "notes": "Ironbow ramp purple -> magenta -> orange -> yellow -> white on a near-black indigo base.",
+   "brightness": {
+    "mean": 0.45,
+    "p10": 0.42,
+    "p90": 0.45
+   },
+   "saturation": {
+    "mean": 0.61,
+    "p10": 0.58,
+    "p90": 0.64
+   },
+   "frame_ranges": {
+    "01": [
+     "1868-1949"
+    ]
+   },
+   "frames_measured": 82
+  },
+  "ui_blueprint": {
+   "swatches": [
+    {
+     "hex": "#2e4272",
+     "role": "paper"
+    },
+    {
+     "hex": "#445987",
+     "role": "paper light / grid"
+    },
+    {
+     "hex": "#19254b",
+     "role": "edge vignette"
+    },
+    {
+     "hex": "#becde9",
+     "role": "chalk line"
+    },
+    {
+     "hex": "#aca7a9",
+     "role": "faded chalk / drawing"
+    },
+    {
+     "hex": "#996946",
+     "role": "clipboard wood"
+    },
+    {
+     "hex": "#6f4628",
+     "role": "wood shadow"
+    }
+   ],
+   "used_in": [
+    "04 S5 (blueprint clipboard f616-711)"
+   ],
+   "notes": "Monochrome cyan-navy with white line art; warm wood clipboard frames it.",
+   "brightness": {
+    "mean": 0.49,
+    "p10": 0.47,
+    "p90": 0.51
+   },
+   "saturation": {
+    "mean": 0.64,
+    "p10": 0.49,
+    "p90": 0.7
+   },
+   "frame_ranges": {
+    "04": [
+     "616-711"
+    ]
+   },
+   "frames_measured": 96
+  },
+  "daylight_interior": {
+   "swatches": [
+    {
+     "hex": "#f2e8da",
+     "role": "cream wall / key"
+    },
+    {
+     "hex": "#90bbe1",
+     "role": "window / porthole sky"
+    },
+    {
+     "hex": "#c79e71",
+     "role": "brass / honey wood"
+    },
+    {
+     "hex": "#a7523a",
+     "role": "red-brown wood"
+    },
+    {
+     "hex": "#5e3f2d",
+     "role": "shadow (warm brown)"
+    },
+    {
+     "hex": "#528385",
+     "role": "teal accent wall / glass"
+    },
+    {
+     "hex": "#9fc1a5",
+     "role": "mint wall (fluorescent)"
+    },
+    {
+     "hex": "#dad3ae",
+     "role": "beige floor"
+    }
+   ],
+   "used_in": [
+    "03 S1 (AP office), S5 (elevator)",
+    "04 S2, S8 normal (brain room)",
+    "04 S3 (support group, fluorescent)"
+   ],
+   "notes": "Bright and the least saturated grade (S 0.33); warm cream + wood with one teal/mint cool area.",
+   "brightness": {
+    "mean": 0.73,
+    "p10": 0.6,
+    "p90": 0.81
+   },
+   "saturation": {
+    "mean": 0.33,
+    "p10": 0.24,
+    "p90": 0.39
+   },
+   "frame_ranges": {
+    "03": [
+     "1-108",
+     "430-739"
+    ],
+    "04": [
+     "214-437",
+     "968-981",
+     "1067-1077"
+    ]
+   },
+   "frames_measured": 667
+  },
+  "red_alarm": {
+   "swatches": [
+    {
+     "hex": "#f3bea0",
+     "role": "lit peach (overlay on cream)"
+    },
+    {
+     "hex": "#d2351e",
+     "role": "alarm red overlay"
+    },
+    {
+     "hex": "#ea6934",
+     "role": "orange ray"
+    },
+    {
+     "hex": "#ea7275",
+     "role": "pink falloff"
+    },
+    {
+     "hex": "#761f15",
+     "role": "shadow (deep red)"
+    },
+    {
+     "hex": "#958ddc",
+     "role": "window sky shifted lilac"
+    },
+    {
+     "hex": "#f3e9f1",
+     "role": "highlight"
+    }
+   ],
+   "used_in": [
+    "04 S8 (brain-room alarm f982-1066)"
+   ],
+   "notes": "Emotion shown with a full-frame colour shift, not by recolouring characters.",
+   "brightness": {
+    "mean": 0.84,
+    "p10": 0.83,
+    "p90": 0.85
+   },
+   "saturation": {
+    "mean": 0.52,
+    "p10": 0.47,
+    "p90": 0.58
+   },
+   "frame_ranges": {
+    "04": [
+     "982-1066"
+    ]
+   },
+   "frames_measured": 85
+  },
+  "paper_insert": {
+   "swatches": [
+    {
+     "hex": "#e1d8c2",
+     "role": "paper"
+    },
+    {
+     "hex": "#d0bfa2",
+     "role": "paper shade"
+    },
+    {
+     "hex": "#2e1e24",
+     "role": "ink"
+    },
+    {
+     "hex": "#fae18e",
+     "role": "warm lit paper (par sheet)"
+    },
+    {
+     "hex": "#ab6d3f",
+     "role": "cork"
+    },
+    {
+     "hex": "#e5c093",
+     "role": "index card"
+    },
+    {
+     "hex": "#c0392b",
+     "role": "red ink / string"
+    },
+    {
+     "hex": "#f9e611",
+     "role": "highlighter yellow"
+    }
+   ],
+   "used_in": [
+    "01 S3 poster, S9 skin diagram",
+    "02 S7 corkboard",
+    "04 S10 flipbook",
+    "05 S7 par-sheet list"
+   ],
+   "notes": "Flat even light; ink + one red and one yellow highlight.",
+   "brightness": {
+    "mean": 0.7,
+    "p10": 0.62,
+    "p90": 0.82
+   },
+   "saturation": {
+    "mean": 0.43,
+    "p10": 0.25,
+    "p90": 0.61
+   },
+   "frame_ranges": {
+    "01": [
+     "185-225",
+     "764-813"
+    ],
+    "02": [
+     "863-946"
+    ],
+    "04": [
+     "1171-1200"
+    ]
+   },
+   "frames_measured": 205
+  }
+ },
+ "accents": {
+  "danger_red": {
+   "hex": "#e0302a",
+   "range": [
+    "#e22924",
+    "#d64444",
+    "#d3361f",
+    "#e60f04",
+    "#d2412b"
+   ],
+   "use": "red X paint, caps, PANIC, stamps, 'bad / house wins', circling ellipse"
+  },
+  "alert_pill_red": {
+   "hex": "#e01436",
+   "use": "UI alert pill with white text (severe storm)"
+  },
+  "led_red": {
+   "hex": "#ff2a1a",
+   "on": "#1a0505",
+   "range": [
+    "#e94d42",
+    "#f15f4f"
+   ],
+   "use": "LED digits, wrist display, CREDITS"
+  },
+  "led_amber": {
+   "hex": "#f2a33a",
+   "on": "#2a1f1c",
+   "use": "dot-matrix counter (03)"
+  },
+  "warning_yellow": {
+   "hex": "#f4c33a",
+   "stripe_with": "#2a2024",
+   "use": "hazard stripes, PANIC box, harness lining"
+  },
+  "safety_orange": {
+   "hex": "#ea872a",
+   "range": [
+    "#e7722b",
+    "#dd7c21"
+   ],
+   "use": "tower / harness world (04)"
+  },
+  "highlight_yellow": {
+   "hex": "#f6c75a",
+   "glow": "#ffe9a8",
+   "range": [
+    "#f9e611",
+    "#f5b015",
+    "#f2c230",
+    "#faca44"
+   ],
+   "use": "the 'answer' / jackpot / good thing; gold bloom"
+  },
+  "glow_white": {
+   "hex": "#fffaf0",
+   "range": [
+    "#fff79e",
+    "#f6eceb"
+   ],
+   "use": "glints, impact arcs, revelation glow"
+  },
+  "money_green": {
+   "hex": "#8fcf8a",
+   "range": [
+    "#5c9272",
+    "#2fe07a"
+   ],
+   "use": "cash, bill-acceptor slot glow"
+  },
+  "science_cyan": {
+   "hex": "#3fd8e8",
+   "range": [
+    "#40a7a7",
+    "#96d9e2",
+    "#6faac8"
+   ],
+   "use": "x-ray / wireframe / 'look inside'"
+  },
+  "eeg_mint": {
+   "hex": "#a2e7df",
+   "use": "EEG trace, data lines"
+  },
+  "teal_counter": {
+   "hex": "#3ab3a9",
+   "range": [
+    "#41918b",
+    "#19bda4"
+   ],
+   "use": "cool counter-colour in warm worlds"
+  },
+  "brand_navy": {
+   "hex": "#203278",
+   "use": "banners, signage, blueprint (04)"
+  },
+  "police_wash": {
+   "red": "#ca6d68",
+   "blue": "#7f8fd0",
+   "use": "alternating overlay"
+  },
+  "fire_ramp": {
+   "hex": [
+    "#ffe680",
+    "#efa440",
+    "#d5401a"
+   ],
+   "use": "flames"
+  },
+  "thermal_ramp": {
+   "hex": [
+    "#fbf6e9",
+    "#fcd84c",
+    "#ef7b2b",
+    "#b30a86",
+    "#4c2830",
+    "#130f2f"
+   ],
+   "use": "thermal camera"
+  },
+  "emotion_tints": {
+   "blush": "#f0a0a8",
+   "red_hot_head": "#da767a",
+   "anger_vein": "#e03a2a",
+   "sick": "#9fbf9a",
+   "queasy": "#9c9cbb",
+   "under_eye_red": "#d86a6a",
+   "blisters": "#e8a0b0"
+  },
+  "rainbow_digits": {
+   "hex": [
+    "#e25b5b",
+    "#f08a3c",
+    "#b9c64a",
+    "#5cc2b0",
+    "#7da8ee",
+    "#9a7ae0",
+    "#d385c3",
+    "#e48fb5"
+   ],
+   "use": "categorical set for counted items (03 floor buttons 2-9)"
+  },
+  "coin": {
+   "gold": "#e8bf67",
+   "copper": "#895a32"
+  }
+ },
+ "characters": {
+  "Kai": {
+   "video": "01",
+   "head": "#dce0e9",
+   "outline": "#2f3d43",
+   "limbs": "#362337",
+   "hair": "#2f3d43 (2-3 curly sprouts)",
+   "clothing": [
+    {
+     "hex": "#e05f13",
+     "part": "Hawaiian shirt"
+    },
+    {
+     "hex": "#f3e6d3",
+     "part": "shirt flowers"
+    },
+    {
+     "hex": "#ba190f",
+     "part": "flower centres"
+    },
+    {
+     "hex": "#1a6747",
+     "part": "leaf print"
+    },
+    {
+     "hex": "#3b3f6a",
+     "part": "shorts"
+    },
+    {
+     "hex": "#e0c050",
+     "part": "sandal soles"
+    }
+   ]
+  },
+  "Theo": {
+   "video": "02",
+   "head": "#f6e1c7",
+   "outline": "#2e1d17",
+   "limbs": "#1f1917",
+   "hair": "#694532",
+   "clothing": [
+    {
+     "hex": "#3a5080",
+     "part": "pill torso"
+    },
+    {
+     "hex": "#2d3d5f",
+     "part": "torso shade"
+    },
+    {
+     "hex": "#5a6fa0",
+     "part": "sheen"
+    }
+   ]
+  },
+  "Edison": {
+   "video": "02",
+   "head": "#f2d6b0",
+   "outline": "#381b0f",
+   "limbs": "#1f1917",
+   "hair": "#c9bba8",
+   "clothing": [
+    {
+     "hex": "#1e0c05",
+     "part": "black suit"
+    },
+    {
+     "hex": "#fcd496",
+     "part": "shirt V (warm-lit)"
+    },
+    {
+     "hex": "#1a0c06",
+     "part": "bow tie"
+    }
+   ]
+  },
+  "Rico": {
+   "video": "03",
+   "head": "#f8efe6",
+   "outline": "#2a1c1a",
+   "limbs": "#1e1616",
+   "hair": "#3b2820",
+   "clothing": [
+    {
+     "hex": "#d9a23f",
+     "part": "mustard jacket"
+    },
+    {
+     "hex": "#88422e",
+     "part": "tie"
+    },
+    {
+     "hex": "#4a6fb3",
+     "part": "lanyard clip"
+    },
+    {
+     "hex": "#e0631f",
+     "part": "jail jumpsuit (alt)"
+    }
+   ]
+  },
+  "Marge": {
+   "video": "03",
+   "head": "#f7e7df",
+   "outline": "#2a1c1a",
+   "limbs": "#1e1616",
+   "hair": "#a2513b",
+   "clothing": [
+    {
+     "hex": "#814eab",
+     "part": "purple suit"
+    },
+    {
+     "hex": "#f6d5d0",
+     "part": "blouse"
+    },
+    {
+     "hex": "#c8463a",
+     "part": "pencil in bun"
+    },
+    {
+     "hex": "#caa16f",
+     "part": "magnifier rim"
+    }
+   ]
+  },
+  "Officer_Dale": {
+   "video": "03",
+   "head": "#f9efe6",
+   "outline": "#2a1c1a",
+   "limbs": "#1e1616",
+   "hair": "#32201e",
+   "clothing": [
+    {
+     "hex": "#314579",
+     "part": "uniform"
+    },
+    {
+     "hex": "#36517e",
+     "part": "cap"
+    },
+    {
+     "hex": "#ebca60",
+     "part": "star"
+    },
+    {
+     "hex": "#c2922b",
+     "part": "badge"
+    }
+   ]
+  },
+  "Nina": {
+   "video": "03",
+   "head": "#f8efe6",
+   "outline": "#2a1c1a",
+   "limbs": "#1e1616",
+   "hair": "#6b4630",
+   "clothing": [
+    {
+     "hex": "#67b7ac",
+     "part": "teal uniform"
+    }
+   ]
+  },
+  "Dex": {
+   "video": "04",
+   "head": "#f3eeed",
+   "outline": "#2a2024",
+   "limbs": "#2a2024",
+   "hair": "#6c4d3e",
+   "clothing": [
+    {
+     "hex": "#dd7c21",
+     "part": "safety harness vest"
+    },
+    {
+     "hex": "#f4c33a",
+     "part": "harness lining"
+    },
+    {
+     "hex": "#e8ae2d",
+     "part": "T-shirt"
+    },
+    {
+     "hex": "#d64444",
+     "part": "cap (backwards)"
+    }
+   ]
+  },
+  "Dr_Klaus": {
+   "video": "04",
+   "head": "#f3eeed",
+   "outline": "#2a2024",
+   "limbs": "#2a2024",
+   "hair": "#2a2024",
+   "clothing": [
+    {
+     "hex": "#e6eaee",
+     "part": "lab coat"
+    },
+    {
+     "hex": "#c9ced6",
+     "part": "coat shade"
+    },
+    {
+     "hex": "#7a2a2a",
+     "part": "tie"
+    },
+    {
+     "hex": "#d04a3e",
+     "part": "red pen"
+    },
+    {
+     "hex": "#3b6fd0",
+     "part": "blue pen"
+    }
+   ]
+  },
+  "Noggin": {
+   "video": "04",
+   "head": "#f2c0c6",
+   "outline": "#2a2024",
+   "limbs": "#2a2024",
+   "hair": null,
+   "clothing": [
+    {
+     "hex": "#8bd391",
+     "part": "visor band"
+    },
+    {
+     "hex": "#d2979e",
+     "part": "gyri lines"
+    },
+    {
+     "hex": "#f2c94c",
+     "part": "pencil"
+    }
+   ]
+  },
+  "Amy": {
+   "video": "04",
+   "head": "#be8661",
+   "outline": "#2a2024",
+   "limbs": "#2a2024",
+   "hair": null,
+   "clothing": [
+    {
+     "hex": "#e3b17b",
+     "part": "light side"
+    },
+    {
+     "hex": "#654d39",
+     "part": "wood grain"
+    }
+   ]
+  },
+  "Elmer": {
+   "video": "04",
+   "head": "#f3eeed",
+   "outline": "#2a2024",
+   "limbs": "#2a2024",
+   "hair": "#f4f1ee",
+   "clothing": [
+    {
+     "hex": "#4e9c5a",
+     "part": "harness"
+    },
+    {
+     "hex": "#ec9928",
+     "part": "straps"
+    }
+   ]
+  },
+  "Gil": {
+   "video": "04",
+   "head": "#f3eeed",
+   "outline": "#2a2024",
+   "limbs": "#2a2024",
+   "hair": "#2a2024",
+   "clothing": [
+    {
+     "hex": "#7a58a8",
+     "part": "T-shirt"
+    },
+    {
+     "hex": "#dc7745",
+     "part": "harness"
+    }
+   ],
+   "state_tints": {
+    "queasy_head": "#9c9cbb"
+   }
+  },
+  "Tad": {
+   "video": "04",
+   "head": "#f3eeed",
+   "outline": "#2a2024",
+   "limbs": "#2a2024",
+   "hair": "#2a2024",
+   "clothing": [
+    {
+     "hex": "#3e9a8c",
+     "part": "harness"
+    },
+    {
+     "hex": "#ed9223",
+     "part": "straps"
+    }
+   ]
+  },
+  "Gus": {
+   "video": "04",
+   "head": "#f3eeed",
+   "outline": "#2a2024",
+   "limbs": "#2a2024",
+   "hair": "#c36f48",
+   "clothing": [
+    {
+     "hex": "#d65a50",
+     "part": "red shirt"
+    },
+    {
+     "hex": "#f1f1f1",
+     "part": "neck brace"
+    }
+   ]
+  },
+  "Carl": {
+   "video": "04",
+   "head": "#f3eeed",
+   "outline": "#2a2024",
+   "limbs": "#2a2024",
+   "hair": "#544231",
+   "clothing": [
+    {
+     "hex": "#4a6ac0",
+     "part": "blue shirt"
+    },
+    {
+     "hex": "#f1f1f1",
+     "part": "head bandage"
+    },
+    {
+     "hex": "#d0483d",
+     "part": "bandage dot"
+    }
+   ]
+  },
+  "Deb": {
+   "video": "04",
+   "head": "#f3eeed",
+   "outline": "#2a2024",
+   "limbs": "#2a2024",
+   "hair": "#cfc0b9",
+   "clothing": [
+    {
+     "hex": "#e66ba1",
+     "part": "pink top"
+    }
+   ]
+  },
+  "Ray": {
+   "video": "04",
+   "head": "#f3eeed",
+   "outline": "#2a2024",
+   "limbs": "#2a2024",
+   "hair": "#ddc283",
+   "clothing": [
+    {
+     "hex": "#c9594b",
+     "part": "red shirt"
+    }
+   ]
+  },
+  "Mo": {
+   "video": "04",
+   "head": "#f3eeed",
+   "outline": "#2a2024",
+   "limbs": "#2a2024",
+   "hair": "#423731 (hair + beard)",
+   "clothing": [
+    {
+     "hex": "#6e4fb0",
+     "part": "purple shirt"
+    },
+    {
+     "hex": "#f1f1f1",
+     "part": "leg cast"
+    }
+   ]
+  },
+  "Cooper": {
+   "video": "04",
+   "head": "#f3eeed",
+   "outline": "#2a2024",
+   "limbs": "#2a2024",
+   "hair": "#c35a36",
+   "clothing": [
+    {
+     "hex": "#d49a72",
+     "part": "salmon shirt (neutral)"
+    },
+    {
+     "hex": "#f3916c",
+     "part": "shirt sunset-lit"
+    },
+    {
+     "hex": "#c65c3f",
+     "part": "shirt shade"
+    },
+    {
+     "hex": "#d23a30",
+     "part": "red cup"
+    }
+   ]
+  },
+  "Hank": {
+   "video": "04",
+   "head": "#f3eeed",
+   "outline": "#2a2024",
+   "limbs": "#2a2024",
+   "hair": null,
+   "clothing": [
+    {
+     "hex": "#7e87a7",
+     "part": "blue plaid shirt"
+    },
+    {
+     "hex": "#f6d488",
+     "part": "straw hat"
+    },
+    {
+     "hex": "#a55e31",
+     "part": "hat band"
+    }
+   ]
+  },
+  "Biscuit": {
+   "video": "04",
+   "head": "#af7a53",
+   "outline": "#4f2928",
+   "limbs": null,
+   "hair": null,
+   "clothing": []
+  },
+  "Lenny": {
+   "video": "05",
+   "head": "#fcf6e7",
+   "outline": "#421411",
+   "limbs": "#421411",
+   "hair": "#351518",
+   "clothing": [
+    {
+     "hex": "#19bda4",
+     "part": "teal shirt"
+    },
+    {
+     "hex": "#138f7d",
+     "part": "shirt shadow"
+    },
+    {
+     "hex": "#e9c23a",
+     "part": "leaf print"
+    },
+    {
+     "hex": "#cd1a15",
+     "part": "lanyard + badge"
+    }
+   ]
+  },
+  "Bling": {
+   "video": "05",
+   "head": "#fdf7dd",
+   "outline": "#531c12",
+   "limbs": "#531c12",
+   "hair": null,
+   "clothing": [
+    {
+     "hex": "#fbedd4",
+     "part": "ribbed tank top"
+    },
+    {
+     "hex": "#cba78f",
+     "part": "tank shadow"
+    },
+    {
+     "hex": "#e83234",
+     "part": "cap (backwards)"
+    },
+    {
+     "hex": "#d9a43a",
+     "part": "gold chain"
+    }
+   ]
+  },
+  "Beanie": {
+   "video": "05",
+   "head": "#fcf6e7",
+   "outline": "#3a1512",
+   "limbs": "#3a1512",
+   "hair": null,
+   "clothing": [
+    {
+     "hex": "#e8a42a",
+     "part": "knit beanie"
+    },
+    {
+     "hex": "#2a1c1a",
+     "part": "dark jacket"
+    }
+   ]
+  }
+ },
+ "clothing_rule": {
+  "torso_saturation": [
+   0.45,
+   0.92
+  ],
+  "torso_value": [
+   0.47,
+   0.91
+  ],
+  "exceptions": "role costumes (lab coat, black suit, cream tank) separate by value, not hue"
+ },
+ "videos": {
+  "01_this_tree_hates_you": {
+   "mean_brightness": 0.61,
+   "mean_saturation": 0.51,
+   "sd_brightness": 0.19,
+   "base": "day tropical <-> navy night",
+   "head": "#dce0e9",
+   "outline": "#2f3d43",
+   "brightness_per_s": [
+    0.72,
+    0.71,
+    0.69,
+    0.77,
+    0.79,
+    0.78,
+    0.71,
+    0.7,
+    0.62,
+    0.62,
+    0.58,
+    0.63,
+    0.64,
+    0.64,
+    0.63,
+    0.5,
+    0.52,
+    0.32,
+    0.28,
+    0.28,
+    0.34,
+    0.42,
+    0.4,
+    0.4,
+    0.57,
+    0.73,
+    0.82,
+    0.49,
+    0.48,
+    0.51,
+    0.79,
+    0.83,
+    0.82,
+    0.82,
+    0.82,
+    0.86,
+    0.88,
+    0.88,
+    0.87,
+    0.86,
+    0.72,
+    0.38,
+    0.36,
+    0.6,
+    0.64,
+    0.64,
+    0.68,
+    0.64,
+    0.63,
+    0.81,
+    0.77,
+    0.41,
+    0.37,
+    0.37,
+    0.38,
+    0.39,
+    0.4,
+    0.44,
+    0.5,
+    0.44,
+    0.37,
+    0.5,
+    0.43,
+    0.44,
+    0.48,
+    0.91,
+    0.92,
+    0.93,
+    0.92
+   ],
+   "saturation_per_s": [
+    0.4,
+    0.4,
+    0.44,
+    0.49,
+    0.6,
+    0.69,
+    0.3,
+    0.31,
+    0.43,
+    0.46,
+    0.49,
+    0.44,
+    0.42,
+    0.42,
+    0.41,
+    0.63,
+    0.6,
+    0.64,
+    0.72,
+    0.71,
+    0.77,
+    0.8,
+    0.8,
+    0.77,
+    0.71,
+    0.49,
+    0.41,
+    0.6,
+    0.54,
+    0.39,
+    0.35,
+    0.37,
+    0.37,
+    0.37,
+    0.37,
+    0.38,
+    0.41,
+    0.41,
+    0.41,
+    0.44,
+    0.49,
+    0.77,
+    0.81,
+    0.47,
+    0.49,
+    0.49,
+    0.44,
+    0.48,
+    0.48,
+    0.53,
+    0.54,
+    0.48,
+    0.58,
+    0.58,
+    0.58,
+    0.57,
+    0.57,
+    0.43,
+    0.37,
+    0.39,
+    0.62,
+    0.41,
+    0.56,
+    0.63,
+    0.57,
+    0.44,
+    0.39,
+    0.38,
+    0.38
+   ]
+  },
+  "02_your_brains_secret_idea_zone": {
+   "mean_brightness": 0.34,
+   "mean_saturation": 0.46,
+   "sd_brightness": 0.11,
+   "base": "dark warm-brown spotlit stage",
+   "head": "#f6e1c7",
+   "outline": "#2e1d17",
+   "brightness_per_s": [
+    0.32,
+    0.29,
+    0.3,
+    0.34,
+    0.28,
+    0.31,
+    0.3,
+    0.3,
+    0.3,
+    0.32,
+    0.36,
+    0.29,
+    0.24,
+    0.28,
+    0.28,
+    0.3,
+    0.3,
+    0.29,
+    0.32,
+    0.34,
+    0.38,
+    0.3,
+    0.28,
+    0.3,
+    0.31,
+    0.29,
+    0.44,
+    0.53,
+    0.6,
+    0.62,
+    0.63,
+    0.49,
+    0.28,
+    0.17,
+    0.2,
+    0.35,
+    0.35,
+    0.32,
+    0.27,
+    0.27
+   ],
+   "saturation_per_s": [
+    0.36,
+    0.4,
+    0.39,
+    0.34,
+    0.38,
+    0.39,
+    0.38,
+    0.37,
+    0.37,
+    0.36,
+    0.4,
+    0.49,
+    0.45,
+    0.47,
+    0.47,
+    0.46,
+    0.45,
+    0.45,
+    0.39,
+    0.34,
+    0.42,
+    0.72,
+    0.74,
+    0.66,
+    0.51,
+    0.6,
+    0.54,
+    0.36,
+    0.42,
+    0.61,
+    0.6,
+    0.58,
+    0.58,
+    0.46,
+    0.49,
+    0.59,
+    0.43,
+    0.36,
+    0.35,
+    0.35
+   ]
+  },
+  "03_why_humans_cant_pick_random_numbers": {
+   "mean_brightness": 0.71,
+   "mean_saturation": 0.37,
+   "sd_brightness": 0.09,
+   "base": "warm desert-modern cream/terracotta + teal",
+   "head": "#f8efe6",
+   "outline": "#2a1c1a",
+   "brightness_per_s": [
+    0.58,
+    0.58,
+    0.6,
+    0.66,
+    0.76,
+    0.75,
+    0.74,
+    0.72,
+    0.72,
+    0.71,
+    0.67,
+    0.71,
+    0.72,
+    0.73,
+    0.73,
+    0.73,
+    0.73,
+    0.73,
+    0.73,
+    0.74,
+    0.75,
+    0.76,
+    0.77,
+    0.8,
+    0.8,
+    0.81,
+    0.79,
+    0.8,
+    0.81,
+    0.72,
+    0.73,
+    0.7,
+    0.57,
+    0.54,
+    0.55,
+    0.73,
+    0.85,
+    0.85,
+    0.81,
+    0.75,
+    0.79,
+    0.83,
+    0.82,
+    0.55,
+    0.54,
+    0.55,
+    0.54,
+    0.54
+   ],
+   "saturation_per_s": [
+    0.4,
+    0.39,
+    0.34,
+    0.3,
+    0.28,
+    0.31,
+    0.33,
+    0.34,
+    0.33,
+    0.3,
+    0.2,
+    0.24,
+    0.32,
+    0.32,
+    0.32,
+    0.33,
+    0.35,
+    0.35,
+    0.35,
+    0.35,
+    0.37,
+    0.38,
+    0.36,
+    0.36,
+    0.39,
+    0.41,
+    0.37,
+    0.37,
+    0.38,
+    0.42,
+    0.42,
+    0.42,
+    0.44,
+    0.46,
+    0.43,
+    0.4,
+    0.39,
+    0.39,
+    0.42,
+    0.46,
+    0.43,
+    0.4,
+    0.4,
+    0.35,
+    0.35,
+    0.36,
+    0.37,
+    0.37
+   ]
+  },
+  "04_the_scientists_insane_time_test": {
+   "mean_brightness": 0.68,
+   "mean_saturation": 0.41,
+   "sd_brightness": 0.13,
+   "base": "cream + sky blue + safety orange",
+   "head": "#f3eeed",
+   "outline": "#2a2024",
+   "brightness_per_s": [
+    0.67,
+    0.73,
+    0.77,
+    0.82,
+    0.79,
+    0.78,
+    0.77,
+    0.79,
+    0.81,
+    0.79,
+    0.81,
+    0.77,
+    0.74,
+    0.71,
+    0.68,
+    0.6,
+    0.58,
+    0.56,
+    0.55,
+    0.56,
+    0.59,
+    0.49,
+    0.48,
+    0.54,
+    0.66,
+    0.7,
+    0.78,
+    0.78,
+    0.62,
+    0.38,
+    0.41,
+    0.47,
+    0.75,
+    0.85,
+    0.84,
+    0.81,
+    0.72,
+    0.69,
+    0.75,
+    0.71
+   ],
+   "saturation_per_s": [
+    0.44,
+    0.38,
+    0.32,
+    0.23,
+    0.32,
+    0.33,
+    0.31,
+    0.21,
+    0.34,
+    0.3,
+    0.24,
+    0.25,
+    0.26,
+    0.28,
+    0.28,
+    0.41,
+    0.39,
+    0.38,
+    0.36,
+    0.47,
+    0.49,
+    0.65,
+    0.7,
+    0.66,
+    0.59,
+    0.55,
+    0.51,
+    0.5,
+    0.47,
+    0.5,
+    0.48,
+    0.43,
+    0.42,
+    0.55,
+    0.52,
+    0.45,
+    0.43,
+    0.46,
+    0.37,
+    0.26
+   ]
+  },
+  "05_the_science_behind_slot_machines": {
+   "mean_brightness": 0.58,
+   "mean_saturation": 0.6,
+   "sd_brightness": 0.13,
+   "base": "casino red/gold + one teal",
+   "head": "#fcf6e7",
+   "outline": "#421411",
+   "brightness_per_s": [
+    0.59,
+    0.5,
+    0.54,
+    0.51,
+    0.49,
+    0.43,
+    0.44,
+    0.46,
+    0.47,
+    0.51,
+    0.51,
+    0.55,
+    0.57,
+    0.57,
+    0.55,
+    0.54,
+    0.52,
+    0.54,
+    0.7,
+    0.82,
+    0.82,
+    0.82,
+    0.82,
+    0.77,
+    0.77,
+    0.75,
+    0.52,
+    0.51,
+    0.53,
+    0.53,
+    0.47
+   ],
+   "saturation_per_s": [
+    0.58,
+    0.65,
+    0.66,
+    0.65,
+    0.63,
+    0.68,
+    0.69,
+    0.69,
+    0.6,
+    0.54,
+    0.54,
+    0.55,
+    0.58,
+    0.57,
+    0.62,
+    0.62,
+    0.6,
+    0.66,
+    0.66,
+    0.56,
+    0.57,
+    0.56,
+    0.57,
+    0.63,
+    0.64,
+    0.64,
+    0.5,
+    0.51,
+    0.49,
+    0.49,
+    0.57
+   ]
+  }
+ }
+}
