@@ -250,9 +250,10 @@
 
     "transform": {
       "type": "object",
-      "description": "Screen placement at the shot's first frame, in 720x1280 px (origin top-left), plus depth in metres from the camera for parallax.",
+      "description": "Placement for parallax builds. x_px/y_px/height_px = intended on-screen centre and height (720x1280, origin top-left) at frame at_frame (default: first visible frame); depth_m = distance from the camera's position at the shot's first frame, along the view axis.",
       "additionalProperties": false,
       "properties": {
+        "at_frame": { "$ref": "#/$defs/frame" },
         "x_px": { "type": "number" },
         "y_px": { "type": "number" },
         "height_px": { "type": "number", "exclusiveMinimum": 0 },
@@ -366,7 +367,7 @@
       "additionalProperties": false,
       "properties": {
         "type": {
-          "enum": ["static", "slow_push_in", "tension_push_in", "punch_in", "recoil", "pull_back_reveal", "crane_out_aerial",
+          "enum": ["static", "slow_push_in", "slow_pull_back", "tension_push_in", "punch_in", "recoil", "pull_back_reveal", "crane_out_aerial",
                    "suction_push", "dolly_through", "orbit", "tilt", "crane", "truck", "follow", "insert_move_through",
                    "whip_pan", "pov", "dutch_hold", "shake"]
         },
